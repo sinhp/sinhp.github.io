@@ -10,8 +10,8 @@ location: "Birmingham, UK"
  			
 * Metric Space Topology, Autumn 2014 	
    * Textbooks:
-    * [Lectures on Real Analysis (Australian Mathematical Society Lecture Series)](https://www.cambridge.org/core/books/lectures-on-real-analysis/55355F6128B1EA7BC8FD6CE5B6181419) by _Finnur Lárusson_
-    * Real Mathematical Analysis by _Charles C. Pugh_
+     * [Lectures on Real Analysis (Australian Mathematical Society Lecture Series)](https://www.cambridge.org/core/books/lectures-on-real-       analysis/55355F6128B1EA7BC8FD6CE5B6181419) by _Finnur Lárusson_
+     * Real Mathematical Analysis by _Charles C. Pugh_
    * Role: Teaching Assistant 
    * Duties: 
      * Running exercise classes 
