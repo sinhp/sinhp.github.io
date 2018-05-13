@@ -11,8 +11,8 @@ location: "Birmingham, UK"
 * [Introduction to Mathematics for Computer Science, Semester 2, 2016](https://canvas.bham.ac.uk/courses/15666/pages/intro-maths-cs-2-contents) 		
    * Module Lecturer: [Steve Vickers](http://www.cs.bham.ac.uk/~sjv/) 		
    * <details> 
-   <summary>Content: </summary>
-    <p>
+      <summary>Content: </summary>
+      <p>
 <ul> 
   <li> Coordinate geometry: Equations of lines and circles; gradients.
   </li>
