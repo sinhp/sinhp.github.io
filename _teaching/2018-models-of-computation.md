@@ -1,5 +1,5 @@
 ---	
-title: "Models Of Computation"		
+title: "Deomnstrator for Models Of Computation"		
 collection: teaching		
 type: "2nd year undergraduate module"		
 permalink: /teaching/2018-models-of-computation
@@ -18,4 +18,5 @@ location: "Birmingham, UK"
      * [To Mock a Mockingbird and Other Logic Puzzles](https://global.oup.com/academic/product/to-mock-a-mockingbird-and-other-logic-puzzles-9780192801425?lang=en&cc=nz)
      * [Models of Computation, Exploring the Power of Computing by John E. Savage,
        Brown University](http://cs.brown.edu/~jes/book/pdfs/ModelsOfComputation.pdf)
-     
+    * Duties:
+      * Running exercise classes, marking
