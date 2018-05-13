@@ -26,7 +26,7 @@ location: "Birmingham, UK"
            </li>
            <li> <a href="https://global.oup.com/academic/product/to-mock-a-mockingbird-and-other-logic-puzzles-9780192801425?lang=en&cc=nz" target="_blank"><font color="#336666">To Mock a Mockingbird and Other Logic Puzzles</font></a>
            </li>
-           <li> <a href="http://cs.brown.edu/~jes/book/pdfs/ModelsOfComputation.pdf" target="_blank"><font color="#336666">Models of Computation, Exploring the Power of Computing by John E. Savage,
+           <li> <a href="http://cs.brown.edu/people/jsavage/book/pdfs/ModelsOfComputation.pdf" target="_blank"><font color="#336666">Models of Computation, Exploring the Power of Computing by John E. Savage,
             Brown University</font></a>
            </li>
          </ul>
