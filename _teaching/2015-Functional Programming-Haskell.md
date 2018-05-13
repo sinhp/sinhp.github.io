@@ -12,6 +12,6 @@ location: "Birmingham, UK"
    * Module Lecturer: [Martin Escardo](http://www.cs.bham.ac.uk/~mhe/) 
    * Other demonstrators: [Bram Geron](https://bram.xyz/blog/), [Cory Knapp](http://www.cs.bham.ac.uk/~cmk497/), and [Tomas Jakl](http://kam.mff.cuni.cz/~jaklt/)
    * Duties:
-    * Helping students in the lab
-    * Writing scripts of the solutions
-    * Marking mid-term and final exams 
+     * Helping students in the lab
+     * Writing scripts of the solutions
+     * Marking mid-term and final exams 
