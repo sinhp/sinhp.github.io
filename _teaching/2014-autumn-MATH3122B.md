@@ -5,7 +5,6 @@ type: "Mathematics undergraduate course"
 permalink: /teaching/2014-autumn-MATH3122B
 venue: "Mathematics Department, Western University"		
 date: 2014-10-15		
-location: "Birmingham, UK"		
 ---	
  			
 * Metric Space Topology, Autumn 2014 	
