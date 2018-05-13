@@ -11,7 +11,7 @@ location: "Birmingham, UK"
 * [Putnam Training Sessions, Fall 2013 & Fall 2014](http://www-home.math.uwo.ca/~mpinson/) 	
    * The William Lowell Putnam is a mathematics contest for undergraduates
      in Canada and the U.S. This year's contest will be written on Saturday,
-     December 6th. Additional information can be found at http://math.scu.edu/putnam/
+     December 6th. Additional information can be found at [math.scu.edu/putnam/](http://math.scu.edu/putnam/)
    *  Preparation sessions for the Putnam Mathematics Competition are run by
      the Math department and are open to all students interested in
      mathematical problem-solving. There will be an organizational meeting for the Preparation sessions this Friday,
