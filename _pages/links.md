@@ -127,5 +127,5 @@ Also, a really cool maths blog on discrete geometry, graph theory, and other stu
 [Kramdown](https://kramdown.gettalong.org/) comes with optional support for LaTeX to PNG rendering via MathJax within math blocks. This [blogpost](http://gastonsanchez.com/visually-enforced/opinion/2014/02/16/Mathjax-with-jekyll/) has a good tutorial on how to use MathJax with Jekyll. Also, you will probably find the official [MathJax](http://docs.mathjax.org/en/latest/start.html) website useful.
 
 
-### [Tips and hints for using Markdown](/markdown/markdown-guide/)
+### [Tips and hints for using Markdown](/markdown/markdown-guide.md)
 
