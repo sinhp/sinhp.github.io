@@ -1,5 +1,5 @@
 ---
-title: "Functional Programming, Haskell"
+title: "Deomnstrator for Functional Programming (Haskell)"
 collection: teaching
 type: "2nd year undergraduate module"
 permalink: /teaching/2015-Functional Programming-Haskell
