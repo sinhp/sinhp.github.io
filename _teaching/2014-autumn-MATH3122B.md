@@ -4,7 +4,7 @@ collection: teaching
 type: "Putnam competition"		
 permalink: /teaching/2014-autumn-MATH3122B
 venue: "Mathematics Department, Western University"		
-date: 2014-09-22		
+date: 2014-10-15		
 location: "Birmingham, UK"		
 ---	
  			
