@@ -3,7 +3,7 @@ title: "Teaching Assistant for MATH 1228 (Finite Maths)"
 collection: teaching		
 permalink: /teaching/2014-spring-MATH1228
 venue: "Mathematics Department, Western University"		
-date: 2014-02-05
+date: 2014-01-25
 type: "A mathematics undergraduate course"
 ---	
  			
