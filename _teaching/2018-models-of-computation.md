@@ -1,5 +1,5 @@
 ---	
-title: "Deomnstrator for Models Of Computation"		
+title: "Demonstrator for Models Of Computation"		
 collection: teaching		
 type: "2nd year undergraduate module"		
 permalink: /teaching/2018-models-of-computation
@@ -10,7 +10,7 @@ location: "Birmingham, UK"
  			
 * [Models Of Computation, Winter 2018](https://www.cs.bham.ac.uk/internal/modules/2017/06-05934/) 		
    * Module Lecturer: [Steve Vickers](http://www.cs.bham.ac.uk/~sjv/) 		
-   * Other deomnstrators: [Anna Laura Suarez](http://www.cs.bham.ac.uk/research/groupings/theory/)
+   * Other demonstrators: [Anna Laura Suarez](http://www.cs.bham.ac.uk/research/groupings/theory/)
    * [Lecture Notes](https://canvas.bham.ac.uk/courses/27272/pages/models-of-computation-topics)
    * [Assignments](https://canvas.bham.ac.uk/courses/27272/assignments)
    * Supplementary Reading List: 
@@ -19,4 +19,5 @@ location: "Birmingham, UK"
      * [Models of Computation, Exploring the Power of Computing by John E. Savage,
        Brown University](http://cs.brown.edu/~jes/book/pdfs/ModelsOfComputation.pdf)
     * Duties:
-      * Running exercise classes, marking
+      * Running exercise classes
+      * Marking weekly assignments 
