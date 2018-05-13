@@ -24,10 +24,9 @@ location: "Birmingham, UK"
         <li> User Interface.Your game must have a user interface, i.e.  a convenient way for players to interactwith the game.  This will almost certainly require a menu as a minimum but will more than likely alsorequire other interface entities such as dialog windows that have a range of controls, clickable icons, etc.The user interface will also include crucial feedback information for the player.
         </li> 
        </ul>  
-      </p> 
-    
- * Duties: 
-  * Supervising projects
-  * Helping students in the lab
-  * Meeting students in office hours
+      </p>   
+* Duties: 
+   * Supervising projects
+   * Helping students in the lab
+   * Meeting students in office hours
      
