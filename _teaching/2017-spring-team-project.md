@@ -1,5 +1,5 @@
 ---	
-title: "Team Project Module"		
+title: "Demonstrator for Team Project Module"		
 collection: teaching		
 type: "2nd year undergraduate module"		
 permalink: /teaching/spring-team-project
