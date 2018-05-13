@@ -5,7 +5,7 @@ type: "Putnam competition"
 permalink: /teaching/2013-2014-putnam-western
 venue: "Faculty of Science, Western University"		
 date: 2014-09-22		
-location: "Birmingham, UK"		
+excerpt: "Preparation and Selection of Western's Team for Putnam Competitions 2013 and 2014 "		
 ---	
  			
 * [Putnam Training Sessions, Autumn 2013 & Autumn 2014](http://www-home.math.uwo.ca/~mpinson/) 	
