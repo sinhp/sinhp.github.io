@@ -5,7 +5,7 @@ type: "1st year undergraduate module"
 permalink: /teaching/2015-OCaml
 venue: "University of Birmingham, School of Computer Science"		
 location: "Birmingham, UK"		
-date: 2015-09-26
+date: 2015-09-03
 ---	
  			
 * Elements of Functional Programming, Autumn 2015 		
