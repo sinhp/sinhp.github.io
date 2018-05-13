@@ -1,7 +1,7 @@
 ---	
 title: "Teaching Assistant for MATH 2122A (Real Analysis)"		
 collection: teaching		
-permalink: /teaching/2014-spring-MATH 2122A
+permalink: /teaching/2014-spring-MATH-2122A
 venue: "Mathematics Department, Western University"		
 date: 2014-02-05
 type: "A mathematics undergraduate course"
