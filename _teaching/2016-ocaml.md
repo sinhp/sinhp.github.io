@@ -1,5 +1,5 @@
 ---	
-title: "Demonstrator for Elements of Functional Programming, OCaml"		
+title: "Demonstrator for Elements of Functional Programming (OCaml)"		
 collection: teaching		
 type: "1st year undergraduate module"		
 permalink: /teaching/2016-ocaml
