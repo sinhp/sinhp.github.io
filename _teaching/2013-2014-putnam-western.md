@@ -13,9 +13,11 @@ location: "Birmingham, UK"
 in Canada and the U.S. This year's contest will be written on Saturday,
 December 6th.
 Additional information can be found at http://math.scu.edu/putnam/
+
 Preparation sessions for the Putnam Mathematics Competition are run by
 the Math department and are open to all students interested in
 mathematical problem-solving.
+
 There will be an organizational meeting for the Preparation sessions this Friday,
 September 26th at 5pm in MC 108 (in Middlesex). Interested students who are unable
 to attend at this time should contact Martin Pinsonnault by email at
