@@ -1,5 +1,5 @@
 ---	
-title: "MATH 3122B (Metric Space Topology)"		
+title: "Teaching Assistant for MATH 3122B (Metric Space Topology)"		
 collection: teaching		
 type: "Mathematics undergraduate course"		
 permalink: /teaching/2014-autumn-MATH3122B
@@ -11,8 +11,7 @@ date: 2014-10-15
    * Lecturer: [Martin Pinsonnault](http://www-home.math.uwo.ca/~mpinson/)
    * Textbooks:
      * [Lectures on Real Analysis](https://www.cambridge.org/core/books/lectures-on-real-analysis/55355F6128B1EA7BC8FD6CE5B6181419) by             _Finnur Lárusson_
-     * Real Mathematical Analysis by _Charles C. Pugh_
-   * Role: Teaching Assistant 
+     * Real Mathematical Analysis by _Charles C. Pugh_ 
    * Duties: 
      * Running exercise classes 
      * Helping with teaching  
