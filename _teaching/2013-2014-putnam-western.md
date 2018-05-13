@@ -1,7 +1,6 @@
 ---	
 title: "Putnam Training Sessions"		
-collection: teaching		
-type: "Putnam competition"		
+collection: teaching			
 permalink: /teaching/2013-2014-putnam-western
 venue: "Faculty of Science, Western University"		
 date: 2014-09-22		
