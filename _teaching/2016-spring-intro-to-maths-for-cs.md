@@ -1,5 +1,5 @@
 ---	
-title: "Introduction to Mathematics for Computer Science"		
+title: "Demonstrator for Introduction to Mathematics for Computer Science"		
 collection: teaching		
 type: "1st year undergraduate module"		
 permalink: /teaching/2016-spring-intro-to-maths-for-cs
@@ -36,6 +36,7 @@ location: "Birmingham, UK"
         </li> 
        </ul>  
       </p> 
-    
+   * Duties: 
+     * Joinlty running exercise classes
 
      
