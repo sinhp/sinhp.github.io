@@ -21,8 +21,10 @@ location: "Birmingham, UK"
         <li> [Assignments](https://canvas.bham.ac.uk/courses/27272/assignments)
         </li> 
         <li> Supplementary Reading List: 
-           <li> G. Boolos and R. Jeffrey, Computability and Logic, Cambridge University Press, 3rd Edition, 1989. </li>
-           <li> [To Mock a Mockingbird and Other Logic Puzzles](https://global.oup.com/academic/product/to-mock-a-mockingbird-and-other-logic-puzzles-9780192801425?lang=en&cc=nz) <li>
+           <li> G. Boolos and R. Jeffrey, Computability and Logic, Cambridge University Press, 3rd Edition, 1989. 
+           </li>
+           <li> [To Mock a Mockingbird and Other Logic Puzzles](https://global.oup.com/academic/product/to-mock-a-mockingbird-and-other-logic-puzzles-9780192801425?lang=en&cc=nz) 
+           </li>
            <li> Models of Computation, Exploring the Power of Computing by John E. Savage,
             Brown University](http://cs.brown.edu/~jes/book/pdfs/ModelsOfComputation.pdf) </li>
         </li> 
