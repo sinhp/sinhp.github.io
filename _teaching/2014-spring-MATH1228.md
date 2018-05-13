@@ -4,7 +4,7 @@ collection: teaching
 permalink: /teaching/2014-spring-MATH1228
 venue: "Mathematics Department, Western University"		
 date: 2014-01-25
-type: "A mathematics undergraduate course"
+type: "An undergraduate course for social sciences"
 ---	
  			
 * Methods of Finite Mathematics, Spring 2014 	
