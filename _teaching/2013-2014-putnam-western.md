@@ -3,8 +3,8 @@ title: "Putnam Training Sessions"
 collection: teaching		
 type: "Putnam competition"		
 permalink: /teaching/2013-2014-putnam-western
-venue: "University of Birmingham, School of Computer Science"		
-date: 2017-03-01		
+venue: "Faculty of Science, Western University,"		
+date: 2014-09-22		
 location: "Birmingham, UK"		
 ---	
  			
