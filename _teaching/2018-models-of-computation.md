@@ -12,14 +12,22 @@ location: "Birmingham, UK"
    * Module Lecturer: [Steve Vickers](http://www.cs.bham.ac.uk/~sjv/) 
    * <details> 
       <summary>Details </summary>
-        * Other demonstrators: [Anna Laura Suarez](http://www.cs.bham.ac.uk/research/groupings/theory/)
-        * [Lecture Notes](https://canvas.bham.ac.uk/courses/27272/pages/models-of-computation-topics)   
-        * [Assignments](https://canvas.bham.ac.uk/courses/27272/assignments)
-        * Supplementary Reading List: 
-          * G. Boolos and R. Jeffrey, Computability and Logic, Cambridge University Press, 3rd Edition, 1989. 
-          * [To Mock a Mockingbird and Other Logic Puzzles](https://global.oup.com/academic/product/to-mock-a-mockingbird-and-other-logic-puzzles-9780192801425?lang=en&cc=nz)
-          * [Models of Computation, Exploring the Power of Computing by John E. Savage,
-       Brown University](http://cs.brown.edu/~jes/book/pdfs/ModelsOfComputation.pdf)
-    * Duties:
+      <p>
+       <ul> 
+        <li>  Other demonstrators: [Anna Laura Suarez](http://www.cs.bham.ac.uk/research/groupings/theory/)
+        </li>
+        <li> [Lecture Notes](https://canvas.bham.ac.uk/courses/27272/pages/models-of-computation-topics)   
+        </li>    
+        <li> [Assignments](https://canvas.bham.ac.uk/courses/27272/assignments)
+        </li> 
+        <li> Supplementary Reading List: 
+           <li> G. Boolos and R. Jeffrey, Computability and Logic, Cambridge University Press, 3rd Edition, 1989. </li>
+           <li> [To Mock a Mockingbird and Other Logic Puzzles](https://global.oup.com/academic/product/to-mock-a-mockingbird-and-other-logic-puzzles-9780192801425?lang=en&cc=nz) <li>
+           <li> Models of Computation, Exploring the Power of Computing by John E. Savage,
+            Brown University](http://cs.brown.edu/~jes/book/pdfs/ModelsOfComputation.pdf) </li>
+        </li> 
+       </ul>  
+      </p>   
+   * Duties:
       * Running exercise classes
       * Marking weekly assignments 
