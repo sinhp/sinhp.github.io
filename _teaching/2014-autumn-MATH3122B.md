@@ -1,7 +1,7 @@
 ---	
 title: "MATH 3122B (Metric Space Topology)"		
 collection: teaching		
-type: "mathematics undergraduate course"		
+type: "Mathematics undergraduate course"		
 permalink: /teaching/2014-autumn-MATH3122B
 venue: "Mathematics Department, Western University"		
 date: 2014-10-15		
