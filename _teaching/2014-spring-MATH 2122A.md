@@ -1,10 +1,10 @@
 ---	
 title: "MATH 2122A (Real Analysis)"		
 collection: teaching		
-type: "Mathematics undergraduate course"		
 permalink: /teaching/2014-spring-MATH 2122A
 venue: "Mathematics Department, Western University"		
 date: 2014-02-05
+excerpt: "A mathematics undergraduate course"
 ---	
  			
 * Metric Space Topology, Autumn 2014 	
