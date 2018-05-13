@@ -16,7 +16,7 @@ location: "Birmingham, UK"
      the Math department and are open to all students interested in
      mathematical problem-solving. There will be an organizational meeting for the Preparation sessions this Friday,
      September 26th at 5pm in MC 108 (in Middlesex).
-   * Exercise material: Putnam and Beyond by Gelca and Andreescu
+   * Exercise material: [Putnam and Beyond](http://www-bcf.usc.edu/~lototsky/PiMuEp/PutnamAndBeyond-Andreescu.pdf) by _Gelca_ and _Andreescu_
     
 
      
