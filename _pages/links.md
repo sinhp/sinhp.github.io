@@ -4,7 +4,7 @@ title: "Useful Links"
 author_profile: true
 redirect_from: 
   - /md/
-  - /markdown.html
+  - /links.html
 ---
 
 
