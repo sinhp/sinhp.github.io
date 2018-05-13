@@ -1,5 +1,5 @@
 ---	
-title: "MATH 2122A (Real Analysis)"		
+title: "Teaching Assistant for MATH 2122A (Real Analysis)"		
 collection: teaching		
 permalink: /teaching/2014-spring-MATH 2122A
 venue: "Mathematics Department, Western University"		
@@ -11,8 +11,7 @@ type: "A mathematics undergraduate course"
    * Lecturer: [Martin Pinsonnault](http://www-home.math.uwo.ca/~mpinson/)
    * Textbooks:
      * [Lectures on Real Analysis](https://www.cambridge.org/core/books/lectures-on-real-analysis/55355F6128B1EA7BC8FD6CE5B6181419) by             _Finnur Lárusson_
-     * Real Mathematical Analysis by _Charles C. Pugh_
-   * Role: Teaching Assistant 
+     * Real Mathematical Analysis by _Charles C. Pugh_ 
    * Duties: 
      * Running exercise classes 
      * Helping with teaching  
