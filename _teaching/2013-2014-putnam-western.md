@@ -2,11 +2,15 @@
 title: "Putnam Training Sessions"		
 collection: teaching			
 permalink: /teaching/2013-2014-putnam-western
-date: 2014-09-22
 venue: "Faculty of Science, Western University"
 excerpt: "Preparation and Selection of Western's Team for Putnam Competitions 2013 and 2014"		
 ---	
- 			
+
+<!--
+date: 2014-09-22
+-->
+    
+    
 * [Putnam Training Sessions, Autumn 2013 & Autumn 2014](http://www-home.math.uwo.ca/~mpinson/) 	
    * The William Lowell Putnam is a mathematics contest for undergraduates
      in Canada and the U.S. This year's contest will be written on Saturday,
