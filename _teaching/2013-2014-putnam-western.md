@@ -4,7 +4,7 @@ collection: teaching
 permalink: /teaching/2013-2014-putnam-western
 venue: "Faculty of Science, Western University"
 date: 2014-09-22
-excerpt: "Preparation and Selection of Western's Team for Putnam Competitions"		
+type: "Preparation and Selection of Western's Team for Putnam Competitions"		
 ---	
 
     
