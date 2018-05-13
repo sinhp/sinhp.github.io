@@ -4,7 +4,7 @@ collection: teaching
 type: "2nd year undergraduate module"
 permalink: /teaching/2015-Functional Programming-Haskell
 venue: "University of Birmingham, School of Computer Science"
-date: 2015-09-01
+date: 2015-09-26
 location: "Birmingham, UK"
 ---
 
