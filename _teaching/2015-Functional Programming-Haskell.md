@@ -11,7 +11,7 @@ location: "Birmingham, UK"
 * Functional Programming, Haskell, Autumn 2015
    * Module Lecturer: [Martin Escardo](http://www.cs.bham.ac.uk/~mhe/) 
    * Other demonstrators: [Bram Geron](https://bram.xyz/blog/), [Cory Knapp](http://www.cs.bham.ac.uk/~cmk497/), and [Tomas Jakl](http://kam.mff.cuni.cz/~jaklt/)
-   * Duties:
+   * Activities:
      * Helping students in the lab
      * Writing scripts of the solutions
      * Marking mid-term and final exams 
