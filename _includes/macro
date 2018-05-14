@@ -66,7 +66,7 @@ $$
 \newcommand{\scr}[1]{\mathscr{#1}}
 \newcommand{\frk}[1]{\mathfrak{#1}}
 \newcommand{\bb}[1]{\mathbb{#1}}
-\newcommand{\CS}{\textit{S}}
-\newcommand{\CE}{\textit{E}}
-\newcommand{\CF}{\textit{F}}
+\newcommand{\CS}{\mathcal{S}}
+\newcommand{\CE}{\mathcal{E}}
+\newcommand{\CF}{\mathcal{F}}
 $$
