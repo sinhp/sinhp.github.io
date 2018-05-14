@@ -36,7 +36,7 @@ location: "Birmingham, UK"
         </li> 
        </ul>  
       </p> 
-   * Duties: 
+   * Activities: 
      * Joinlty running exercise classes
 
      
