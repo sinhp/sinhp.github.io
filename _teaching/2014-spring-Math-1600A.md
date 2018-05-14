@@ -9,7 +9,8 @@ type: "An undergraduate course for social science students"
  			
 * Linear Algebra I, Spring 2014 	
    * Lecturer: Gord Sinnamon
-   * Duties: 
+   * Activities: 
      * Running exercise classes 
      * Marking mid-term and final exmas papers
-     * Private tutorials 
+     * Private tutorials
+     * Proctoring final exam
