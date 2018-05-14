@@ -9,7 +9,7 @@ type: "An undergraduate course for social science students"
  			
 * Methods of Finite Mathematics, Autumn 2013 	
    * Lecturer: Vicky Olds
-   * Duties: 
+   * Activities: 
      * Running exercise classes 
      * Marking mid-term and final exmas papers
      * Private tutorials 
