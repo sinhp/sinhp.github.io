@@ -15,3 +15,4 @@ date: 2014-10-15
    * Activities: 
      * Running exercise classes 
      * Helping with teaching  
+     * Holding office hours
