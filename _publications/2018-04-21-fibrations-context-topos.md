@@ -5,6 +5,7 @@ permalink: /publication/2018-04-21-fibrations-context-topos
 excerpt: ''
 date: 2018-04-21
 venue: 'School of Computer Science, University of Birmingham'
+use_math: true
 ---
 <!-- include it up there if you have it
 citation: 'Your Name, You. (2009). &quot;Paper Title Number 1.&quot; <i>Journal 1</i>. 1(1).'
