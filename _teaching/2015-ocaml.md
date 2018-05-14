@@ -12,6 +12,6 @@ date: 2015-09-03
    * Module Lecturer: [Dan Ghica](http://www.cs.bham.ac.uk/~drg/) 		
    * Other demonstrators: [Bram Geron](https://bram.xyz/blog/)
      * [Bram has written some notes for teaching we did.](http://efc.2015.uob.bram.xyz/)
-   * Duties:
+   * Activities:
       * Running exercise classes
       * Marking final exam papers 
