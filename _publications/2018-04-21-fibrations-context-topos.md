@@ -11,7 +11,7 @@ citation: 'Your Name, You. (2009). &quot;Paper Title Number 1.&quot; <i>Journal 
 -->
 
 
-
+{% include macro %}
 
 `Abstract:` We introduce a notion of (op)fibration in the 2-category Con of contexts.
 We give a new characterization of weak fibrations internal in 2-categories. Using this
