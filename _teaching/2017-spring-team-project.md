@@ -27,6 +27,6 @@ location: "Birmingham, UK"
       </p>   
 * Activities: 
    * Supervising projects
-   * Helping students in the lab
+   * Helping students in the Lab on an individual basis
    * Meeting students in office hours
      
