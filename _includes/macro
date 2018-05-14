@@ -67,4 +67,6 @@ $$
 \newcommand{\frk}[1]{\mathfrak{#1}}
 \newcommand{\bb}[1]{\mathbb{#1}}
 \newcommand{\CS}{\textit{S}}
+\newcommand{\CE}{\textit{E}}
+\newcommand{\CF}{\textit{F}}
 $$
