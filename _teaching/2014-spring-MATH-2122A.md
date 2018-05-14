@@ -12,6 +12,6 @@ type: "A mathematics undergraduate course"
    * Textbooks:
      * [Lectures on Real Analysis](https://www.cambridge.org/core/books/lectures-on-real-analysis/55355F6128B1EA7BC8FD6CE5B6181419) by             _Finnur Lárusson_
      * Real Mathematical Analysis by _Charles C. Pugh_ 
-   * Duties: 
+   * Activities: 
      * Running exercise classes 
      * Helping with teaching  
