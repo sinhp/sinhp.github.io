@@ -33,6 +33,6 @@ location: "Birmingham, UK"
         </li> 
        </ul>  
       </p>   
-   * Duties:
+   * Activities:
       * Running exercise classes
       * Marking weekly assignments 
