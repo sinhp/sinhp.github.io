@@ -30,7 +30,7 @@ corresponding discrete spaces; and a homomorphism $f\maps K \to L$ between two d
 lattices gives a map in the _opposite direction_ between their spectra. The covariance or
 contravariance of this correspondence is a fundamental property of the construction.
 In topos theory we can relativize this process: a presenting structure in an elementary
-topos $\CE$ will give rise to a bounded geometric morphism $p: \CF \to \CE$, where $\CF$ is the topos
+topos $\CE$ will give rise to a bounded geometric morphism $p\maps \CF \to \CE$, where $\CF$ is the topos
 of sheaves over $\CE$ for the space presented by the structure. Then we commonly find that
 the covariant or contravariant correspondence mentioned above makes every such $p$ an
 opfibration or fibration in the 2-category of toposes and geometric morphisms.
@@ -44,8 +44,8 @@ In this paper our main result (Theorem 7.2) is to show how to use the arithmetic
 universe techniques of [Vic17] to get simple proofs in the generic style of the sharper,
 base-independent (op)fibration results in ETop.
 Our starting point is the following construction in [Vic17], using the 2-category $\Con$
-of AU-sketches in [Vic16](https://arxiv.org/abs/1608.01559). Suppose $U \maps \thT_1 → \thT_0$ is an extension map in $\Con$, and $M$ is a model of $\thT_0$ in $\CS$, an elementary topos with nno. Then there is a geometric theory $\thT_1/M$,
-of models of $thT_1$ whose $thT_0$-reduct is $M$, and so we get a classifying topos $p\maps S[\thT_1/M] \to \CS$.
+of AU-sketches in [Vic16](https://arxiv.org/abs/1608.01559). Suppose $U \maps \thT_1 \to \thT_0$ is an extension map in $\Con$, and $M$ is a model of $\thT_0$ in $\CS$, an elementary topos with nno. Then there is a geometric theory $\thT_1/M$,
+of models of $\thT_1$ whose $\thT_0$-reduct is $M$, and so we get a classifying topos $p\maps S[\thT_1/M] \to \CS$.
 We prove that if $U$ is an (op)fibration, then so is $p$ in the sense of [Johnstone, 1993](https://link.springer.com/article/10.1007/BF00880041).
 
 
