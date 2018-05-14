@@ -15,5 +15,6 @@ date: 2017-11-06
      * Running exercise classes (medium and hard level)
      * Office hours for individual help 
      * Writing solution scripts for automated marking on Hackerrank
+  
    
 
