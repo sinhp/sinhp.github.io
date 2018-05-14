@@ -8,7 +8,7 @@ type: "University-wide undergraduate course"
 ---	
  			
 * Methods of Calculus, Autumn 2014 	
-   * Intructors: Gord Sinnamon, Vicky Olds
+   * Intructors: Stuart Rankin, Gord Sinnamon, Vicky Olds
    * Activities: 
      * Helping students on an individual basis in Help Center
      * Marking mid-term and final exmas papers
