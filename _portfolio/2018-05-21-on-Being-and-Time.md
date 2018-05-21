@@ -15,7 +15,15 @@ Antihumanism
 
 As Peter Sloterdijk writes in 
 
-> For Heidegger there is no path
+> With this apparently modest twist,
+Heidegger opened the possibility of cataclysmic consequences: Humanism, in its
+ancient, in its Christian, as in its Enlightenment form, was revealed as the agent of a
+2000-year denial. It was accused of having prevented, through its swiftly provided,
+apparently self-evident, and irrefutable characterization of the nature of man, the
+development of a more appropriate way to pose the question about the nature of
+man. Heidegger explained that his work after Sein und Zeit [1927] was directed against
+humanism, not because it overvalued humanity, but because it did not value humanity
+highly enough (1977, page 210)... For Heidegger there is no path
 from humanism to this acute ontological exercise in humility. He sees it rather as a
 contribution to the history of the disarmament of subjectivity. Actually, Heidegger
 interprets the historical world of Europe as the theater of militant humanism; it is
