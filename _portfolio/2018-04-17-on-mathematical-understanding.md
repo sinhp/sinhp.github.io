@@ -26,7 +26,7 @@ First, I will try of set out some questions concerning mathematical understandin
  + In <q>Poincaré on Understanding Mathematics</q>, Gerhard Heinzmann writes  
   > Now, since Aristotle, understanding is connected with learning. And it is well known that,
 according to Poincaré, in order to teach and to learn mathematics there must be appeal to
-intuition and reasoning by analogy1. The same capacities are also necessary to create new mathematics.
+intuition and reasoning by analogy. The same capacities are also necessary to create new mathematics.
  
   Heinzmann, G. (1999), <q>Poincaré on Understanding Mathematics</q>, Philosophia Scientiae, 3: 43‐ 60 
 <a href="http://www.numdam.org/item/PHSC_1998-1999__3_2_43_0" target="_blank"> <i class="fa fa-external-link" aria-hidden="true"></i></a>
