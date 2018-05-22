@@ -48,12 +48,14 @@ intuition and reasoning by analogy. The same capacities are also necessary to cr
  >The full account of epistêmê in the strict sense is found in Posterior Analytics, where Aristotle says that we think we know something without qualification (epistasthai…haplôs) when we think we know (gignôskein) the cause by which the thing is, that it is the cause of the thing, and that this cannot be otherwise (71b10-15).
  
 A remark on the notion of the _casuse_ in Aristotle is in order. First, let us disclose the root of the word "cause".  The word derives from the Latin noun causa, which stems from the verb cadere, meaning ‘to fall’. The Romans conceived that a result ‘falls’ from a previous event. For the Greek, on the other hand, cause (αἴτιον) signified debt.  In _Physics II 3 and Metaphysics v.2_, Aristotle systematizes causality. Aristotle's account enumerates four types of causes: material cause, efficient cause, formal cause, and final cause. 
-Here is an example explaining all these type of causes. Consider the production of an artefact like a bronze chalice. the bronze (and its transformed states) from which it was made is the material cause; the bronzesmith who made it (even more importantly for Aristotle the art rather than artisan, the craft rather than the craftsman) is the efficient cause; the idea (or to use a more contemporary word "model") of chalice or ‘chalice-ness’ that makes it the type of thing it is the chalice’s formal cause ; and to the ends or purposes that a chalice serves its final cause. 
+Here is an example explaining all these type of causes. Consider the production of an artefact like a silver chalice <sup>1</sup>. the silver (and its transformed states in the process of production) from which it was made is the material cause; the silver smith who made it (even more importantly, for Aristotle, the art rather than the artisan, the craft rather than the craftsman) is the efficient cause; the shape and idea (or to use a more contemporary word "model".) of chalice or ‘chalice-ness’ that makes it the type of thing it is the chalice’s formal cause ; and to the ends or purposes that a chalice serves its final cause. 
 
 According to SEP article [Aristotle on Causality](https://plato.stanford.edu/entries/aristotle-causality/)
-> There is no doubt that the art of bronze-casting resides in an individual artisan who is responsible for the production of the statue. But, according to Aristotle, all the artisan does in the production of the statue is the manifestation of specific knowledge. This knowledge, not the artisan who has mastered it, is the salient explanatory factor that one should pick as the most accurate specification of the efficient cause (Phys. 195 b 21–25). By picking the art, not the artisan, Aristotle is not just trying to provide an explanation of the production of the statue that is not dependent upon the desires, beliefs and intentions of the individual artisan; he is trying to offer an entirely different type of explanation; an explanation that does not make a reference, implicit or explicit, to these desires, beliefs and intentions. Heidegger gives the sharpest criticism of this view
+> There is no doubt that the art of bronze-casting resides in an individual artisan who is responsible for the production of the statue. But, according to Aristotle, all the artisan does in the production of the statue is the manifestation of specific knowledge. This knowledge, not the artisan who has mastered it, is the salient explanatory factor that one should pick as the most accurate specification of the efficient cause (Phys. 195 b 21–25). By picking the art, not the artisan, Aristotle is not just trying to provide an explanation of the production of the statue that is not dependent upon the desires, beliefs and intentions of the individual artisan; he is trying to offer an entirely different type of explanation; an explanation that does not make a reference, implicit or explicit, to these desires, beliefs and intentions. 
 
- What then distinguishes the spheres of exact knowledge and of craft is the classic division between the purely theoretical and the purely practical. Scientific knowledge concerns itself with the world of necessary truths, which stands apart from the world of everyday contingencies, the province of craft. 
+We must mention here that although Aristotle's account has been dominant throughout the history of philosophy, not everybody agrees with him. The most critical voice is that of the pastoral philosopher Martin Heidegger. You can read more about what he has to say in his lecture The Question Concerning Technology
+
+What then distinguishes the spheres of exact knowledge and of craft is the classic division between the purely theoretical and the purely practical. Scientific knowledge concerns itself with the world of necessary truths, which stands apart from the world of everyday contingencies, the province of craft. 
  
 However the distinction between technê and epistêmê fades away in his other works such as _Physics_ and _Metaphysics_. However, the contrast becomes between technê and epistêmê on one side and empeiria (experience) on the other. At the beginning of Metaphysics,
 
@@ -69,6 +71,9 @@ Also, concerning what constitutes understanding "Turing Test" and [Searle's Chin
 
 
 
+
+[1] The example of silver chalice is actually from Heidegger's lecture ["The Question Concerning Technology"](http://www.english.hawaii.edu/criticalink/heidegger/guide1.html)
+{: .notice}
 
 
 
