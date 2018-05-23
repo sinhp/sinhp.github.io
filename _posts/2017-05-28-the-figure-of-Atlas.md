@@ -35,18 +35,8 @@ On this archaic figure, Wikipedia page says:
 
 What got me really curious into the figure of the Atlas was its philosophical reading by the famous contemporary German philosopher [Peter Sloterdijk][2]. It appears in the volume [_Globen_][3] of the celebrated magnum opus _Sphären_ trilogy. (First one is _Bubbles_ and the last one is _Foams_). According to Sloterdijk, the Atlas should be understood as one of crucial moments in transition of the notion of globe from Greek world to the Roman world and hence it does play a significant role in developement of history of ideas of the globe to its final present culmination as the _**fundamental picture of the world**_. 
 
-Picture of the world is a Heideggerian term which connotes the world conceived and grasped as picture, rather than _a_ picture of the world; it is a system that stands before subjects, in which all things belong to and all things stand together. (You can read Heidegger's 1938 essay The Age of the World Picture as the part III in the book [The Question
-Concerning Technology and Other Essays][5].) In page 134 of the aforementioned book Heidegger writes 
-> The fundamental event of the modern age is the conquest of the world as picture. The word <q>picture</q> (Bild) now means the structured image (Gebild), that is the creature of man's producing which represents and sets before.
+Picture of the world is a Heideggerian term which connotes the world conceived and grasped as picture, rather than _a_ picture of the world; it is a system that stands before subjects, in which all things belong to and all things stand together. We will encounter this concept later in fuller details, but for now certain references to the Ancient Greek elements of Atlas is in order. 
 
-The modern emergence of the world as picture coincides with the constitution of man as a subjectum: the center of all relation, the _Cartesian cogito_ the only authority which grants being to <q>life experience</q> (_Erlebnis_) and that <q>explains and evaluates whatever is in its entirety, from the standpoint of man and in relation to man.</q> 
-
->It is no wonder that humanism first arises where the world becomes picture. It would have been just as impossible for a humanism
-to have gained currency in the great age of the Greeks as it would have been impossible to have had anything like a world
-picture in that age. Humanism, therefore, in the more strict historiographical sense, is nothing but a moral-aesthetic anthropology. (page 133 of the same book.)
-
-
-## Ancient Greek elements 
 
 ### The Orb
 
@@ -55,6 +45,7 @@ Sloterdijk argues that full-sphere shaped globe as opposed to a hemisphere indic
 > In the first place, the ball on his shoulders and between his hands is no longer the old Homeric or Hesiodic heaven whose bearer the Titan of the myth was ordered to be by Zeus as punishment for his participation in the insurgency of the earthly, old gods against the Olympians.In fact, the old Homeric Uranos can be represented not as a sphaira, but rather only as a hemisphere over the flat Earth ... On the other hand, it is a testament to the triumph of the Greek enlightenment that the modern mathematical full sphere is loaded upon the archaic Titanic form. What Atlas bears on his shoulders is precisely the heaven of philosophers, synonymous with the world as a whole or the cosmos since Plato and Aristotle. ... Thus what Titan bears upon his shoulders represents a poetic-scientific bastard heaven, a product of geometry as much as mythology.     
 
 Use of the word [_Sphaira_][8] in contrast with mathematically conceived _sphere_ in the quote above signifies a _common conceit of the pictorial language of power_.   
+
 
 ### Argo
 
@@ -83,6 +74,36 @@ More on details of the picture, Sloterdijk writes:
   <img src="{{ site.baseurl }}/images/Hydra-Crater.jpg" alt="Crater" >	
 </div>
 -->
+
+
+## The Age of the World Picture
+
+As we said in the above, Sloterdijk regards the notion of globe in its final present culmination as the fundamental picture of the world. He goes so far as to say
+
+> Globalization or sphereopoiese in general is the fundamental event of European
+thought, one that has not ceased to provoke revolutions in the thought and life
+relations of humans for two and a half thousand years. What today appears as a blunt
+geopolitical fact in a phase of greater concentration (and more nervous interpretation),
+in the beginning was a compulsory figure of thought only for philosophers and
+cosmologists. Mathematical globalization proceeds terrestrial globalization by more
+than two thousand years.the starting date of the original globalization can be determined, at least
+as an epoch, with some clarity: it is the cosmological enlightenment of the Greek
+thinkers who, combining ontology with geometry, brought the great sphere into play.
+Perhaps Heidegger was right to equate modernity with the high point of the picturing
+of the world and beings, but the beginnings of this event reach back to the culminating
+thought of the Greeks.
+
+Sloterdijk reference to Heiddeger is indeed Heidegger's 1938 essay <q>The Age of the World Picture</q> (part III in the book [The Question Concerning Technology and Other Essays][5]). In page 134, Heidegger writes 
+> The fundamental event of the modern age is the conquest of the world as picture. The word <q>picture</q> (Bild) now means the structured image (Gebild), that is the creature of man's producing which represents and sets before.
+
+The modern emergence of the world as picture coincides with the constitution of man as a subjectum: the center of all relation, the _Cartesian cogito_ the only authority which grants being to <q>life experience</q> (_Erlebnis_) and that <q>explains and evaluates whatever is in its entirety, from the standpoint of man and in relation to man.</q> 
+
+>It is no wonder that humanism first arises where the world becomes picture. It would have been just as impossible for a humanism
+to have gained currency in the great age of the Greeks as it would have been impossible to have had anything like a world
+picture in that age. Humanism, therefore, in the more strict historiographical sense, is nothing but a moral-aesthetic anthropology. (page 133 of the same book.)
+
+
+If one pays a closer attention into the movement of Sloterdijk's thinking, his recognition of the notion of globe as the fundamental picture of the world seems to be contrary to what Heidegger is saying about premodern world. To Heidegger, the premodern being does not have a world picture. Where does Sloterdijk find this connection? 
 
 
 
