@@ -26,14 +26,20 @@ excerpt: "What does Atlas carry?"
 
 ## The first glance 
 
-This nearly 2 meter high Hellenistic sculpture depicts [Atlas][1] or more commonly known, the **Farnese Atlas**. The monumental work was first discovered in Rome in 1575, and was then identified as the heavenly sphere-bearing Atlas, the Titan condemned to hold up the sky for eternity from Greek mythology. The name Farnese comes from Cardinal Alessandro Farnese who acquired the sculpture in the early 16th century, and found its home in the antiquities collection of the Farnese house. Today, it is located in Museo Nazionale in Naples.    
+This nearly 2 meter high Hellenistic sculpture depicts [Atlas][1] or more commonly known, the **Farnese Atlas**. The monumental work was first discovered in Rome in 1575, and was then identified as the heavenly sphere-bearing Atlas, the Titan condemned to hold up the sky for eternity, is from Greek mythology. The name Farnese comes from Cardinal Alessandro Farnese who acquired the sculpture in the early 16th century, and found its home in the antiquities collection of the Farnese house. Today, it is located in Museo Nazionale in Naples.    
 
 
 On this archaic figure, Wikipedia page says: 
 
 >Atlas labors under the weight because he had been sentenced by Zeus to hold up the sky. The globe shows a depiction of the night sky as seen from outside the outermost celestial sphere, with low reliefs depicting 41 (some sources say 42) of the 48 classical Greek constellations distinguished by Ptolemy, including; Aries the ram, Cygnus the swan and Hercules the hero. The Farnese Atlas is the oldest surviving pictorial record of Western constellations.
 
-What got me really curious into the figure of the Atlas was its philosophical reading by the famous contemporary German philosopher [Peter Sloterdijk][2]. It appears in the volume [_Globen_][3] of the celebrated magnum opus _Sphären_ trilogy. (First one is _Bubbles_ and the last one is _Foams_). According to Sloterdijk, the Atlas should be understood as one of crucial moments in transition of the notion of globe from Greek world to the Roman world and hence it does play a significant role in developement of history of ideas of the globe to its final present culmination as the _**fundamental picture of the world**_. (picture of the world is a Heideggerian term which connotes the world conceived and grasped as picture, rather than a picture of the world; it is a system that stands before subjects, in which all things belong to and all things stand together. You can read Heidegger's 1938 essay: [The Age of the World Picture][5].)
+What got me really curious into the figure of the Atlas was its philosophical reading by the famous contemporary German philosopher [Peter Sloterdijk][2]. It appears in the volume [_Globen_][3] of the celebrated magnum opus _Sphären_ trilogy. (First one is _Bubbles_ and the last one is _Foams_). According to Sloterdijk, the Atlas should be understood as one of crucial moments in transition of the notion of globe from Greek world to the Roman world and hence it does play a significant role in developement of history of ideas of the globe to its final present culmination as the _**fundamental picture of the world**_. 
+
+Picture of the world is a Heideggerian term which connotes the world conceived and grasped as picture, rather than _a_ picture of the world; it is a system that stands before subjects, in which all things belong to and all things stand together. (You can read Heidegger's 1938 essay The Age of the World Picture as the part III in the book [The Question
+Concerning Technology and Other Essays][5].) The modern emergence of the world as
+picture coincides with the constitution of man as a Cartesian subject: the center of all relation, the Cartesian cogito that only grants being to <q>life experience</q> (Erlebnis) and that <q>explains and evaluates whatever is in its
+entirety, from the standpoint of man and in relation to man.</q> In [Karyn Ball words](https://muse.jhu.edu/article/191591), <q>The historical conjuncture that inaugurates this solipsism is earmarked by the oxymoron of an ahistorical subject who misrecognizes his
+own moment as firmly and expressly new.</q>
 
 ## Ancient Greek elements 
 
@@ -79,7 +85,7 @@ More on details of the picture, Sloterdijk writes:
 [2]: https://mitpress.mit.edu/authors/peter-sloterdijk
 [3]: https://mitpress.mit.edu/books/globes
 [4]: http://culturalpolitics.dukejournals.org/content/3/3/393.short
-[5]: http://www2.fiu.edu/~ereserve/010037770-1.pdf
+[5]: http://ssbothwell.com/documents/ebooksclub.org__The_Question_Concerning_Technology_and_Other_Essays.pdf
 [6]: https://wiki2.org/en/Crater_(constellation)
 [7]: https://wiki2.org/en/Uranus_(mythology)
 [8]: http://www.oxfordreference.com/view/10.1093/acref/9780195046526.001.0001/acref-9780195046526-e-5080
