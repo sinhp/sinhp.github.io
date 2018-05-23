@@ -36,11 +36,15 @@ On this archaic figure, Wikipedia page says:
 What got me really curious into the figure of the Atlas was its philosophical reading by the famous contemporary German philosopher [Peter Sloterdijk][2]. It appears in the volume [_Globen_][3] of the celebrated magnum opus _Sphären_ trilogy. (First one is _Bubbles_ and the last one is _Foams_). According to Sloterdijk, the Atlas should be understood as one of crucial moments in transition of the notion of globe from Greek world to the Roman world and hence it does play a significant role in developement of history of ideas of the globe to its final present culmination as the _**fundamental picture of the world**_. 
 
 Picture of the world is a Heideggerian term which connotes the world conceived and grasped as picture, rather than _a_ picture of the world; it is a system that stands before subjects, in which all things belong to and all things stand together. (You can read Heidegger's 1938 essay The Age of the World Picture as the part III in the book [The Question
-Concerning Technology and Other Essays][5].) In page of the above Heidegger writes 
+Concerning Technology and Other Essays][5].) In page 134 of the aforementioned book Heidegger writes 
 > The fundamental event of the modern age is the conquest of the world as picture. The word <q>picture</q> (Bild) now means the structured image (Gebild), that is the creature of man's producing which represents and sets before.
-The modern emergence of the world as picture coincides with the constitution of man as a Cartesian subject: the center of all relation, the _Cartesian cogito_ that only grants being to <q>life experience</q> (_Erlebnis_) and that <q>explains and evaluates whatever is in its
-entirety, from the standpoint of man and in relation to man.</q> In [Karyn Ball words](https://muse.jhu.edu/article/191591), <q>The historical conjuncture that inaugurates this solipsism is earmarked by the oxymoron of an ahistorical subject who misrecognizes his
-own moment as firmly and expressly new.</q>
+
+The modern emergence of the world as picture coincides with the constitution of man as a subjectum: the center of all relation, the _Cartesian cogito_ the only authority which grants being to <q>life experience</q> (_Erlebnis_) and that <q>explains and evaluates whatever is in its entirety, from the standpoint of man and in relation to man.</q> 
+
+>It is no wonder that humanism first arises where the world becomes picture. It would have been just as impossible for a humanism
+to have gained currency in the great age of the Greeks as it would have been impossible to have had anything like a world
+picture in that age. Humanism, therefore, in the more strict historiographical sense, is nothing but a moral-aesthetic anthropology. (page 133 of the same book.)
+
 
 ## Ancient Greek elements 
 
