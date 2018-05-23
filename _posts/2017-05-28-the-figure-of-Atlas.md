@@ -26,7 +26,7 @@ excerpt: "What does Atlas carry?"
 
 ## The first glance 
 
-This nearly 2 meter high Hellenistic sculpture depicts [Atlas][1] or more commonly known, the **Farnese Atlas**. The monumental work was first discovered in Rome in 1575, and was then identified as the heavenly sphere-bearing Atlas, the Titan condemned to hold up the sky for eternity, is from Greek mythology. The name Farnese comes from Cardinal Alessandro Farnese who acquired the sculpture in the early 16th century, and found its home in the antiquities collection of the Farnese house. Today, it is located in Museo Nazionale in Naples.    
+This nearly two meter high Hellenistic sculpture depicts [Atlas][1] or more commonly known, the **Farnese Atlas**. The monumental work was first discovered in Rome in 1575, and was then identified as the heavenly sphere-bearing Atlas, the Titan condemned to hold up the sky for eternity, is from Greek mythology. The name Farnese comes from Cardinal Alessandro Farnese who acquired the sculpture in the early 16th century, and found its home in the antiquities collection of the Farnese house. Today, it is located in Museo Nazionale in Naples.    
 
 
 On this archaic figure, Wikipedia page says: 
