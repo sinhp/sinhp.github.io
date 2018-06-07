@@ -1,5 +1,5 @@
 ---
-title: "Surjection Of Locales Are Not Surjective On Points"
+title: "Surjection of locales are not surjective on points"
 author: Sina Hazratpour
 permalink: /scribbling/2018-02-08-surjection-of-locales
 collection: notes
