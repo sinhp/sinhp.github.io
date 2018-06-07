@@ -1,5 +1,5 @@
 ---
-title: "A Topos Without Points"
+title: "A topos without points"
 author: Sina Hazratpour
 excerpt: "An example of a topos (from logic) that does not have any points."
 category: research notes
