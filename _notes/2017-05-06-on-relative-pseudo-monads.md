@@ -1,5 +1,5 @@
 ---
-title: "Relative Pseudo-Monads"
+title: "Relative pseudo-monads"
 author: Sina Hazratpour
 permalink: /scribbling/2017-05-06-on-relative-pseudo-monads
 collection: notes
