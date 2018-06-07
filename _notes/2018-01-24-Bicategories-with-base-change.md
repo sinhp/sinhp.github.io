@@ -1,5 +1,5 @@
 ---
-title: "Bicategories with Base Change"
+title: "Bicategories with base change"
 author: Sina Hazratpour
 permalink: /scribbling/2018-01-24-Bicategories-with-base-change
 collection: notes
