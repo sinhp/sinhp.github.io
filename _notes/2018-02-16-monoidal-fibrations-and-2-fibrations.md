@@ -1,5 +1,5 @@
 ---
-title: "Are Monoidal Fibrations Instances Of 2-fibrations?"
+title: "Are monoidal fibrations instances of 2-fibrations?"
 author: Sina Hazratpour
 permalink: /scribbling/2018-02-16-monoidal-fibrations-and-2-fibrations
 collection: notes
