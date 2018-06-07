@@ -1,5 +1,5 @@
 ---
-title: "Lawvere-Tierney Topology"
+title: "On Lawvere-Tierney topology"
 author: Sina Hazratpour
 permalink: /scribbling/2017-10-24-Lawevere-Tierney-topologies
 collection: notes
