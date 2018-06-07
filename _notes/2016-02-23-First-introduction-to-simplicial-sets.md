@@ -1,5 +1,5 @@
 ---
-title: "First Introduction To Simplicial Sets"
+title: "First introduction to simplicial sets"
 author: Sina Hazratpour
 permalink: /scribbling/2016-02-23-First-introduction-to-simplicial-sets
 collection: notes
