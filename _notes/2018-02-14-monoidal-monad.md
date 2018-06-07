@@ -1,5 +1,5 @@
 ---
-title: "Notes On Monoidal Monad"
+title: "Notes on monoidal monad"
 author: Sina Hazratpour
 permalink: /scribbling/2018-02-14-monoidal-monads
 collection: notes
