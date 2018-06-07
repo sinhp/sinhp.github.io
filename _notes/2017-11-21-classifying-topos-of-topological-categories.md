@@ -1,5 +1,5 @@
 ---
-title: "Classifying Topos of Topological Categories"
+title: "Classifying topos of topological categories"
 author: Sina Hazratpour
 permalink: /scribbling/2017-11-21-classifying-topos-of-topological-categories
 collection: notes
