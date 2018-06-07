@@ -1,5 +1,5 @@
 ---
-title: "What Are Derived Stacks?"
+title: "What are derived stacks?"
 author: Sina Hazratpour
 permalink: /scribbling/2017-12-28-what-are-derived-stacks
 collection: notes
