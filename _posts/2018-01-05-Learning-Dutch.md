@@ -64,6 +64,7 @@ I also recommend to have [Wolters Woordenboek](https://www.boekwinkeltjes.nl/s/?
  - Kennis van de Nederlandse Samenleving (KNS)
  - Leesvaardigheid
  - Spreekvaardigheid 
+ 
  On the e-learning section of [Naar Nederland](https://www.naarnederland.nl/voorbereidin) website you can find lots of interesting exercises on all of these components. 
  
 
