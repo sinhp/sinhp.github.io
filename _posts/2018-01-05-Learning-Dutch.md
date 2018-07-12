@@ -61,9 +61,9 @@ I also recommend to have [Wolters Woordenboek](https://www.boekwinkeltjes.nl/s/?
   * [Basic Dutch: A Grammar and Workbook](https://books.google.nl/books/about/Basic_Dutch_A_Grammar_and_Workbook.html?id=iRelBXxYRcIC&redir_esc=y) by Jenneke Oosterhoff
 
 * **Naar Nederland** is an e-learning website designed to help people who take the _basisexamen inburgering in het buitenland_ administered by De Dienst Uitvoering Onderwijs (DUO). The exam is comprised of three components: 
- - Kennis van de Nederlandse Samenleving (KNS)
- - Leesvaardigheid
- - Spreekvaardigheid 
+   - Kennis van de Nederlandse Samenleving (KNS)
+   - Leesvaardigheid
+   - Spreekvaardigheid 
  
  On the e-learning section of [Naar Nederland](https://www.naarnederland.nl/voorbereidin) website you can find lots of interesting exercises on all of these components. 
  
