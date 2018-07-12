@@ -65,7 +65,7 @@ I also recommend to have [Wolters Woordenboek](https://www.boekwinkeltjes.nl/s/?
    - Leesvaardigheid
    - Spreekvaardigheid 
  
- On the e-learning section of [Naar Nederland](https://www.naarnederland.nl/voorbereidin) website you can find lots of interesting exercises on all of these components. 
+ On the e-learning section of [Naar Nederland](https://www.naarnederland.nl/voorbereidin) website you can find lots of interesting exercises on all of these components. Although the lessons are designed to help people who take the exam the material (including audio clips) are freely available to everyone and form a coherent and well-designed series of lessons. 
  
 
 ## Intermediate Stuff
