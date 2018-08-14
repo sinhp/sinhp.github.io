@@ -37,8 +37,6 @@ The above description of Sloterdijk's work is not meant to discourage you from r
 as a result, the phrase was added: 'with flattened nails' " (Diogenes Laertius, vol. VI, p. 40). That—and not Aristotelianism —is the real-philosophical antithesis to Socrates and Plato. Plato and Aristotle are both master-thinkers, even if a spark
 of Socrates' plebeian street philosophy is still present in the Platonic ironies and dialectic mannerisms. Diogenes and his followers countered this with an essentially plebeian reflection. Only the theory of this cheekiness can open up access to a political history of combative reflections. This makes the history of philosophy possible as dialectical social history: It is the history of the embodiment and the splitting of consciousness. 
 
-In Sloterdijk's presentation of kynicism even _death_ ("I die"), an end, becomes a means to an end. 
-
 
 Also, do not look for a unifying logical theme through works of Sloterdijk. His writing style is too much metaphorical, world-historical, and hyperbolisch to accommodate for a unified theme of ideas. He compensates for such lack with strongly-worded spatial metaphorical language: In Du mußt dein Leben ändern<sup>2</sup> he uses verticality of line as the spatial metaphor for self-elevation and reaching to the heights of "the Mount improbabale", or to borrow from Nietzsche’s Thus Spoke Zarathustra 
 > Man is a rope, stretched between beast and Übermensch. 
