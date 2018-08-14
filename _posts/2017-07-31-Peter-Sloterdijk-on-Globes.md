@@ -1,5 +1,5 @@
 --- 
-title: 'Peter Sloterdijk on Globes' 
+title: 'How to read Peter Sloterdijk?' 
 date: 2017-07-31
 comments: true
 tags:
@@ -9,7 +9,7 @@ tags:
 permalink: /posts/2017/07/Peter-Sloterdijk-on-Globes/  
 comments: true
 thumbnail: Aerocene-de-Thomas-Saraceno.jpg
-excerpt: "Space as space of immunity"
+excerpt: "Sloterdijk - Nein, danke! Es ist nur Gelaber ..."
 ---
 
  For many people for most of the time he is an impossible author. Many in academia and elsewhere do not consider Peter Sloterdijk as serious thinker let alone a philosopher; for them he is at best a gifted contrarian. He certainly has a penchant for controversy and a tendency for use of extravagant language and extravagant use of language. In fact it is not uncommon to see from a German who is somewhat familiar with Sloterdijk, either through his writings or his numerous TV appearances, impatience with Sloterdijk's perceived imprecision and verbiage: "Sloterdijk - Nein, danke! Es ist nur Gelaber ..." 
@@ -36,20 +36,13 @@ imprisoning language of abstract concepts
 , Kierkegaard 
 -->
 
+In the first volume of his celebrated magnum opus Sphären trilogy, Globen, he uses topology of globes and spheres as the running spatial metaphor for immunity and nurturing. His philosophico-morphological theory is based on an understanding of the history of culture as [spatialisations of forms](http://www.tate.org.uk/context-comment/video/spaces-transformation-spatialised-immunity). He blends form, order, and thinking into the mix of spheres and the result is the archaeology of the human attempt to dwell within spaces, from womb to globe. 
 
-
-I still have not found an opportunity to start indulging myself in wrestling with the thoughts in Peter Sloterdijk's celebrated magnum opus Sphären trilogy. However, I recently watched his lecture in Tate Britain on ideas of his book _Globen and relationship of thoses ideas to art_: for instance art of living in apartments as spaces of immunity. 
 
 <br/><img src='/images/Aerocene-de-Thomas-Saraceno.jpg'>
 
 
-Here is the `abstract` of his talk: 
-> Peter Sloterdijk’s philosophico-morphological theory is based on an understanding of the history of culture as spatialisations of forms. The world in which we live now requires us to design new types of ‘spatialised immunity’. More broadly, the concept of a spherical logic of space – a polymorphologic of form, order and thinking – is explicated in Spheres, his three-volume archaeology of the human attempt to dwell within spaces, from womb to globe. The Spheres project (Bubbles, Globe, Foam) is a significant topological turn in the field of contemporary philosophy, ‘a super-workout for communicative energies capable of finding contact throughout the entire world.’
-
-
-Here is a link to that lecture:  
-
- * [Sloterdijk on Spaces of Transformation: Spatialised Immunity](http://www.tate.org.uk/context-comment/video/spaces-transformation-spatialised-immunity)
+ 
 
 
 -------------------------------------------------------
