@@ -1,14 +1,19 @@
 --- 
 title: 'How to read Peter Sloterdijk?' 
-date: 2017-07-31
+date: 2018-08-14
 comments: true
 tags:
-  - Globes
-  - Tate, UK 
+  - Globen
+  - Kynicism 
   - Peter Sloterdijk
+  - Heidegger
+  - Height psychology
+  - Anthropotechnics
+  - Habermas
 permalink: /posts/2017/07/Peter-Sloterdijk-on-Globes/  
 comments: true
 thumbnail: Aerocene-de-Thomas-Saraceno.jpg
+location: Bonn, Germany
 excerpt: "Sloterdijk - Nein, danke! Es ist nur Gelaber ..."
 ---
 
@@ -26,13 +31,14 @@ The above description of Sloterdijk's work is not meant to discourage you from r
 as a result, the phrase was added: 'with flattened nails' " (Diogenes Laertius, vol. VI, p. 40). That—and not Aristotelianism —is the real-philosophical antithesis to Socrates and Plato. Plato and Aristotle are both master-thinkers, even if a spark
 of Socrates' plebeian street philosophy is still present in the Platonic ironies and dialectic mannerisms. Diogenes and his followers countered this with an essentially plebeian reflection. Only the theory of this cheekiness can open up access to a political history of combative reflections. This makes the history of philosophy possible as dialectical social history: It is the history of the embodiment and the splitting of consciousness. 
 
+In Sloterdijk's presentation of kynicism even _death_ ("I die"), an end, becomes a means to an end. 
+
+
 Also, do not look for a unifying logical theme through works of Sloterdijk. His writing style is too much metaphorical, world-historical, and hyperbolisch to accommodate for a unified theme of ideas. He compensates for such lack with strongly-worded spatial metaphorical language: In Du mußt dein Leben ändern<sup>2</sup> he uses verticality of line as the spatial metaphor for self-elevation and reaching to the heights of "the Mount improbabale", or to borrow from Nietzsche’s Thus Spoke Zarathustra 
 > Man is a rope, stretched between beast and Übermensch. 
 
 
 <!--
-joyful language of radical bodily gestures
-imprisoning language of abstract concepts
 , Kierkegaard 
 -->
 
@@ -42,7 +48,7 @@ In the first volume of his celebrated magnum opus Sphären trilogy, Globen, he u
 <br/><img src='/images/Aerocene-de-Thomas-Saraceno.jpg'>
 
 
- 
+ My final verdict: it is necessary to engage actively with Sloterdijk's thinking and ideas. He presents the kind of philosophy at which the late Heidegger was hinting. A philosophy so imbued with forms, art, and life that it is no longer an imprisoning language of abstract concepts but has as its main characteristic a psycho-somatic approach to life. It tortures language to makes us move: either out of joy or of cringe and disgust. It welcomes technology (as opposed to Heidegger) in a broad sense which includes programming of conciousness to better our lives; Sloterdijk uses the terms anthropotechnics. It demands us to think anew about what it means _to be human_ in the age of data and digital mass media and mass-conciousness. However, you should always be careful when reading Sloterdijk's aphorisms, declarations, and commandments. More importantly, remember to not be intimidated by his unparalleled erudition, his command of literature before him, and knowledge of history. My suggestion is to actually take his references even more seriously than he does. Be mindful that in the midst of colourful wording and verbiage he is actually quite selective in supporting cases and arguments for his positions. For instance, the [Bauhaus](https://en.wikipedia.org/wiki/Bauhaus) movement is entirely absent in the book Du mußt dein Leben ändern even though it shares the same bold themes of the book: kynicism and anthropotechincs.         
 
 
 -------------------------------------------------------
