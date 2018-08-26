@@ -16,7 +16,8 @@ tags:
   - Thermodynaics and consumers 
   - age of entropy 
   - burning 
-  - iron cage 
+  - iron cage
+  - thou shall separate the paper and plastic
 permalink: /posts/2018-08-26-the-new-religion  
 comments: true
 thumbnail: 
