@@ -68,6 +68,7 @@ The other trend in his writings is a "playful thinking" of hermeneutic kind:
  to Socrates in Plato's Ion (534e), hermenes eisin ton
  theon - "are interpreters of the gods".  (p.29, Dialogue on
  Language, Martin Heidegger, 1953)
+ 
 There is an abundance of reliance on classical etymology and their semantic evolution for clarification of concepts, as well as a palpable lack of sympathy for metaphysics. 
 
 
