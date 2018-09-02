@@ -9,8 +9,9 @@ tags:
   - David Foster Wallace
   - Infinite Jest
   - Heidegger's critique of technology
-  - 
-permalink: /posts/2018/09/Two works of postmodern critique
+  - boredom of beauracratic life
+  - The Soul is Not a Smithy
+permalink: /posts/2018/09/Two-works-of-postmodern-critique
 comments: true
 location: Birmingham, UK
 excerpt: ""
