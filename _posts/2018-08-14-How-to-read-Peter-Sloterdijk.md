@@ -10,7 +10,7 @@ tags:
   - Height psychology
   - Anthropotechnics
   - Habermas
-permalink: /posts/2017/07/Peter-Sloterdijk-on-Globes/  
+permalink: /posts/2018/08/How-to-read-Peter-Sloterdijk
 comments: true
 thumbnail: Aerocene-de-Thomas-Saraceno.jpg
 location: Bonn, Germany
