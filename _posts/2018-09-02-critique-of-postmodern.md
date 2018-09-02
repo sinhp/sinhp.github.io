@@ -1,20 +1,19 @@
 --- 
-title: 'Critique of postmodern' 
+title: 'Two works of postmodern critique' 
 date: 2018-09-02
 comments: true
 tags:
   - Postmodernism
   - Guy Debord 
-  - Infinite Jest
+  - Society of the Spectacle
   - David Foster Wallace
+  - Infinite Jest
+  - Heidegger's critique of technology
   - 
-  - Anthropotechnics
-  - Habermas
 permalink: /posts/2018/09/critique-of-postmodern
 comments: true
-thumbnail: Aerocene-de-Thomas-Saraceno.jpg
-location: Bonn, Germany
-excerpt: "Sloterdijk - Nein, danke! Es ist nur Gelaber ..."
+location: Birmingham, UK
+excerpt: ""
 ---
 
 There is an article today on Washington Post addressing recent vilifying and obfuscatory attacks on "postmodernism" in US media and celebratariatosphere from Conservatives, neo-Conservatives, Centrists, and Liberals.    
