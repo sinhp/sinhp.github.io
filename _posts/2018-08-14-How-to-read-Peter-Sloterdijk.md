@@ -81,7 +81,7 @@ However, one should always be careful when reading Sloterdijk's aphorisms, decla
 -------------------------------------------------------
 1. Critique of Cynical Reason 
 
-2. [[Sloterdijk: VS schurkenstaat, Gerbert van Loenen– 30 september 2002]](https://www.trouw.nl/home/sloterdijk-vs-schurkenstaat~adf7214b/)
+2. [Sloterdijk: VS schurkenstaat, Gerbert van Loenen– 30 september 2002](https://www.trouw.nl/home/sloterdijk-vs-schurkenstaat~adf7214b/)
 
 3. You Must Change Your Life
 {: .notice}
