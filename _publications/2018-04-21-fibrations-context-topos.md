@@ -50,11 +50,11 @@ We prove that if $U$ is an (op)fibration, then so is $p$ in the sense of [Joh93]
 
 
 
-`Preliminary Draft of Paper:` _Fibration of contexts beget fibrations of toposes_ <a href="/files/draft/prem-draft-fibrations-of-toposes.pdf" target="_blank"> <i class="fa fa-file-pdf-o" aria-hidden="true"></i> </a>, [Arxiv](https://arxiv.org/abs/0912.16510)   
- joint with Steve Vickers, to be submitted to Theory and Application of Categories (TAC), April 2018
+`Preliminary Draft of Paper:` _Fibration of contexts beget fibrations of toposes_ <a href="/files/draft/prem-draft-fibrations-of-toposes.pdf" target="_blank"> <i class="fa fa-file-pdf-o" aria-hidden="true"></i> </a>, [arXiv:1808.08291](https://arxiv.org/abs/1808.08291)   
+ joint with Steve Vickers, submitted to Theory and Application of Categories (TAC)
  
  
-_Please Do Not Cite or Circulate_
+
 
 
 <!--
