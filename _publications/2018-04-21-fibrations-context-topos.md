@@ -37,7 +37,7 @@ opfibration or fibration in the 2-category of toposes and geometric morphisms.
 
 If toposes are taken as bounded over some fixed base $\CS$, in the 2-category $\BTopos/S$,
 then there are often easy proofs got by showing that the generic such p, taken over the
-classifying topos for the relevant presenting structures, is an (op)fibration. See [SVW13](https://arxiv.org/abs/1310.0705) for some
+classifying topos for the relevant presenting structures, is an (op)fibration. See [[SVW13]](https://arxiv.org/abs/1310.0705) for some
 simple examples. In the 2-category $\ETopos$ of arbitrary elementary toposes with nno, the
 properties are stronger (because there are more 2-cells) and harder to prove – see [Joh02].
 In this paper our main result (Theorem 7.2) is to show how to use the arithmetic
