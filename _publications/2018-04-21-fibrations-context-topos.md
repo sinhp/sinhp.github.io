@@ -44,9 +44,9 @@ In this paper our main result (Theorem 7.2) is to show how to use the arithmetic
 universe techniques of [Vic17] to get simple proofs in the generic style of the sharper,
 base-independent (op)fibration results in ETop.
 Our starting point is the following construction in [Vic17], using the 2-category $\Con$
-of AU-sketches in [Vic16](https://arxiv.org/abs/1608.01559). Suppose $U \maps \thT_1 \to \thT_0$ is an extension map in $\Con$, and $M$ is a model of $\thT_0$ in $\CS$, an elementary topos with nno. Then there is a geometric theory $\thT_1/M$,
+of AU-sketches in [[Vic16]](https://arxiv.org/abs/1608.01559). Suppose $U \maps \thT_1 \to \thT_0$ is an extension map in $\Con$, and $M$ is a model of $\thT_0$ in $\CS$, an elementary topos with nno. Then there is a geometric theory $\thT_1/M$,
 of models of $\thT_1$ whose $\thT_0$-reduct is $M$, and so we get a classifying topos $p\maps S[\thT_1/M] \to \CS$.
-We prove that if $U$ is an (op)fibration, then so is $p$ in the sense of [Joh93](https://link.springer.com/article/10.1007/BF00880041).
+We prove that if $U$ is an (op)fibration, then so is $p$ in the sense of [[Joh93]](https://link.springer.com/article/10.1007/BF00880041).
 
 
 
