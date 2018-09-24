@@ -74,8 +74,7 @@ e.g.
 -----------------------------------------------------------------------------------------------
 ## <a name="phil-math:reading-list"></a> A reading list of philosophy of mathematic 
 
-Since 2013 I have started to study philosophy of mathematics and science more seriously motivated partly by my personal interest in the subject and partly by reflections on different kinds of abstract mathematics I have been introduced to; different foundations (e.g. set theories vs type theories) and various foundational issues (e.g. predicativity, finite vs infinite, circularity, etc) as well as questions concerning ontological status of mathematical objects and their relations to "empirical" reality prompted me to read people who have thought about these issues before. Here is a list of articles and books I have found edifying and enlightening. 
-
+Since 2013 I have started to study philosophy of mathematics and science more seriously, motivated by interest in the genealogy of different kinds of abstract mathematics I have been introduced to; different foundations (e.g. set theories vs type theories) and various foundational issues (e.g. predicativity, finite vs infinite, circularity, etc) as well as questions concerning ontological status of mathematical objects and their relations to "empirical" reality prompted me to read people who have thought about these issues before. Here is a list of articles and books I have found edifying and enlightening. 
 
 
 
