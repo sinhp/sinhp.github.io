@@ -8,13 +8,17 @@ redirect_from:
   - /about.html
 ---
 
-I am a research student in foundation of mathematics and theoretical computer science. My main research interests include categorical logic, type theory, topos theory, and more recently higher category theory. Some of these subjects have close connections to fundamental concepts of computer science by either direct applications in computer science, providing proper foundation of discourse or sometimes being inspired by ideas from computer science such as computability. 
+I am currently a research student in foundation of mathematics and theoretical computer science. My main research interests include categorical logic, type theory, topos theory, and more recently higher category theory. I am also interested in questions and issues of foundation such as predicativity, constructivism, and decidability. 
+
+<!--
+Some of these subjects have close connections to fundamental concepts of computer science by either direct applications in computer science, providing proper foundation of discourse or sometimes being inspired by ideas from computer science such as computability. 
+-->
 
 <!--
  a member of <a href="https://www.cs.bham.ac.uk/research/groupings/theory/" target="_blank">Theory of Computation</a> group at University of Birmingham. 
 --> 
  
-With my advisor <a href="https://www.cs.bham.ac.uk/~sjv/" target="_blank">Steve Vickers</a> we have been investigating some 2-categorical aspects of toposes from logical point of view. To know more I invite you to look at my <a href="/research/" target="_blank">research profile.</a>
+With my advisor <a href="https://www.cs.bham.ac.uk/~sjv/" target="_blank">Steve Vickers</a> we have been investigating some of the 2-categorical aspects of toposes from logical point of view. To know more I invite you to look at my <a href="/research/" target="_blank">research profile.</a>
 
 Prior to joining Birmingham I was in Western University in London Ontario where I did my masters in pure mathematics. 
 My advisor was <a href="http://www-home.math.uwo.ca/~mpinson/" target="_blank">Prof. Martin Pinsonnault</a>. I was born in Iran and I have lived in Canada and UK. 	
