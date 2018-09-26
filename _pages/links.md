@@ -76,7 +76,7 @@ e.g.
 
 Since 2013 I have started to study philosophy of mathematics and science more seriously, motivated by interest in the genealogy of different kinds of abstract mathematics I have been introduced to; different foundations (e.g. set theories vs type theories) and various foundational issues (e.g. predicativity, finite vs infinite, circularity, etc) as well as questions concerning ontological status of mathematical objects and their relations to "empirical" reality prompted me to read people who have thought about these issues before. 
 
-Here is a <a href="/phil_math/reading_list" target="_blank"><font color="#998099">list of articles and book</a> which I have found interesting and edifying. 
+Here is a <a href="/phil_math/reading_list" target="_blank"><font color="#998099">list of articles and book</font></a> which I have found interesting and edifying. 
 
 
 
