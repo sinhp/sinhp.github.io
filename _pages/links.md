@@ -72,9 +72,11 @@ e.g.
 
 
 -----------------------------------------------------------------------------------------------
-## <a name="phil-math:reading-list"></a> A reading list of philosophy of mathematic 
+## <a name="phil-math:reading-list"></a> A reading list of philosophy of mathematics 
 
-Since 2013 I have started to study philosophy of mathematics and science more seriously, motivated by interest in the genealogy of different kinds of abstract mathematics I have been introduced to; different foundations (e.g. set theories vs type theories) and various foundational issues (e.g. predicativity, finite vs infinite, circularity, etc) as well as questions concerning ontological status of mathematical objects and their relations to "empirical" reality prompted me to read people who have thought about these issues before. Here is a list of articles and books I have found edifying and enlightening. 
+Since 2013 I have started to study philosophy of mathematics and science more seriously, motivated by interest in the genealogy of different kinds of abstract mathematics I have been introduced to; different foundations (e.g. set theories vs type theories) and various foundational issues (e.g. predicativity, finite vs infinite, circularity, etc) as well as questions concerning ontological status of mathematical objects and their relations to "empirical" reality prompted me to read people who have thought about these issues before. 
+
+Here is a [list of articles and books](files/Phil/phil_math_refs.html) I have found edifying and enlightening. 
 
 
 
@@ -87,11 +89,19 @@ Since 2013 I have started to study philosophy of mathematics and science more se
 
 * [Philosophy Now](https://philosophynow.org/)
 
+* [Talking Politics Podcasts](https://www.talkingpoliticspodcast.com/)
+
+* [Eurozine](https://www.eurozine.com/)
+
 * [All about Hegel on Marxists.org](https://www.marxists.org/reference/archive/hegel/index.htm)
 
 * [Why Nations Fail](http://whynationsfail.com/)
 
+* [The Long Read: The Guardian](https://www.theguardian.com/news/series/the-long-read)
+
 * [Hidden Forces](https://www.hiddenforcespod.com/)
+
+* [Radio Lacan](http://www.radiolacan.com/en/home)
 
 * [SIAS Blog- Architecture](http://blog.sias.gr/)
 
