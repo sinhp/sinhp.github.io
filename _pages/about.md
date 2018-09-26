@@ -20,7 +20,7 @@ Some of these subjects have close connections to fundamental concepts of compute
  
 With my advisor <a href="https://www.cs.bham.ac.uk/~sjv/" target="_blank">Steve Vickers</a> we have been investigating some of the 2-categorical aspects of toposes from logical point of view. To know more I invite you to look at my <a href="/research/" target="_blank">research profile.</a>
 
-Prior to joining Birmingham I was in Western University in London Ontario where I did my masters in pure mathematics. I learnt logic and category theory from [John Bell](https://www.uwo.ca/philosophy/people/bell.html) and differential geometry from <a href="http://www-home.math.uwo.ca/~mpinson/" target="_blank">Prof. Martin Pinsonnault</a>. I was born in Iran and I have lived in Canada and UK. 	
+Prior to joining Birmingham I was in Western University in London Ontario where I did my masters in pure mathematics. I learnt logic and category theory from [John Bell](https://www.uwo.ca/philosophy/people/bell.html) and differential geometry from <a href="http://www-home.math.uwo.ca/~mpinson/" target="_blank">Martin Pinsonnault</a>. I was born in Iran and I have lived in Canada and UK. 	
 
 
 
