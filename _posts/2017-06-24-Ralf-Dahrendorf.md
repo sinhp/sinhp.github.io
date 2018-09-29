@@ -57,7 +57,6 @@ He continues:
 On the same point, here is Habermas's view:
 
 > Academic studies are always written with the reservation that all research is fallible. This role must be clearly separated from the other two roles of a left-wing intellectual – from his involvement in political discussions in the public sphere and from the organization of joint political action. This separation of roles is necessary even if the intellectual attempts to combine all three roles in one person.
-
 >>(Critique and communication: Philosophy's missions - [A conversation with Jürgen Habermas](https://www.eurozine.com/critique-and-communication-philosophys-missions/))
 
 In order to understand how crucial this distinction proves to be it is perhpas insightful to contrast it with its anti-thesis, that is a metaphysical commitment to a totality of of both worlds in which every political programme should be based on a theoretical ground. 
