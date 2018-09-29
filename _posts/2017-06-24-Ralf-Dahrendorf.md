@@ -54,6 +54,10 @@ He continues:
 
 > Sometimes, people have said to me that it must have been wonderful for you to apply your social science to politics. I've never seen it that way, never. In politics you have to win the votes, and you have to get things done, and that is not applying social science. It is totally different world, totally. Similarly, it is not that you actually apply your experience in practical life to your scholarly investigations, although it may make certain differences. So, there are two different worlds, two different time scales and two different sets of constraints. But, one person can be part of both and that is what I tried to do ... You see the real difference is this: in real world you never determine the questions which you have to answer; you do not determine the time scale within which you have to answer them. In the scholarly world, in the best and strictest sense, you define the problems which you have to deal with, and timescales in principle are unlimited although your funds may run out before you actually get anywhere... and these different time-scales make for different rhythm of life, and modes of thinking. And I for a long time would resist the notion of one informing the other in any direct way. I think they inform each other through the experience of the person.             
 
+On the same point, here is Habermas's view:
+
+> Academic studies are always written with the reservation that all research is fallible. This role must be clearly separated from the other two roles of a left-wing intellectual – from his involvement in political discussions in the public sphere and from the organization of joint political action. This separation of roles is necessary even if the intellectual attempts to combine all three roles in one person.
+(Critique and communication: Philosophy's missions - A conversation with Jürgen Habermas)
 
 In order to understand how crucial this distinction proves to be it is perhpas insightful to contrast it with its anti-thesis, that is a metaphysical commitment to a totality of of both worlds in which every political programme should be based on a theoretical ground. 
 
