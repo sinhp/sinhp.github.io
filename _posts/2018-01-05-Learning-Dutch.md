@@ -38,6 +38,7 @@ I also recommend to have [Wolters Woordenboek](https://www.boekwinkeltjes.nl/s/?
 
 * **Dutch vocabulary: basic words** 
   * [OCR basic vocabulary list](http://www.ocr.org.uk/Images/74540-alphabetical-vocabulary-list-for-2013-papers.pdf)
+    ** [Flash cards (nouns)](https://tiny.cards/decks/Hd6jJYP7/ocr-woorden) 
   * [1000 most common words in Dutch](https://www.youtube.com/watch?v=k7t5HDxchqQ&list=PLUOa-qvvZolDeAYFOPqHRC9w8Nnx5cTcJ)
 
 * **Duolingo**: Well, you've probably heard of it already. Duo's Dutch lessons are well-prepared and they are great for absolute beginners. Remember that in addition to exercise lessons on your phone app, there are concise grammar tips for every lesson which are accessible via Duolingo website. Here is an exmaple from the first lesson:     
