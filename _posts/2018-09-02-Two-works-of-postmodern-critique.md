@@ -1,4 +1,5 @@
 --- 
+layout: single
 title: 'Two works of postmodern critique' 
 date: 2018-09-02
 comments: true
