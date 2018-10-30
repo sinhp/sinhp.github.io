@@ -17,7 +17,7 @@ excerpt: "If you already speak English then Dutch is one of easier languages you
 thumbnail: Rembrandt-StoneBridge.jpg
 ---
 
-<link rel="stylesheet" href="tufte.css"/>
+
 
 {% include image.html url="/images/posts/Jan18/Rembrandt-StoneBridge.jpg" description="Landscape<sup>1</sup> with a Stone Bridge, Rembrandt van Rijn, c. 1638" link="https://www.rijksmuseum.nl/en/collection/SK-A-1935" %}
 
