@@ -1,4 +1,5 @@
---- 
+---
+layout: single 
 title: 'How to read Peter Sloterdijk?' 
 date: 2018-08-14
 comments: true

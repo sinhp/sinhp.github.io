@@ -1,4 +1,5 @@
 ---
+layout: single
 title: "Reflections on mathematical understanding and categorical structuralism"
 author: Sina Hazratpour
 permalink: /posts/2018/04/reflections-on-mathematical-understanding-and-categorical-structuralism

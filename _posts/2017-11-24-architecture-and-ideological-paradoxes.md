@@ -1,4 +1,5 @@
 --- 
+layout: single
 title: 'Architecture And Ideological Paradoxes' 
 date: 2017-11-24
 tags:

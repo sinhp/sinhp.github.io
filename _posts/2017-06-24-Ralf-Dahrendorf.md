@@ -1,4 +1,5 @@
 ---
+layout: single
 title: 'Who Was Ralf Dahrendorf?' 
 date: 2017-06-24
 comments: true

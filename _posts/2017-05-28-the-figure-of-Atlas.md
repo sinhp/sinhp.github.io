@@ -1,5 +1,5 @@
 ---
-layout: tufte
+layout: single
 title: 'The Figure of Atlas'
 date: 2017-05-28
 comments: true
