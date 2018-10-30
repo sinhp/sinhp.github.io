@@ -104,7 +104,8 @@ If that is too much for you, just buy a pack of [Het Spreekwoorden spel](https:/
 
 
 * **Mathematics in Dutch**: Here is a list of mathematics (wiskunde) in Dutch. 
- * [BASISBOEK WISKUNDE](https://staff.fnwi.uva.nl/j.vandecraats/BasisboekWiskunde2HP.pdf): an open-ended online book by Jan van de Craats en Rob Bosch
+ * [BASISBOEK WISKUNDE](https://staff.fnwi.uva.nl/j.vandecraats/BasisboekWiskunde2HP.pdf): an open-ended online book by Jan van de Craats en Rob Bosch. 
+   + [wiskunde-woorden: flash cards](https://tiny.cards/decks/HdGzmwME/wiskunde-woorden-i) 
 
 
 -------------------------------------------------------
