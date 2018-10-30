@@ -1,4 +1,5 @@
 ---
+layout: single
 title: 'Learning Dutch'
 date: 2018-01-05
 comments: true
