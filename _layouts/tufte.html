@@ -23,14 +23,11 @@ layout: compress
 
 
     {{content}}
-
-
     </script>
 
     
-
   
-    {% if page.header.overlay_color or page.header.overlay_image or page.header.image %}
+{% if page.header.overlay_color or page.header.overlay_image or page.header.image %}
   {% include page__hero.html %}
 {% endif %}
 
@@ -46,11 +43,25 @@ layout: compress
 
  -->
   
+<div id="main" role="main">
+  {% include sidebar.html %}
+
+  <div class="tufte">
+    {% unless page.header.overlay_color or page.header.overlay_image %}
+      <h1 class="page__title">{{ page.title }}</h1>
+    {% endunless %}
+    {{ content }}
+  </div>
+</div>
+
+<!--
   <article class="page" itemscope itemtype="http://schema.org/CreativeWork">
     {% if page.title %}<meta itemprop="headline" content="{{ page.title | markdownify | strip_html | strip_newlines | escape_once }}">{% endif %}
     {% if page.excerpt %}<meta itemprop="description" content="{{ page.excerpt | markdownify | strip_html | strip_newlines | escape_once }}">{% endif %}
     {% if page.date %}<meta itemprop="datePublished" content="{{ page.date | date: "%B %d, %Y" }}">{% endif %}
     {% if page.modified %}<meta itemprop="dateModified" content="{{ page.modified | date: "%B %d, %Y" }}">{% endif %}
+
+
 
     <div class="page__inner-wrap">
       {% unless page.header.overlay_color or page.header.overlay_image %}
@@ -103,6 +114,8 @@ layout: compress
     {% endif %}
   </article>
 
+-->
+
   <div class="page__footer">
       <footer>
         {% include footer/custom.html %}
@@ -127,6 +140,26 @@ layout: compress
   {% endif %}
 </div>
  
+<!-- Default Statcounter code for Github page
+https://sinhp.github.io/ -->
+<script type="text/javascript">
+var sc_project=11670804; 
+var sc_invisible=0; 
+var sc_security="f1158054"; 
+var scJsHost = (("https:" == document.location.protocol) ?
+"https://secure." : "http://www.");
+document.write("<sc"+"ript type='text/javascript' src='" +
+scJsHost+
+"statcounter.com/counter/counter.js'></"+"script>");
+</script>
+<noscript><div class="statcounter"><a title="Web Analytics
+Made Easy - StatCounter" href="http://statcounter.com/"
+target="_blank"><img class="statcounter"
+src="//c.statcounter.com/11670804/0/f1158054/0/" alt="Web
+Analytics Made Easy - StatCounter"></a></div></noscript>
+<!-- End of Statcounter Code -->
+
+
   </body>
 </html>
 
