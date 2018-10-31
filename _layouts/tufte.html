@@ -7,13 +7,13 @@ layout: compress
 <!doctype html>
 <html lang="{{ site.locale | slice: 0,2 }}" class="no-js">
   <head>
+    {% include head-tufte.html %}
     {% include head/custom.html %}
     {% include browser-upgrade.html %}
     {% include scripts.html %}
     {% if page.use_math %}
       {% include mathjax_support %}
     {% endif %} 
-    {% include head-tufte.html %}
   </head>
 
 
@@ -68,7 +68,7 @@ layout: compress
         </header>
       {% endunless %}
       
-      </script>
+    
 
       <section class="page__content" itemprop="text">
         {{ content }}
@@ -76,7 +76,6 @@ layout: compress
       </section>
 
       
-      <!--
       <footer class="page__meta">
         {% if site.data.ui-text[site.locale].meta_label %}
           <h4 class="page__meta-title">{{ site.data.ui-text[site.locale].meta_label }}</h4>
@@ -86,7 +85,7 @@ layout: compress
 
       {% if page.share %}{% include social-share.html %}{% endif %}
       {% include post_pagination.html %}
-      -->
+      
       
     </div>
 
@@ -95,16 +94,15 @@ layout: compress
     {% endif %}
   </article>
 
- <!-- 
+ 
 
   <div class="page__footer">
       <footer>
         {% include footer/custom.html %}
-        {% include footer.html %}
       </footer>
   </div>
   
- -->
+
 
 
   {% comment %}<!-- only show related on a post page when not disabled -->{% endcomment %}
@@ -130,25 +128,6 @@ layout: compress
 
    
 
-
-<!-- Default Statcounter code for Github page
-https://sinhp.github.io/ -->
-<script type="text/javascript">
-var sc_project=11670804; 
-var sc_invisible=0; 
-var sc_security="f1158054"; 
-var scJsHost = (("https:" == document.location.protocol) ?
-"https://secure." : "http://www.");
-document.write("<sc"+"ript type='text/javascript' src='" +
-scJsHost+
-"statcounter.com/counter/counter.js'></"+"script>");
-</script>
-<noscript><div class="statcounter"><a title="Web Analytics
-Made Easy - StatCounter" href="http://statcounter.com/"
-target="_blank"><img class="statcounter"
-src="//c.statcounter.com/11670804/0/f1158054/0/" alt="Web
-Analytics Made Easy - StatCounter"></a></div></noscript>
-<!-- End of Statcounter Code -->
 
 
   </body>
