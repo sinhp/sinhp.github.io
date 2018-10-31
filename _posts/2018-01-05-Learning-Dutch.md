@@ -18,7 +18,7 @@ excerpt: "If you already speak English then Dutch is one of easier languages you
 thumbnail: Rembrandt-StoneBridge.jpg
 ---
 
-For the reader view format see <a href="/posts_tufte/Learning-Dutch.html" style="color:#b37399">here</a>.
+For the reader view format see <a href="/posts_tufte/2018/01/Learning-Dutch/" style="color:#b37399">here</a>.
 
 {% include image.html url="/images/posts/Jan18/Rembrandt-StoneBridge.jpg" description="Landscape<sup>1</sup> with a Stone Bridge, Rembrandt van Rijn, c. 1638" link="https://www.rijksmuseum.nl/en/collection/SK-A-1935" %}
 
