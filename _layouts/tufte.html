@@ -81,11 +81,6 @@ layout: compress
         {% endif %}
         {% include page__taxonomy.html %}
       </footer>
-
-      {% if page.share %}{% include social-share.html %}{% endif %}
-      {% include post_pagination.html %}
-      
-      
     </div>
     
     
@@ -98,6 +93,8 @@ layout: compress
   <div class="page__footer">
       <footer>
         <a href="/blog/"><h3><u>Back to the blog</u><h3></a>
+        {% if page.share %}{% include social-share.html %}{% endif %}
+      {% include post_pagination.html %}
       </footer>
   </div>  
 
