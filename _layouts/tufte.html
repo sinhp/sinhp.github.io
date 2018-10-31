@@ -21,10 +21,6 @@ layout: compress
     {% include browser-upgrade.html %}
     {% include masthead.html %}
 
-
-    {{content}}
-    </script>
-
     
   
 {% if page.header.overlay_color or page.header.overlay_image or page.header.image %}
@@ -121,9 +117,11 @@ layout: compress
         {% include footer/custom.html %}
         {% include footer.html %}
       </footer>
-    </div>
-   
+  </div>
+  
+  
   {% include scripts.html %} 
+  
 
   {% comment %}<!-- only show related on a post page when not disabled -->{% endcomment %}
   {% if page.id and page.related and site.related_posts.size > 0 %}
