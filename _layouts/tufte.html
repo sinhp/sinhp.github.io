@@ -9,6 +9,9 @@ layout: compress
   <head>
     {% include head-tufte.html %}
     {% include head/custom.html %}
+    {% include browser-upgrade.html %}
+    {% include masthead.html %}
+    {% include scripts.html %}
     {% if page.use_math %}
       {% include mathjax_support %}
     {% endif %} 
@@ -16,13 +19,7 @@ layout: compress
 
 
 
-  <body>
-
-    {% include browser-upgrade.html %}
-    {% include masthead.html %}
-    {% include scripts.html %}
-    
-  
+  <body>  
 {% if page.header.overlay_color or page.header.overlay_image or page.header.image %}
   {% include page__hero.html %}
 {% endif %}
@@ -33,8 +30,6 @@ layout: compress
   {% endunless %}
 {% endif %}
 
-
-  
 <div id="main" role="main">
   {% include sidebar.html %}
 
@@ -98,12 +93,14 @@ layout: compress
     {% endif %}
   </article>
 
+</script>
+
   <div class="page__footer">
       <footer>
         {% include footer/custom.html %}
         {% include footer.html %}
       </footer>
-</div>
+  </div>
   
   {% comment %}<!-- only show related on a post page when not disabled -->{% endcomment %}
   {% if page.id and page.related and site.related_posts.size > 0 %}
@@ -118,6 +115,8 @@ layout: compress
       </div>
     </div>
   {% endif %}
+
+
 </div>
  
 
