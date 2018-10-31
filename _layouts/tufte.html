@@ -7,10 +7,7 @@ layout: compress
 <!doctype html>
 <html lang="{{ site.locale | slice: 0,2 }}" class="no-js">
   <head>
-    <link rel="stylesheet" href="{{ base_path }}/assets/css/tufte.css">
-    <link rel="stylesheet" href="{{ base_path }}/assets/css/latex.css">
-
-    {% include head.html %}
+    {% include head-tufte.html %}
     {% include head/custom.html %}
     {% if page.use_math %}
       {% include mathjax_support %}
