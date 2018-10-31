@@ -92,9 +92,9 @@ layout: compress
  
   <div class="page__footer">
       <footer>
-        <a href="/blog/"><h3><u>Back to the blog</u><h3></a>
-        {% if page.share %}{% include social-share.html %}{% endif %}
-      {% include post_pagination.html %}
+       {% if page.share %}{% include social-share.html %}{% endif %}
+       {% include post_pagination.html %} 
+      <a href="/blog/"><h3><u>Back to the blog</u><h3></a>
       </footer>
   </div>  
 
