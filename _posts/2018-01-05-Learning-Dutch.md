@@ -14,7 +14,7 @@ tags:
   - Donald Duck
 permalink: /posts/2018/01/Learning-Dutch/  
 comments: true
-excerpt: "If you already speak English then Dutch is one of easier languages you can begin to learn. But, where to start? For an easy-reading style see [here](/pages/post_tufte/2018-01-05-Learning-Dutch/)."
+excerpt: "If you already speak English then Dutch is one of easier languages you can begin to learn. But, where to start? For the reader view format see <a href="/pages/post_tufte/Learning-Dutch.html" style="color:#b37399">here</a>."
 thumbnail: Rembrandt-StoneBridge.jpg
 ---
 
