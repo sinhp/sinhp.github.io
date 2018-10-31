@@ -8,7 +8,9 @@ layout: compress
 <html lang="{{ site.locale | slice: 0,2 }}" class="no-js">
   <head>
     <link rel="stylesheet" href="{{ base_path }}/assets/css/tufte.css">
-    {% include head-tufte.html %}
+    <link rel="stylesheet" href="{{ base_path }}/assets/css/latex.css">
+
+    {% include head.html %}
     {% include head/custom.html %}
     {% if page.use_math %}
       {% include mathjax_support %}
@@ -16,9 +18,6 @@ layout: compress
   </head>
 
   <body>
-
-
-    
 
 
     {% include scripts.html %}
