@@ -14,10 +14,20 @@ layout: compress
     {% endif %} 
   </head>
 
+
+
   <body>
 
+    {% include browser-upgrade.html %}
+    {% include masthead.html %}
 
-    {% include scripts.html %}
+
+    {{content}}
+
+
+    </script>
+
+    
   
     {% if page.header.overlay_color or page.header.overlay_image or page.header.image %}
   {% include page__hero.html %}
@@ -95,6 +105,8 @@ layout: compress
         {% include footer.html %}
       </footer>
     </div>
+   
+  {% include scripts.html %} 
 
   {% comment %}<!-- only show related on a post page when not disabled -->{% endcomment %}
   {% if page.id and page.related and site.related_posts.size > 0 %}
@@ -110,13 +122,6 @@ layout: compress
     </div>
   {% endif %}
 </div>
-
-{% include browser-upgrade.html %}
-    {% include masthead.html %}
-
-<!--
-    {{content}}
--->
  
   </body>
 </html>
