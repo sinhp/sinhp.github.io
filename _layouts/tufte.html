@@ -8,6 +8,7 @@ layout: compress
 <html lang="{{ site.locale | slice: 0,2 }}" class="no-js">
   <head>
     {% include head-tufte.html %}
+    {% include head/custom.html %}
     {% if page.use_math %}
       {% include mathjax_support %}
     {% endif %} 
@@ -16,6 +17,8 @@ layout: compress
 
 
   <body>  
+  {% include browser-upgrade.html %}
+    
 {% if page.header.overlay_color or page.header.overlay_image or page.header.image %}
   {% include page__hero.html %}
 {% endif %}
@@ -85,7 +88,8 @@ layout: compress
       
       
     </div>
-
+    
+    {% include scripts.html %} 
     {% if site.comments.provider and page.comments %}
       {% include comments.html %}
     {% endif %}
