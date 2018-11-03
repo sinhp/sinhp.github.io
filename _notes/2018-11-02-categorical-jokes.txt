@@ -4,10 +4,10 @@ author: Sina Hazratpour
 excerpt: ""
 category: research notes
 tags: topos, points, sup-topology, atoms, ultrafilter
-permalink: /scribbling/03-11-2018-categorical-jokes
+permalink: /scribbling/2018-11-02-categorical-jokes
 collection: notes
 type: "scribbling"
-date: 03-11-2018
+date: 2018-11-02
 use_math: true
 location: "Amsterdam, NL"
 ---
