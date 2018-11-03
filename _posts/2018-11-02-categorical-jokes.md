@@ -1,4 +1,5 @@
 ---
+layout: tufte
 title: "Categorical jokes, tidbits, and factoids"
 author: Sina Hazratpour
 excerpt: "To be vastly improved ..."
