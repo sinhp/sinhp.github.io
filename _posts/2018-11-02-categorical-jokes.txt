@@ -1,10 +1,10 @@
 ---
 title: "Categorical jokes, tidbits, and factoids"
 author: Sina Hazratpour
-excerpt: ""
+excerpt: "To be vastly improved ..."
 category: research notes
-tags: topos, points, sup-topology, atoms, ultrafilter
-permalink: /scribbling/2018-11-02-categorical-jokes
+tags:
+permalink: /posts/2018/11/categorical-jokes
 collection: notes
 type: "scribbling"
 date: 2018-11-02
@@ -16,7 +16,6 @@ location: "Amsterdam, NL"
 
 
 First, make sure you check an amusing list of [mathematical short stories](https://www.matem.unam.mx/~omar/notes/index.html) and [Things I was surprised to learn are false](https://www.matem.unam.mx/~omar/notes/surprises.html) on Camarena' web page. 
-
 
 
 
