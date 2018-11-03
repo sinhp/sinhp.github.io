@@ -25,10 +25,12 @@ $$
 \newcommand{\yon}{\mathcal{Y}}
 \newcommand{\topos}{\mathfrak{Top}}
 \newcommand{\bTopos}{\mathfrak{BTop}}
+\newcommand{\BTop}{\mathfrak{BTop}}
 \newcommand{\con}{\mathfrak{Con}}
 \newcommand{\pos}{\mathfrak{Poset}}
 \newcommand{\topl}{\mathbb{Top}} 
 \newcommand{\grpd}{\mathbb{Grpd}}
+\newcommand{\ab}{\mathbf{Ab}}
 \newcommand{\thT}{\mathbb{T}}   
 \newcommand{\mod}{\mathbf{Mod}}
 \newcommand{\th}{\mathbf{Th}}
