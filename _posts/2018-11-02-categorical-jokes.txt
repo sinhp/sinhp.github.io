@@ -5,8 +5,7 @@ excerpt: "To be vastly improved ..."
 category: research notes
 tags:
 permalink: /posts/2018/11/categorical-jokes
-collection: notes
-type: "scribbling"
+collection: posts
 date: 2018-11-02
 use_math: true
 location: "Amsterdam, NL"
