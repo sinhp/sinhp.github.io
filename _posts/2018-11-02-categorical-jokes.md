@@ -56,12 +56,17 @@ First, make sure you check an amusing list of [mathematical short stories](https
 
 While attending the school and conference "toposes in Como", we had several hikes, usually late at night, with Ingo, Mathias, Stuart, Alexander, and few others. In one of these nights, while coming back from our hike, at 3:00 AM, we started a little joke of recalling technical mathematical terms based on their first letter. We noticed the terms beginning with "s" occuring disproportionally more than the others. Ingo did a great effort of listing them in an email a month later. In his email to the group he wrote 
 
-> below is a list of technical terms in category theory and adjacent
+<blockquote cite="http://www.edwardtufte.com/bboard/q-and-a-fetch-msg?msg_id=0000hB">
+          <p> below is a list of technical terms in category theory and adjacent
 subjects which begin with the letter "s". Extracted from the contents of
 the nLab, roughly in descending order of number of occurrences on the
 nLab, cut at some arbitrary point. Some entries are debatable. I omitted
 the deluge of terms of the form "super" + X, where X is a random word. :-)
+ </p>
+          <footer></footer>
+        </blockquote>
 
+ 
 
 >space
 structure
