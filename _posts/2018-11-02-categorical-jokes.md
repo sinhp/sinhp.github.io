@@ -51,6 +51,9 @@ First, make sure you check an amusing list of [mathematical short stories](https
   * (improvement by J. ADAMEK. H. HERRLICH, AND J. REITERMAN) Any cocomplete weakly co-wellpowered category with a weakly colimit-dense small subcategory is complete.
 
 
+* Any slice of a presheaf topos is a presheaf topos and any slice of a sheaf topos is a sheaf topos. 
+
+
 
 ### Mathematical terms beginning with "s": 
 
