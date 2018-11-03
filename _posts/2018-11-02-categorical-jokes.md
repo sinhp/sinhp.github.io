@@ -48,8 +48,7 @@ First, make sure you check an amusing list of [mathematical short stories](https
 * A category is equivalent to a small category if and only if both it and its presheaf category are locally small. ([On the Size of Categories, Peter Freyd and Ross Street, TAC 1995](http://www.tac.mta.ca/tac/volumes/1995/n9/1-09abs.html))
 
 * A small category with all (small) limits is equivalent to a complete (and hence cocomplete) lattice. 
-
- ** (improvement by J. ADAMEK. H. HERRLICH, AND J. REITERMAN) Any cocomplete weakly co-wellpowered category with a weakly colimit-dense small subcategory is complete.
+ + (improvement by J. ADAMEK. H. HERRLICH, AND J. REITERMAN) Any cocomplete weakly co-wellpowered category with a weakly colimit-dense small subcategory is complete.
 
 
 
