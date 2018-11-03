@@ -3,7 +3,6 @@ layout: tufte
 title: "Categorical jokes, tidbits, and factoids"
 author: Sina Hazratpour
 excerpt: "To be vastly improved ..."
-category: research notes
 tags:
 permalink: /posts/2018/11/categorical-jokes
 date: 2018-11-02
