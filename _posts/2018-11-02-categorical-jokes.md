@@ -14,6 +14,7 @@ location: "Amsterdam, NL"
 {% include macro %}
 
 
+
 First, make sure you check an amusing list of [mathematical short stories](https://www.matem.unam.mx/~omar/notes/index.html) and [Things I was surprised to learn are false](https://www.matem.unam.mx/~omar/notes/surprises.html) on Camarena' web page. 
 
 
@@ -48,7 +49,7 @@ First, make sure you check an amusing list of [mathematical short stories](https
 
 * A small category with all (small) limits is equivalent to a complete (and hence cocomplete) lattice. 
 
-** (improvement by J. ADAMEK. H. HERRLICH, AND J. REITERMAN) Any cocomplete weakly co-wellpowered category with a weakly colimit-dense small subcategory is complete.
+ ** (improvement by J. ADAMEK. H. HERRLICH, AND J. REITERMAN) Any cocomplete weakly co-wellpowered category with a weakly colimit-dense small subcategory is complete.
 
 
 
