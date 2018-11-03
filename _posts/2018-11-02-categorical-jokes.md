@@ -24,6 +24,8 @@ First, make sure you check an amusing list of [mathematical short stories](https
 
 * A monoid is a category with one object and a group is a groupoid with one object. 
 
+* Shall we call categories _monoidoids_? 
+
 * A category is an interanl monad in the bicategory $Span(\Set)$. 
 
 * A ring is an $Ab$-enriched category with one object. 
