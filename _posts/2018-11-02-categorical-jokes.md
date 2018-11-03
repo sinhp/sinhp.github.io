@@ -14,7 +14,7 @@ location: "Amsterdam, NL"
 
 
 
-First, make sure you check an amusing list of [mathematical short stories](https://www.matem.unam.mx/~omar/notes/index.html) and [Things I was surprised to learn are false](https://www.matem.unam.mx/~omar/notes/surprises.html) on Camarena' web page. 
+First, make sure you check out this amusing list of [mathematical short stories](https://www.matem.unam.mx/~omar/notes/index.html) and [things I was surprised to learn are false](https://www.matem.unam.mx/~omar/notes/surprises.html) on Camarena' web page. 
 
 
 
