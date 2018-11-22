@@ -1,8 +1,4 @@
 $$
-\usepackage{tikz}
-\usepackage{tikz-cd}
-\usetikzlibrary{calc}
-\usepackage[color,matrix,arrow]{xy}
 \newcommand{\rv}[1]{\mathbf{#1}} 
 \newcommand{\x}{\rv x} 
 \newcommand{\y}{\rv y} 
