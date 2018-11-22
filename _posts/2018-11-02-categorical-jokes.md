@@ -32,12 +32,12 @@ First, make sure you check out this amusing list of [mathematical short stories]
 
 * A (right) module $M$ over a ring $R$ is an $Ab$-enriched functor $M\maps *_R \to Ab$.
 
-\[
+\begin{equation}
 \begin{tikzcd}[row sep=3em]
 A \arrow{rr}{F} \arrow[""{name=foo}]{dr}[swap]{G}  && B  \\
 & E
 \end{tikzcd}
-\]
+\end{equation}
 
 
 ## Factoids
