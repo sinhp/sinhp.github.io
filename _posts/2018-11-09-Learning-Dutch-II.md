@@ -1,5 +1,5 @@
 ---
-layout: 
+layout: tufte
 title: "Learning Dutch II"
 author: Sina Hazratpour
 excerpt: "including great additional resources"
@@ -12,7 +12,7 @@ location: "Amsterdam, NL"
 
 
 
-I am totally intrigued by the amusing book [Atlas van de Nederlandse taal](https://www.atlasvandenederlandsetaal.com/). It is saturated by very useful and interesting facts and data about the etymology of Dutch words. It compares many different Dutch dialects such as Vries and Vlaams and deformations like Afrikaans. The design[https://issuu.com/uitgeverij-lannoo/docs/9789401432924/6?ff&e=5501914/48488128], [infographics](https://issuu.com/uitgeverij-lannoo/docs/9789401442053/1?ff&e=5501914/48488122), illustrations and quotes are very apt and fascinating. <q>Het Nederlands in feiten en cijfers</q> is the best short description for this atlas.   
+I am totally intrigued by the amusing book [Atlas van de Nederlandse taal](https://www.atlasvandenederlandsetaal.com/). It is saturated by very useful and interesting facts and data about the etymology of Dutch words. It compares many different Dutch dialects such as Vries and Vlaams and deformations like Afrikaans. The [design](https://issuu.com/uitgeverij-lannoo/docs/9789401432924/6?ff&e=5501914/48488128), [infographics](https://issuu.com/uitgeverij-lannoo/docs/9789401442053/1?ff&e=5501914/48488122), illustrations, and quotes are very apt and fascinating. <q>Het Nederlands in feiten en cijfers</q> is the best short description for this atlas.   
 
 
 Some of the questions the book starts with are: 
