@@ -24,13 +24,15 @@ Some of the questions the book starts with are:
  * Waarom ergeren veel mensen zich daaraan?
  * Hoe ontstaan nieuwe woorden?
  * Mag je je kind eigenlijk noemen zoals je wilt? Enzovoort.
- <label for="sn-Alledaagse-taalvragen" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-Alledaagse-taalvragen" class="margin-toggle"/><span class="sidenote"> * Where in the world do people speak Dutch?
-   * What does my family name mean?
-   * How many dialects do exist?
-   * Why are we so annoyed by DT errors?
-   * Why are many people annoyed by this?
-   * How do new words arise?
-   * Can you call your child as you wish?.</span>
+ <label for="sn-Alledaagse-taalvragen" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-Alledaagse-taalvragen" class="margin-toggle"/><span class="sidenote"> 
+   + Where in the world do people speak Dutch?
+   + What does my family name mean?
+   + How many dialects do exist?
+   + Why are we so annoyed by DT errors?
+   + Why are many people annoyed by this?
+   + How do new words arise?
+   + Can you call your child as you wish?
+</span>
 
  
 
