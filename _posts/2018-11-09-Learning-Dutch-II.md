@@ -1,5 +1,5 @@
 ---
-layout: tufte
+layout: 
 title: "Learning Dutch II"
 author: Sina Hazratpour
 excerpt: "including great additional resources"
