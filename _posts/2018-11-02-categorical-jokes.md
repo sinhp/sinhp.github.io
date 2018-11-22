@@ -57,7 +57,7 @@ First, make sure you check out this amusing list of [mathematical short stories]
 
 ### Mathematical terms beginning with "s": 
 
-While attending the school and conference "toposes in Como", we had several hikes, usually late at night, with Ingo, Mathias, Stuart, Alexander, and few others. In one of these nights, while coming back from our hike, at 3:00 AM, we started a little joke of recalling technical mathematical terms based on their first letter. We noticed the terms beginning with "s" occuring disproportionally more than the others. Ingo did a great effort of listing them in an email a month later. In his email to the group he wrote 
+While attending the school and conference "toposes in Como", we had several hikes, usually late at night, with [Ingo](https://www.ingo-blechschmidt.eu/), Mathias, Stuart, Alexander, and few others. In one of these nights, while coming back from our hike, at 3:00 AM, we started a little joke of recalling technical mathematical terms based on their first letter. We noticed the terms beginning with "s" occuring disproportionally more than the others. Ingo did a great effort of listing them in an email a month later. In his email to the group he wrote 
 
 >_below is a list of technical terms in category theory and adjacent
 subjects which begin with the letter "s". Extracted from the contents of
