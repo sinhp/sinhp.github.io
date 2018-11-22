@@ -32,7 +32,7 @@ First, make sure you check out this amusing list of [mathematical short stories]
 
 * A (right) module $M$ over a ring $R$ is an $Ab$-enriched functor $M\maps *_R \to Ab$.
 
-<a href="http://presheaf.com/?d=dq506j23315z2y5o4p63d306h55593u"><img src="http://presheaf.com/cache/dq506j23315z2y5o4p63d306h55593u.png" title="click to go to presheaf.com for editing"/></a>
+
 
 
 ## Factoids
