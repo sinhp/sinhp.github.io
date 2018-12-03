@@ -14,24 +14,24 @@ location: "Utrecht, NL"
 
 ## Everyday Dutch expressions you need to learn
 
-+ Group A
- ++ Echt lekker!
+* Group A
+ ** Echt lekker!
    _Really tasty!_ 
- ++ Slaap lekker/Weltrusten 
+ ** Slaap lekker/Weltrusten 
   _sleep well_. 
- ++ Eet smakelijk/Smakelijk eten
+ ** Eet smakelijk/Smakelijk eten
   _Enjoy eating_ 
- ++ Wat een lekker weertje! 
+ ** Wat een lekker weertje! 
   _Such nice weather_ 
- ++ Veel plezier! 
+ ** Veel plezier! 
   _Enjoy yourself_
- ++ Goede reis! 
+ ** Goede reis! 
   _Have a good trip_
- ++ Wat spannend! 
+ ** Wat spannend! 
   _How exciting!_ 
- ++ Vet gaaf!/Wat leuk! 
+ ** Vet gaaf!/Wat leuk! 
   _Awesome!_   
- ++ Goed zo! 
+ ** Goed zo! 
   _Good job!_
 
 * Group B 
