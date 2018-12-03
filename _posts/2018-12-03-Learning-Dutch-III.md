@@ -15,33 +15,24 @@ location: "Utrecht, NL"
 ## Everyday Dutch expressions you need to learn
 
 * Group A
-  ** Echt lekker!
-     _Really tasty!_ 
-  ** Slaap lekker/Weltrusten 
-     _sleep well_. 
-  ** Eet smakelijk/Smakelijk eten
-     _Enjoy eating_ 
-  ** Wat een lekker weertje! 
-     _Such nice weather_ 
-  ** Veel plezier! 
-     _Enjoy yourself_
-  ** Goede reis! 
-     _Have a good trip_
-  ** Wat spannend! 
-     _How exciting!_ 
-  ** Vet gaaf!/Wat leuk! 
-     _Awesome!_   
-  ** Goed zo! 
-     _Good job!_
+    * Echt lekker!  _Really tasty!_ 
+    * Slaap lekker/Weltrusten  _sleep well_. 
+    * Eet smakelijk/Smakelijk eten _Enjoy eating_ 
+    * Wat een lekker weertje! _Such nice weather_ 
+    * Veel plezier!  _Enjoy yourself_
+    * Goede reis!  _Have a good trip_
+    * Wat spannend!  _How exciting!_ 
+    * Vet gaaf!/Wat leuk!  _Awesome!_   
+    * Goed zo!  _Good job!_
 
 * Group B 
- + Wat jammer! _What a shame!_
- + Ik vind het erg/heel jammer voor je! _I'm very sorry for you!_
- + Wat vreemd/ wat raar _How weird!_
- + Goddank! _Thank God/ Thank goodness!_
- + Lieve hemel! _Good heavens!_
- + Oh jee! _oh dear!_
- + In's hemelsnaam! _For goodness' sake_
+    + Wat jammer! _What a shame!_
+    + Ik vind het erg/heel jammer voor je! _I'm very sorry for you!_
+    + Wat vreemd/ wat raar _How weird!_
+    + Goddank! _Thank God/ Thank goodness!_
+    + Lieve hemel! _Good heavens!_
+    + Oh jee! _oh dear!_
+    + In's hemelsnaam! _For goodness' sake_
  
 * Group C
  + Pas op!/Let op!/ Kijk uit! _Watch out!_
