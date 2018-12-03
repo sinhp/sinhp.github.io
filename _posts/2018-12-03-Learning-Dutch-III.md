@@ -64,9 +64,9 @@ location: "Utrecht, NL"
     + Dat kan.  _That can be done._
     + Het/Dat hoeft niet.  _It's not needed._
     + In geen geval  _By no means_
-    + In ieder geval  _In any case ... _
+    + In ieder geval  _In any case ..._
     + Voor het geval dat ...  _Just in case that ..._
-    + Dat betekent.  _That's a big deal._
+    + Dat betekent veel.  _That's a big deal._
     + Het stelt niet veel voor.  _It is not a big deal._
     + Wat maakt het uit?  _What's the big deal?_
     + Afgesproken/Akkoord!  _It's a deal!_
