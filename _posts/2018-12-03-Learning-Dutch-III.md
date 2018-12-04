@@ -15,8 +15,7 @@ location: "Utrecht, NL"
 ## Everyday Dutch expressions you need to learn
 
 * Group A
-    * Echt lekker!<label for="sn-lekker" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-lekker" class="margin-toggle"/><span class="sidenote">The word <q>lekker</q> does not have a unique English equivalence. It is used in many contexts, and accordingly can be translated into <q>nice (wat ruikt die bloem lekker) , tasty (lekkere koffie, lekkere schotel/hapje, lekker koken), pleasing (een lekker bad, 't is lekker weer.), pretty (lekker meisje/jongen), luscious, snug (in this sense <q>gezellig</q> is more apt to use.), etc. The word is apparently rooted in Middle Dutch lecker, derived from the verb lekken (<q>lick</q>)
-</span>  _Really tasty!_ 
+    * Echt lekker!<label for="sn-lekker" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-lekker" class="margin-toggle"/><span class="sidenote">The word <q>lekker</q> does not have a unique English equivalence. It is used in many contexts, and accordingly can be translated into <q>nice (wat ruikt die bloem lekker) , tasty (lekkere koffie, lekkere schotel/hapje, lekker koken), pleasing (een lekker bad, 't is lekker weer.), pretty (lekker meisje/jongen), luscious, snug (in this sense <q>gezellig</q> is more apt to use.), etc. The word is apparently rooted in Middle Dutch lecker, derived from the verb lekken (<q>lick</q>)</span>  _Really tasty!_ 
     * Slaap lekker/Weltrusten  _sleep well_. 
     * Eet smakelijk/Smakelijk eten _Enjoy eating_ 
     * Wat een lekker weertje! _Such nice weather!_ 
