@@ -24,6 +24,7 @@ location: "Utrecht, NL"
     * Wat spannend!  _How exciting!_ 
     * Vet gaaf!/Wat leuk!  _Awesome!_   
     * Goed zo!  _Good job!_
+    * Gezellig hè?<label for="sn-gezellig" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-gezellig" class="margin-toggle"/><span class="sidenote">If you thought <q>lekker</q> was untranslatable, then wait for <q>gezellig</q>: De meeste voorkomende uitdrukking</span>
 
 * Group B 
     + Wat jammer! _What a shame!_
