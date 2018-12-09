@@ -1,5 +1,5 @@
 ---
-title: "Lifting of monads to Grothendieck topoi"
+title: "Lifting of monads to Grothendieck toposes"
 author: Sina Hazratpour
 permalink: /scribbling/2017-05-22-lifting-of-monads-to-Grothendieck-toposes
 collection: notes

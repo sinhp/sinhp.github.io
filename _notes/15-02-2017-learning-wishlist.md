@@ -1,5 +1,5 @@
 ---
-title: "A Learning Wishlist"
+title: "A learning wishlist"
 author: Sina Hazratpour
 permalink: /scribbling/15-02-2017-learning-wishlist
 collection: notes

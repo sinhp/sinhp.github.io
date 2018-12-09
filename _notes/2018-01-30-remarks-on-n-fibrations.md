@@ -1,5 +1,5 @@
 ---
-title: "some remarks on n-fibraitons"
+title: "Some remarks on n-fibraitons"
 author: Sina Hazratpour
 permalink: /scribbling/2018-01-30-remarks-on-n-fibrations
 collection: notes
