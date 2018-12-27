@@ -25,7 +25,7 @@ comments: true
 Today, on the Kerstdag, I am writing from the beautiful village [Aldtsjerk](https://en.wikipedia.org/wiki/Aldtsjerk) in Friesland. 
 This short article is about an amusing pairing of Beethoven's Egmont Overture with ... well, what you are about to see, came to my way today. 
 
-After the opening title card, a white blur in the center of a black screen resolves to the shape of a chicken egg. We penetrate the shell, and watch, in time-lapse, the 21-day development of a chicken embryo, from a germ spot on the yolk to the emergence of the baby chick, compressed into under eight minutes, set to Beethoven's Egmont Overture. The Short Film uses Beethoven's Egmont Overture 
+After the opening title card, a white blur in the center of a black screen resolves to the shape of a chicken egg. We penetrate the shell, and watch, in time-lapse, the 21-day development of a chicken embryo, from a germ spot on the yolk to the emergence of the baby chick compressed into under eight minutes. The Short Film is set to Beethoven's Egmont Overture 
 <label for="sn-egmont-overture" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-egmont-overture" class="margin-toggle"/><span class="sidenote">Beethoven's Egmont is a set of incidental music pieces for the 1787 play of the same name by Johann Wolfgang von Goethe.</span> as the soundtrack for a series of images, featuring a hatching bird, referencing the rebellious nature of [Egmont's resistance](https://en.wikipedia.org/wiki/Lamoral,_Count_of_Egmont) against King Philip II of the Spain. In Goethe's poetry and Beethoven's music this resistance is a heroic story of a personal sacrifice for planting the seeds of eventual liberation.  
 
 
