@@ -47,6 +47,7 @@ Among other things, it is a humorous and entertaining satire of stereotypes of F
 
 
 -------------------------------------------------------
+<pre class="code">
 More references on writing with style:
  + <em>For writing mathematics</em> 
    - Halmos, <q>How to Write Mathematics</q> 
@@ -57,4 +58,5 @@ More references on writing with style:
  + <em>Writing in general</em>
    - Strunk and White, <q>[The Elements of Style](http://www.jlakes.org/ch/web/The-elements-of-style.pdf)</q>
    - Fowler and Aaron, <q>[The Little Brown Handbook](http://www.pearsoncustom.com/de/instructor/Instructors_manual.pdf)</q>
+</pre>   
 ---------------------------------------------------------
