@@ -50,6 +50,7 @@ Finally, I cannot finish this point without mentioning that during my chasing of
      * Kleiman, <q>Writing a Math Phase Two Paper</q>
      * Krantz, <q>A Primer of Mathematical Writing</q>
      * David Goss <q>[Some Hints on Mathematical Style]({{ site.baseurl }}/files/posts/2018/Hints-on-mathematical-style-Goss.pdf)</q>
+     * Some nice [slides by Dimitri Bertsekas](http://newslab.ece.ohio-state.edu/for%20students/resources/tenrules.pdf)
  * <em>Writing in general</em>
      * Strunk and White, <q>[The Elements of Style](http://www.jlakes.org/ch/web/The-elements-of-style.pdf)</q>
      * Fowler and Aaron, <q>[The Little Brown Handbook](http://www.pearsoncustom.com/de/instructor/Instructors_manual.pdf)</q>   
