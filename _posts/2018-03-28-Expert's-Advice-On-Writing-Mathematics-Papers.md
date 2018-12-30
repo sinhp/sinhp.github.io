@@ -42,9 +42,8 @@ Finally, I cannot finish this point without mentioning that during my chasing of
 
 
 
--------------------------------------------------------
+### More references on writing with style:
 <pre class="code">
-More references on writing with style:
  + <em>For writing mathematics</em> 
    - Halmos, <q>How to Write Mathematics</q> 
    - Knuth, et al, <q>Mathematical Writing</q>
@@ -55,4 +54,3 @@ More references on writing with style:
    - Strunk and White, <q>[The Elements of Style](http://www.jlakes.org/ch/web/The-elements-of-style.pdf)</q>
    - Fowler and Aaron, <q>[The Little Brown Handbook](http://www.pearsoncustom.com/de/instructor/Instructors_manual.pdf)</q>
 </pre>   
----------------------------------------------------------
