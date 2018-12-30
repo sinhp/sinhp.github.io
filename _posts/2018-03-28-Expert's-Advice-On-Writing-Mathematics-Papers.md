@@ -36,11 +36,7 @@ I agree with [Alain Connes](http://noncommutativegeometry.blogspot.co.uk/2007/02
 > My main point is that mathematicians are so "singular", (and behave like fermions as opposed to the physicists who behave like bosons) that making general statements about them often produces something obviously wrong or devoid of any content.
 
 
-Finally, I cannot finish this point without mentioning that during my chasing of various interesting links folks shared here and there, I came across a book by Carl E Linderholm from 1972.
- 
-  **[Mathematics made difficult](https://en.wikipedia.org/wiki/Mathematics_Made_Difficult)**
-
-Among other things, it is a humorous and entertaining satire of stereotypes of French mathematicians, the project of formulating all of mathematics on category-theoretic foundations, and some other pedestrian jokes. Here is a quote that stuck in my mind from it:
+Finally, I cannot finish this point without mentioning that during my chasing of various interesting links folks shared here and there, I came across a book by Carl E Linderholm from 1972. Among other things, <code>[Mathematics made difficult](https://en.wikipedia.org/wiki/Mathematics_Made_Difficult)</code> is a humorous and entertaining satire of stereotypes of French mathematicians, the project of formulating all of mathematics on category-theoretic foundations, and some other pedestrian jokes. Here is a quote that stuck in my mind from it:
 
 > The simpler the things a man gets difficulty out of, the better his mathmanship.
 
