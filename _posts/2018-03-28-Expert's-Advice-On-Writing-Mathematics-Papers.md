@@ -43,7 +43,7 @@ Finally, I cannot finish this point without mentioning that during my chasing of
 
 
 ### More references on writing with style:
-<pre class="code">
+<pre class="sans">
  + <em>For writing mathematics</em> 
    - Halmos, <q>How to Write Mathematics</q> 
    - Knuth, et al, <q>Mathematical Writing</q>
