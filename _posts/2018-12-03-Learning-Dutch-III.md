@@ -50,14 +50,16 @@ We give examples in context and indicate which tones can be associated to a cert
 * Even 
     * <code>Tone:</code> 
       similar to eens. Often it connotes that it should take no time/effort to carry out a command. 
-    * <code>e.g.</code> Geef me even je pen. 
+    * <code>e.g.</code>  
+      Geef me even je pen. 
 
 <q>Even</q> can be combined with others. 
 
 * Eens even 
     * <code>Tone:</code> 
       less burdensome/ softer 
-    * <code>e.g.</code> Ga eens even opzij. (Please move out of the way for a minute.) 
+    * <code>e.g.</code> 
+      Ga eens even opzij. (Please move out of the way for a minute.) 
 
 * Maar even 
     * <code>Tone:</code> 
@@ -67,13 +69,35 @@ We give examples in context and indicate which tones can be associated to a cert
 * Nou even 
     * <code>Tone:</code> 
       Softer impatience  
-    * <code>e.g.</code> Help nou even. 
-    * <code>.e.g.</code> Eet nou even je bord leeg. 
+    * <code>e.g.</code> 
+      Help nou even. 
+    * <code>.e.g.</code> 
+      Eet nou even je bord leeg. 
 
 * Toch even 
     * <code>Tone:</code> 
       softer than <q>toch</q>  
-    * <code>e.g.</code> Help die man toch even. (Give that man a hand, please!)
+    * <code>e.g.</code> 
+      Help die man toch even. (Give that man a hand, please!)
+
+
+<q>Nou</q> combines with <q>maar</q> and <q>toch</q>. 
+
+* Nou maar 
+    * <code>Tone:</code> 
+      more friendlier than <q>maar</q> alone 
+    * <code>e.g.</code> 
+      Ga nou maar. (Alright, you can go.)
+    * <code>e.g.</code> 
+      Doe dat boek nou maar weg. (Please just put that book away.)
+
+* Nou toch
+    * <code>Tone:</code> 
+      more impatience than <q>toch</q> alone 
+    * <code>e.g.</code> 
+      Hou nou toch eens op met zeuren. (Stop nagging around, please.)
+    * <code>e.g.</code> 
+
 
 
 ## Everyday Dutch expressions you need to learn
