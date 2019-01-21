@@ -11,6 +11,9 @@ use_math: true
 location: "Utrecht, NL"
 ---
 
+# Understanding expressions
+
+
 ## Eens, even, maar, toch, nou, ... 
 
 These expressions and their combinations are crucial if you want to understand spoken Dutch at all. And each of them can mean different things depending on the context and of course the tone of speaking. They are often used with the _imperative case_. Often the _intonation_ employed by the speaker indicates how a command/suggestion is supposed to be understood. 
