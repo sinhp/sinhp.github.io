@@ -52,13 +52,17 @@ We give examples in context and indicate which tones can be associated to a cert
       similar to eens. Often it connotes that it should take no time/effort to carry out a command. 
     * <code>e.g.</code> Geef me even je pen. 
 
-<q>Even</q>q> can be combined with others. 
+<q>Even</q> can be combined with others. 
 
 * Eens even 
     * <code>Tone:</code> 
       less burdensome/ softer 
-    * <code>e.g.</code> Geef me even je pen. 
+    * <code>e.g.</code> Ga eens even opzij. (Please move out of the way for a minute.) 
 
+* Maar even 
+    * <code>Tone:</code> 
+      less burdensome/ more moderate 
+    * <code>e.g.</code> Kom maar even mee. (Please follow me if you will.) 
 
 
 
