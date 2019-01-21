@@ -100,6 +100,12 @@ We give examples in context and indicate which tones can be associated to a cert
     * <code>e.g.</code> 
 
 
+Combinations of three or more are possible! 
+  
+  * Ga _maar eens even_ kijken. (<code>Just go and take a quick look.</code>)
+  * Ga _nou toch even_ kijken. (<code>You better go and take a quick look.</code>)
+  * Ga _nou toch even eens_ kijken. (<code>You really should go and take a quick look.</code>)
+
 
 ## Everyday Dutch expressions you need to learn
 
