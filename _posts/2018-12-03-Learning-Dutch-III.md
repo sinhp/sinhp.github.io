@@ -18,8 +18,16 @@ In the table below we give examples in context and indicate which tones can be a
 
 
 
+| Entry            | Item   |                                                              |
+| --------         | ------ | ------------------------------------------------------------ |
+| [John Doe](#)    | 2016   | Description of the item in the list                          |
+| [Jane Doe](#)    | 2019   | Description of the item in the list                          |
+| [Doe Doe](#)     | 2022   | Description of the item in the list                          |
+
+
+
 | Expresssion            | Tone         | Example                                                      | Note                                                         |
-| --------         | ---------          |   ------------------------------------------------------------ |
+| --------         | ---------          |       ------------------------------------------------------------ |
 -------------------------------------------------------------|
 | `eens'    | mild, friendly   | Kom eens hier.        | Give the imperative a milder tone.                           |
 | `even'    | similar to eens  | Geef me even je pen.  | Often connotates that it should take no time/effort to carry out a command.         |
