@@ -14,24 +14,36 @@ location: "Utrecht, NL"
 
 These expressions and their combinations are crucial if you want to understand spoken Dutch at all. And each of them can mean different things depending on the context and of course the tone of speaking. They are often used with the _imperative case_. Often the _intonation_ employed by the speaker indicates how a command/suggestion is suuposed to be understood. 
 
-In the table below we give examples in context and indicate which tones can be associated to a certain expression. 
+We give examples in context and indicate which tones can be associated to a certain expression. 
 
 
-
-| Entry            | Item   |                                                              |
-| --------         | ------ | ------------------------------------------------------------ |
-| [John Doe](#)    | 2016   | Description of the item in the list                          |
-| [Jane Doe](#)    | 2019   | Description of the item in the list                          |
-| [Doe Doe](#)     | 2022   | Description of the item in the list                          |
+* Eens 
+    * <code>Tone:</code> mild, friendly. It gives the imperative a milder tone. 
+    * <code>e.g.</code> Kom eens hier. 
 
 
+* Maar
+    * <code>Tone:</code> 
+    much friendly and polite. Used often with a tone of permissiveness and encouragement. 
+    * <code>e.g.</code> Zet die koffers hier maar neer. 
 
-| Expresssion            | Tone         | Example                                                      | Note                                                         |
-| --------         | ---------          |       ------------------------------------------------------------ |
--------------------------------------------------------------|
-| `eens'    | mild, friendly   | Kom eens hier.        | Give the imperative a milder tone.                           |
-| `even'    | similar to eens  | Geef me even je pen.  | Often connotates that it should take no time/effort to carry out a command.         |
-| `maar'     | much friendly and polite   | Zet die koffers hier maar neer.  | Often with a tone of permissiveness and encouragement.        |
+
+* Toch
+    * <code>Tone:</code> 
+    has different meanings w.r.t different tones. Could express friendly encouragement or it could express irritation. Depends on how it is used.
+    * <code>e.g.</code> Kom toch binnen. (Please come in.)
+
+* Nou 
+    * <code>Tone:</code> 
+      Gives a different flavour of impatience to a request/command than <q>toch</q> 
+    * <code>e.g.</code> Nou nou!.   
+
+
+* Even 
+    * <code>Tone:</code> similar to eens. Often it connotes that it should take no time/effort to carry out a command. 
+    * <code>e.g.</code> Geef me even je pen. 
+
+
 
 
 
