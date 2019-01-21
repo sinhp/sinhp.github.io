@@ -1,6 +1,7 @@
 ---
 layout: tufte
 title: "Learning Dutch III"
+subtitle: "Understanding expressions"
 author: Sina Hazratpour
 excerpt: "Everyday Dutch expressions you need to learn"
 tags:
