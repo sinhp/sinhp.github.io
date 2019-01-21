@@ -64,7 +64,16 @@ We give examples in context and indicate which tones can be associated to a cert
       less burdensome/ more moderate 
     * <code>e.g.</code> Kom maar even mee. (Please follow me if you will.) 
 
+* Nou even 
+    * <code>Tone:</code> 
+      Softer impatience  
+    * <code>e.g.</code> Help nou even. 
+    * <code>.e.g.</code> Eet nou even je bord leeg. 
 
+* Toch even 
+    * <code>Tone:</code> 
+      softer than <q>toch</q>  
+    * <code>e.g.</code> Help die man toch even. (Give that man a hand, please!)
 
 
 ## Everyday Dutch expressions you need to learn
