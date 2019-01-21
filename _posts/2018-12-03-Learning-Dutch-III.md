@@ -12,37 +12,52 @@ location: "Utrecht, NL"
 
 ## Eens, even, maar, toch, nou, ... 
 
-These expressions and their combinations are crucial if you want to understand spoken Dutch at all. And each of them can mean different things depending on the context and of course the tone of speaking. They are often used with the _imperative case_. Often the _intonation_ employed by the speaker indicates how a command/suggestion is suuposed to be understood. 
+These expressions and their combinations are crucial if you want to understand spoken Dutch at all. And each of them can mean different things depending on the context and of course the tone of speaking. They are often used with the _imperative case_. Often the _intonation_ employed by the speaker indicates how a command/suggestion is supposed to be understood. 
 
 We give examples in context and indicate which tones can be associated to a certain expression. 
 
 
 * Eens 
-    * <code>Tone:</code> mild, friendly. It gives the imperative a milder tone. 
+    * <code>Tone:</code> 
+      mild, friendly. It gives the imperative a milder tone. 
     * <code>e.g.</code> Kom eens hier. 
 
 
 * Maar
     * <code>Tone:</code> 
-    much friendly and polite. Used often with a tone of permissiveness and encouragement. 
+      much friendly and polite. Used often with a tone of permissiveness and encouragement. 
     * <code>e.g.</code> Zet die koffers hier maar neer. 
 
 
 * Toch
     * <code>Tone:</code> 
-    has different meanings w.r.t different tones. Could express friendly encouragement or it could express irritation. Depends on how it is used.
+      has different meanings w.r.t different tones. Could express friendly encouragement or it could express irritation. Depends on how it is used.
     * <code>e.g.</code> Kom toch binnen. (Please come in.)
+    * <code>e.g.</code> Hou toch op. (Oh, cut it out!)
+    * <code>e.g.</code> Wees toch een beetje voorzichtig! (Please do be a bit careful!)
+
+
 
 * Nou 
     * <code>Tone:</code> 
-      Gives a different flavour of impatience to a request/command than <q>toch</q> 
-    * <code>e.g.</code> Nou nou!.   
+       gives a different flavour of impatience to a request/command than <q>toch</q> 
+    * <code>e.g.</code> Nou nou! (Well well! )
+    * <code>e.g.</code> Schiet nou op! (Hurry up, will you!)
+    * <code>e.g.</code> Kom nou zeg!  (Come on now!)
+
 
 
 * Even 
-    * <code>Tone:</code> similar to eens. Often it connotes that it should take no time/effort to carry out a command. 
+    * <code>Tone:</code> 
+      similar to eens. Often it connotes that it should take no time/effort to carry out a command. 
     * <code>e.g.</code> Geef me even je pen. 
 
+<q>Even</q>q> can be combined with others. 
+
+* Eens even 
+    * <code>Tone:</code> 
+      less burdensome/ softer 
+    * <code>e.g.</code> Geef me even je pen. 
 
 
 
