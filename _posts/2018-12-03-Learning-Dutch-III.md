@@ -10,6 +10,22 @@ use_math: true
 location: "Utrecht, NL"
 ---
 
+## Eens, even, maar, toch, nou, ... 
+
+These expressions and their combinations are crucial if you want to understand spoken Dutch at all. And each of them can mean different things depending on the context and of course the tone of speaking. They are often used with the _imperative case_. Often the _intonation_ employed by the speaker indicates how a command/suggestion is suuposed to be understood. 
+
+In the table below we give examples in context and indicate which tones can be associated to a certain expression. 
+
+
+
+| Expresssion            | Tone         | Example                                                      | Note                                                         |
+| --------         | ---------          |   ------------------------------------------------------------ |
+-------------------------------------------------------------|
+| `eens'    | mild, friendly   | Kom eens hier.        | Give the imperative a milder tone.                           |
+| `even'    | similar to eens  | Geef me even je pen.  | Often connotates that it should take no time/effort to carry out a command.         |
+| `maar'     | much friendly and polite   | Zet die koffers hier maar neer.  | Often with a tone of permissiveness and encouragement.        |
+
+
 
 
 ## Everyday Dutch expressions you need to learn
