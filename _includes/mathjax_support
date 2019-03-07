@@ -8,6 +8,28 @@
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
 
 
+<!-- from view-source:https://web.archive.org/web/20170523182645/http://www.jonmsterling.com/posts/2014-05-11-records-are-sheaves-of-types.html
+
+test it later!
+<script type="text/javascript" src="https://web.archive.org/web/20170523182645js_/http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">	
+
+MathJax.Hub.Config({
+  showMathMenu: false,
+  showProcessingMessages: false,
+  messageStyle: "none",
+  'HTML-CSS': {
+    availableFonts: [],
+    webFont: 'TeX',
+  },
+  TeX: {
+    extensions: ["color.js", "AMScd.js"],
+    Macros: {
+      gk: ["\\style{font-family:Junicode!important; font-size:1.3em;}{\\text{#1}}", 1]
+    }
+  }
+});
+-->
+
     <link href="assets/style.css" rel="stylesheet">
     <link href="assets/pygments.css" rel="stylesheet">
     <link rel="stylesheet" href="https://code.jquery.com/ui/1.11.2/themes/smoothness/jquery-ui.css">
