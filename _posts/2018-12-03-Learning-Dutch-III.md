@@ -32,7 +32,8 @@ We give examples in context and indicate which tones can be associated to a cert
       much friendly and polite. Used often with a tone of permissiveness and encouragement. 
     * <code>e.g.</code> 
       Zet die koffers hier maar neer. 
-    * <code>maar</code>
+    * <code>e.g.</code> 
+      Laat maar! (Never mind!)
 
 * Toch
     * <code>Tone:</code> 
@@ -40,6 +41,7 @@ We give examples in context and indicate which tones can be associated to a cert
     * <code>e.g.</code> Kom toch binnen. (Please come in.)
     * <code>e.g.</code> Hou toch op. (Oh, cut it out!)
     * <code>e.g.</code> Wees toch een beetje voorzichtig! (Please do be a bit careful!)
+    * <code>e.g.</code> Al dat gezeur over de slechte economie, het valt toch wel mee? (All that nagging about the bad economy. It's reallt not that bad, is it?)
 
 
 * Nou 
