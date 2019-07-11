@@ -112,6 +112,13 @@ Here is a <a href="/phil_math/reading_list" target="_blank"><font color="#998099
 * [Stanford Encyclopedia of Philosophy](https://plato.stanford.edu)
 
 
+------------------------------------------------------------------------------------------------
+## Some other cool websites 
+
+* [Bees in the Netherlands](https://www.wildebijen.nl/)
+
+* []
+
 
 ------------------------------------------------------------------------------------------------
 ## This Wesbite
