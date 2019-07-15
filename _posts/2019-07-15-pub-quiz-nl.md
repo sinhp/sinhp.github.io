@@ -2,7 +2,7 @@
 layout: tufte
 title: "De Nederlandse pubquiz"
 author: Sina Hazratpour
-excerpt: "Heel interessante pub quiz van nederlandse sport, kunst 
+excerpt: "Een pub quiz van nederlandse sport, kunst 
 (met Hieronymus Bosch en Fat Cat art), en politics"
 tags:
 permalink: /posts/2019/07/pub-quiz-nl
