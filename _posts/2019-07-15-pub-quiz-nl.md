@@ -13,7 +13,7 @@ location: "Utrecht, NL"
 
 # De resultaten
 
-We hebben een heel leuke avond gehad met onze Nederlandse pubquiz. Kijk [hier](/files/posts/2019/pub_quiz_nl.pdf) om je kennis van het Nederlands te testen.
+We hebben een heel leuke avond gehad met onze Nederlandse pubquiz. Kijk [hier](/files/posts/2019/pub_quiz_nl.pdf)<label for="sn-pub_quiz_file" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-pub_quiz_file" class="margin-toggle"/><span class="sidenote"> Gebruik Adobe Acrobat voor het beste resultaat</span> om je kennis van het Nederlands te testen.
 
 De uiteindelijke resultaten waren:
 
