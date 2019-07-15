@@ -20,5 +20,5 @@ De uiteindelijke resultaten waren:
 
 * Team <code>Plan-B</code> bestaande uit J, A, D en T verzamelde 98 punten  
 * <code>A-Team</code> bestaande uit A, E, en M verzamelde 65 punten.  
-* <code>De Groene</code> Team bestaande uit M, D en A verzamelde 40 punten. 
+* <code>De Groene</code> Team bestaande uit B, M, D en A verzamelde 40 punten. 
    
