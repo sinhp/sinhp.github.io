@@ -1,5 +1,5 @@
 ---
-layout: tufte
+layout: single
 title: "Learning Dutch IV"
 author: Sina Hazratpour
 excerpt: "A Long List Of Every-day Dutch Words By Association"
