@@ -5,7 +5,7 @@ author: Sina Hazratpour
 excerpt: "A Long List Of Every-day Dutch Words By Association"
 tags:
 permalink: /posts/2019/08/Learning-Dutch-IV
-date: 2019-19-08
+date: 2019-08-19
 use_math: true
 location: "Groningen, NL"
 ---
@@ -37,7 +37,7 @@ location: "Groningen, NL"
 | de muis                   | ball of the hand      |
 
 
-
+<!--
 These expressions and their combinations are crucial if you want to understand spoken Dutch at all. And each of them can mean different things depending on the context and of course the tone of speaking. They are often used with the _imperative case_. Often the _intonation_ employed by the speaker indicates how a command/suggestion is supposed to be understood. 
 
 We give examples in context and indicate which tones can be associated to a certain expression. 
@@ -259,7 +259,7 @@ Combinations of three or more are possible!
     </code>
    + We staan quitte. <code> We are even.</code> 
    + Het gaat z'n gang. <code>Things are moving along just fine. </code>
-
+-->
     
 
 <!--
