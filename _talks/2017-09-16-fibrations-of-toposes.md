@@ -24,4 +24,4 @@ Borrowing from work of Ross Street we define a notion of (op)fibration in the 2-
 
 
 
-`Update:` These ideas have been baked into my thesis which was submitted recently. [Download here]({{ site.baseurl }}/files/thesis/first-submission.pdf)
+`Update:` These ideas have been baked into my thesis which was submitted recently. [Download here]({{ site.baseurl }}/files/thesis/PhD-thesis.pdf)

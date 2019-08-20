@@ -25,7 +25,7 @@ location: "Groningen, NL"
 | Nederlands                | English               |
 | --------                  | ------                | 
 | de hand                   | hand                  | 
-| de vinger                 | vinger                | 
+| de vinger                 | finger                | 
 | de duim(#)                | thumb                 | 
 | de wijsvinger             | index finger          |
 | de pink                   | little finger, pinkie |
@@ -35,6 +35,85 @@ location: "Groningen, NL"
 | de palm                   | palm                  |
 | de ringvinger             | ring finger           |
 | de muis                   | ball of the hand      |
+
+
+
+
+| Nederlands                | English               |
+| het hoofd                 | head                  |
+| het voorhoofd             | forehead              |
+| het haar                  | hair                  |
+| het gezicht               | face                  |
+| het oog                   | eye                   |
+| het ooglid                | eyelid                |
+| de wimper                 | eyelash               |
+| het oor                   | ear                   |
+| de neus                   | nose                  |
+| de wenkbrauw              | eyebrow               |
+| de neus                   | nose                  |
+| de mond                   | mouth                 |
+| de tand                   | teeth                 |
+| de kies                   | molar                 |
+| het tandvlees             | gums                  |
+| de tong                   | tongue                |
+| de kaak                   | jaw                   |
+| de kin                    | chin                  |
+| de lip                    | lip                   |
+| de wang                   | cheek                 |
+| de keel                   | throat                |
+
+
+
+| Nederlands                | English               |
+| de nek                    | neck (the back part)  |
+| de hals                   | neck (the front part) |
+| de baard                  | beard                 |
+| de snor                   | moustasche            |
+| de buik                   | belly                 |
+| de maag                   | stomach               |
+| de navel                  | navel                 |
+|                           |                       |
+|                           |                       |
+|                           |                       |
+
+
+
+
+
+
+| Nederlands                | English               |
+| de adem                   | breath                |
+| de boer/ de boertje       | burp                  |
+| de traan                  | tear                  |
+| de speeksel               | saliva                |
+| het snot                  | snot                  |
+| de pies                   | piss                  |
+| de poep                   | poo                   |
+| het zweet                 | sweat                 |
+| de stront                 | shit/excrement        |
+| de scheet/de wind         | fart                  |
+| de vijst/de veest         | flatulence            |
+| de urine                  | urine                 |
+
+
+
+
+
+
+| Nederlands                | English               |
+|                           |                       |
+|                           |                       |
+|                           |                       |
+|                           |                       |
+|                           |                       |
+|                           |                       |
+|                           |                       |
+|                           |                       |
+|                           |                       |
+|                           |                       |
+|                           |                       |
+|                           |                       |
+
 
 
 <!--
