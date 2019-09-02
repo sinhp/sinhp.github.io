@@ -3,7 +3,18 @@
 
 <!--
 \cite{B.C.Donaldson-A Dutch Vocabulary-Hyperion} 
-\cite{https://wordassociations.net/en/dictionary}
+\cite{https://wordassociations.net/en/dictionary}  for intro
+
+
+
+    ä: Alt+0228
+    ë: Alt+0235
+    ï: Alt+0239
+    ö: Alt+0246
+    ü: Alt+0252
+    ÿ: Alt+0255
+
+
 -->
 
 
@@ -24,7 +35,6 @@
 | de palm                   | palm                  |
 | de ringvinger             | ring finger           |
 | de muis                   | ball of the hand      |
-
 
 
 
@@ -50,10 +60,6 @@
 | de lip                    | lip                   |
 | de wang                   | cheek                 |
 | de keel                   | throat                |
-
-
-
-| Nederlands                | English               |
 | de nek                    | neck (the back part)  |
 | de hals                   | neck (the front part) |
 | de baard                  | beard                 |
@@ -61,12 +67,6 @@
 | de buik                   | belly                 |
 | de maag                   | stomach               |
 | de navel                  | navel                 |
-|                           |                       |
-|                           |                       |
-|                           |                       |
-
-
-
 
 
 
@@ -86,22 +86,509 @@
 
 
 
+| Nederlands                | English               |
+| wissen                    | delete                |
+| delen                     | share                 |
+| instellingen              | settings              |
+| toevoegen                 | add                   |
+| profiel                   | profile               |
+| zoeken                    | search                |
+| opgeslagen                | stored/saved          |
+| weergeven                 | show/reproduce        |
+| verbergen                 | hide                  |
+| berichten                 | messages              |
+| filteren op               | filter by             |
+| gespreksduur              | call duration         |
+| afdrukken                 | print                 |
 
 
 
 | Nederlands                | English               |
-|                           |                       |
-|                           |                       |
-|                           |                       |
-|                           |                       |
-|                           |                       |
-|                           |                       |
-|                           |                       |
-|                           |                       |
-|                           |                       |
-|                           |                       |
-|                           |                       |
-|                           |                       |
+| de (heren)kapper          | (gents') hairdresser  |
+| de kapster                | hairdresser           |
+| knippen                   | to cut (hair)         |
+| vet                       | greasy (of hair)      |
+| verharen                  | to shed (hair)        |
+| kammen                    | to comb (hair)        |
+| kapsel                    | hairstyle             |
+| aanwijzingen              | instructions          |
+| textuur                   | texture               |
+| bakkebaarden              | sideburn              |
+| bijknippen                | trim                  |
 
 
 
+| Nederlands                | English               |
+| het comite                | committee             |
+| de voorzitter             | chairman              |
+| de vergadering            | meeting               |
+| het congres               | conference            |
+| de vereniging             | society/club          |
+| het bestuur               | adminstration         |
+| het besluit               | decision              |
+| de bijeenkomst            | meeting/gathering     |
+| de politiek               | politics              |
+| de politicus              | politician            |
+| de meerderheid            | majority              |
+| de minderheid             | minority              |
+
+
+
+| Nederlands                | English               |
+| de stem                   | vote                  |
+| de kiezer                 | voter                 |
+| de verkiezing             | election              |
+| de rijksambtenaar         | civil cervant         |
+| het koninghuis            | royal house           |
+| de regering               | government            |
+| het parlement             | parliament            |
+| de eerste minister        | prime minister        |
+| de minister-president     | prime minister        |
+| het parlementslid         | MP                    |
+| de politieke partij       | Political party       |
+| het volk                  | (the) people          |
+| het volkslied             | national anthem       |
+| de grondwet               | constitution          |
+| demokratisch              | democratic            |
+| de republiek              | republic              |
+| de hooftstad              | capital               | 
+
+
+
+| Nederlands                | English               |
+| het koninkrijk            | kingdom               |
+| de koning                 | king                  |
+| de koningin               | queen                 |
+| de graaf                  | count                 |
+| de gravin                 | countess              |
+| de hertog                 | duke                  |
+| de hertogin               | duchess               |
+| de adel                   | nobility              |
+
+
+
+| Nederlands                | English               |
+| lezen                     | to read               |
+| uitlezen                  | to finish reading     |
+| de slappe/harde kaft      | soft/hard cover       |
+| de bladwijzer             | bookmark              |
+| de pagina/bladzij(de)     | page                  |
+| het stripverhaal          | comic                 |
+| de roman                  | novel                 |
+| het woordenboek           | dictionary            |
+| nakijken                  | to look up            |
+| het schrift               | exercise book/notebook|
+| het handschrift           | handwriting           |
+| de schrijver              | writer/author         |
+| poëzie                    | poetry                |
+| dichter                   | poet                  |
+| gedicht                   | poem                  |
+| het plaatje               | picture/illustration  |
+| de editie/uitgave         | edition               |
+| het exemplaar             | copy (of a book)      |
+| sprookje                  | fairy-tale            |
+| uitgeven                  | to publish            |
+| de rubriek                | column                |
+| de kop                    | the headline          |
+| het tijdschrift            | magazine, periodical  |
+| het proefschrift          | (doctoral) thesis     |
+| de weekblad               | weekly                |
+| knippsel                  | cutting               |
+
+
+
+| Nederlands                | English               |
+| de leestekens             | punctuations          |
+| de alinea                 | paragraph             |
+| zeer belezen              | well-read             |
+| de dictee                 | dictation             |
+| de punt-komma             | semi-colon            |
+| de dubbele punt           | colon                 |
+| de spelling               | spelling              |
+| vervoegen                 | to conjugate          |
+| verbuigen                 | to inflict            | 
+| het opstel                | essay                 |
+
+
+
+| Nederlands                | English               |
+| de hoogleraar             | professor             |
+| de docent                 | lecturer              |
+| de leerstoel              | academic chair        |
+| 
+ 
+
+
+| Nederlands                | English               |
+| gehoorzaamheid            | obedience             |
+| overheid                  | authority             |
+| eerbied                   | resepctful/reverence  |
+| 
+
+
+
+| Nederlands                | English               |
+| scheppende                | creator               |
+| gelovigen                 | believers             |
+| draagkrachtige            | weightbearing         |
+| heer                      | lord/master           |
+| kudde                     | herd                  |
+| deugden                   | virtues               | 
+| deugdzame                 | virtuous              |
+| vrede                     | peace                 |
+| getuigenis                | testimony/witness     |
+| ellende                   | affliction            |
+| kromme                    | crooked               |
+| kwaad                     | evil                  | 
+| prediker                  | preacher              |
+| betovering                | magic                 |
+| waan                      | fancy/delusion        |
+| aarzelenden               | hesitants             |
+| metgezellen               | companions            |
+| feestenden                | rejoicers             | 
+| knecht                    | servant               |
+
+
+
+| Nederlands                | English               |
+| de jurk                   | dress                 |
+| de rok                    | shirt                 |
+| de onderjurk              | petticoat/slip        |
+| de bloes                  | blouse                |
+| het slipje                | underpants            |
+| de bha/beha               | bra                   |
+| de hemd                   | T-shirt               |
+| de zwembroek              | swimming trunks       |
+| aantrekken                | to put on             | 
+
+
+
+| Nederlands                | English               |
+| de kust                   | coast                 |
+| het strand                | beach                 |
+| de badplaats              | seaside resort        |
+| de zee                    | sea                   | 
+| aan zee                   | at the seaside        | 
+| de golf                   | wave                  |
+| de branding               | surf/breakers         |
+| de badpak                 | swimsuit              |
+| de zwembroek              | swimming trunks       |
+| het zand                  | sand                  |
+| het zandkasteel           | sand castle           |
+| de zonnebrand             | sunburn               |
+| duiken                    | to dive               |
+| het meer                  | lake                  |
+| het eiland                | island                |
+| het schiereiland          | peninsula             |
+| de oceaan                 | ocean                 |
+
+
+
+| Nederlands                | English               |  
+| de berg                   | mountain              |
+| het gebergte              | mountain range        |
+| bergachtig                | mountainous           |
+| de heuvel                 | hill                  |
+| heuvelachtig              | hilly                 |
+| de vulkaan                | volcano               |
+| de aardbeving             | earthquake            |
+| het moeras                | marshland/swamp       |
+| de weide/alm              | pastures (alp)        |
+| het landschap             | landscape             |
+
+
+
+| Nederlands                | English               | 
+| het weiland               | pasture land, field   |
+| de boerderij              | farm                  |
+| de boer                   | farmer                |
+| het landgoed              | country estate        |
+| het landhuis              | country house         |
+| grazen                    | to graze              |
+| het prikkeldraad          | barbed wire           |
+| de hooimijt/hooiberg      | haystack              |
+| de ploeg                  | plough                |
+| de stal                   | stable                |
+| de oogst                  | harvest               |
+| mede-oogstenden           | harvesters            |
+| de akker                  | field                 |
+| de landbouw               | agriculture           |
+| de traktor                | tractor               |
+
+
+
+| Nederlands                | English               |
+| het museum                | museum                |
+| (op) de markt             | at the market         |
+| het kroeg                 | pub                   |
+| het cafe                  | cafe                  |
+| het paleis                | palace                |
+| het dorp                  | village               |
+| het plein                 | square                |
+| het centrum               | downtown              |
+| het stadhuis              | town hall             |
+| de gemeente               | municipality          |
+| de voetpad/stoep          | side-walk             |
+| de fietspad               | bike path             | 
+| het warenhuis             | departmental store    |
+| de voorstad               | suburb                | 
+| (bij) de slager           | (at) the butcher's    |
+| de apotheek               | pharmacy              |
+| (aan) de kassa            | (at) the cash register|
+
+
+
+| Nederlands                | English               | 
+| de trein                  | train                 |
+| de spoorweg               | railway               |
+| het loket                 | ticket                |
+| het kaartje               | ticket                |
+| het abonnement            | concession            |
+| enkeltje                  | one-way fare          |
+| het perron                | platform              |
+| het spoor                 | track                 |
+| de wachtkamer             | waiting room          |
+| de vvv                    | tourist info centre   |
+| vertrekken                | to depart             |
+| de coupe                  | compartment           |
+| de stoptrein              | non-express train     |
+| de intercity              | express               |
+| eerste/tweede klas        | first/second class    |
+| in/uit - overstappen      | to get - in/out       |
+| de aankomst               | arrival               |
+| het vertrek               | departure             |
+
+
+
+| Nederlands                | English               | 
+| kontant betalen           | to pay cash           |
+| de aanbieding             | special offer         |
+| de reklame                | advertisement         |
+| het bonnetje              | receipt/slip/voucher  |
+| de kwitantie              | receipt/payment proof |
+| ruilen                    | to exchange           |
+| inruilen                  | to trade in           |
+| de korting                | discount              |
+| het kleingeld             | (small) change        |
+| de klant                  | customer              |
+| bedienen                  | to serve              |
+| de toonbank               | (display) counter     |
+| de balie                  | service counter       |
+| de weegschaal             | scales                |
+| het ons                   | 100 grams             |
+| het pond                  | pound (500 grams)     |
+| het blik                  | tin can               |
+| de draagtas               | carry bag             |
+| de verpakking             | packaging             |
+| het plakband              | adhesive tape         |
+| de lijm                   | glue                  |
+| het touw                  | string/rope           |
+| de doos                   | box                   |
+ 
+
+
+| Nederlands                | English               |
+| brief                     | letter                |
+| postzegel                 | stamp                 |
+| de postbodes              | postmen               |
+| de brievenbus             | letter box            |
+| de postbus                | private box/ P.O. box |
+| het hoofdpostkantoor      | general post-office   |
+| dringend                  | urgent                |
+| het pakket                | parcel                |
+| het cadeau                | gift                  |
+| postwissel                | money-order           |
+| met/per luchtpost         | by airmail            |
+| met/per zeepost           | by surface mail       |
+| het drukwerk              | printed matter        |
+| het monster               | sample                |
+| ansichtkaart              | picture postcard      |
+| het posttarief            | postal charge         |
+| de legitimatie            | personal id           |
+| lichten                   | to empty a letter box |
+| stempelen                 | to stamp              |
+
+
+
+| Nederlands                | English               | 
+| de woonkamer              | living room           |
+| de slaapkamer             | bedroom               |
+| de badkamer               | bathroom              |
+| de rommelkamer            | junk-room             |
+| de keuken                 | kitchen               |
+| de bijkeuken              | scullery              |
+| de waskeuken              | laundry               |
+| de kelder                 | cellar                |
+| de zolder                 | attic                 |
+| de vliering               | attic/loft            |
+| de trap                   | stairs                |
+| de gang                   | hallway               |
+| het trappenhuis           | stairwell             |
+| de wachtkamer             | waiting room          | 
+| het plafond               | ceiling               |
+| de verdieping             | level/floor           |
+| de kinderkamer            | nursery               |
+| de bovenhuis/bovenwoning  | upstairs flat         |
+| de achterdeur             | backdoor              |
+
+
+| Nederlands                | English               | 
+| de sleutel                | key                   |
+| het raam                  | window                |
+| het luik                  | shutter               | 
+| de ruit                   | window pane           |
+| de grond                  | floor/ground          |
+| de hoek                   | corner                |
+| de vloer                  | floor                 |
+| op slot                   | locked                | 
+| de bel                    | bell                  |
+| het slot                  | lock                  |
+| de bank                   | couch/sofa/bench      |
+| de stoel                  | chair                 |
+| de leunstoel              | armchair              |
+| de gordijn                | curtain               |
+| het rolgordijn            | blind                 |
+| de erker                  | bay window            |
+| de serre                  | alcove                | 
+| de kruk                   | stood                 | 
+| de luxaflex               | venetian blind        |
+| de schrijftafel           | writing desk          |
+| het bureau                | (writing) desk        |
+| de boekenplank            | bookshelf             |
+
+
+
+| Nederlands                | English               | 
+| de boekensteun            | bookend               |
+| de boekenkast             | bookcase              |
+| de lamp                   | lamp                  |
+| de gloeilamp              | light/bulb            |
+| de kaars                  | candle                |
+| de kaarslicht             | candle light          |
+| de kandelaar              | candlestick           |
+| de schakelaar             | switch                |
+| de lont                   | wick                  |
+| de klok                   | clock                 |
+| de horloge                | watch                 |
+| de affiche                | poster                |
+| de meubels                | furniture             |
+| gemeubileerd              | furnished             |
+| inrichten                 | to furnish            |
+| de kachel                 | heater                |
+| de schilderij             | painting              |
+| de centrale verwarming    | central heating       |
+
+
+
+| Nederlands                | English               | 
+| de tuin                   | garden/yard           |
+| tuinleren                 | to garden             |
+| de kruiwagen              | wheelbarrow           | 
+| de vaas                   | vase                  |
+| harken                    | to rake               |
+| de hark                   | rake                  |
+| de tuinslang              | hose                  |
+| spitten                   | to dig                |
+| de broeikas               | glass house           |
+| de vijver                 | pond                  |
+| de schop                  | spade/shovel          |
+| de schutting              | (wooden) fence        |
+| de bloemenperk            | flower bed            |
+| de gereedschap            | tools                 |
+| de zaag                   | saw                   |
+| zagen                     | to saw                |
+| hameren                   | to hammer             |
+| de hamer                  | hammer                |
+| de spijker                | nail                  |
+| de schroef                | screw                 |
+| de schrovendraaier        | screwdriver           |
+| de beitel                 | chisel                |
+| de bijl                   | axe                   |
+| (om)haken                 | to chop (down)        |
+| de sleutel                | spanner               |
+| houtboren                 | wood drill bits       |
+| boorstand                 | drill position/state  |
+| toerental                 | rPM                   |
+
+
+
+| Nederlands                | English               | 
+| de uitzending             | broadcast             |
+| de ontvangst              | reception             |
+| het programmablad         | TV/radio guide        |
+| de aflevering             | episode               |
+| het nieuws                | news                  |
+| het weerbericht           | weather report        |
+| de feuilleton             | serial                |
+| de televisietoestel       | TV set                |
+| het scherm                | screen                |
+| het geluid                | sound                 |
+| het net                   | channel               |
+| te hard                   | too loud              |
+| bijstellen                | to adjust             |
+| de stroom                 | current/stream        |
+| de stekker                | plug (of an appliance)|
+| het verlengsnoer          | extension cord        |
+| de kortsluiting           | short circuit         |
+| de zekering               | fuse                  |
+| doorbranden               | to blow/burn out      |
+| het stopcontact           | socket                |
+
+
+
+| Nederlands                | English               | 
+| de misdadiger             | criminal              |
+| de gevangenis             | prison                |
+| verhoren                  | interrogate           |
+| veroordelen (tot)         | to sentence (to)      |
+| stelen                    | steal                 |
+| de zakkenroller           | pickpocket            |
+| de moordenaar             | murderer              |
+| vermoorden                | to murder             |
+| de inbreker               | burglar               |
+| de dief                   | thief                 | 
+| de rechtbank              | court                 |
+| de rechter                | judge                 |
+| de oordeel                | sentence/judgement    |
+| de notaris                | solicitor             |
+| de advokaat               | lawyer/barrister      |
+| beschuldigen (van)        | to accuse (of)        |
+| aanklagen                 | to accuse             |
+| de aanklacht              | charge                |
+| de verdediging            | defence               |
+| de doodstraf              | death sentence        | 
+| ophangen                  | to hang               |
+| onschuldig                | not guilty/innocent   |
+| de aanranding             | assault               |
+| de moord                  | murder                |
+| de diefstal               | robbery               |
+| de verkrachten            | rape                  |
+| onwettig/onwettelijk      | illegal               |
+
+
+
+| Nederlands                | English               | 
+| bouwen                    | to build              |
+| afbouwen                  | to finish building    |
+| de ondernemer             | contractor            |
+| het gebouw                | building              |   
+| afbreken                  | to demolish           |
+| de bouwvakker             | construction worker   |
+| de wolkenkrabber          | skyscraper            |
+| de fundament              | foundation            |
+| de torenflat              | high-rise building    |
+| het beton                 | concrete              |
+| de baksteen               | brick                 |
+| de souterrain             | basement              |
+| de begane grond           | ground floor          |
+| het lood                  | lead                  |
+| het brons                 | bronze                |
+| het geelkoper             | brass                 |
+| het roodkoper             | copper                |
+| het staal                 | steel                 |
+| vlekvrij staal            | stailess steel        |
+| waterdicht                | water proof           |
+| de marmer                 | marble                |
+| het gips                  | plaster               |
+| het ijzer                 | iron                  | 
+| roestvrij                 | rustproof             |
