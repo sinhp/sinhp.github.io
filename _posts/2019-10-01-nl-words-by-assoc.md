@@ -17,8 +17,6 @@ excerpt: "List of Dutch words based on semantic affinity"
 
 
 
-# What is this list about?
-
 <!--
 \cite{B.C.Donaldson-A Dutch Vocabulary-Hyperion} 
 \cite{https://wordassociations.net/en/dictionary}  for intro
@@ -48,6 +46,11 @@ Ideographic dictionary will allow more proficiently to determine the meaning of 
 > The fact that some thing, which is denominated by single word in one language, may have extremely detailed nomenclature enclosing dozens of titles in another languages. ... The words, which are identical in meaning, may occupy unequal position even in the systems of closely related languages; they perform different function and, therefore, are not absolutely monosemantic. (V.A. Zvegintsev, Semasiology)
 
 Thus, in order to correlate the word of one language with a word of another language, it is necessary to know what position occupies each of these words in the corresponding sets. To know this, you need a good ideographic dictionary.
+
+
+
+# What is this list about?
+
 
 In below I have made tables of words by association in Dutch. The vocabulary level covers the [Dutch levels B1 & B2](https://nt2taalmenu.nl/nt2-b2-menu/). The hope is that for this list to grow into a basic dictionary.
 
