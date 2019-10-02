@@ -345,7 +345,7 @@ Of course, these tables are not rigid boundaries between asscoiated families of 
 
 
 <figure>
-<br/><img src='/images/posts/2019/Vršič-triglav.jpg' alt ="photo by me">
+<br/><img src='/images/posts/2019/Vršič-triglav.jpg' alt ="photo by me" description=" Vršič, Triglav National Park, Slovenia (photo by me)">
 </figure>
  
 
