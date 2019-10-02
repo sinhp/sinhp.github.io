@@ -62,7 +62,7 @@ Of course, these tables are not rigid boundaries between asscoiated families of 
 ## Word clusters
 
 <figure>
-<br/><img src='/images/posts/2019/De-anatomische-les-van-Dr-Nicolaas-Tulp-Rembrandt-van-Rijn-1652-Mauritshuis.jpg'>
+<br/><img src='/images/posts/2019/De-anatomische-les-van-Dr-Nicolaas-Tulp-Rembrandt-van-Rijn-1652-Mauritshuis.jpg' alt="De anatomische les van Dr. Nicolaas Tulp – Rembrandt van Rijn, 1652 (Mauritshuis)">
 </figure>
 
 
@@ -345,7 +345,7 @@ Of course, these tables are not rigid boundaries between asscoiated families of 
 
 
 <figure>
-<br/><img src='/images/posts/2019/Vršič-triglav.jpg'>
+<br/><img src='/images/posts/2019/Vršič-triglav.jpg' alt ="photo by me">
 </figure>
  
 
