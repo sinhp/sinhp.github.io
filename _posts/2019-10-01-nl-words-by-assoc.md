@@ -74,42 +74,42 @@ Of course, these tables are not rigid boundaries between asscoiated families of 
 | de palm                   | palm                  |
 | de ringvinger             | ring finger           |
 | de muis                   | ball of the hand      |
-
-
-
+                                                          
+                                                          
+                                                       
 | Nederlands                | English               |
 | ---------                 | -------               |
-| het hoofd                 | head                  |
-| het voorhoofd             | forehead              |
-| het haar                  | hair                  |
-| het gezicht               | face                  |
-| het oog                   | eye                   |
-| het ooglid                | eyelid                |
-| de wimper                 | eyelash               |
-| het oor                   | ear                   |
-| de neus                   | nose                  |
-| de wenkbrauw              | eyebrow               |
-| de neus                   | nose                  |
-| de mond                   | mouth                 |
-| de tand                   | teeth                 |
-| de kies                   | molar                 |
-| het tandvlees             | gums                  |
-| de tong                   | tongue                |
-| de kaak                   | jaw                   |
-| de kin                    | chin                  |
+| het hoofd                 | head                  |  
+| het voorhoofd             | forehead              |  
+| het haar                  | hair                  |  
+| het gezicht               | face                  |  
+| het oog                   | eye                   |  
+| het ooglid                | eyelid                |  
+| de wimper                 | eyelash               |  
+| het oor                   | ear                   | 
+| de neus                   | nose                  | 
+| de wenkbrauw              | eyebrow               | 
+| de neus                   | nose                  | 
+| de mond                   | mouth                 | 
+| de tand                   | teeth                 | 
+| de kies                   | molar                 | 
+| het tandvlees             | gums                  | 
+| de tong                   | tongue                |  
+| de kaak                   | jaw                   | 
+| de kin                    | chin                  | 
 | de lip                    | lip                   |
 | de wang                   | cheek                 |
 | de keel                   | throat                |
-| de nek                    | neck (the back part)  |
-| de hals                   | neck (the front part) |
-| de baard                  | beard                 |
+| de nek                    | neck (the back part)  | 
+| de hals                   | neck (the front part) | 
+| de baard                  | beard                 | 
 | de snor                   | moustasche            |
 | de buik                   | belly                 |
 | de maag                   | stomach               |
 | de navel                  | navel                 |
-
-
-
+                                                         
+                                                          
+                                                           
 | Nederlands                | English               |
 | ---------                 | -------               |
 | de adem                   | breath                |
