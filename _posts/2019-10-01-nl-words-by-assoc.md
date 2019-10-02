@@ -55,7 +55,7 @@ Thus, in order to correlate the word of one language with a word of another lang
 In below I have made tables of words by association in Dutch. The vocabulary level covers the [Dutch levels B1 & B2](https://nt2taalmenu.nl/nt2-b2-menu/). The hope is that for this list to grow into a basic dictionary.
 
 Of course, these tables are not rigid boundaries between asscoiated families of words: any word of any table can be associated to some word of some table. [Here](https://forum.nl-ganz-schnell.de/t/wat-schiet-jou-te-binnen-bij/74/2) is an example of a path from the word <q>vogel (bird)</q> to the word <q>weegschaal</q> in the association graph of words on the forum [Buurtaalforum voor Duitstaligen](https://www.staatsexamensnt2.nl/url/buurtaalforum-voor-duitstaligen): 
-de vogel -> de lucht -> de luchtvervuiling -> het milieu -> de klimaatverandering -> de snelheidsbeperking -> de snelweg -> de file -> de omleiding -> het verkeersboden -> de politie -> de spookrijder -> griezelig -> angstig -> Nachtmerries als kleuter -> de peuter -> de oppas -> Naar de film gaan -> popcorn -> poffen -> een portie poffertjes -> lekker -> smakelijk -> ruiken -> een prachtige ruiker -> lelietjes-van-dalen -> vergeet-me-nietjes -> de lente -. de hooikoorts-hatsje! -> medicijnen -> Rum (gebracht door de Sint-Bernardshond met een vaatje om zijn nek) -> de sneeuw -> de sneeuwpop -> hetsneeuwballenvecht -> de pret -> schaterlachen -> de buikpijn van het lachen -> gieren van de lach -> de blijheid -> vrolijk -> uitgelaten -> dansen -> het ballet -> de spierpijn -> Een streng dieet en veel zelfdiscipline -> afvallen -> de kilos -> he pond -> de weegschaal 
+<code>de vogel</code> -> de lucht -> de luchtvervuiling -> het milieu -> de klimaatverandering -> de snelheidsbeperking -> de snelweg -> de file -> de omleiding -> het verkeersboden -> de politie -> de spookrijder -> griezelig -> angstig -> Nachtmerries als kleuter -> de peuter -> de oppas -> Naar de film gaan -> popcorn -> poffen -> een portie poffertjes -> lekker -> smakelijk -> ruiken -> een prachtige ruiker -> lelietjes-van-dalen -> vergeet-me-nietjes -> de lente -. de hooikoorts-hatsje! -> medicijnen -> Rum (gebracht door de Sint-Bernardshond met een vaatje om zijn nek) -> de sneeuw -> de sneeuwpop -> hetsneeuwballenvecht -> de pret -> schaterlachen -> de buikpijn van het lachen -> gieren van de lach -> de blijheid -> vrolijk -> uitgelaten -> dansen -> het ballet -> de spierpijn -> Een streng dieet en veel zelfdiscipline -> afvallen -> de kilos -> he pond -> de weegschaal 
 
 
 ## Word clusters
@@ -78,6 +78,7 @@ de vogel -> de lucht -> de luchtvervuiling -> het milieu -> de klimaatveranderin
 
 
 | Nederlands                | English               |
+| ---------                 | -------               |
 | het hoofd                 | head                  |
 | het voorhoofd             | forehead              |
 | het haar                  | hair                  |
@@ -110,6 +111,7 @@ de vogel -> de lucht -> de luchtvervuiling -> het milieu -> de klimaatveranderin
 
 
 | Nederlands                | English               |
+| ---------                 | -------               |
 | de adem                   | breath                |
 | de boer/ de boertje       | burp                  |
 | de traan                  | tear                  |
