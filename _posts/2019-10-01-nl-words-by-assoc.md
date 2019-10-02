@@ -65,7 +65,7 @@ Of course, these tables are not rigid boundaries between asscoiated families of 
 | --------                  | ------                | 
 | de hand                   | hand                  | 
 | de vinger                 | finger                | 
-| de duim(#)                | thumb                 | 
+| de duim                   | thumb                 | 
 | de wijsvinger             | index finger          |
 | de pink                   | little finger, pinkie |
 | de middelvinger           | middle finger         |
@@ -73,10 +73,10 @@ Of course, these tables are not rigid boundaries between asscoiated families of 
 | de nagel                  | nail                  |
 | de palm                   | palm                  |
 | de ringvinger             | ring finger           |
-| de muis                   | ball of the hand      |
-                                                          
-                                                          
-                                                       
+| de muis                   | ball of the hand      | 
+
+
+
 | Nederlands                | English               |
 | ---------                 | -------               |
 | het hoofd                 | head                  |  
@@ -107,13 +107,13 @@ Of course, these tables are not rigid boundaries between asscoiated families of 
 | de buik                   | belly                 |
 | de maag                   | stomach               |
 | de navel                  | navel                 |
-                                                         
-                                                          
-                                                           
+
+
+
 | Nederlands                | English               |
 | ---------                 | -------               |
 | de adem                   | breath                |
-| de boer/ de boertje       | burp                  |
+| de boer/ de boertje | burp                  |
 | de traan                  | tear                  |
 | de speeksel               | saliva                |
 | het snot                  | snot                  |
@@ -121,8 +121,8 @@ Of course, these tables are not rigid boundaries between asscoiated families of 
 | de poep                   | poo                   |
 | het zweet                 | sweat                 |
 | de stront                 | shit/excrement        |
-| de scheet/de wind         | fart                  |
-| de vijst/de veest         | flatulence            |
+| de scheet/de wind  | fart                  |
+| de vijst/de veest  | flatulence            |
 | de urine                  | urine                 |
 
 
