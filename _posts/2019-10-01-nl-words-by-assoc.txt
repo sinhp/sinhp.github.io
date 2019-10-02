@@ -8,7 +8,7 @@ tags:
   - NT2
   - B1 & B2 
   - Ideographic dictionary
-permalink: /posts/2019/10/NL-words-by-assoc
+permalink: /posts/2019/10/nl-words-by-assoc
 comments: true
 thumbnail: 
 location: Utrecht, Netherlands
