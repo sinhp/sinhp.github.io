@@ -61,13 +61,14 @@ Of course, these tables are not rigid boundaries between asscoiated families of 
 
 ## Word clusters
 
-
+<figure>
 <br/><img src='/images/posts/2019/De-anatomische-les-van-Dr-Nicolaas-Tulp-Rembrandt-van-Rijn-1652-Mauritshuis.jpg'>
-
+</figure>
 
 
 | Nederlands                   | English               |
-| --------                     | ------                | 
+| --------                     | ------                |
+| het lichaam                  | body                  | 
 | de hand                      | hand                  | 
 | de vinger                    | finger                | 
 | de duim                      | thumb                 | 
@@ -79,6 +80,10 @@ Of course, these tables are not rigid boundaries between asscoiated families of 
 | de palm                      | palm                  |
 | de ringvinger                | ring finger           |
 | de muis                      | ball of the hand      | 
+| de voet                      | foot                  |
+| het bloedvat                 | blood vessel          | 
+| het hart                     | heart                 |
+ 
 
 
 
@@ -134,36 +139,14 @@ Of course, these tables are not rigid boundaries between asscoiated families of 
 
 | Nederlands                | English               |
 | ---------                 | -------               |
-| wissen                    | delete                |
-| delen                     | share                 |
-| instellingen              | settings              |
-| toevoegen                 | add                   |
-| profiel                   | profile               |
-| zoeken                    | search                |
-| opgeslagen                | stored/saved          |
-| weergeven                 | show/reproduce        |
-| verbergen                 | hide                  |
-| berichten                 | messages              |
-| filteren op               | filter by             |
-| gespreksduur              | call duration         |
-| afdrukken                 | print                 |
-
-
-
-| Nederlands                | English               |
-| ---------                 | -------               |
-| het comite                | committee             |
-| de voorzitter             | chairman              |
-| de vergadering            | meeting               |
-| het congres               | conference            |
-| de vereniging             | society/club          |
-| het bestuur               | adminstration         |
-| het besluit               | decision              |
-| de bijeenkomst            | meeting/gathering     |
-| de politiek               | politics              |
-| de politicus              | politician            |
-| de meerderheid            | majority              |
-| de minderheid             | minority              |
+| het koninkrijk            | kingdom               |
+| de koning                 | king                  |
+| de koningin               | queen                 |
+| de graaf                  | count                 |
+| de gravin                 | countess              |
+| de hertog                 | duke                  |
+| de hertogin               | duchess               |
+| de adel                   | nobility              |
 
 
 
@@ -191,14 +174,18 @@ Of course, these tables are not rigid boundaries between asscoiated families of 
 
 | Nederlands                | English               |
 | ---------                 | -------               |
-| het koninkrijk            | kingdom               |
-| de koning                 | king                  |
-| de koningin               | queen                 |
-| de graaf                  | count                 |
-| de gravin                 | countess              |
-| de hertog                 | duke                  |
-| de hertogin               | duchess               |
-| de adel                   | nobility              |
+| het comite                | committee             |
+| de voorzitter             | chairman              |
+| de vergadering            | meeting               |
+| het congres               | conference            |
+| de vereniging             | society/club          |
+| het bestuur               | adminstration         |
+| het besluit               | decision              |
+| de bijeenkomst            | meeting/gathering     |
+| de politiek               | politics              |
+| de politicus              | politician            |
+| de meerderheid            | majority              |
+| de minderheid             | minority              |
 
 
 
@@ -230,6 +217,24 @@ Of course, these tables are not rigid boundaries between asscoiated families of 
 | het proefschrift          | (doctoral) thesis     |
 | de weekblad               | weekly                |
 | knippsel                  | cutting               |
+
+
+
+| Nederlands                | English               |
+| ---------                 | -------               |
+| wissen                    | delete                |
+| delen                     | share                 |
+| instellingen              | settings              |
+| toevoegen                 | add                   |
+| profiel                   | profile               |
+| zoeken                    | search                |
+| opgeslagen                | stored/saved          |
+| weergeven                 | show/reproduce        |
+| verbergen                 | hide                  |
+| berichten                 | messages              |
+| filteren op               | filter by             |
+| gespreksduur              | call duration         |
+| afdrukken                 | print                 |
 
 
 
@@ -339,28 +344,10 @@ Of course, these tables are not rigid boundaries between asscoiated families of 
 | aantrekken                | to put on             | 
 
 
-
-| Nederlands                | English               |
-| ---------                 | -------               |
-| de kust                   | coast                 |
-| het strand                | beach                 |
-| de badplaats              | seaside resort        |
-| de zee                    | sea                   | 
-| aan zee                   | at the seaside        | 
-| de golf                   | wave                  |
-| de branding               | surf/breakers         |
-| de badpak                 | swimsuit              |
-| de zwembroek              | swimming trunks       |
-| het zand                  | sand                  |
-| het zandkasteel           | sand castle           |
-| de zonnebrand             | sunburn               |
-| duiken                    | to dive               |
-| het meer                  | lake                  |
-| het eiland                | island                |
-| het schiereiland          | peninsula             |
-| de oceaan                 | ocean                 |
-
-
+<figure>
+<br/><img src='/images/posts/2019/Vršič-triglav.jpg'>
+</figure>
+ 
 
 | Nederlands                | English               |
 | ---------                 | -------               |  
@@ -394,6 +381,28 @@ Of course, these tables are not rigid boundaries between asscoiated families of 
 | de akker                  | field                 |
 | de landbouw               | agriculture           |
 | de traktor                | tractor               |
+
+
+
+| Nederlands                | English               |
+| ---------                 | -------               |
+| de kust                   | coast                 |
+| het strand                | beach                 |
+| de badplaats              | seaside resort        |
+| de zee                    | sea                   | 
+| aan zee                   | at the seaside        | 
+| de golf                   | wave                  |
+| de branding               | surf/breakers         |
+| de badpak                 | swimsuit              |
+| de zwembroek              | swimming trunks       |
+| het zand                  | sand                  |
+| het zandkasteel           | sand castle           |
+| de zonnebrand             | sunburn               |
+| duiken                    | to dive               |
+| het meer                  | lake                  |
+| het eiland                | island                |
+| het schiereiland          | peninsula             |
+| de oceaan                 | ocean                 |
 
 
 
