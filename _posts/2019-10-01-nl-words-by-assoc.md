@@ -128,6 +128,7 @@ Of course, these tables are not rigid boundaries between asscoiated families of 
 
 
 | Nederlands                | English               |
+| ---------                 | -------               |
 | wissen                    | delete                |
 | delen                     | share                 |
 | instellingen              | settings              |
@@ -145,6 +146,7 @@ Of course, these tables are not rigid boundaries between asscoiated families of 
 
 
 | Nederlands                | English               |
+| ---------                 | -------               |
 | het comite                | committee             |
 | de voorzitter             | chairman              |
 | de vergadering            | meeting               |
@@ -161,6 +163,7 @@ Of course, these tables are not rigid boundaries between asscoiated families of 
 
 
 | Nederlands                | English               |
+| ---------                 | -------               |
 | de stem                   | vote                  |
 | de kiezer                 | voter                 |
 | de verkiezing             | election              |
@@ -182,6 +185,7 @@ Of course, these tables are not rigid boundaries between asscoiated families of 
 
 
 | Nederlands                | English               |
+| ---------                 | -------               |
 | het koninkrijk            | kingdom               |
 | de koning                 | king                  |
 | de koningin               | queen                 |
@@ -194,6 +198,7 @@ Of course, these tables are not rigid boundaries between asscoiated families of 
 
 
 | Nederlands                | English               |
+| ---------                 | -------               |
 | lezen                     | to read               |
 | uitlezen                  | to finish reading     |
 | de slappe/harde kaft      | soft/hard cover       |
@@ -216,7 +221,7 @@ Of course, these tables are not rigid boundaries between asscoiated families of 
 | uitgeven                  | to publish            |
 | de rubriek                | column                |
 | de kop                    | the headline          |
-| het tijdschrift            | magazine, periodical  |
+| het tijdschrift           | magazine, periodical  |
 | het proefschrift          | (doctoral) thesis     |
 | de weekblad               | weekly                |
 | knippsel                  | cutting               |
@@ -224,6 +229,7 @@ Of course, these tables are not rigid boundaries between asscoiated families of 
 
 
 | Nederlands                | English               |
+| ---------                 | -------               |
 | de leestekens             | punctuations          |
 | de alinea                 | paragraph             |
 | zeer belezen              | well-read             |
@@ -238,6 +244,7 @@ Of course, these tables are not rigid boundaries between asscoiated families of 
 
 
 | Nederlands                | English               |
+| ---------                 | -------               |
 | de hoogleraar             | professor             |
 | de docent                 | lecturer              |
 | de leerstoel              | academic chair        |
@@ -246,6 +253,7 @@ Of course, these tables are not rigid boundaries between asscoiated families of 
 
 
 | Nederlands                | English               |
+| ---------                 | -------               |
 | gehoorzaamheid            | obedience             |
 | overheid                  | authority             |
 | eerbied                   | resepctful/reverence  |
@@ -254,6 +262,7 @@ Of course, these tables are not rigid boundaries between asscoiated families of 
 
 
 | Nederlands                | English               |
+| ---------                 | -------               |
 | scheppende                | creator               |
 | gelovigen                 | believers             |
 | draagkrachtige            | weightbearing         |
@@ -277,6 +286,7 @@ Of course, these tables are not rigid boundaries between asscoiated families of 
 
 
 | Nederlands                | English               |
+| ---------                 | -------               |
 | de oorlog                 | war                   |
 | de vrede                  | peace                 |
 | vechten                   | to fight              |
@@ -312,6 +322,7 @@ Of course, these tables are not rigid boundaries between asscoiated families of 
 
 
 | Nederlands                | English               |
+| ---------                 | -------               |
 | de jurk                   | dress                 |
 | de rok                    | shirt                 |
 | de onderjurk              | petticoat/slip        |
@@ -325,6 +336,7 @@ Of course, these tables are not rigid boundaries between asscoiated families of 
 
 
 | Nederlands                | English               |
+| ---------                 | -------               |
 | de kust                   | coast                 |
 | het strand                | beach                 |
 | de badplaats              | seaside resort        |
@@ -345,7 +357,8 @@ Of course, these tables are not rigid boundaries between asscoiated families of 
 
 
 
-| Nederlands                | English               |  
+| Nederlands                | English               |
+| ---------                 | -------               |  
 | de berg                   | mountain              |
 | het gebergte              | mountain range        |
 | bergachtig                | mountainous           |
@@ -359,7 +372,8 @@ Of course, these tables are not rigid boundaries between asscoiated families of 
 
 
 
-| Nederlands                | English               | 
+| Nederlands                | English               |
+| ---------                 | -------               | 
 | het weiland               | pasture land, field   |
 | de boerderij              | farm                  |
 | de boer                   | farmer                |
@@ -379,6 +393,7 @@ Of course, these tables are not rigid boundaries between asscoiated families of 
 
 
 | Nederlands                | English               |
+| ---------                 | -------               |
 | het klimaat               | climate               |
 | de klimaatverandering     | climate               | 
 | graden                    | degrees               |
@@ -439,6 +454,7 @@ Of course, these tables are not rigid boundaries between asscoiated families of 
 
 
 | Nederlands                | English               |
+| ---------                 | -------               |
 | de lucht                  | air/sky               |
 | de hemel                  | sky/heaven            |
 | de ster                   | star                  |
@@ -454,6 +470,7 @@ Of course, these tables are not rigid boundaries between asscoiated families of 
   -->
 
 | Nederlands                | English               |
+| ---------                 | -------               |
 | het museum                | museum                |
 | (op) de markt             | at the market         |
 | het kroeg                 | pub                   |
@@ -474,7 +491,8 @@ Of course, these tables are not rigid boundaries between asscoiated families of 
 
 
 
-| Nederlands                | English               | 
+| Nederlands                | English               |
+| ---------                 | -------               | 
 | de trein                  | train                 |
 | de spoorweg               | railway               |
 | het loket                 | ticket                |
@@ -496,7 +514,8 @@ Of course, these tables are not rigid boundaries between asscoiated families of 
 
 
 
-| Nederlands                | English               | 
+| Nederlands                | English               |
+| ---------                 | -------               | 
 | kontant betalen           | to pay cash           |
 | de aanbieding             | special offer         |
 | de reklame                | advertisement         |
@@ -524,6 +543,7 @@ Of course, these tables are not rigid boundaries between asscoiated families of 
 
 
 | Nederlands                | English               |
+| ---------                 | -------               |
 | de (heren)kapper          | (gents') hairdresser  |
 | de kapster                | hairdresser           |
 | knippen                   | to cut (hair)         |
@@ -539,6 +559,7 @@ Of course, these tables are not rigid boundaries between asscoiated families of 
 
 
 | Nederlands                | English               |
+| ---------                 | -------               |
 | brief                     | letter                |
 | postzegel                 | stamp                 |
 | de postbodes              | postmen               |
@@ -562,6 +583,7 @@ Of course, these tables are not rigid boundaries between asscoiated families of 
 
 
 | Nederlands                | English               |
+| ---------                 | -------               |
 | de taal                   | language              |
 | de taalniveau             | language level        | 
 | het alfabet               | alphabet              |
@@ -574,6 +596,7 @@ Of course, these tables are not rigid boundaries between asscoiated families of 
 
 
 | Nederlands                | English               |
+| ---------                 | -------               |
 | aanmerking                | eligible              |
 | verzoek                   | application           |
 | beoordelen                | judge/examine         |
@@ -596,7 +619,8 @@ Of course, these tables are not rigid boundaries between asscoiated families of 
 | 
 
 
-| Nederlands                | English               | 
+| Nederlands                | English               |
+| ---------                 | -------               | 
 | de woonkamer              | living room           |
 | de slaapkamer             | bedroom               |
 | de badkamer               | bathroom              |
@@ -618,7 +642,8 @@ Of course, these tables are not rigid boundaries between asscoiated families of 
 | de achterdeur             | backdoor              |
 
 
-| Nederlands                | English               | 
+| Nederlands                | English               |
+| ---------                 | -------               | 
 | de sleutel                | key                   |
 | het raam                  | window                |
 | het luik                  | shutter               | 
@@ -644,7 +669,8 @@ Of course, these tables are not rigid boundaries between asscoiated families of 
 
 
 
-| Nederlands                | English               | 
+| Nederlands                | English               |
+| ---------                 | -------               | 
 | de boekensteun            | bookend               |
 | de boekenkast             | bookcase              |
 | de lamp                   | lamp                  |
@@ -666,7 +692,8 @@ Of course, these tables are not rigid boundaries between asscoiated families of 
 
 
 
-| Nederlands                | English               | 
+| Nederlands                | English               |
+| ---------                 | -------               | 
 | de tuin                   | garden/yard           |
 | tuinleren                 | to garden             |
 | de kruiwagen              | wheelbarrow           | 
@@ -698,7 +725,8 @@ Of course, these tables are not rigid boundaries between asscoiated families of 
 
 
 
-| Nederlands                | English               | 
+| Nederlands                | English               |
+| ---------                 | -------               | 
 | de uitzending             | broadcast             |
 | de ontvangst              | reception             |
 | het programmablad         | TV/radio guide        |
@@ -722,7 +750,8 @@ Of course, these tables are not rigid boundaries between asscoiated families of 
 
 
 
-| Nederlands                | English               | 
+| Nederlands                | English               |
+| ---------                 | -------               | 
 | de misdadiger             | criminal              |
 | de gevangenis             | prison                |
 | verhoren                  | interrogate           |
@@ -753,7 +782,8 @@ Of course, these tables are not rigid boundaries between asscoiated families of 
 
 
 
-| Nederlands                | English               | 
+| Nederlands                | English               |
+| ---------                 | -------               | 
 | het gevoel                | feeling               |
 | het geluk                 | luck/happiness        |
 | blij                      | happy                 |
@@ -776,6 +806,7 @@ Of course, these tables are not rigid boundaries between asscoiated families of 
 
 
 | Nederlands                | English               |
+| ---------                 | -------               |
 | de slaap                  | sleep                 |
 | slapen                    | to sleep              |
 | dromen                    | to dream              |
@@ -794,6 +825,7 @@ Of course, these tables are not rigid boundaries between asscoiated families of 
 
 
 | Nederlands                | English               |
+| ---------                 | -------               |
 | aardig                    | nice                  |
 | krenterig                 | miserly/mean          |
 | egoistisch                | egotistical/selfish   |
@@ -804,7 +836,8 @@ Of course, these tables are not rigid boundaries between asscoiated families of 
 | voorkomend                | thoughtful            |
 
 
-| Nederlands                | English               | 
+| Nederlands                | English               |
+| ---------                 | -------               | 
 | bouwen                    | to build              |
 | afbouwen                  | to finish building    |
 | de ondernemer             | contractor            |
