@@ -62,6 +62,10 @@ Of course, these tables are not rigid boundaries between asscoiated families of 
 ## Word clusters
 
 
+<br/><img src='/images/De-anatomische-les-van-Dr-Nicolaas-Tulp-Rembrandt-van-Rijn-1652-Mauritshuis.jpg'>
+
+
+
 | Nederlands                   | English               |
 | --------                     | ------                | 
 | de hand                      | hand                  | 
