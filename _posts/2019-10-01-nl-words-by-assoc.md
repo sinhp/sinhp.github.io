@@ -267,7 +267,7 @@ Of course, these tables are not rigid boundaries between asscoiated families of 
 | gehoorzaamheid            | obedience             |
 | overheid                  | authority             |
 | eerbied                   | resepctful/reverence  |
-| 
+| de straf                  | punishment            |
 
 
 
@@ -354,6 +354,7 @@ Of course, these tables are not rigid boundaries between asscoiated families of 
 | de berg                   | mountain              |
 | het gebergte              | mountain range        |
 | bergachtig                | mountainous           |
+| de bergketen              | mountain chain        |
 | de heuvel                 | hill                  |
 | heuvelachtig              | hilly                 |
 | de vulkaan                | volcano               |
