@@ -55,25 +55,26 @@ Thus, in order to correlate the word of one language with a word of another lang
 In below I have made tables of words by association in Dutch. The vocabulary level covers the [Dutch levels B1 & B2](https://nt2taalmenu.nl/nt2-b2-menu/). The hope is that for this list to grow into a basic dictionary.
 
 Of course, these tables are not rigid boundaries between asscoiated families of words: any word of any table can be associated to some word of some table. [Here](https://forum.nl-ganz-schnell.de/t/wat-schiet-jou-te-binnen-bij/74/2) is an example of a path from the word <q>vogel (bird)</q> to the word <q>weegschaal</q> in the association graph of words on the forum [Buurtaalforum voor Duitstaligen](https://www.staatsexamensnt2.nl/url/buurtaalforum-voor-duitstaligen): 
+
 <code>de vogel</code> -> <code>de lucht</code> -> <code>de luchtvervuiling</code> -> <code>het milieu</code> -> <code>de klimaatverandering</code> -> <code>de snelheidsbeperking</code> -> <code>de snelweg</code> -> <code>de file</code> -> <code>de omleiding</code> -> <code>het verkeersboden</code> -> <code>de politie</code> -> <code>de spookrijder</code> -> <code>griezelig</code> -> <code>angstig</code> -> <code>Nachtmerries als kleuter</code> -> <code>de peuter</code> -> <code>de oppas</code> -> <code>Naar de film gaan</code> -> <code>popcorn</code> -> <code>poffen</code> -> <code>een portie poffertjes</code> -> <code>lekker</code> -> <code>smakelijk</code> -> <code>ruiken</code> -> <code>een prachtige ruiker</code> -> <code>lelietjes-van-dalen</code> -> <code>vergeet-me-nietjes</code> -> <code>de lente</code> - <code>de hooikoorts-hatsje!</code> -> <code> de medicijnen</code> -> <code>Rum (gebracht door de Sint-Bernardshond met een vaatje om zijn nek)</code> -> <code>de sneeuw</code> -> <code>de sneeuwpop</code> -> <code>het sneeuwballenvecht</code> -> <code>de pret</code> -> <code>schaterlachen</code> -> <code>de buikpijn van het lachen</code> -> <code>gieren van de lach</code> -> <code>de blijheid</code> -> <code>vrolijk</code> -> <code>uitgelaten</code> -> <code>dansen</code> -> <code>het ballet</code> -> <code>de spierpijn</code> -> <code>Een streng dieet en veel zelfdiscipline</code> -> <code>afvallen</code> -> <code>de kilos</code> -> <code>het pond</code> -> <code>de weegschaal</code> 
 
 
 ## Word clusters
 
 
-| Nederlands                | English               |
-| --------                  | ------                | 
-| de hand                   | hand                  | 
-| de vinger                 | finger                | 
-| de duim                   | thumb                 | 
-| de wijsvinger             | index finger          |
-| de pink                   | little finger, pinkie |
-| de middelvinger           | middle finger         |
-| de vingertop              | fingertip             |
-| de nagel                  | nail                  |
-| de palm                   | palm                  |
-| de ringvinger             | ring finger           |
-| de muis                   | ball of the hand      | 
+| Nederlands                   | English               |
+| --------                     | ------                | 
+| de hand                      | hand                  | 
+| de vinger                    | finger                | 
+| de duim                      | thumb                 | 
+| de wijsvinger                | index finger          |
+| de pink                      | little finger, pinkie |
+| de middelvinger              | middle finger         |
+| de vingertop                 | fingertip             |
+| de nagel                     | nail                  |
+| de palm                      | palm                  |
+| de ringvinger                | ring finger           |
+| de muis                      | ball of the hand      | 
 
 
 
@@ -113,7 +114,7 @@ Of course, these tables are not rigid boundaries between asscoiated families of 
 | Nederlands                | English               |
 | ---------                 | -------               |
 | de adem                   | breath                |
-| de boer/ de boertje | burp                  |
+| de boer/ de boertje       | burp                  |
 | de traan                  | tear                  |
 | de speeksel               | saliva                |
 | het snot                  | snot                  |
@@ -121,8 +122,8 @@ Of course, these tables are not rigid boundaries between asscoiated families of 
 | de poep                   | poo                   |
 | het zweet                 | sweat                 |
 | de stront                 | shit/excrement        |
-| de scheet/de wind  | fart                  |
-| de vijst/de veest  | flatulence            |
+| de scheet/de wind         | fart                  |
+| de vijst/de veest         | flatulence            |
 | de urine                  | urine                 |
 
 
