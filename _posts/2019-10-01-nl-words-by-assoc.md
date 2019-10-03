@@ -718,19 +718,24 @@ Of course, these tables are not rigid boundaries between asscoiated families of 
 | Nederlands                | English               |
 | ---------                 | -------               | 
 | de tuin                   | garden/yard           |
-| tuinleren                 | to garden             |
-| de kruiwagen              | wheelbarrow           | 
+| tuinleren                 | to garden             | 
 | de vaas                   | vase                  |
 | harken                    | to rake               |
 | de hark                   | rake                  |
 | de tuinslang              | hose                  |
+| de schutting              | (wooden) fence        |
+| de bloemenperk            | flower bed            |
 | spitten                   | to dig                |
 | de broeikas               | glass house           |
 | de vijver                 | pond                  |
-| de schop                  | spade/shovel          |
-| de schutting              | (wooden) fence        |
-| de bloemenperk            | flower bed            |
+
+
+
+| Nederlands                | English               |
+| ---------                 | -------               | 
 | de gereedschap            | tools                 |
+| de kruiwagen              | wheelbarrow           |
+| de schop                  | spade/shovel          |
 | de zaag                   | saw                   |
 | zagen                     | to saw                |
 | hameren                   | to hammer             |
