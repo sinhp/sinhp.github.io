@@ -344,10 +344,14 @@ Of course, these tables are not rigid boundaries between asscoiated families of 
 | aantrekken                | to put on             | 
 
 
+
+{% include image.html url="/images/posts/2019/Vršič-triglav.jpg" description="Vršič, Triglav National Park, Slovenia (photo by me)" %}
+
+<!---
 <figure>
 <br/><img src='/images/posts/2019/Vršič-triglav.jpg' alt ="photo by me" description=" Vršič, Triglav National Park, Slovenia (photo by me)">
 </figure>
- 
+ -->
 
 | Nederlands                | English               |
 | ---------                 | -------               |  
