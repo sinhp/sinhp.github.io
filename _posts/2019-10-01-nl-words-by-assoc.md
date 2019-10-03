@@ -66,24 +66,28 @@ Of course, these tables are not rigid boundaries between asscoiated families of 
 </figure>
 
 
-| Nederlands                   | English               |
-| --------                     | ------                |
-| het lichaam                  | body                  | 
-| de hand                      | hand                  | 
-| de vinger                    | finger                | 
-| de duim                      | thumb                 | 
-| de wijsvinger                | index finger          |
-| de pink                      | little finger, pinkie |
-| de middelvinger              | middle finger         |
-| de vingertop                 | fingertip             |
-| de nagel                     | nail                  |
-| de palm                      | palm                  |
-| de ringvinger                | ring finger           |
-| de muis                      | ball of the hand      | 
-| de voet                      | foot                  |
-| het bloedvat                 | blood vessel          | 
-| het hart                     | heart                 |
- 
+| Nederlands                | English               |
+| --------                  | ------                |
+| het lichaam               | body                  | 
+| de hand                   | hand                  | 
+| de vinger                 | finger                | 
+| de duim                   | thumb                 | 
+| de wijsvinger             | index finger          |
+| de pink                   | little finger, pinkie |
+| de middelvinger           | middle finger         |
+| de vingertop              | fingertip             |
+| de nagel                  | nail                  |
+| de palm                   | palm                  |
+| de ringvinger             | ring finger           |
+| de muis                   | ball of the hand      | 
+| de voet                   | foot                  |
+| het bloedvat              | blood vessel          | 
+| het hart                  | heart                 |
+| de buik                   | belly                 |
+| de maag                   | stomach               |
+| de navel                  | navel                 |
+| de darm                   | intestine             | 
+| de long                   | lung                  |
 
 
 
@@ -114,9 +118,6 @@ Of course, these tables are not rigid boundaries between asscoiated families of 
 | de hals                   | neck (the front part) | 
 | de baard                  | beard                 | 
 | de snor                   | moustasche            |
-| de buik                   | belly                 |
-| de maag                   | stomach               |
-| de navel                  | navel                 |
 
 
 
@@ -688,6 +689,13 @@ Of course, these tables are not rigid boundaries between asscoiated families of 
 
 
 
+
+| Nederlands                | English               |
+| ---------                 | -------               | 
+| de laken                  | bedsheets             |
+
+
+
 | Nederlands                | English               |
 | ---------                 | -------               | 
 | de boekensteun            | bookend               |
@@ -750,6 +758,9 @@ Of course, these tables are not rigid boundaries between asscoiated families of 
 | houtboren                 | wood drill bits       |
 | boorstand                 | drill position/state  |
 | toerental                 | rPM                   |
+
+
+{% include image.html url="https://get.pxhere.com/photo/man-book-group-woman-film-community-office-studio-human-business-together-education-broadcast-book-fair-team-teamwork-leipzig-trade-event-fair-company-celebrity-prominent-many-success-interview-career-organization-mass-finance-personal-watch-tv-group-of-people-cooperation-successful-group-work-897002.jpg" %}
 
 
 
