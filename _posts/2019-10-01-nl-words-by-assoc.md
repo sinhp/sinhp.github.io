@@ -534,6 +534,7 @@ Of course, these tables are not rigid boundaries between asscoiated families of 
 
 
 
+
 | Nederlands                | English               |
 | ---------                 | -------               | 
 | kontant betalen           | to pay cash           |
@@ -636,7 +637,7 @@ Of course, these tables are not rigid boundaries between asscoiated families of 
 | getuigschrift             | certificate           |
 | basisonderwijs            | primary education     |
 | verklaring                | statement             |
-| 
+
 
 
 | Nederlands                | English               |
@@ -660,6 +661,7 @@ Of course, these tables are not rigid boundaries between asscoiated families of 
 | de kinderkamer            | nursery               |
 | de bovenhuis/bovenwoning  | upstairs flat         |
 | de achterdeur             | backdoor              |
+
 
 
 | Nederlands                | English               |
@@ -693,7 +695,15 @@ Of course, these tables are not rigid boundaries between asscoiated families of 
 | Nederlands                | English               |
 | ---------                 | -------               | 
 | de laken                  | bedsheets             |
-
+| de vloerbedekking         | floor cover           |
+| de muur                   | wall                  |
+| behangen                  | to wallpaper          |
+| inrichten                 | to furnish            | 
+| de meubels                | furniture             |
+| de commode                | chest                 |
+| de wieg                   | craddle               |
+| de washandje              | washing glove         |
+| de mondspeen              | 
 
 
 | Nederlands                | English               |
@@ -786,6 +796,10 @@ Of course, these tables are not rigid boundaries between asscoiated families of 
 | de zekering               | fuse                  |
 | doorbranden               | to blow/burn out      |
 | het stopcontact           | socket                |
+
+
+{% include image.html url="https://proxy.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.medischcontact.nl%2Fupload%2F77dba924-c7c7-4bd0-a50a-600168513ade_image7041767443131404918.jpg&f=1&nofb=1" %}
+
 
 
 
