@@ -710,6 +710,10 @@ Of course, these tables are not rigid boundaries between asscoiated families of 
 | de centrale verwarming    | central heating       |
 
 
+<figure>
+  <br/><img src="http://pxhere.com/nl/photo/1331553">
+</figure>
+
 
 | Nederlands                | English               |
 | ---------                 | -------               | 
