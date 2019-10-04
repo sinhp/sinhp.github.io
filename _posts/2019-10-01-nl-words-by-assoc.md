@@ -159,6 +159,8 @@ Of course, these tables are not rigid boundaries between asscoiated families of 
 
 
 
+
+
 <figure>
   <br/><img src='https://c.pxhere.com/photos/5b/24/king_bart_red_crown_figure_painted_royal_barbarossa-1246195.jpg!d' alt="het koning">
 </figure>
@@ -757,7 +759,9 @@ Of course, these tables are not rigid boundaries between asscoiated families of 
 
 
 
-  {% include image.html url="https://get.pxhere.com/photo/landscape-water-grass-sky-lawn-play-panorama-pond-park-romantic-castle-garden-stadium-art-clouds-french-fontaine-fountain-botanical-garden-estate-horticulture-idyll-baroque-applied-garden-design-aerial-photography-br-hl-augustusburg-ground-floor-sport-venue-landscape-architect-boscets-1190433.jpg" description="" %}
+<figure>
+  <br/><img src='https://get.pxhere.com/photo/landscape-water-grass-sky-lawn-play-panorama-pond-park-romantic-castle-garden-stadium-art-clouds-french-fontaine-fountain-botanical-garden-estate-horticulture-idyll-baroque-applied-garden-design-aerial-photography-br-hl-augustusburg-ground-floor-sport-venue-landscape-architect-boscets-1190433.jpg' alt='de tuin'>
+</figure>
 
 
 
@@ -798,7 +802,9 @@ Of course, these tables are not rigid boundaries between asscoiated families of 
 | toerental                 | rPM                   |
 
 
-{% include image.html url="https://get.pxhere.com/photo/man-book-group-woman-film-community-office-studio-human-business-together-education-broadcast-book-fair-team-teamwork-leipzig-trade-event-fair-company-celebrity-prominent-many-success-interview-career-organization-mass-finance-personal-watch-tv-group-of-people-cooperation-successful-group-work-897002.jpg" %}
+<figure>
+  <br/><img src='https://get.pxhere.com/photo/man-book-group-woman-film-community-office-studio-human-business-together-education-broadcast-book-fair-team-teamwork-leipzig-trade-event-fair-company-celebrity-prominent-many-success-interview-career-organization-mass-finance-personal-watch-tv-group-of-people-cooperation-successful-group-work-897002.jpg' alt =" uitzending">
+</figure>
 
 
 
