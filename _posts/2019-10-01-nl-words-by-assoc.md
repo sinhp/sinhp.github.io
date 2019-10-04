@@ -138,7 +138,7 @@ Of course, these tables are not rigid boundaries between asscoiated families of 
 
 
 <figure>
-  <br/><img src="https://c.pxhere.com/photos/5b/24/king_bart_red_crown_figure_painted_royal_barbarossa-1246195.jpg">
+  <img src="https://c.pxhere.com/photos/5b/24/king_bart_red_crown_figure_painted_royal_barbarossa-1246195.jpg">
 </figure>
 
 
