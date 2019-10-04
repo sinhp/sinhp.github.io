@@ -138,7 +138,7 @@ Of course, these tables are not rigid boundaries between asscoiated families of 
 
 
 <figure>
-  <img src="https://c.pxhere.com/photos/5b/24/king_bart_red_crown_figure_painted_royal_barbarossa-1246195.jpg">
+  <br/><img src='https://c.pxhere.com/photos/5b/24/king_bart_red_crown_figure_painted_royal_barbarossa-1246195.jpg'>
 </figure>
 
 
@@ -161,7 +161,7 @@ Of course, these tables are not rigid boundaries between asscoiated families of 
 | de stem                   | vote                  |
 | de kiezer                 | voter                 |
 | de verkiezing             | election              |
-| de rijksambtenaar         | civil cervant         |
+| de rijksambtenaar         | civil servant         |
 | het koninghuis            | royal house           |
 | de regering               | government            |
 | het parlement             | parliament            |
@@ -893,6 +893,18 @@ Of course, these tables are not rigid boundaries between asscoiated families of 
 | gemoedelijk               | buoyant/jovial        |
 | voorkomend                | thoughtful            |
 
+
+
+
+| Nederlands                | English               |
+| ---------                 | -------               |
+| zwak                      | weak                  |
+| sterk                     | strong                | 
+| diep                      | deep                  |
+| ondiep                    | shallow               |
+| mooi                      | pretty                |
+| lelijk                    | ugly                  |
+| 
 
 | Nederlands                | English               |
 | ---------                 | -------               | 
