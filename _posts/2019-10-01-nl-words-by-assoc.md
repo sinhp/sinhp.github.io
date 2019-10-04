@@ -137,6 +137,28 @@ Of course, these tables are not rigid boundaries between asscoiated families of 
 | de urine                  | urine                 |
 
 
+| Nederlands                | English               |
+| ---------                 | -------               |
+| de arts                   | doctor                | 
+| de oogarts                | eye doctor            |
+| de spreekkamer            | surgery               |
+| zich melden               | to report/register    |
+| opereren                  | to operate            |
+| de operatie               | operation             |
+| de chirurg                | surgeon               |
+| de huidarts               | skin specialist       |
+| de ziekenhuis             | hospital              |
+| de opname                 | admission             |
+| de polikliniek            | out-patient's clinic  |
+| de ziekenauto             | ambulance             |
+| de zaal                   | ward                  | 
+| de operatiekamer          | operating theatre     |
+| verplegen                 | to nurse              |
+
+
+
+
+
 <figure>
   <br/><img src='https://c.pxhere.com/photos/5b/24/king_bart_red_crown_figure_painted_royal_barbarossa-1246195.jpg!d' alt="het koning">
 </figure>
