@@ -138,8 +138,9 @@ Of course, these tables are not rigid boundaries between asscoiated families of 
 
 
 <figure>
-  <br/><img src='https://c.pxhere.com/photos/5b/24/king_bart_red_crown_figure_painted_royal_barbarossa-1246195.jpg'>
+  <br/><img src='https://c.pxhere.com/photos/5b/24/king_bart_red_crown_figure_painted_royal_barbarossa-1246195.jpg!d' alt="het koning">
 </figure>
+
 
 
 
@@ -904,7 +905,23 @@ Of course, these tables are not rigid boundaries between asscoiated families of 
 | ondiep                    | shallow               |
 | mooi                      | pretty                |
 | lelijk                    | ugly                  |
-| 
+| trouw                     | faithful              |
+| trots (op)                | proud (of)            |
+| gek (op)                  | mad/crazy (about)     |
+| verlegen                  | shy                   |
+| bescheiden                | modest                |
+| (honds)brutaal            | (very) cheeky         |
+| beleefd                   | polite                |
+| rijp                      | ripe                  |
+| gul                       | generous              |
+| wreed                     | cruel                 |
+| lui                       | lazy                  |
+| ijverig                   | diligent              |
+| jaloers (op)              | envious (of)          |
+| enthousiast               | keen                  |
+
+
+
 
 | Nederlands                | English               |
 | ---------                 | -------               | 
