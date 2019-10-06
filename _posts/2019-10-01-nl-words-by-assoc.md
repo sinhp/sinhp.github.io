@@ -90,6 +90,11 @@ Of course, these tables are not rigid boundaries between asscoiated families of 
 | de long                   | lung                  |
 
 
+<figure>
+  <br/><img src='https://f.jwwb.nl/public/2/5/7/paardenhulpen/bouw-van-het-paard.large.jpg'>
+</figure>
+
+
 
 | Nederlands                | English               |
 | ---------                 | -------               |
@@ -119,6 +124,10 @@ Of course, these tables are not rigid boundaries between asscoiated families of 
 | de baard                  | beard                 | 
 | de snor                   | moustasche            |
 
+
+<figure>
+  <br/><img src='https://upload.wikimedia.org/wikipedia/commons/thumb/7/75/The_Papal_Belvedere.jpg/450px-The_Papal_Belvedere.jpg'>
+</figure>
 
 
 | Nederlands                | English               |
@@ -572,9 +581,16 @@ Of course, these tables are not rigid boundaries between asscoiated families of 
 | een retourtje             | return ticket         |
 | de stilte                 | the silent department |
 
+
+<figure>
+ <br/><img src='https://proxy.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.retaildetail.be%2Fsites%2Fdefault%2Ffiles%2Fnews%2Ffranchisenemers-ah-eisen-miljoenen-van-ahold.jpg&f=1&nofb=1'>
+</figure>
+
+
 | Nederlands                | English               |
 | ---------                 | -------               | 
 | kontant betalen           | to pay cash           |
+| de pin                    | debit card            |
 | de aanbieding             | special offer         |
 | de reklame                | advertisement         |
 | het bonnetje              | receipt/slip/voucher  |
@@ -597,7 +613,12 @@ Of course, these tables are not rigid boundaries between asscoiated families of 
 | de lijm                   | glue                  |
 | het touw                  | string/rope           |
 | de doos                   | box                   |
- 
+| de rij                    | queue                 | 
+
+
+<figure>
+  <br/><img src='https://c.pxhere.com/images/bf/cf/0566c73d273e4ee671f1d57f9c4f-1586535.jpg!d'>
+</figure>
 
 
 | Nederlands                | English               |
