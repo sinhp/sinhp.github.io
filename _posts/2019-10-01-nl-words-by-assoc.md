@@ -158,11 +158,13 @@ Of course, these tables are not rigid boundaries between asscoiated families of 
 
 
 
-
+| Nederlands                | English               |
+| ---------                 | -------               |
+| 
 
 
 <figure>
-  <br/><img src='https://c.pxhere.com/photos/5b/24/king_bart_red_crown_figure_painted_royal_barbarossa-1246195.jpg!d' alt="het koning">
+  <br/><img src='https://c.pxhere.com/photos/5b/24/king_bart_red_crown_figure_painted_royal_barbarossa-1246195.jpg!d' alt='het koning'>
 </figure>
 
 
@@ -540,6 +542,10 @@ Of course, these tables are not rigid boundaries between asscoiated families of 
 | (aan) de kassa            | (at) the cash register|
 
 
+<figure>
+  <br/><img src='https://c.pxhere.com/photos/e3/f6/train_utrecht_ns_nederland_zug_nl_bahn_trein-588007.jpg!d'>
+</figure>
+
 
 | Nederlands                | English               |
 | ---------                 | -------               | 
@@ -561,9 +567,10 @@ Of course, these tables are not rigid boundaries between asscoiated families of 
 | in/uit - overstappen      | to get - in/out       |
 | de aankomst               | arrival               |
 | het vertrek               | departure             |
-
-
-
+| richting                  | direction             |
+| het loket                 | ticket window         |
+| een retourtje             | return ticket         |
+| de stilte                 | the silent department |
 
 | Nederlands                | English               |
 | ---------                 | -------               | 
@@ -642,7 +649,30 @@ Of course, these tables are not rigid boundaries between asscoiated families of 
 | de grammatika             | grammar               |
 | vervoegen                 | to conjugate          |
 | de moedertaal             | mother tongue         |
-| 
+
+
+<figure>
+  <br/><img src='/images/posts/2019/leipzig_disputation-luther.jpg'>
+</figure>
+
+
+| Nederlands                | English               |
+| ---------                 | -------               |
+| bewering                  | claim                 | 
+| uitspraken                | statements            |
+| bewijs                    | proof                 | 
+| betekenis                 | meaning               |
+| opvatten                  | to interpret          |
+| toegeven                  | to accept/admit       |
+| weerleggen                | to refute             |
+| poneren                   | to posit              |
+| overdrijven               | to exaggerate         |
+| aanvallen                 | to attack             |
+| tegenstander              | opponent              |
+| tegenstelling             | antithesis/contradiction |
+| omstreden                 | controversial         |
+
+
 
 
 
@@ -803,7 +833,7 @@ Of course, these tables are not rigid boundaries between asscoiated families of 
 
 
 <figure>
-  <br/><img src='https://get.pxhere.com/photo/man-book-group-woman-film-community-office-studio-human-business-together-education-broadcast-book-fair-team-teamwork-leipzig-trade-event-fair-company-celebrity-prominent-many-success-interview-career-organization-mass-finance-personal-watch-tv-group-of-people-cooperation-successful-group-work-897002.jpg' alt =" uitzending">
+  <br/><img src='https://get.pxhere.com/photo/man-book-group-woman-film-community-office-studio-human-business-together-education-broadcast-book-fair-team-teamwork-leipzig-trade-event-fair-company-celebrity-prominent-many-success-interview-career-organization-mass-finance-personal-watch-tv-group-of-people-cooperation-successful-group-work-897002.jpg' alt ='uitzending'>
 </figure>
 
 
@@ -832,8 +862,10 @@ Of course, these tables are not rigid boundaries between asscoiated families of 
 | het stopcontact           | socket                |
 
 
-{% include image.html url="https://proxy.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.medischcontact.nl%2Fupload%2F77dba924-c7c7-4bd0-a50a-600168513ade_image7041767443131404918.jpg&f=1&nofb=1" %}
 
+<figure>
+  <br/><img src='https://proxy.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.medischcontact.nl%2Fupload%2F77dba924-c7c7-4bd0-a50a-600168513ade_image7041767443131404918.jpg&f=1&nofb=1' alt='de rechter'>
+</figure>
 
 
 
@@ -866,6 +898,58 @@ Of course, these tables are not rigid boundaries between asscoiated families of 
 | de diefstal               | robbery               |
 | de verkrachten            | rape                  |
 | onwettig/onwettelijk      | illegal               |
+| pleiten                   | to plead              |
+
+
+
+| Nederlands                | English               |
+| ---------                 | -------               | 
+| traject                   | process               |
+| afgesloten                | to finish             |
+| voorstellen               | to propose            |
+| kenmerken                 | characteristics       |
+| prestatie                 | performance           |
+| voordelen                 | benefits              |
+| bijeenkomst               | meeting               |
+| bijdrage                  | contribution          |
+| verspelen                 | to lose (support)     |
+| gebrek                    | lack                  | 
+| koers                     | course                | 
+| vestigde                  | established           |
+| behaalde                  | achieved              |
+| gehouden                  | maintained
+| uitzonderingswetten       | emergency laws        | 
+| afgekondigd               | announced             |
+| hervormd                  | reformed              | 
+| gesaneerd                 | restructured          | 
+| gewijzigd                 | changed               |
+| beheersing                | control               |
+| het streven               | striving              |
+
+
+
+| Nederlands                | English               |
+| ---------                 | -------               | 
+| verbond                   | union                 |
+| overlegeconomie           | consultative economoy |
+| bedrijfsleven             | business              | 
+| werkgelegenheid           | employment opportunity|
+| herstel                   | recovery              |
+| afspraken                 | agreement             |
+| beloftes                  | promisses             |
+| voorziening               | service               |
+| huisvesting               | housing               |
+| vast contract             | fixed contract        |
+| tijdelijk                 | temporary contract    |
+| loonmatiging              | restrain on wage increase |
+| het beleid                | policy                |
+| uitgaven                  | expenses              |
+| de prikkel                | incentive             |
+| waterschappen             | regional water authorities |
+| grondwaterpeil            | ground water level    |
+| landeigenaren             | land owners           |
+| uitkering                 | (social) benefits     |
+| 
 
 
 
@@ -889,7 +973,7 @@ Of course, these tables are not rigid boundaries between asscoiated families of 
 | de vermoeidheid           | weariness             |
 | uitgeput                  | exhausted             |
 | bezorgd                   | worried               |
-
+| lovende                   | praising              | 
 
 
 | Nederlands                | English               |
@@ -971,9 +1055,10 @@ Of course, these tables are not rigid boundaries between asscoiated families of 
 | het geelkoper             | brass                 |
 | het roodkoper             | copper                |
 | het staal                 | steel                 |
-| vlekvrij staal            | stailess steel        |
+| vlekvrij staal            | stainless steel        |
 | waterdicht                | water proof           |
 | de marmer                 | marble                |
 | het gips                  | plaster               |
-| het ijzer                 | iron                  | 
+| het ijzer                 | iron                  |
+| smeedijzeren              | iron wrought          | 
 | roestvrij                 | rustproof             |
