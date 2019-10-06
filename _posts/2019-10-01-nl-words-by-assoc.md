@@ -703,6 +703,10 @@ Of course, these tables are not rigid boundaries between asscoiated families of 
 | verklaring                | statement             |
 
 
+<figure>
+  <img src='/images/posts/2019/villa-del-grumello-june18.jpg'>
+</figure>
+
 
 | Nederlands                | English               |
 | ---------                 | -------               | 
