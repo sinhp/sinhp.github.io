@@ -615,6 +615,10 @@ Of course, these tables are not rigid boundaries between asscoiated families of 
 | bijknippen                | trim                  |
 
 
+<figure>
+  <br/><img src='https://imgo.rgcdn.nl/6bafd6e3331f4dc1823c5345c1085351/opener/Brievenbus-van-PostNL.jpg'>
+</figure>
+
 
 | Nederlands                | English               |
 | ---------                 | -------               |
