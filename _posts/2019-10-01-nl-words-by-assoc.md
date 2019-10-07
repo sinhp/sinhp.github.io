@@ -146,6 +146,10 @@ Of course, these tables are not rigid boundaries between asscoiated families of 
 | de urine                  | urine                 |
 
 
+<figure>
+  <br/><img src='https://proxy.duckduckgo.com/iu/?u=http%3A%2F%2Fhalmos.nl%2Fimages%2Fprojects%2Fhalmos%2Fst-antonius-ziekenhuis-utrecht.jpg&f=1&nofb=1'>
+</figure>
+
 
 
 | Nederlands                | English               |
@@ -172,7 +176,7 @@ Of course, these tables are not rigid boundaries between asscoiated families of 
 
 
 <figure>
-  <img src='https://c.pxhere.com/photos/89/c5/bacteria_disease_escherichia_coli_pathogens_microscopy_electron_microscopy_electron_microscope_magnification-1141343.jpg!d'>
+  <br/><img src='https://c.pxhere.com/photos/89/c5/bacteria_disease_escherichia_coli_pathogens_microscopy_electron_microscopy_electron_microscope_magnification-1141343.jpg!d'>
 </figure>
 
 
@@ -206,6 +210,10 @@ Of course, these tables are not rigid boundaries between asscoiated families of 
 | herstellen                | to recover            |
 
 
+<figure>
+  <br/><img src='https://i.pinimg.com/564x/41/0c/40/410c400620e51aa051fe5da6efc18083.jpg'>
+</figure>
+
 
 | Nederlands                | English               |
 | ---------                 | -------               |
@@ -215,7 +223,7 @@ Of course, these tables are not rigid boundaries between asscoiated families of 
 | de injectie/prik          | injection/needle      |
 | verdoven                  | to anaesthesise       |
 | boren                     | to drill              |
-| de rntgenfoto             | x-ray                 |
+| de röntgenfoto            | x-ray                 |
 | doorlichten               | to x-ray              |
 | de vulling                | filling (teeth)       |
 | het gaatje                | cavity                |
@@ -242,13 +250,6 @@ Of course, these tables are not rigid boundaries between asscoiated families of 
 | het parterre              | stalls                | 
 | de voorstelling           | performance/session   |
 | vertonen                  | to show (a film)      |
-| 
- 
-
-
-| Nederlands                | English               |
-| ---------                 | -------               |
-| 
 
 
 <figure>
@@ -269,6 +270,10 @@ Of course, these tables are not rigid boundaries between asscoiated families of 
 | de hertogin               | duchess               |
 | de adel                   | nobility              |
 
+
+<figure>
+  <br/><img src='https://proxy.duckduckgo.com/iu/?u=http%3A%2F%2Fwww.ir-d.dk%2Fwp-content%2Fuploads%2F2017%2F06%2FEU-Parliament.jpg&f=1&nofb=1'>
+</figure>
 
 
 | Nederlands                | English               |
@@ -291,6 +296,10 @@ Of course, these tables are not rigid boundaries between asscoiated families of 
 | de republiek              | republic              |
 | de hooftstad              | capital               | 
 
+
+<figure>
+  <br/><img src='https://proxy.duckduckgo.com/iu/?u=http%3A%2F%2Fauketerlouw.nl%2Fwp-content%2Fuploads%2F2014%2F12%2Fwaterschapsverkiezingen.jpg&f=1&nofb=1'>
+</figure>
 
 
 | Nederlands                | English               |
@@ -360,6 +369,13 @@ Of course, these tables are not rigid boundaries between asscoiated families of 
 
 
 
+
+
+<figure>
+  <br/><img src='https://proxy.duckduckgo.com/iu/?u=http%3A%2F%2Fslideplayer.nl%2F2833662%2F10%2Fimages%2F1%2FLeestekens%2B.%2B%252C%2B%253A%2B%253B%2B%2521%2B%25E2%2580%2598.jpg&f=1&nofb=1'>
+</figure>
+
+
 | Nederlands                | English               |
 | ---------                 | -------               |
 | de leestekens             | punctuations          |
@@ -380,16 +396,11 @@ Of course, these tables are not rigid boundaries between asscoiated families of 
 | de hoogleraar             | professor             |
 | de docent                 | lecturer              |
 | de leerstoel              | academic chair        |
-| 
  
 
-
-| Nederlands                | English               |
-| ---------                 | -------               |
-| gehoorzaamheid            | obedience             |
-| overheid                  | authority             |
-| eerbied                   | resepctful/reverence  |
-| de straf                  | punishment            |
+<figure>
+  <br/><img src='https://proxy.duckduckgo.com/iu/?u=http%3A%2F%2F1.bp.blogspot.com%2F-n0mlhwSTG8c%2FURa-nm0OG0I%2FAAAAAAAAOeI%2Fy7kMgsZfDCQ%2Fs1600%2FZoroaster%2BFaravahar%2B.jpg&f=1&nofb=1'>
+</figure> 
 
 
 
@@ -414,6 +425,16 @@ Of course, these tables are not rigid boundaries between asscoiated families of 
 | metgezellen               | companions            |
 | feestenden                | rejoicers             | 
 | knecht                    | servant               |
+| gehoorzaamheid            | obedience             |
+| overheid                  | authority             |
+| eerbied                   | resepctful/reverence  |
+| de straf                  | punishment            |
+
+
+
+<figure>
+  <br/><img src='https://proxy.duckduckgo.com/iu/?u=https%3A%2F%2Ftse3.mm.bing.net%2Fth%3Fid%3DOIP.SNwFvd996cqeHbVRdQ6zfgHaFT%26pid%3DApi&f=1'>
+</figure>
 
 
 
