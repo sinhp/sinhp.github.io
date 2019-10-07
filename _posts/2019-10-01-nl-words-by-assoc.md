@@ -34,14 +34,14 @@ excerpt: "List of Dutch words based on semantic affinity"
 -->
 
 
-While an alphabetical dictionary groups words based on the adjacency of sounding, an association-based dictionary groups words based on semantic affinity. Alphabetical dictionaries used to be useful for the occassional references, however, we now have online dictionaries for that. Indeed, any one who has tried to read one page of any alphabetical dictionary in any language verifies that is to damn boring. The reason I think is that there is no semantic continuity: two words listed closely to each other might be semantically worlds apart.
+While an alphabetical dictionary groups words based on the adjacency of sounding, an association-based dictionary groups words based on semantic affinity. Alphabetical dictionaries used to be helpful for the occassional references, however, we now have online dictionaries for that. Indeed, anyone who has tried to read even one page of any alphabetical dictionary in any language agrees that it is to damn boring. The reason I think that is the case is that alphabetical dictionaries lack no semantic continuity: two words listed closely to each other might be semantically worlds apart.
 
-The dictionaries where the semantic proximity of listed words is the main criteria are called <em>ideographic</em> (from the Greek idea - concept, idea, image, and grapho – to write). 
-A good ideographic dictionary provides its user with a whole group of words that correspond to certain idea which in turn provide access to a presentation of a segment of the semantic continuum in the lexicon of a language. 
+The dictionaries where the semantic proximity of the words is the main criteria for arranging them are called <em>ideographic</em> (from the Greek idea - concept, idea, image, and grapho – to write). 
+A good ideographic dictionary provides its user with a whole group of words which correspond to certain ideas which in turn provide access to a presentation of a segment of the semantic continuum in the lexicon of a language. 
 
-Moreover, an ideographic dictionary by the mere fact of placing of related words alongside makes it possible to predict the various syntactic and semantic changes, and by a constant process of trial and error the reader will discover how that particular language relfected the patterns in the outer world into the structure of the language.
+Moreover, an ideographic dictionary by the mere fact of placing of related words alongside each other makes it possible to predict various syntactic and semantic changes, and by a constant process of trial and error in guessing the reader will discover how that particular language relfects the patterns of the outer world into the structure of the language.
 
-Ideographic dictionary will allow more proficiently to determine the meaning of the words in the explanatory dictionaries: 
+Ideographic dictionary allow more proficiently to determine the meaning of the words: 
 
 > The fact that some thing, which is denominated by single word in one language, may have extremely detailed nomenclature enclosing dozens of titles in another languages. ... The words, which are identical in meaning, may occupy unequal position even in the systems of closely related languages; they perform different function and, therefore, are not absolutely monosemantic. (V.A. Zvegintsev, Semasiology)
 
@@ -146,14 +146,19 @@ Of course, these tables are not rigid boundaries between asscoiated families of 
 | de urine                  | urine                 |
 
 
+
+
 | Nederlands                | English               |
 | ---------                 | -------               |
 | de arts                   | doctor                | 
+| de tandarts               | dentist               |
 | de oogarts                | eye doctor            |
 | de spreekkamer            | surgery               |
 | zich melden               | to report/register    |
 | opereren                  | to operate            |
 | de operatie               | operation             |
+| praktijk                  | practice              |
+| behandelen                | to treat              |
 | de chirurg                | surgeon               |
 | de huidarts               | skin specialist       |
 | de ziekenhuis             | hospital              |
@@ -163,8 +168,82 @@ Of course, these tables are not rigid boundaries between asscoiated families of 
 | de zaal                   | ward                  | 
 | de operatiekamer          | operating theatre     |
 | verplegen                 | to nurse              |
+| onderzoeken               | examine               |
 
 
+<figure>
+  <img src='https://c.pxhere.com/photos/89/c5/bacteria_disease_escherichia_coli_pathogens_microscopy_electron_microscopy_electron_microscope_magnification-1141343.jpg!d'>
+</figure>
+
+
+
+| Nederlands                | English               |
+| ---------                 | -------               |
+| ziekte                    | disease/illness       |
+| bleek                     | pale/palid            |
+| kou vatten                | to catch a cold       |
+| verkouden zijn            | to have a cold        |
+| de griep                  | flu                   |
+| koorts                    | fever                 |
+| bloeddruk                 | blood pressure        |
+| flauwvallen               | to faint              |
+| de suikerziekte           | diabetes              |
+| de uitslag                | rash                  |
+| de diarree                | diarrhoea             |
+| besmetten                 | to infect/contaminate |
+| besmettelijk              | contagious            |
+| ontstokken                | infected/inflamed     |
+| ontsteking                | infection/inflamation |
+| de indigestie             | indigestion           |
+| de verstopping            | constipation          |
+| verstopt                  | constipated           | 
+| de pokken                 | smallpox              |
+| de mazelen                | measles               |
+| de rodehond               | German measles        |
+| de rotte kies             | decayed tooth         |
+| de bof                    | mumps                 | 
+| genezen                   | to cure/to heal/ healed |
+| herstellen                | to recover            |
+
+
+
+| Nederlands                | English               |
+| ---------                 | -------               |
+| de medicijn               | medicine              |
+| de pil slikken            | to take the pill      |
+| apotheker                 | chemist               |
+| de injectie/prik          | injection/needle      |
+| verdoven                  | to anaesthesise       |
+| boren                     | to drill              |
+| de rntgenfoto             | x-ray                 |
+| doorlichten               | to x-ray              |
+| de vulling                | filling (teeth)       |
+| het gaatje                | cavity                |
+| de spreekkamer            | surgery               |
+| de chirurg                | surgeon               |
+
+
+<figure>
+  <br/><img src='https://www.artscouncil.org.uk/sites/default/files/gallery-image/ShakespeareBirthplaceTrust_DenchMcKellen_Macbeth76.jpg'>
+</figure>
+
+
+
+| Nederlands                | English               |
+| ---------                 | -------               |
+| de bioscoop               | cinema                |
+| de schouwburg             | theatre               |
+| het toneel                | stage                 |
+| het toneelstuk            | play                  | 
+| het loket                 | ticket box            |
+| de loge                   | dress circle          |
+| het kaartje               | ticket                | 
+| bespreken                 | to book               | 
+| het parterre              | stalls                | 
+| de voorstelling           | performance/session   |
+| vertonen                  | to show (a film)      |
+| 
+ 
 
 
 | Nederlands                | English               |
@@ -238,6 +317,7 @@ Of course, these tables are not rigid boundaries between asscoiated families of 
 | de slappe/harde kaft      | soft/hard cover       |
 | de bladwijzer             | bookmark              |
 | de pagina/bladzij(de)     | page                  |
+| voorblad                  | front page            |
 | het stripverhaal          | comic                 |
 | de roman                  | novel                 |
 | het woordenboek           | dictionary            |
