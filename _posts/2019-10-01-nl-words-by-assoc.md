@@ -472,22 +472,6 @@ Of course, these tables are not rigid boundaries between asscoiated families of 
 
 
 
-
-
-| Nederlands                | English               |
-| ---------                 | -------               |
-| de jurk                   | dress                 |
-| de rok                    | shirt                 |
-| de onderjurk              | petticoat/slip        |
-| de bloes                  | blouse                |
-| het slipje                | underpants            |
-| de bha/beha               | bra                   |
-| de hemd                   | T-shirt               |
-| de zwembroek              | swimming trunks       |
-| aantrekken                | to put on             | 
-
-
-
 {% include image.html url="/images/posts/2019/Vršič-triglav.jpg" description="Vršič, Triglav National Park, Slovenia (photo by me)" %}
 
 <!---
@@ -893,7 +877,25 @@ Of course, these tables are not rigid boundaries between asscoiated families of 
 | de commode                | chest                 |
 | de wieg                   | craddle               |
 | de washandje              | washing glove         |
-| de mondspeen              | 
+| de mondspeen              | pacifier              |
+
+
+| Nederlands                | English               |
+| ---------                 | -------               |
+| de jurk                   | dress                 |
+| de rok                    | shirt                 |
+| de onderjurk              | petticoat/slip        |
+| de bloes                  | blouse                |
+| het slipje                | underpants            |
+| de bha/beha               | bra                   |
+| de hemd                   | T-shirt               |
+| de zwembroek              | swimming trunks       |
+| aantrekken                | to put on             | 
+
+
+<figure>
+  <br/><img src='https://i.pinimg.com/564x/dc/c3/72/dcc3723928fd1881f646d84bf5341773.jpg'>
+</figure>
 
 
 | Nederlands                | English               |
@@ -1192,3 +1194,5 @@ Of course, these tables are not rigid boundaries between asscoiated families of 
 | het ijzer                 | iron                  |
 | smeedijzeren              | iron wrought          | 
 | roestvrij                 | rustproof             |
+
+
