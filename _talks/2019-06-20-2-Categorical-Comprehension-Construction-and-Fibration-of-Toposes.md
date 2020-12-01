@@ -28,7 +28,7 @@ References:
 5. Igor Bakovic. “Some properties of Fib as a fibred 2-category”,93rd Peripatetic Seminar on Sheaves andLogic, University of Cambridge, 2012
 6. Mitchell Buckley. “Fibred 2-categories and bicategories”,Journal of Pure and Applied Algebra218, 2014,pp. 1034–1074.
 7. Steven Vickers. “Sketches for arithmetic universes”, 2016,Journal of Logic and Analysis Accepted for publication June 2018.URL: https://arxiv.org/abs/1608.01559
-8. Steven Vickers. “Arithmetic universes and classifying toposes”,Cahiers de Topologie et GéométrieDiférentielle Catégoriques58(4):213–248, 2017.https://arxiv.org/abs/1701.04611
+8. Steven Vickers. “Arithmetic universes and classifying toposes”,Cahiers de Topologie et Géométrie Différentielle Catégoriques58(4):213–248, 2017.https://arxiv.org/abs/1701.04611
 9. Sina Hazratpour and Steven Vickers. “Fibrations of AU-contexts beget fibrations of toposes”Sub-mitted to Theory and Application of Categories (TAC) 2020.URL: https://arxiv.org/abs/1808.08291
 10. Sina Hazratpour. “A logical study of some 2-categorical aspects of toposes”,PhD thesis, University ofBirmingham, 2020
 
