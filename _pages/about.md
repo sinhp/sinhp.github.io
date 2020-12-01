@@ -11,12 +11,12 @@ redirect_from:
 
 I am a mathematician working in the foundation of mathematics and its connection to theoretical computer science. My main research interests include constructive mathematics and type theory, category theory and categorical logic, and higher category theory. I am also interested in applications of these areas to topology and algberaic topology. On the side, I recently started to learn more about Topological Data Analysis and Persistent Homology. 
 
-I was born in Qeshm Island in Iran. I have lived in Canada, UK, and the Netherlands. I speak Persian, English, and Dutch. 	
+I was born in Qeshm Island in Iran. I have lived in Iran, Canada, UK, and the Netherlands. I speak Persian, English, and Dutch. 	
 
 
 ## Academic Profile
 
-During Nov 2019 - Nov 2020 , I was a Research Fellow at the School of Mathematics at the University of Leeds working on the project <em>Univalent type theories: models, equalities, and coherence</em> in collaboration with Prof. Nicola Gambino (University of Leeds) and Prof. Steve Awodey (Carnegie Mellon University) to develop a Kripke-Joyal style forcing semantics for Homotopy Type Theory. This semantics extends the usual Kripke-Joyal Semantics for IHOL (Higher Order Intuitionistic Logic) in toposes. 
+From Nov 2019 until Nov 2020, I was a Research Fellow the University of Leeds Logic group working on the project <em>Univalent type theories: models, equalities, and coherence</em> in collaboration with Prof. Nicola Gambino (University of Leeds) and Prof. Steve Awodey (Carnegie Mellon University) to develop a Kripke-Joyal style forcing semantics for Homotopy Type Theory. This semantics extends the usual Kripke-Joyal Semantics for IHOL (Higher Order Intuitionistic Logic) in toposes. 
 
 Before that I was a PhD student in Theoretical Computer Science at the University of Birmingham under supervision of Prof. Steve Vickers. My PhD thesis was about some of the bicategorical aspects of topos theory arising from 2-categorical aspects of certain essentially algebraic theories corresponding to the logic of Arithmetic Universes. It was examined by Prof. Peter Johnstone and Prof. Martín Escardó. The main contribution of my thesis was the study point-free generalized spaces (modeled by Grothendieck toposes over varying bases) under the three principles of <em>geometricity, predicativity, and base-independence</em>. More on this in my <a href="/research/" target="_blank">research profile.</a>
 
