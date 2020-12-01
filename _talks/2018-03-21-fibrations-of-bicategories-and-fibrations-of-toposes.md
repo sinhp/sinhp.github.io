@@ -8,9 +8,9 @@ location: "Sheffield, UK"
 use_math: true
 ---
 
-
+<!--
 {% include macros %}
-
+-->
 
 `Abstract/ Slides:` Fibrations Of Bicategories And Fibrations Of Toposes, Sheffield, UK 
 <a href="https://www2.le.ac.uk/departments/mathematics/extranet/staff-material/staff-profiles/simona-paoli/abstract-hazratpour" target="_blank"> <i class="fa fa-external-link" aria-hidden="true"></i> </a>
