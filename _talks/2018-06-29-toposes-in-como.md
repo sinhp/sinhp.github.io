@@ -8,9 +8,9 @@ location: "Como, Italy"
 use_math: true
 ---
 
-
+<!--
 {% include macro %}
-
+-->
 
 `Abstract/ Slides:` Fibrations Of Toposes From Extension Of Theories 
 <a href="http://tcsc.lakecomoschool.org/program/" target="_blank"> <i class="fa fa-external-link" aria-hidden="true"></i> </a>
