@@ -198,6 +198,17 @@ defaults:
       comments: true
       share: true
       related: true
+  # _nl
+  - scope:
+      path: ""
+      type: nl
+    values:
+      layout: 
+      author_profile: false
+      read_time: true
+      comments: true
+      share: true
+      related: true    
   # _pages
   - scope:
       path: ""
