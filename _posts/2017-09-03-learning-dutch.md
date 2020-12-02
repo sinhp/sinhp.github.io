@@ -1,8 +1,8 @@
 ---
-layout: tufte
+layout: single
 title: "Learning Dutch"
 author: Sina Hazratpour
-excerpt: "my way of learning dutch"
+excerpt: "My way of learning dutch"
 tags:
 permalink: /posts/2017/09/learning-dutch
 date: 2017-09-03
