@@ -1,12 +1,17 @@
 ---
-layout: archive
-permalink: /blog/
+layout: tufte
 title: "Learning Dutch"
+author: Sina Hazratpour
+excerpt: "my way of learning dutch"
+tags:
+permalink: /posts/2017/09/learning-dutch
 date: 2017-09-03
-author_profile: true
-redirect_from:
-  - /wordpress/blog-posts/
+use_math: true
+location: "Utrecht, NL"
 ---
+
+
+
 
 {% include base_path %}
 {% capture written_year %}'None'{% endcapture %}
