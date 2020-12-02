@@ -1,5 +1,5 @@
 ---
-layout: single
+layout: archive
 title: "Learning Dutch"
 author: Sina Hazratpour
 excerpt: "My way of learning dutch"
