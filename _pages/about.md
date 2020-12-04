@@ -34,7 +34,7 @@ Prior to joining Birmingham I was at Western University in London (Ontario) wher
 Other interests 
 ======
 
-I am fond of remote places in nature, museums, hiking, and photography. I am an avid reader of philosophy and history of philosophical thoughts and enjoy discussing them. Nietzsche, Heidegger, Foucault, and Sloterdijk have made the most impact on my thinking.  
+I am fond of remote places in nature, museums, hiking, and photography. I am an avid reader of philosophy and history of philosophical thoughts and enjoy discussing them. The fourfold Nietzsche (Thus Spoke Zarathustra), Heidegger (Being and Time), Foucault (The Order of Things), and Sloterdijk (Critique of Cynical Reason) have made the most impact on my thinking.  
 
 Another interest of mine, related to the history of mathematics, is the history of the foundation and practice of mathematics in 19th and early 20th century. This includes for example Dedekind's foundational work in algebra and arithmetic, Klein's Erlangen Program in geometry, Frege's logicism, Husserl's phenomenology of mathematical thinking, the Formalism project of Hilbert and the ensuing axiomatic (re)turn in mathematics, Brouwer's intuitionism, Weyl's predicativism and his mediation between intuitionism and formalism, and Cassirer's structuralist account of mathematical knowledge. You can read more [here](https://sinhp.github.io/links/#phil-math:reading-list). Ocassionally, I will write some of my thoughts on range of issues of philosphical nature on <a href="/year-archive">my blog</a>. 
 
