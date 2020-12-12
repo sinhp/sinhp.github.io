@@ -1,5 +1,2 @@
-This list includes files related to 
- * Elementary toposes
- * Categories
- * Universal Algebra
- * ...
+This folder includes files of my talks and presentations on subjects related to category theory.
+ 
