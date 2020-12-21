@@ -7,12 +7,18 @@ redirect_from:
   - /links.html
 ---
 
+## Podcast 
+
+* [Entitled Opinions](https://entitledopinions.stanford.edu/)
+
 
 ## Some of my favourite maths and computer science blogs
 
 * [nLab](https://ncatlab.org/nlab/show/HomePage):
- a wiki-lab for collaborative work on Mathematics, Physics and Philosophy heavily oriented toward discussions on category theory
-and higher category theory. I started using nLab since 2014 and since then it has literally become a place where I spent a good deal of time learning about category theory and higher category theory. I also have seen how beautifully the collaborative effort of many people has resulted in such a great database. Remarkably there has been a great expansion of pages since first time I was there. If your work involves (higher) category theory then chances are you already know nLab and use it frequently. However, If you are new to category theory then use nLab, but take this advice with a grain of salt. I remember my first experience of learning category theory back in 2014 using nLab among other sources and it was first a bit confusing. There are sometimes incomplete sources and sometimes self-referential , or even worse non-terminating cross-linking of pages. _Not to mention that in order to learn category theory first you have to learn infinity categories._    
+ a wiki-lab for collaborative work on Mathematics, Physics and Philosophy heavily oriented toward discussions on category theory and higher category theory. 
+<!--
+ I started using nLab since 2014 and since then it has literally become a place where I spent a good deal of time learning about category theory and higher category theory. I also have seen how beautifully the collaborative effort of many people has resulted in such a great database. Remarkably there has been a great expansion of pages since first time I was there. If your work involves (higher) category theory then chances are you already know nLab and use it frequently. However, If you are new to category theory then use nLab, but take this advice with a grain of salt. I remember my first experience of learning category theory back in 2014 using nLab among other sources and it was first a bit confusing. There are sometimes incomplete sources and sometimes self-referential , or even worse non-terminating cross-linking of pages. _Not to mention that in order to learn category theory first you have to learn infinity categories._  
+ -->  
 
 * [The n-Category Café](https://golem.ph.utexas.edu/category/):
  called n-Cafe for short, it is a group blog where authors posts intriguing stuff on recent research work mostly on cateogry theory, higher category theory, categorical logic, diagrammatic reasoning, applied category theory. The posts are not too long and they tend to bring the core ideas to the front for general maths audience. 
@@ -24,19 +30,22 @@ and higher category theory. I started using nLab since 2014 and since then it ha
   An unapologetic guided tour of the mathematical life; a blog by Michael Harris. The posts and after-post discussions involve philosophy of mathematics, politics, science and ethics of academic activities, AI, etc. Some of the most heated intelligent debates I have ever seen online happened there.   
 
 * [Existential Type](https://existentialtype.wordpress.com/): 
- blog of Bob Harper
+  Blog of Bob Harper
   
 * [Mathematics and Computation](http://math.andrej.com): 
- a blog by Andrej Bauer on connections between mathematics and the theory of computation 
-
-* [Shtetl-Optimized](https://www.scottaaronson.com/blog/):
-  blog of Scott Aaronson
+  A blog by Andrej Bauer on connections between mathematics and the theory of computation 
   
 * [Physics Forum](https://www.physicsforums.com/insights/a-first-idea-of-quantum-field-theory/):
- ocassionally, I read the posts on mathematical physics on physics forum, particularly from Urs Schrieber and John Baez.  
+  Posts on mathematical physics on physics forum, particularly from Urs Schrieber and John Baez.  
  
 * [Terence Tao's Blog](https://terrytao.wordpress.com/):
  a must-see blog if you are into combinatorics, probability theory, or analayis. 
+
+* [Dan Ghica's Lab Lunch](http://researchblogs.cs.bham.ac.uk/thelablunch/):
+  A blog on game semantics, an interactive approach to denotational semantic, and feometry of synthesis among many other things
+
+* [Graphical Linear Algebra](https://graphicallinearalgebra.net/about/): 
+  Pawel Sobocinski's artful project: linear algebra done right (the diagrammatic way).   
 
 * [Polymath Project](http://michaelnielsen.org/polymath1/index.php?title=Main_Page)
 
@@ -44,15 +53,13 @@ and higher category theory. I started using nLab since 2014 and since then it ha
 
 * [Annoying Precision](https://qchu.wordpress.com/)
 
+* [Shtetl-Optimized](https://www.scottaaronson.com/blog/):
+  Blog of Scott Aaronson
+
 * [Noncommutative geometry](http://noncommutativegeometry.blogspot.co.uk/)
 
 * [Low Dimensional Topology](https://ldtopology.wordpress.com/about/)
 
-* [Dan Ghica's Lab Lunch](http://researchblogs.cs.bham.ac.uk/thelablunch/):
-  a blog on game semantics, an interactive approach to denotational semantic, and feometry of synthesis among many other things
-
-* [Graphical Linear Algebra](https://graphicallinearalgebra.net/about/): 
-  learn linear algebra in a non-conventional diagrammatic way. 
 
 * [Mathoverflow](https://mathoverflow.net/search?q=topos):
  one of the cool features of mathoverflow is that anybody can ask a research question about a paper/book and the author of that paper/book answers it!
@@ -76,7 +83,11 @@ e.g.
 
 Since 2013 I have started to study philosophy of mathematics and science more seriously, motivated by interest in the genealogy of different kinds of abstract mathematics I have been introduced to; different foundations (e.g. set theories vs type theories) and various foundational issues (e.g. predicativity, finite vs infinite, circularity, etc) as well as questions concerning ontological status of mathematical objects and their relations to "empirical" reality prompted me to read people who have thought about these issues before. 
 
-Here is a <a href="/phil_math/reading_list" target="_blank"><font color="#998099">list of articles and books</font></a> which I have found interesting and edifying. 
+ * [Ulrik Buchholtz's seminar on intuitionism and constructive mathematics](http://www2.mathematik.tu-darmstadt.de/~buchholtz/80-518-818/index.html) 
+ * John Bell's publication page: publish.uwo.ca/~jbell/
+ * [Jurgen Jost's website](https://www.mis.mpg.de/jjost/publications/philosophy.html)
+ * Here is a <a href="/phil_math/reading_list" target="_blank"><font color="#998099">list of articles and books</font></a> which I have found interesting and edifying. 
+ 
 
 
 
@@ -84,14 +95,21 @@ Here is a <a href="/phil_math/reading_list" target="_blank"><font color="#998099
 -----------------------------------------------------------------------------------------------
 ## Some of online sources where I read philosophy/ politics/ etc
 
+* [Stanford Encyclopedia of Philosophy](https://plato.stanford.edu)
+
+* [Martin Heidegger](http://www.beyng.com/)
 
 * [London Review of Books](https://www.lrb.co.uk/)
 
 * [Philosophy Now](https://philosophynow.org/)
 
-* [Talking Politics Podcasts](https://www.talkingpoliticspodcast.com/)
+* [Aeon](https://aeon.co/)
+
+* [3 AM magazine](https://www.3ammagazine.com/3am/)
 
 * [Eurozine](https://www.eurozine.com/)
+
+* [Talking Politics Podcasts](https://www.talkingpoliticspodcast.com/)
 
 * [All about Hegel on Marxists.org](https://www.marxists.org/reference/archive/hegel/index.htm)
 
@@ -105,11 +123,8 @@ Here is a <a href="/phil_math/reading_list" target="_blank"><font color="#998099
 
 * [SIAS Blog- Architecture](http://blog.sias.gr/)
 
-* [Martin Heidegger in English](http://www.beyng.com/)
-
 * [Punctum Books](https://punctumbooks.com/blog/here-be-monsters-a-punctum-publishing-primer/)
 
-* [Stanford Encyclopedia of Philosophy](https://plato.stanford.edu)
 
 
 ------------------------------------------------------------------------------------------------
@@ -117,7 +132,6 @@ Here is a <a href="/phil_math/reading_list" target="_blank"><font color="#998099
 
 * [Bees in the Netherlands](https://www.wildebijen.nl/)
 
-* []
 
 
 ------------------------------------------------------------------------------------------------
