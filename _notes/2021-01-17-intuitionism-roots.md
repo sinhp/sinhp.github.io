@@ -7,7 +7,7 @@ type: "scribbling"
 date: 2021-01-17
 excerpt: ""
 use_math: true
-location: ""
+location: "virtual"
 ---
 
 
