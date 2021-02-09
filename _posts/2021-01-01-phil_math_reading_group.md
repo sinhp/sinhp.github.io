@@ -22,6 +22,10 @@ comments: true
 Friedrich Nietzsche, The Twilight of the Idols_
 
 
+
+This article is about a Philosophy and Foundations of Mathematics Reading Group (PFMRG) that will be inaugurated in mid February. We meet bi-weekly, and each session will last about two hours (30-45 minutes for presentation, the rest for the Q&A). The goals of this group and the themes of the presentations are discussed in below.   
+
+
 ## Goals and hopes
 
 
@@ -58,7 +62,13 @@ in academia, you are for a hard surprise that the proposal above could not be fu
 
 Well, this reading group is a serious attempt to learn to think about mathematic again; we do not want to confine ourselves with the narrow and arcane framework of interests of the academic philosophy of mathematics. 
 
-I believe in epistemological anarchism, that is, if needed, we have to be receptive to ideas from the most disparate and apparently far-flung domains, even at the price of losing the comfort of our nests. Therefore, in this reading group we will remain open to all ideas and philosophies (things such as paraconsistent logic and fictionalism) as long as they are helpful to our goals discussed in above. Hopefully, this reading group will be a place for deep learning (and deep unlearning, i.e. unindoctorination) as well as unashamedly free speculations.   
+We shall try to ask worthy questions: 
+
+>_When do we call a kind of knowledge mathematical? How does mathematical knowledge grow? What is mathematical progress? Whatm akes some mathematical ideas (or theories) better than others? What is mathematical explanation? etc_ 
+
+I believe in epistemological anarchism, that is, if needed, we have to be receptive to ideas from the most disparate and apparently far-flung domains, even at the price of losing the comfort of our nests. 
+
+Therefore, in this reading group we will remain open to all ideas and philosophies as long as they are helpful to our goals and hopes discussed in above. May this group be a place for deep learning (and deep unlearning/ unindoctorination) as well as unashamedly free speculations.   
 
 We will review the main tenets of the following philosophies and foundations of mathematics: 
 
