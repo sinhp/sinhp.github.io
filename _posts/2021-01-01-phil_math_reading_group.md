@@ -40,9 +40,19 @@ These are pressing questions and we need to ransack various philosophies and fou
 
 
 
-### Which philosophies? which foundations? 
+## Which philosophies? which foundations? 
 
-I believe in epistemological anarchism, that is if needed we have to be receptive to ideas from the most disparate and apparently far-flung domains, even at the price of losing the comfort of our nests. Therefore, in this reading group we will remain open to all ideas and philosophies (things such as paraconsistent logic and fictionalism) as long as they are helpful to our goals discussed in above. Hopefully, this reading group will be a place for deep learning (and deep unlearning, i.e. unindoctorination) as well as unashamedly free speculations.   
+
+Here is a common sense and self-evident proposal: 
+
+>_What mathematicians think and do should be important for the philosophy of mathematics._
+
+Now, if you are not familiar with the current state of affairs in the philosophy of mathematics 
+in academia, you are for a hard surprise that the proposal above could not be further from the reality of academic. 
+
+Well, this reading group is a serious attempt to learn to think about mathematic again; we do not want to confine ourselves with the narrow and arcane framework of interests of the academic philosophy of mathematics. 
+
+I believe in epistemological anarchism, that is, if needed, we have to be receptive to ideas from the most disparate and apparently far-flung domains, even at the price of losing the comfort of our nests. Therefore, in this reading group we will remain open to all ideas and philosophies (things such as paraconsistent logic and fictionalism) as long as they are helpful to our goals discussed in above. Hopefully, this reading group will be a place for deep learning (and deep unlearning, i.e. unindoctorination) as well as unashamedly free speculations.   
 
 We will review the main tenets of the following philosophies and foundations of mathematics: 
 
@@ -54,7 +64,7 @@ We will review the main tenets of the following philosophies and foundations of 
 
 
 
-#### I have no clue what the philosophy of mathematics is about. Where should I begin? 
+### I have no clue what the philosophy of mathematics is about. Where should I begin? 
 
 * At night before sleep:   
   + [LOGICOMIX](https://www.logicomix.com/en/index.html)
@@ -71,19 +81,10 @@ Inconsistent?](https://www.youtube.com/watch?v=O45LaFsaqMA&t=3118s&ab_channel=In
   + Daniel Sutherland. [What are Numbers? Philosophy of Mathematics](https://youtu.be/xXD57a5BEO0)
   
 
-
-### Resources 
-
-
-
-The following materials will be useful:
-
-
-* Introductory mixed resources: some selected papers to get an introduction to some of the most interesting and variegated issues in the philosophy of mathematics  
+For more serious (and mixed) introductory resources here are some selected papers to get an introduction to some of the most interesting and variegated issues in the philosophy of mathematics: 
 
    * [On Proof and Progress in Mathematics](https://arxiv.org/pdf/math/9404236.pdf) 
    * Saunsers MacLane. Mathematics Form and Function
-   * Richard Tieszen. What is a proof? 
    * Where does mathematics come from? 
      + https://www.kavlifoundation.org/science-spotlights/brain-or-universe-%E2%80%93-where-does-math-come
      + Where Mathematics Comes From: How the Embodied Mind Brings Mathematics into Being 
@@ -97,7 +98,20 @@ The following materials will be useful:
    * Robert S.Tragesser, Three insufficiently attended to aspects of most mathematical proofs: phenomenological studies
 
 
-* Thematized materials:
+## Thematized Resources 
+
+   *  On Proofs & Proof assistants
+     + Richard Tieszen. What is a proof? 
+     + Robert L. Constable. [Proof Assistants and the Dynamic Nature of Formal Theories](http://ceur-ws.org/Vol-878/invited1.pdf)
+     + Herman Geuvers. [Proof assistants: History, ideas and future](https://www.cs.ru.nl/~herman/ictopen.pdf) Also, look at these [slides](https://www.cs.ru.nl/~herman/ictopen.pdf) 
+     + 
+   
+   * 
+
+
+
+Familiarity with the following philosophies of mathematics is a plus:
+
    
    * Structuralism and category theory 
      + Dedekind
@@ -110,31 +124,29 @@ The following materials will be useful:
    * Constructive mathematics and type theory 
      + Per Martin-Lof. An Intuitionistic Theory of Types. In G.Sambin and Jan.Smith’s Twenty Five Years of Constructive Type Theory. Oxford Logic Guides Clarendon press, Oxford, 1998.
      + Charles Parsons, The Impredicativity of induction
-      
 
+   * Formalism 
+     + Gerhard Heinzmann and Hannes Leitgeb. Formalism, Formalization, Intuition and Understanding in Mathematics: From Informal Practice to Formal Systems and Back Again. Université de Lorraine/CNRS, Nancy 2018.  
+      
+   
 
    * Non-classical logic
      + Priest, G. 2008. An Introduction to Non-Classical Logic: From If to Is, 2nd edition, Cambridge: Cambridge University Press.
      + Beall, JC, and van Fraassen, B. C. 2003. Possibilities and Paradox, Oxford: Oxford University Press
 
-   * Formalism 
-     + 
-     + Gerhard Heinzmann and Hannes Leitgeb. Formalism, Formalization, Intuition and Understanding in Mathematics: From Informal Practice to Formal Systems and Back Again. Université de Lorraine/CNRS, Nancy 2018.
-
-   * On Proofs: 
 
    * Syntax-Semantics distinction 
 
    * Mathematics as a community activity 
      + decay 
      + loss of conceptual understanding 
-     + 
+     + trust is the currency of scientific community
 
    
 
 
   * Mathematical notations and semiotics
     + Cajori, F. 1993. A History of Mathematical Notation, New York: Dover Reprints. (Original published in two volumes by Open Court in London in 1929.)
-    + 
+    + Louis H. Kauffman. [The Mathematics of Charles Sanders Peirce](https://homepages.math.uic.edu/~kauffman/)
 
    We will also read from the original resources; 
