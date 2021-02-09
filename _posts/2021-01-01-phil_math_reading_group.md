@@ -16,6 +16,10 @@ location: "Utrecht, NL"
 comments: true
 ---
 
+>_You ask me, which of the philosophers' traits are idiosyncracies? For example: their lack of historical sense, their hatred of becoming, their Egypticism. They think that they show their respect for a subject when they dehistoricize it — when they turn it into a mummy. 
+Friedrich Nietzsche, The Twilight of the Idols_
+
+
 ## Goals and hopes
 
 
@@ -106,8 +110,13 @@ For more serious (and mixed) introductory resources here are some selected paper
      + Herman Geuvers. [Proof assistants: History, ideas and future](https://www.cs.ru.nl/~herman/ictopen.pdf) Also, look at these [slides](https://www.cs.ru.nl/~herman/ictopen.pdf) 
      + 
    
-   * 
-
+   * Current trends and programmes in mathematics 
+     + The Langlands program 
+     + The synthetic methods (category theory and type theory)
+     + Non-commutative geometry and topos theory (appropo Riemann Hypothesis)
+     + P vs NP 
+     + Complexity 
+     + Pyknotic stuff
 
 
 Familiarity with the following philosophies of mathematics is a plus:
