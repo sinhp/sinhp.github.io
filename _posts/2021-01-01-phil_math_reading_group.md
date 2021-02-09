@@ -4,13 +4,9 @@ title: "Philosophy and Foundations of Mathematics Reading Group"
 author: Sina Hazratpour
 excerpt: "with focus on the philosophical concerns of the 21st century mathematics"
 tags: 
+  - the future of mathematics
   - mathematical proofs 
   - mathematical intuition
-  - the future of mathematics
-  - logic
-  - type theory
-  - category theory
-  - computation
   - automated theorem provers
   - interactive theorem provers 
 permalink: /posts/2021/01/phil_maths_reading_group
@@ -57,16 +53,29 @@ We will review the main tenets of the following philosophies and foundations of 
   * Cognitivism  
 
 
+
+#### I have no clue what the philosophy of mathematics is about. Where should I begin? 
+
+* At night before sleep:   
+* After mid-day coffee: 
+  + Mark Colyvan. An Introduction to the Philosophy of Mathematics
+  + David Corfield. Towards a Philosophy of Real Mathematics
+  + Øystein Linnebo. Philosophy of Mathematics
+* While waking up in the morning:     
+  + Ray Monk. [Intro to the Philosophy of Mathematics](https://www.youtube.com/watch?v=bqGXdh6zb2k&ab_channel=PhilosophyOverdose)
+  + Denis Bonnay. [Logic and Mathematics](https://www.youtube.com/watch?v=5LovB0kbkJc&ab_channel=SeriousScience)
+  + Stephen Read. [Logical Paradoxes](https://www.youtube.com/watch?v=uDTUgC48GlY&ab_channel=SeriousScience)  
+  + Vladimir Voevodsky. [What if Current Foundations of Mathematics are
+Inconsistent?](https://www.youtube.com/watch?v=O45LaFsaqMA&t=3118s&ab_channel=InstituteforAdvancedStudy)
+  + Daniel Sutherland. [What are Numbers? Philosophy of Mathematics](https://youtu.be/xXD57a5BEO0)
+  
+
+
 ### Resources 
 
 
 
 The following materials will be useful:
-
-
-* Introductory reading on the philosophy of mathematics
-  + Mark Colyvan. An Introduction to the Philosophy of Mathematics 
-  + Øystein Linnebo. Philosophy of Mathematics
 
 
 * Introductory mixed resources: some selected papers to get an introduction to some of the most interesting and variegated issues in the philosophy of mathematics  
