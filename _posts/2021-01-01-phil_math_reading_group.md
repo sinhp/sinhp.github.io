@@ -57,6 +57,7 @@ We will review the main tenets of the following philosophies and foundations of 
 #### I have no clue what the philosophy of mathematics is about. Where should I begin? 
 
 * At night before sleep:   
+  + [LOGICOMIX](https://www.logicomix.com/en/index.html)
 * After mid-day coffee: 
   + Mark Colyvan. An Introduction to the Philosophy of Mathematics
   + David Corfield. Towards a Philosophy of Real Mathematics
