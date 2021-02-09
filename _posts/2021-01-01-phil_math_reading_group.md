@@ -17,6 +17,8 @@ comments: true
 ---
 
 >_You ask me, which of the philosophers' traits are idiosyncracies? For example: their lack of historical sense, their hatred of becoming, their Egypticism. They think that they show their respect for a subject when they dehistoricize it — when they turn it into a mummy. 
+<!--
+  -->
 Friedrich Nietzsche, The Twilight of the Idols_
 
 
@@ -104,11 +106,11 @@ For more serious (and mixed) introductory resources here are some selected paper
 
 ## Thematized Resources 
 
-   *  On Proofs & Proof assistants
-     + Richard Tieszen. What is a proof? 
-     + Robert L. Constable. [Proof Assistants and the Dynamic Nature of Formal Theories](http://ceur-ws.org/Vol-878/invited1.pdf)
-     + Herman Geuvers. [Proof assistants: History, ideas and future](https://www.cs.ru.nl/~herman/ictopen.pdf) Also, look at these [slides](https://www.cs.ru.nl/~herman/ictopen.pdf) 
-     + 
+   * On Proofs & Proof assistants
+      + Richard Tieszen. What is a proof? 
+      + Robert L. Constable. [Proof Assistants and the Dynamic Nature of Formal Theories](http://ceur-ws.org/Vol-878/invited1.pdf)
+      + Herman Geuvers. [Proof assistants: History, ideas and future](https://www.cs.ru.nl/~herman/ictopen.pdf) Also, look at these [slides](https://www.cs.ru.nl/~herman/ictopen.pdf) 
+      
    
    * Current trends and programmes in mathematics 
      + The Langlands program 
