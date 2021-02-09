@@ -120,6 +120,8 @@ For more serious (and mixed) introductory resources here are some selected paper
       + Richard Tieszen. What is a proof? 
       + Robert L. Constable. [Proof Assistants and the Dynamic Nature of Formal Theories](http://ceur-ws.org/Vol-878/invited1.pdf)
       + Herman Geuvers. [Proof assistants: History, ideas and future](https://www.cs.ru.nl/~herman/ictopen.pdf) Also, look at these [slides](https://www.cs.ru.nl/~herman/ictopen.pdf) 
+      + Hyperproofs
+
       
    
    * Current trends and programmes in mathematics 
@@ -135,7 +137,7 @@ Familiarity with the following philosophies of mathematics is a plus:
 
    
    * Structuralism and category theory 
-     + Dedekind
+     + Richard Dedekind. Was sind und was sollen die Zahlen?
      + Paul Benacerraf. What numbers could not be. Philosophical Review, 74:47--73, 1965
      + Steve Awodey. Structure in mathematics and logic: A categorical perspective. Philosophia Mathematica, 4(3):209--237, 1996
      + Steve Awodey. Structuralism, Invariance, and Univalence. Philosophia mathematica 22(1):1–11, 2014.
@@ -144,24 +146,33 @@ Familiarity with the following philosophies of mathematics is a plus:
     
    * Constructive mathematics and type theory 
      + Per Martin-Lof. An Intuitionistic Theory of Types. In G.Sambin and Jan.Smith’s Twenty Five Years of Constructive Type Theory. Oxford Logic Guides Clarendon press, Oxford, 1998.
+     + Per Martin-Lof. Constructive Mathematics and Computer Programming.
+     + [Martin-Lof's collected works](https://github.com/michaelt/martin-lof) 
      + Charles Parsons, The Impredicativity of induction
 
    * Formalism 
      + Gerhard Heinzmann and Hannes Leitgeb. Formalism, Formalization, Intuition and Understanding in Mathematics: From Informal Practice to Formal Systems and Back Again. Université de Lorraine/CNRS, Nancy 2018.  
       
    
-
    * Non-classical logic
      + Priest, G. 2008. An Introduction to Non-Classical Logic: From If to Is, 2nd edition, Cambridge: Cambridge University Press.
      + Beall, JC, and van Fraassen, B. C. 2003. Possibilities and Paradox, Oxford: Oxford University Press
 
 
-   * Syntax-Semantics distinction 
+   * Syntax vs semantics 
+   * Synthetics vs analtics 
+   * Intensional vs extensional
+   * Logical vs non-logical 
+   * Logic vs Geometry (sheaves)
+
 
    * Mathematics as a community activity 
      + decay 
      + loss of conceptual understanding 
      + trust is the currency of scientific community
+     + paradigm shift
+     + dogmas 
+     + systematization 
 
    
 
@@ -170,4 +181,4 @@ Familiarity with the following philosophies of mathematics is a plus:
     + Cajori, F. 1993. A History of Mathematical Notation, New York: Dover Reprints. (Original published in two volumes by Open Court in London in 1929.)
     + Louis H. Kauffman. [The Mathematics of Charles Sanders Peirce](https://homepages.math.uic.edu/~kauffman/)
 
-   We will also read from the original resources; 
+  
