@@ -20,6 +20,8 @@ location: "Utrecht, NL"
 comments: true
 ---
 
+## Goals and hopes
+
 
 The main goal of this reading group is to understand how close the human has come to the point where his machines can do mathematics for him. Some mathematicians, such the Fields medalists Paul Cohen, Tim Gowers, Maxim Kontsevich, and Vladimir Voedodsky  have all at some point predicted that computers will be able to out-reason mathematicians in the 21st century. But is that really plausible?
 
@@ -41,3 +43,88 @@ These are pressing questions and we need to ransack various philosophies and fou
 
 
 
+
+### Which philosophies? which foundations? 
+
+I believe in epistemological anarchism, that is if needed we have to be receptive to ideas from the most disparate and apparently far-flung domains, even at the price of losing the comfort of our nests. Therefore, in this reading group we will remain open to all ideas and philosophies (things such as paraconsistent logic and fictionalism) as long as they are helpful to our goals discussed in above. Hopefully, this reading group will be a place for deep learning (and deep unlearning, i.e. unindoctorination) as well as unashamedly free speculations.   
+
+We will review the main tenets of the following philosophies and foundations of mathematics: 
+
+  * Constructivism and Intuitionism
+  * Structuralism
+  * Formalism
+  * Fictionalism 
+  * Cognitivism  
+
+
+### Resources 
+
+
+
+The following materials will be useful:
+
+
+* Introductory reading on the philosophy of mathematics
+  + Mark Colyvan. An Introduction to the Philosophy of Mathematics 
+  + Øystein Linnebo. Philosophy of Mathematics
+
+
+* Introductory mixed resources: some selected papers to get an introduction to some of the most interesting and variegated issues in the philosophy of mathematics  
+
+   * [On Proof and Progress in Mathematics](https://arxiv.org/pdf/math/9404236.pdf) 
+   * Saunsers MacLane. Mathematics Form and Function
+   * Richard Tieszen. What is a proof? 
+   * Where does mathematics come from? 
+     + https://www.kavlifoundation.org/science-spotlights/brain-or-universe-%E2%80%93-where-does-math-come
+     + Where Mathematics Comes From: How the Embodied Mind Brings Mathematics into Being 
+     The authors claim that the mathematics we used to describe as disembodied is in fact embodied. Humans use their bodies, mind, and brain to both form and understand mathematics. All mathematical content resides in embodied ideas and many of the most basic, as well as the most sophisticated, mathematical ideas are metaphorical. 
+   * Penrose, L. S. and Penrose, R. Impossible Objects, a Special Kind of Illusion, 1958. British Journal of Psychology, 49: 31-33.
+   * Noson S. Yanofsky. The Outer Limits of Reason: What Science, Mathematics, and Logic Cannot Tell Us. 
+   * Hermann Weyl. Mind and nature: Selected writings on philosophy, mathematics and physics. 2002. Edited and with an introduction by Peter Pesic. 
+   * Colin McLarty. The rising sea: Grothendieck on simplicity and generality
+   * Howard Stein. Logos, Logic, and Logistike. Phillip Kitcher, eds., History and Philosophy of Modern Mathematics. University of Minnesota Press 238–259, 1988.
+   * Robert L. Long. Remarks on the history and philosophy of mathematics. The American Mathematical Monthly, 93(8):609--619, 1986.
+   * Robert S.Tragesser, Three insufficiently attended to aspects of most mathematical proofs: phenomenological studies
+
+
+* Thematized materials:
+   
+   * Structuralism and category theory 
+     + Dedekind
+     + Paul Benacerraf. What numbers could not be. Philosophical Review, 74:47--73, 1965
+     + Steve Awodey. Structure in mathematics and logic: A categorical perspective. Philosophia Mathematica, 4(3):209--237, 1996
+     + Steve Awodey. Structuralism, Invariance, and Univalence. Philosophia mathematica 22(1):1–11, 2014.
+     + Jeremy Avigad. Number theory and elementary arithmetic. Philosophia mathematica, 3(11):257--284, 2003.
+     
+    
+   * Constructive mathematics and type theory 
+     + Per Martin-Lof. An Intuitionistic Theory of Types. In G.Sambin and Jan.Smith’s Twenty Five Years of Constructive Type Theory. Oxford Logic Guides Clarendon press, Oxford, 1998.
+     + Charles Parsons, The Impredicativity of induction
+      
+
+
+   * Non-classical logic
+     + Priest, G. 2008. An Introduction to Non-Classical Logic: From If to Is, 2nd edition, Cambridge: Cambridge University Press.
+     + Beall, JC, and van Fraassen, B. C. 2003. Possibilities and Paradox, Oxford: Oxford University Press
+
+   * Formalism 
+     + 
+     + Gerhard Heinzmann and Hannes Leitgeb. Formalism, Formalization, Intuition and Understanding in Mathematics: From Informal Practice to Formal Systems and Back Again. Université de Lorraine/CNRS, Nancy 2018.
+
+   * On Proofs: 
+
+   * Syntax-Semantics distinction 
+
+   * Mathematics as a community activity 
+     + decay 
+     + loss of conceptual understanding 
+     + 
+
+   
+
+
+  * Mathematical notations and semiotics
+    + Cajori, F. 1993. A History of Mathematical Notation, New York: Dover Reprints. (Original published in two volumes by Open Court in London in 1929.)
+    + 
+
+   We will also read from the original resources; 
