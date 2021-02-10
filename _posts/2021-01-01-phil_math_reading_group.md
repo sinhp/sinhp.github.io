@@ -179,10 +179,13 @@ For more serious (and mixed) introductory resources here are some selected paper
        [II](http://math.andrej.com/2012/11/11/how-to-implement-dependent-type-theory-ii/)
      + nLab. [intuitionistic mathematics](https://ncatlab.org/nlab/show/intuitionistic+mathematics)  
      + Hirschowitz. Intersection types. [Here](https://golem.ph.utexas.edu/category/2008/07/girard_on_the_limitations_of_c.html) and [here](https://golem.ph.utexas.edu/category/2008/07/girard_on_the_limitations_of_c.html) 
+     + Bengt Nordstrom, et al. [Programming in Martin-Lof’s Type Theory](http://www.cse.chalmers.se/research/group/logic/book/book.pdf) 
+
+
 
    * Formalism 
      + Gerhard Heinzmann and Hannes Leitgeb. Formalism, Formalization, Intuition and Understanding in Mathematics: From Informal Practice to Formal Systems and Back Again. Université de Lorraine/CNRS, Nancy 2018.  
-      
+   
    
 ## To learn logic 
 
@@ -237,6 +240,12 @@ Have a look at the [big books of logic](https://www.logicmatters.net/resources/p
 
   + Louis H. Kauffman. [The Mathematics of Charles Sanders Peirce](https://homepages.math.uic.edu/~kauffman/)
   + Cajori, F. 1993. A History of Mathematical Notation, New York: Dover Reprints. (Original published in two volumes by Open Court in London in 1929.)
+
+
+
+### And what if I am interested in set theory? 
+
+   * [THE FIVE WH’S OF SET THEORY (AND A BIT MORE)](https://ests.files.wordpress.com/2016/01/note1.pdf)  
     
 
   
