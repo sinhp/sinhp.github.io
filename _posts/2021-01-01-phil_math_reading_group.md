@@ -16,6 +16,17 @@ location: "Utrecht, NL"
 comments: true
 ---
 
+<section>
+        <h2 id="epigraph"></h2>
+        <div class="epigraph">
+          <blockquote>
+            <p>You ask me, which of the philosophers' traits are idiosyncracies? For example: their lack of historical sense, their hatred of becoming, their Egypticism. They think that they show their respect for a subject when they dehistoricize it — when they turn it into a mummy. </p>
+            <footer>Friedrich Nietzsche, “ The Twilight of the Idols”</footer>
+          </blockquote>
+        </div>
+      </section>
+
+
 >_You ask me, which of the philosophers' traits are idiosyncracies? For example: their lack of historical sense, their hatred of becoming, their Egypticism. They think that they show their respect for a subject when they dehistoricize it — when they turn it into a mummy. 
 <!--
   -->
@@ -35,7 +46,7 @@ To make any sound judgment on this question, we need to better understand
 
 1. What is (and what should be regarded as) mathematical progress? 
 
-2. What is (and what should be regarded as) mathematical proof? Do we always need formal proofs to do mathematics? 
+2. What is (and what should be regarded as) mathematical proof? Do we always need formal proofs to do mathematics? (c.f. theorems vs [porisms](https://en.wikipedia.org/wiki/Porism) ) 
 
 3. What is the role of human intuition in mathematical reasoning and in mathematical proofs? Where do new ideas in mathematics come from?  
 
@@ -79,6 +90,14 @@ We will review the main tenets of the following philosophies and foundations of 
   * Cognitivism  
 
 
+_In below, I list some of the references that I personally found it interesting and intriguing. Occassionally, we will discuss some of them, but we do not limit ourselves to them._ 
+
+
+
+
+
+
+
 
 ### I have no clue what the philosophy of mathematics is about. Where should I begin? 
 
@@ -96,11 +115,13 @@ We will review the main tenets of the following philosophies and foundations of 
   + Vladimir Voevodsky. [What if Current Foundations of Mathematics are
 Inconsistent?](https://www.youtube.com/watch?v=O45LaFsaqMA&t=3118s&ab_channel=InstituteforAdvancedStudy)
   + Daniel Sutherland. [What are Numbers? Philosophy of Mathematics](https://youtu.be/xXD57a5BEO0)
+  + Mark van Atten: Brouwer and the Mathematics of the Continuum
   
 
 For more serious (and mixed) introductory resources here are some selected papers to get an introduction to some of the most interesting and variegated issues in the philosophy of mathematics: 
 
-   * [On Proof and Progress in Mathematics](https://arxiv.org/pdf/math/9404236.pdf) 
+   * [On Proof and Progress in Mathematics](https://arxiv.org/pdf/math/9404236.pdf), See also  
+
    * Saunsers MacLane. Mathematics Form and Function
    * Where does mathematics come from? 
      + https://www.kavlifoundation.org/science-spotlights/brain-or-universe-%E2%80%93-where-does-math-come
@@ -116,8 +137,6 @@ For more serious (and mixed) introductory resources here are some selected paper
 
 
 
-
-
 ## Thematized Resources 
 
    * On Proofs & Proof assistants
@@ -128,17 +147,24 @@ For more serious (and mixed) introductory resources here are some selected paper
   
 
       
-## We will get ourselves familiar with some the philosophies of mathematics
+## Resources for getting familiar with some of the philosophies/foundations of mathematics
    
+
    * Structuralism and category theory 
+
      + Richard Dedekind. Was sind und was sollen die Zahlen?
      + Paul Benacerraf. What numbers could not be. Philosophical Review, 74:47--73, 1965
      + Steve Awodey. Structure in mathematics and logic: A categorical perspective. Philosophia Mathematica, 4(3):209--237, 1996
      + Steve Awodey. Structuralism, Invariance, and Univalence. Philosophia mathematica 22(1):1–11, 2014.
+     + Steve Awodey. Category Theory. OUP. 
+     + Emily Riehl. [Category Theory in Context](https://math.jhu.edu/~eriehl/context/)
+     + Brendan Fong and David I. Spivak. Seven Sketches in Compositionality: An Invitation to Applied Category Theory
      + Jeremy Avigad. Number theory and elementary arithmetic. Philosophia mathematica, 3(11):257--284, 2003.
-     
-    
+
+
+
    * Intuitionistic and constructive mathematics and type theory
+
      + SEP articles: [Constructive Mathematics](https://plato.stanford.edu/entries/mathematics-constructive/), [The Development of Intuitionistic Logic](https://plato.stanford.edu/entries/intuitionistic-logic-development/#BrouLogiGrun), [Intuitionism in the Philosophy of Mathematics](https://plato.stanford.edu/entries/intuitionism/), 
      [Intuitionistic Logic](https://plato.stanford.edu/entries/logic-intuitionistic/)
      + Per Martin-Lof. An Intuitionistic Theory of Types. In G.Sambin and Jan.Smith’s Twenty Five Years of Constructive Type Theory. Oxford Logic Guides Clarendon press, Oxford, 1998.
@@ -152,20 +178,33 @@ For more serious (and mixed) introductory resources here are some selected paper
      + Michael Beeson (1985), Foundations of Constructive Mathematics, Heidelberg: Springer Verlag.
      + Johan van Benthem. [The information in intuitionistic logic](https://core.ac.uk/download/pdf/191368036.pdf)
      + nLab. [Meaning Explanation](https://ncatlab.org/nlab/show/meaning+explanation)
+     + nLab. [Axiom of Choice](https://ncatlab.org/nlab/show/axiom+of+choice)
      + How to implement dependent type theory [I](http://math.andrej.com/2012/11/08/how-to-implement-dependent-type-theory-i/)
        [II](http://math.andrej.com/2012/11/11/how-to-implement-dependent-type-theory-ii/)
+     + nLab. [intuitionistic mathematics](https://ncatlab.org/nlab/show/intuitionistic+mathematics)  
+     + Hirschowitz. Intersection types. [Here](https://golem.ph.utexas.edu/category/2008/07/girard_on_the_limitations_of_c.html) and [here](https://golem.ph.utexas.edu/category/2008/07/girard_on_the_limitations_of_c.html) 
 
-        
    * Formalism 
      + Gerhard Heinzmann and Hannes Leitgeb. Formalism, Formalization, Intuition and Understanding in Mathematics: From Informal Practice to Formal Systems and Back Again. Université de Lorraine/CNRS, Nancy 2018.  
       
    
-## Logic 
+## To learn logic 
+
+Have a look at the [big books of logic](https://www.logicmatters.net/resources/pdfs/Appendix.pdf).  Also, for other resources look [here](https://www.logicmatters.net/tyl/).  
 
    * Gödel's Incompleteness Theorems
      + Smullyan's book 
      + Joyal's Arithmetic Universes 
-     + 
+
+   * Tarski's undefinability (of arithmetical truth) theorem
+     + [Wikipedia](https://en.wikipedia.org/wiki/Tarski%27s_undefinability_theorem)
+   
+   * Church’s undecidability theorem
+     + Look at Ian Chiswell and Wilfrid Hodges’s Mathematical Logic (OUP, 2007: pp.249)
+   
+   * Church thesis 
+   
+   * 
 
    * Non-classical logic
      + Priest, G. 2008. An Introduction to Non-Classical Logic: From If to Is, 2nd edition, Cambridge: Cambridge University Press.
@@ -175,10 +214,10 @@ For more serious (and mixed) introductory resources here are some selected paper
    * Syntax vs semantics 
    * Synthetics vs analtics 
      +  Andrej Bauer. [Synthetic mathematics with an excursion into computability theory](http://math.andrej.com/2021/02/03/synthetic-mathematics-with-excursion-to-computability/)
-     + 
    * Intensional vs extensional
    * Logical vs non-logical 
    * Logic vs Geometry (sheaves)
+   + The conception and perception of the universal objects in category theory (c.f. Husserl's ideas on the universal objects)
 
 
    * Mathematics as a community activity 
