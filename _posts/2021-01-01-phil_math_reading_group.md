@@ -84,6 +84,7 @@ We will review the main tenets of the following philosophies and foundations of 
 
 * At night before sleep:   
   + [LOGICOMIX](https://www.logicomix.com/en/index.html)
+  + [BYRNE’S EUCLID](https://www.c82.net/euclid/)
 * After mid-day coffee: 
   + Mark Colyvan. An Introduction to the Philosophy of Mathematics
   + David Corfield. Towards a Philosophy of Real Mathematics
@@ -114,6 +115,9 @@ For more serious (and mixed) introductory resources here are some selected paper
    * Robert S.Tragesser, Three insufficiently attended to aspects of most mathematical proofs: phenomenological studies
 
 
+
+
+
 ## Thematized Resources 
 
    * On Proofs & Proof assistants
@@ -121,20 +125,10 @@ For more serious (and mixed) introductory resources here are some selected paper
       + Robert L. Constable. [Proof Assistants and the Dynamic Nature of Formal Theories](http://ceur-ws.org/Vol-878/invited1.pdf)
       + Herman Geuvers. [Proof assistants: History, ideas and future](https://www.cs.ru.nl/~herman/ictopen.pdf) Also, look at these [slides](https://www.cs.ru.nl/~herman/ictopen.pdf) 
       + Hyperproofs
+  
 
       
-   
-   * Current trends and programmes in mathematics 
-     + The Langlands program 
-     + The synthetic methods (category theory and type theory)
-     + Non-commutative geometry and topos theory (appropo Riemann Hypothesis)
-     + P vs NP 
-     + Complexity 
-     + Pyknotic stuff
-
-
-Familiarity with the following philosophies of mathematics is a plus:
-
+## We will get ourselves familiar with some the philosophies of mathematics
    
    * Structuralism and category theory 
      + Richard Dedekind. Was sind und was sollen die Zahlen?
@@ -144,16 +138,35 @@ Familiarity with the following philosophies of mathematics is a plus:
      + Jeremy Avigad. Number theory and elementary arithmetic. Philosophia mathematica, 3(11):257--284, 2003.
      
     
-   * Constructive mathematics and type theory 
+   * Intuitionistic and constructive mathematics and type theory
+     + SEP articles: [Constructive Mathematics](https://plato.stanford.edu/entries/mathematics-constructive/), [The Development of Intuitionistic Logic](https://plato.stanford.edu/entries/intuitionistic-logic-development/#BrouLogiGrun), [Intuitionism in the Philosophy of Mathematics](https://plato.stanford.edu/entries/intuitionism/), 
+     [Intuitionistic Logic](https://plato.stanford.edu/entries/logic-intuitionistic/)
      + Per Martin-Lof. An Intuitionistic Theory of Types. In G.Sambin and Jan.Smith’s Twenty Five Years of Constructive Type Theory. Oxford Logic Guides Clarendon press, Oxford, 1998.
      + Per Martin-Lof. Constructive Mathematics and Computer Programming.
+     + Per Martin-Lof. Mathematics of Infinity
      + [Martin-Lof's collected works](https://github.com/michaelt/martin-lof) 
      + Charles Parsons, The Impredicativity of induction
+     + Anne Sjerp Troelstra and Dirk van Dalen (1988), Constructivism in Mathematics: An Introduction (two volumes), Amsterdam: North Holland
+     + Michael Dummett (1977/2000), Elements of Intuitionism (Oxford Logic Guides, 39), Oxford: Clarendon Press, 1977; 2nd edition, 2000.
+     + [Ulrik Buchholtz's course at CMU, Intuitionism and Constructive Mathematics](http://www2.mathematik.tu-darmstadt.de/~buchholtz/80-518-818/index.html)
+     + Michael Beeson (1985), Foundations of Constructive Mathematics, Heidelberg: Springer Verlag.
+     + Johan van Benthem. [The information in intuitionistic logic](https://core.ac.uk/download/pdf/191368036.pdf)
+     + nLab. [Meaning Explanation](https://ncatlab.org/nlab/show/meaning+explanation)
+     + How to implement dependent type theory [I](http://math.andrej.com/2012/11/08/how-to-implement-dependent-type-theory-i/)
+       [II](http://math.andrej.com/2012/11/11/how-to-implement-dependent-type-theory-ii/)
 
+        
    * Formalism 
      + Gerhard Heinzmann and Hannes Leitgeb. Formalism, Formalization, Intuition and Understanding in Mathematics: From Informal Practice to Formal Systems and Back Again. Université de Lorraine/CNRS, Nancy 2018.  
       
    
+## Logic 
+
+   * Gödel's Incompleteness Theorems
+     + Smullyan's book 
+     + Joyal's Arithmetic Universes 
+     + 
+
    * Non-classical logic
      + Priest, G. 2008. An Introduction to Non-Classical Logic: From If to Is, 2nd edition, Cambridge: Cambridge University Press.
      + Beall, JC, and van Fraassen, B. C. 2003. Possibilities and Paradox, Oxford: Oxford University Press
@@ -161,6 +174,8 @@ Familiarity with the following philosophies of mathematics is a plus:
 
    * Syntax vs semantics 
    * Synthetics vs analtics 
+     +  Andrej Bauer. [Synthetic mathematics with an excursion into computability theory](http://math.andrej.com/2021/02/03/synthetic-mathematics-with-excursion-to-computability/)
+     + 
    * Intensional vs extensional
    * Logical vs non-logical 
    * Logic vs Geometry (sheaves)
@@ -174,11 +189,19 @@ Familiarity with the following philosophies of mathematics is a plus:
      + dogmas 
      + systematization 
 
-   
+   * Current trends and programmes in mathematics 
+     + The Langlands program 
+     + The synthetic methods (category theory and type theory)
+     + Non-commutative geometry and topos theory (appropo Riemann Hypothesis)
+     + P vs NP 
+     + Complexity 
+     + Pyknotic stuff
 
 
-  * Mathematical notations and semiotics
-    + Cajori, F. 1993. A History of Mathematical Notation, New York: Dover Reprints. (Original published in two volumes by Open Court in London in 1929.)
-    + Louis H. Kauffman. [The Mathematics of Charles Sanders Peirce](https://homepages.math.uic.edu/~kauffman/)
+## Semiotics and Mathematical notations 
+
+  + Louis H. Kauffman. [The Mathematics of Charles Sanders Peirce](https://homepages.math.uic.edu/~kauffman/)
+  + Cajori, F. 1993. A History of Mathematical Notation, New York: Dover Reprints. (Original published in two volumes by Open Court in London in 1929.)
+    
 
   
