@@ -90,7 +90,7 @@ We will review the main tenets of the following philosophies and foundations of 
   * Cognitivism  
 
 
-<p class="sans">In below, I list some of the references that I personally found it interesting and intriguing. Occassionally, we will discuss some of them, but we do not limit ourselves to them.</p>
+<p class="sans">In below, I list some of the references which I personally found interesting, intriguing, and edifying. Occasionally, we will discuss some of them, but we do not limit ourselves to them.</p>
 
 
 
@@ -180,7 +180,7 @@ For more serious (and mixed) introductory resources here are some selected paper
      + nLab. [intuitionistic mathematics](https://ncatlab.org/nlab/show/intuitionistic+mathematics)  
      + Hirschowitz. Intersection types. [Here](https://golem.ph.utexas.edu/category/2008/07/girard_on_the_limitations_of_c.html) and [here](https://golem.ph.utexas.edu/category/2008/07/girard_on_the_limitations_of_c.html) 
      + Bengt Nordstrom, et al. [Programming in Martin-Lof’s Type Theory](http://www.cse.chalmers.se/research/group/logic/book/book.pdf) 
-
+     + Martín Hötzel Escardó. [Introduction to Univalent Foundations of Mathematics with Agda](https://arxiv.org/ftp/arxiv/papers/1911/1911.00580.pdf)
 
 
    * Formalism 
@@ -244,8 +244,8 @@ Have a look at the [big books of logic](https://www.logicmatters.net/resources/p
 
 
 ### And what if I am interested in set theory? 
-
+   * [very basic intro](https://www.scottaaronson.com/democritus/lec2.html)
    * [THE FIVE WH’S OF SET THEORY (AND A BIT MORE)](https://ests.files.wordpress.com/2016/01/note1.pdf)  
-    
+   * More resources on [awesome-math](https://github.com/rossant/awesome-math#foundations-of-mathematics) 
 
   
