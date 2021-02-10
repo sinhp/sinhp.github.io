@@ -26,15 +26,15 @@ comments: true
         </div>
       </section>
 
-
->_You ask me, which of the philosophers' traits are idiosyncracies? For example: their lack of historical sense, their hatred of becoming, their Egypticism. They think that they show their respect for a subject when they dehistoricize it — when they turn it into a mummy. 
 <!--
-  -->
-Friedrich Nietzsche, The Twilight of the Idols_
+>_You ask me, which of the philosophers' traits are idiosyncracies? For example: their lack of historical sense, their hatred of becoming, their Egypticism. They think that they show their respect for a subject when they dehistoricize it — when they turn it into a mummy. 
 
+Friedrich Nietzsche, The Twilight of the Idols_
+-->
 
 
 This article is about a Philosophy and Foundations of Mathematics Reading Group (PFMRG) that will be inaugurated in mid February. We meet bi-weekly, and each session will last about two hours (30-45 minutes for presentation, the rest for the Q&A). The goals of this group and the themes of the presentations are discussed in below.   
+
 
 
 ## Goals and hopes
@@ -90,11 +90,7 @@ We will review the main tenets of the following philosophies and foundations of 
   * Cognitivism  
 
 
-_In below, I list some of the references that I personally found it interesting and intriguing. Occassionally, we will discuss some of them, but we do not limit ourselves to them._ 
-
-
-
-
+<p class="sans">In below, I list some of the references that I personally found it interesting and intriguing. Occassionally, we will discuss some of them, but we do not limit ourselves to them.</p>
 
 
 
