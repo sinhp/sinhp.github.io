@@ -66,6 +66,9 @@ To put some of the discussions above in context, here is the point of view of th
 
 >_I think of mathematics as having a large component of psychology, because of its strong dependence on human minds. Dehumanized mathematics would be more like computer code, which is very different. Mathematical ideas, even simple ideas, are often hard to transplant from mind to mind. Mathematical ideas, even simple ideas, are often hard to transplant from mind to mind. There are many ideas in mathematics that may be hard to get, but are easy once you get them. Because of this, mathematical understanding does not expand in a monotone direction._ 
 
+And he continues 
+
+>_Our understanding frequently deteriorates as well. There are several obvious mechanisms of decay. The experts in a subject retire and die, or simply move on to other subjects and forget. Mathematics is commonly explained and recorded in symbolic and concrete forms that are easy to communicate, rather than in conceptual forms that are easy to understand once communicated. Translation in the direction conceptual -> concrete and symbolic is much easier than translation in the reverse direction, and symbolic forms often replaces the conceptual forms of understanding. And mathematical conventions and taken-for-granted knowledge change, so older texts may become hard to understand._
 
 
 
