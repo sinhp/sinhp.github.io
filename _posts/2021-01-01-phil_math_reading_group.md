@@ -104,15 +104,15 @@ We will review the main tenets of the following philosophies and foundations of 
   + Mark Colyvan. An Introduction to the Philosophy of Mathematics
   + David Corfield. Towards a Philosophy of Real Mathematics
   + Øystein Linnebo. Philosophy of Mathematics
-* While waking up in the morning:     
+* While waking up in the morning or chilaxing you can watch:     
   + Ray Monk. [Intro to the Philosophy of Mathematics](https://www.youtube.com/watch?v=bqGXdh6zb2k&ab_channel=PhilosophyOverdose)
   + Denis Bonnay. [Logic and Mathematics](https://www.youtube.com/watch?v=5LovB0kbkJc&ab_channel=SeriousScience)
   + Stephen Read. [Logical Paradoxes](https://www.youtube.com/watch?v=uDTUgC48GlY&ab_channel=SeriousScience)  
   + Vladimir Voevodsky. [What if Current Foundations of Mathematics are
 Inconsistent?](https://www.youtube.com/watch?v=O45LaFsaqMA&t=3118s&ab_channel=InstituteforAdvancedStudy)
   + Daniel Sutherland. [What are Numbers? Philosophy of Mathematics](https://youtu.be/xXD57a5BEO0)
-  + Mark van Atten: Brouwer and the Mathematics of the Continuum
-  
+  + Mark van Atten. [Brouwer and the Mathematics of the Continuum](https://www.youtube.com/watch?v=WNAm7TH0iOw&ab_channel=LogicandFoundationsofMathematics)
+  + David Corfield. [Good mathematics as good narrative](https://www.youtube.com/watch?v=ijQ5cDL67-0&ab_channel=BrendanLarvor) 
 
 For more serious (and mixed) introductory resources here are some selected papers to get an introduction to some of the most interesting and variegated issues in the philosophy of mathematics: 
 
@@ -140,6 +140,9 @@ For more serious (and mixed) introductory resources here are some selected paper
       + Robert L. Constable. [Proof Assistants and the Dynamic Nature of Formal Theories](http://ceur-ws.org/Vol-878/invited1.pdf)
       + Herman Geuvers. [Proof assistants: History, ideas and future](https://www.cs.ru.nl/~herman/ictopen.pdf) Also, look at these [slides](https://www.cs.ru.nl/~herman/ictopen.pdf) 
       + Hyperproofs
+      + Proof core. The idea is due to the late philosopher David Charles McCarty. See [What are the limits of mathematical explanation?](https://www.youtube.com/watch?v=6uWS7Kwau1A&ab_channel=CopernicusCenterforInterdisciplinaryStudies) 
+      Could _proof cores_ (idea engines that propel formal proofs) be one of the conceptual gaps between mathematical proofs and their formalizations? i.e. does a coding of proofs (w.r.t. a formal language) contains strictly less epistemic data/control the proofs themselves? (e.g. (geometric) proof core of -1. -1 = 1, verus one of its proof code in which integers are coded as pairs of natural numbers.)  Proof cores are more easily expressible in higher languages, and they are closer to intuition and mathematical cognition. 
+
   
 
       
@@ -154,10 +157,14 @@ For more serious (and mixed) introductory resources here are some selected paper
      + Steve Awodey. Structuralism, Invariance, and Univalence. Philosophia mathematica 22(1):1–11, 2014.
      + Steve Awodey. Category Theory. OUP. 
      + Emily Riehl. [Category Theory in Context](https://math.jhu.edu/~eriehl/context/)
+     + I. Moerdijk and J. van Oosten. [Topos Theory](https://webspace.science.uu.nl/~ooste110/syllabi/toposmoeder.pdf)
      + Brendan Fong and David I. Spivak. Seven Sketches in Compositionality: An Invitation to Applied Category Theory
      + Jeremy Avigad. Number theory and elementary arithmetic. Philosophia mathematica, 3(11):257--284, 2003.
 
-
+   * Formalism 
+     + Syntax vs semantics: the distinction between the two did not always exist, and it is one of the most fruitful inventions in the history of mathematics.   
+     + Synthetics vs analtics mathematics: what are the differences and similarities?  
+     + Gerhard Heinzmann and Hannes Leitgeb. Formalism, Formalization, Intuition and Understanding in Mathematics: From Informal Practice to Formal Systems and Back Again. Université de Lorraine/CNRS, Nancy 2018.  
 
    * Intuitionistic and constructive mathematics and type theory
 
@@ -183,8 +190,7 @@ For more serious (and mixed) introductory resources here are some selected paper
      + Martín Hötzel Escardó. [Introduction to Univalent Foundations of Mathematics with Agda](https://arxiv.org/ftp/arxiv/papers/1911/1911.00580.pdf)
 
 
-   * Formalism 
-     + Gerhard Heinzmann and Hannes Leitgeb. Formalism, Formalization, Intuition and Understanding in Mathematics: From Informal Practice to Formal Systems and Back Again. Université de Lorraine/CNRS, Nancy 2018.  
+   
    
    
 ## To learn logic 
@@ -202,8 +208,6 @@ Have a look at the [big books of logic](https://www.logicmatters.net/resources/p
      + Look at Ian Chiswell and Wilfrid Hodges’s Mathematical Logic (OUP, 2007: pp.249)
    
    * Church thesis 
-   
-   * 
 
    * Non-classical logic
      + Priest, G. 2008. An Introduction to Non-Classical Logic: From If to Is, 2nd edition, Cambridge: Cambridge University Press.
@@ -216,7 +220,7 @@ Have a look at the [big books of logic](https://www.logicmatters.net/resources/p
    * Intensional vs extensional
    * Logical vs non-logical 
    * Logic vs Geometry (sheaves)
-   + The conception and perception of the universal objects in category theory (c.f. Husserl's ideas on the universal objects)
+   * The conception and perception of the universal objects in category theory (c.f. Husserl's ideas on the universal objects)
 
 
    * Mathematics as a community activity 
