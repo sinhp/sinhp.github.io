@@ -59,8 +59,8 @@ To make any sound judgment on this question, we need to better understand
 These are pressing questions and we need to ransack various philosophies and foundations of mathematics that have been thought before us; they give us radically different insights to the questions above and presents us with cast territories of philosophical though. In the first session of our reading group, I will give an introductory talk charting out a basic map of these territories, and establishing some reading resources that get us going.  
 
 
-To put some of the discussions above in context, here is the point of view of the geometrician Bill Thurston 
-[here](https://mathoverflow.net/questions/43690/whats-a-mathematician-to-do) regarding the activity of mathematicians: 
+To put some of the discussions above in context, [here](https://mathoverflow.net/questions/43690/whats-a-mathematician-to-do) is the point of view of the geometrician Bill Thurston 
+ regarding the activity of mathematicians: 
 
 >_The product of mathematics is clarity and understanding. Not theorems, by themselves. Is there, for example any real reason that even such famous results as Fermat's Last Theorem, or the Poincaré conjecture, really matter? Their real importance is not in their specific statements, but their role in challenging our understanding, presenting challenges that led to mathematical developments that increased our understanding._
 
