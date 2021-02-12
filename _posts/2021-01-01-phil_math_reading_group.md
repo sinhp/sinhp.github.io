@@ -59,6 +59,14 @@ To make any sound judgment on this question, we need to better understand
 These are pressing questions and we need to ransack various philosophies and foundations of mathematics that have been thought before us; they give us radically different insights to the questions above and presents us with cast territories of philosophical though. In the first session of our reading group, I will give an introductory talk charting out a basic map of these territories, and establishing some reading resources that get us going.  
 
 
+To put some of the discussions above in context, here is the point of view of the geometrician Bill Thurston 
+[here](https://mathoverflow.net/questions/43690/whats-a-mathematician-to-do) regarding the activity of mathematicians: 
+
+>_The product of mathematics is clarity and understanding. Not theorems, by themselves. Is there, for example any real reason that even such famous results as Fermat's Last Theorem, or the Poincaré conjecture, really matter? Their real importance is not in their specific statements, but their role in challenging our understanding, presenting challenges that led to mathematical developments that increased our understanding._
+
+>_I think of mathematics as having a large component of psychology, because of its strong dependence on human minds. Dehumanized mathematics would be more like computer code, which is very different. Mathematical ideas, even simple ideas, are often hard to transplant from mind to mind. Mathematical ideas, even simple ideas, are often hard to transplant from mind to mind. There are many ideas in mathematics that may be hard to get, but are easy once you get them. Because of this, mathematical understanding does not expand in a monotone direction._ 
+
+
 
 
 ## Which philosophies? which foundations? 
@@ -75,7 +83,7 @@ Well, this reading group is a serious attempt to learn to think about mathematic
 
 We shall try to ask worthy questions: 
 
->_When do we call a kind of knowledge mathematical? How does mathematical knowledge grow? What is mathematical progress? Whatm akes some mathematical ideas (or theories) better than others? What is mathematical explanation? etc_ 
+>_When do we call a kind of knowledge mathematical? How does mathematical knowledge grow? What is mathematical progress? What makes some mathematical ideas (or theories) better than others? What is mathematical explanation? etc_ 
 
 I believe in epistemological anarchism, that is, if needed, we have to be receptive to ideas from the most disparate and apparently far-flung domains, even at the price of losing the comfort of our nests. 
 
@@ -117,6 +125,8 @@ Inconsistent?](https://www.youtube.com/watch?v=O45LaFsaqMA&t=3118s&ab_channel=In
 For more serious (and mixed) introductory resources here are some selected papers to get an introduction to some of the most interesting and variegated issues in the philosophy of mathematics: 
 
    * [On Proof and Progress in Mathematics](https://arxiv.org/pdf/math/9404236.pdf), See also  
+     [What's a mathematician to do?](https://mathoverflow.net/questions/43690/whats-a-mathematician-to-do)
+
 
    * Saunsers MacLane. Mathematics Form and Function
    * Where does mathematics come from? 
