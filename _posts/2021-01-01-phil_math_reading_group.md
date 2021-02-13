@@ -9,7 +9,7 @@ tags:
   - mathematical intuition
   - automated theorem provers
   - interactive theorem provers 
-permalink: /posts/2021/01/phil_maths_reading_group
+permalink: /posts/2021/01/PFMRG
 date: 2021-01-01
 use_math: true
 location: "Utrecht, NL"
@@ -143,7 +143,7 @@ For more serious (and mixed) introductory resources here are some selected paper
    * Howard Stein. Logos, Logic, and Logistike. Phillip Kitcher, eds., History and Philosophy of Modern Mathematics. University of Minnesota Press 238–259, 1988.
    * Robert L. Long. Remarks on the history and philosophy of mathematics. The American Mathematical Monthly, 93(8):609--619, 1986.
    * Robert S.Tragesser, Three insufficiently attended to aspects of most mathematical proofs: phenomenological studies
-
+   * Barwise, Etchemendy. Visual Information and Valid Reasoning
 
 
 ## Thematized Resources 
@@ -256,7 +256,16 @@ Have a look at the [big books of logic](https://www.logicmatters.net/resources/p
 ## Semiotics and Mathematical notations 
 
   + Louis H. Kauffman. [The Mathematics of Charles Sanders Peirce](https://homepages.math.uic.edu/~kauffman/)
-  + Cajori, F. 1993. A History of Mathematical Notation, New York: Dover Reprints. (Original published in two volumes by Open Court in London in 1929.)
+  + Cajori, F. 1993. A History of Mathematical Notation, New York: Dover Reprints. (Original published in two volumes by Open Court in London in 1929.) 
+  There is a lot to be said about the mathematical notations and symbols: for millenia they have been _cognitive technologies_ enabling us to think previously unthinkable thoughts.  For instance, take a mathematics problem described by the 9th Century mathematician al-Khwarizmi (who gave us the word algorithm):
+  
+
+  <!--
+  <figure>
+    <label for="mn-de-stenen-brug" class="margin-toggle">&#8853;</label><input type="checkbox" id="mn-de-stenen-brug" class="margin-toggle"/><span class="marginnote"> <em>De stenen brug</em>, Landschap met een stenen brug over een rivier of vaart. Op het water bevinden zich twee bootjes met figuren. Op de weg lopen verschillende personen, links een wagen. In het midden een hooischuur tussen bomen, rechts in de verte een kerktoren. More at <a href="https://www.rijksmuseum.nl/en/collection/SK-A-1935">rijksmuseum.nl</a></span>
+    <img src="/images/posts/2018/Rembrandt-StoneBridge.jpg" alt="Landscape with a Stone Bridge, Rembrandt van Rijn, c. 1638" link="https://www.rijksmuseum.nl/en/collection/SK-A-1935"/>
+</figure>
+-->
 
 
 
