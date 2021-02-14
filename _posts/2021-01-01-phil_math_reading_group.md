@@ -185,13 +185,14 @@ For more serious (and mixed) introductory resources here are some selected paper
      [Intuitionistic Logic](https://plato.stanford.edu/entries/logic-intuitionistic/)
      + Per Martin-Lof. An Intuitionistic Theory of Types. In G.Sambin and Jan.Smith’s Twenty Five Years of Constructive Type Theory. Oxford Logic Guides Clarendon press, Oxford, 1998.
      + Per Martin-Lof. Constructive Mathematics and Computer Programming.
-     + Per Martin-Lof. Mathematics of Infinity
+     + Per Martin-Lof. Mathematics of Infinity.
      + [Martin-Lof's collected works](https://github.com/michaelt/martin-lof) 
-     + Charles Parsons, The Impredicativity of induction
-     + Anne Sjerp Troelstra and Dirk van Dalen (1988), Constructivism in Mathematics: An Introduction (two volumes), Amsterdam: North Holland
-     + Michael Dummett (1977/2000), Elements of Intuitionism (Oxford Logic Guides, 39), Oxford: Clarendon Press, 1977; 2nd edition, 2000.
+     + Errett Bishop. Schizophrenia of Contemporary Mathematics.
+     + Charles Parsons. The Impredicativity of induction
+     + Anne Sjerp Troelstra and Dirk van Dalen (1988). Constructivism in Mathematics: An Introduction (two volumes), Amsterdam: North Holland
+     + Michael Dummett (1977/2000). Elements of Intuitionism (Oxford Logic Guides, 39), Oxford: Clarendon Press, 1977; 2nd edition, 2000.
      + [Ulrik Buchholtz's course at CMU, Intuitionism and Constructive Mathematics](http://www2.mathematik.tu-darmstadt.de/~buchholtz/80-518-818/index.html)
-     + Michael Beeson (1985), Foundations of Constructive Mathematics, Heidelberg: Springer Verlag.
+     + Michael Beeson (1985). Foundations of Constructive Mathematics, Heidelberg: Springer Verlag.
      + Johan van Benthem. [The information in intuitionistic logic](https://core.ac.uk/download/pdf/191368036.pdf)
      + nLab. [Meaning Explanation](https://ncatlab.org/nlab/show/meaning+explanation)
      + nLab. [Axiom of Choice](https://ncatlab.org/nlab/show/axiom+of+choice)
@@ -257,10 +258,18 @@ Have a look at the [big books of logic](https://www.logicmatters.net/resources/p
 
   + Louis H. Kauffman. [The Mathematics of Charles Sanders Peirce](https://homepages.math.uic.edu/~kauffman/)
   + Cajori, F. 1993. A History of Mathematical Notation, New York: Dover Reprints. (Original published in two volumes by Open Court in London in 1929.) 
-  There is a lot to be said about the mathematical notations and symbols: for millenia they have been _cognitive technologies_ enabling us to think previously unthinkable thoughts.  For instance, take a mathematics problem described by the 9th Century mathematician al-Khwarizmi (who gave us the word algorithm):
+  There is a lot to be said about the mathematical notations and symbols: for millenia they have been _cognitive technologies_ enabling us to think previously unthinkable thoughts.  For instance, take Khwarizmi's solution of the problem of solving the quadratic polynomial equation: 
   
+  >_If some one says: "You divide ten into two parts: multiply the one by itself; it will be equal to the other taken eighty-one times." Computation: You say, ten less a thing, multiplied by itself, is a hundred plus a square less twenty things, and this is equal to eighty-one things. Separate the twenty things from a hundred and a square, and add them to eighty-one. It will then be a hundred plus a square, which is equal to a hundred and one roots. Halve the roots; the moiety is fifty and a half. Multiply this by itself, it is two thousand five hundred and fifty and a quarter. Subtract from this one hundred; the remainder is two thousand four hundred and fifty and a quarter. Extract the root from this; it is forty-nine and a half. Subtract this from the moiety of the roots, which is fifty and a half. There remains one, and this is one of the two parts._
 
- 
+And all these words and their meaning are compressed in in modern mathematical notation.
+
+<figure>
+<a href="https://en.wikipedia.org/wiki/Muhammad_ibn_Musa_al-Khwarizmi#Algebra">  
+<br/><img src='/images/posts/2021/jabr-va-moghabele.png'>
+</a> 
+<FIGCAPTION></FIGCAPTION>
+</figure> 
 
 
 
