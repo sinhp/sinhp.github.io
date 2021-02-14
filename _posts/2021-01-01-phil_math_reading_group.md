@@ -68,7 +68,7 @@ To put some of the discussions above in context, [here](https://mathoverflow.net
 
 And he continues 
 
->_Our understanding frequently deteriorates as well. There are several obvious mechanisms of decay. The experts in a subject retire and die, or simply move on to other subjects and forget. Mathematics is commonly explained and recorded in symbolic and concrete forms that are easy to communicate, rather than in conceptual forms that are easy to understand once communicated. Translation in the direction conceptual -> concrete and symbolic is much easier than translation in the reverse direction, and symbolic forms often replaces the conceptual forms of understanding. And mathematical conventions and taken-for-granted knowledge change, so older texts may become hard to understand._
+>_Our understanding frequently deteriorates as well. There are several obvious mechanisms of decay. The experts in a subject retire and die, or simply move on to other subjects and forget. Mathematics is commonly explained and recorded in symbolic and concrete forms that are easy to communicate, rather than in conceptual forms that are easy to understand once communicated. Translation in the direction <code>conceptual -> concrete and symbolic</code> is much easier than translation in the reverse direction, and symbolic forms often replaces the conceptual forms of understanding. And mathematical conventions and taken-for-granted knowledge change, so older texts may become hard to understand._
 
 
 
@@ -258,6 +258,8 @@ Have a look at the [big books of logic](https://www.logicmatters.net/resources/p
 
   + Louis H. Kauffman. [The Mathematics of Charles Sanders Peirce](https://homepages.math.uic.edu/~kauffman/)
   + Cajori, F. 1993. A History of Mathematical Notation, New York: Dover Reprints. (Original published in two volumes by Open Court in London in 1929.) 
+
+
   There is a lot to be said about the mathematical notations and symbols: for millenia they have been _cognitive technologies_ enabling us to think previously unthinkable thoughts.  For instance, take Khwarizmi's solution of the problem of solving the quadratic polynomial equation: 
   
   >_If some one says: "You divide ten into two parts: multiply the one by itself; it will be equal to the other taken eighty-one times." Computation: You say, ten less a thing, multiplied by itself, is a hundred plus a square less twenty things, and this is equal to eighty-one things. Separate the twenty things from a hundred and a square, and add them to eighty-one. It will then be a hundred plus a square, which is equal to a hundred and one roots. Halve the roots; the moiety is fifty and a half. Multiply this by itself, it is two thousand five hundred and fifty and a quarter. Subtract from this one hundred; the remainder is two thousand four hundred and fifty and a quarter. Extract the root from this; it is forty-nine and a half. Subtract this from the moiety of the roots, which is fifty and a half. There remains one, and this is one of the two parts._
