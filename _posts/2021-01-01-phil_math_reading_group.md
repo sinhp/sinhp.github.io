@@ -209,6 +209,19 @@ For more serious (and mixed) introductory resources here are some selected paper
    
 ## To learn logic 
 
+<section>
+        <h2 id="epigraph"></h2>
+        <div class="epigraph">
+          <blockquote>
+            <p>  Logic is philosophy’s essence [...] It is the science whereby we are enabled to test reasons. </p>
+            <footer> C.S. Peirce</footer>
+          </blockquote>
+        </div>
+      </section>
+
+
+
+
 Have a look at the [big books of logic](https://www.logicmatters.net/resources/pdfs/Appendix.pdf).  Also, for other resources look [here](https://www.logicmatters.net/tyl/).  
 
    * Gödel's Incompleteness Theorems
