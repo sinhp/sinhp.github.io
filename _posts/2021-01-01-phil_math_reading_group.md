@@ -145,6 +145,8 @@ Inconsistent?](https://www.youtube.com/watch?v=O45LaFsaqMA&t=3118s&ab_channel=In
   + David Corfield. [Good mathematics as good narrative](https://www.youtube.com/watch?v=ijQ5cDL67-0&ab_channel=BrendanLarvor) 
 
 
+Also, there are a lot of interesting articles on logic, philosophy and foundations of mathematics by [John Bell](https://publish.uwo.ca/~jbell/). John was my former mentor. 
+
 <!--
 
 For more serious (and mixed) introductory resources here are some selected papers to get an introduction to some of the most interesting and variegated issues in the philosophy of mathematics: 
@@ -157,6 +159,7 @@ For more serious (and mixed) introductory resources here are some selected paper
 ## Thematized Resources 
 
    * On Proofs & Proof assistants
+
       + Richard Tieszen. What is a proof? 
       + Robert L. Constable. [Proof Assistants and the Dynamic Nature of Formal Theories](http://ceur-ws.org/Vol-878/invited1.pdf)
       + Herman Geuvers. [Proof assistants: History, ideas and future](https://www.cs.ru.nl/~herman/ictopen.pdf) Also, look at these [slides](https://www.cs.ru.nl/~herman/ictopen.pdf) 
@@ -165,9 +168,10 @@ For more serious (and mixed) introductory resources here are some selected paper
       Could _proof cores_ (idea engines that propel formal proofs) be one of the conceptual gaps between mathematical proofs and their formalizations? i.e. does a coding of proofs (w.r.t. a formal language) contains strictly less epistemic data/control the proofs themselves? (e.g. (geometric) proof core of -1. -1 = 1, verus one of its proof code in which integers are coded as pairs of natural numbers.)  Proof cores are more easily expressible in higher languages, and they are closer to intuition and mathematical cognition. 
       + Robert S.Tragesser, Three insufficiently attended to aspects of most mathematical proofs: phenomenological studies
   
-  
+
 
   * Visual proofs and the role of visual reasoning in mathematics 
+
     + [SEP, Diagrams](https://plato.stanford.edu/entries/diagrams/)
     + Peirce, C.S., 1933, Collected Papers, Cambridge, MA: Harvard University Press
     + Barwise, Etchemendy. Visual Information and Valid Reasoning 
@@ -198,6 +202,7 @@ For more serious (and mixed) introductory resources here are some selected paper
      + Jeremy Avigad. Number theory and elementary arithmetic. Philosophia mathematica, 3(11):257--284, 2003.
 
    * Formalism 
+
      + Syntax vs semantics: the distinction between the two did not always exist, and it is one of the most fruitful inventions in the history of mathematics.   
      + Synthetics vs analtics mathematics: what are the differences and similarities?  
      + Gerhard Heinzmann and Hannes Leitgeb. Formalism, Formalization, Intuition and Understanding in Mathematics: From Informal Practice to Formal Systems and Back Again. Université de Lorraine/CNRS, Nancy 2018.  
@@ -228,10 +233,10 @@ For more serious (and mixed) introductory resources here are some selected paper
 
 
    
+
    
    
 ## To learn logic 
-
 <section>
         <h2 id="epigraph"></h2>
         <div class="epigraph">
@@ -241,11 +246,7 @@ For more serious (and mixed) introductory resources here are some selected paper
           </blockquote>
         </div>
       </section>
-
-
-
-
-Have a look at the [big books of logic](https://www.logicmatters.net/resources/pdfs/Appendix.pdf).  Also, for other resources look [here](https://www.logicmatters.net/tyl/).  
+A very good place to learn the basics of logic is van Fraassen's [Formal Semantics and Logic](van Fraassen). For other standard references have a look at the [big books of logic](https://www.logicmatters.net/resources/pdfs/Appendix.pdf). Also, for extra resources, see [here](https://www.logicmatters.net/tyl/).  
 
    * Logical Paradoxes 
      + Hartry Field. Saving Truth From Paradox  
@@ -266,8 +267,19 @@ Have a look at the [big books of logic](https://www.logicmatters.net/resources/p
      + Priest, G. 2008. An Introduction to Non-Classical Logic: From If to Is, 2nd edition, Cambridge: Cambridge University Press.
      + Beall, JC, and van Fraassen, B. C. 2003. Possibilities and Paradox, Oxford: Oxford University Press
 
+   * Modal Logic
+     + Belnap, N., M. Perloff, and M. Xu, 2001, Facing the Future, New York: Oxford University Press.
+     + Benthem, J. F. van, 1982, The Logic of Time, Dordrecht: D. Reidel.
+     + Benthem, J. F. van, 2011, Logical Dynamics of Information and Interaction, Cambridge: Cambridge University Press
+     + Blackburn, P., with M. de Rijke and Y. Venema, 2001, Modal Logic, Cambridge: Cambridge University Press.
+     + Chalmers, D., 1996, The Conscious Mind, New York: Oxford University Press.
+     + Goldblatt, R., 1993, Mathematics of Modality, CSLI Lecture Notes #43, Chicago: University of Chicago Press.
+     + Kripke, S., 1963, “Semantical Considerations on Modal Logic,” Acta Philosophica Fennica, 16: 83–94.
+     + Prior, A. N., 1957, Time and Modality, Oxford: Clarendon Press.
 
    * Syntax vs semantics 
+     The distinction between syntax and semantics is one of the fundamental distinctions in the modern logic. We have to understand the origins of this distinction better. Some have traced it back to Frege. Also see this article by [Szabó](https://cpb-us-w2.wpmucdn.com/campuspress.yale.edu/dist/d/1148/files/2015/10/The-Distinction-between-Semantics-and-Pragmatics-1n5ehuq.pdf) 
+
    * Synthetics vs analtics 
      +  Andrej Bauer. [Synthetic mathematics with an excursion into computability theory](http://math.andrej.com/2021/02/03/synthetic-mathematics-with-excursion-to-computability/)
    * Intensional vs extensional
@@ -306,7 +318,7 @@ Have a look at the [big books of logic](https://www.logicmatters.net/resources/p
 And all these words and their meaning are compressed in in modern mathematical notation.
 
 <figure>
-<a href="https://en.wikipedia.org/wiki/Muhammad_ibn_Musa_al-Khwarizmi#Algebra">  
+<a href="https://en.wikipedia.org/wiki/Muhammad_ibn_Musa_al-Khwarizmi#Algebra" target="_blank">  
 <br/><img src='/images/posts/2021/jabr-va-moghabele.png'>
 </a> 
 <FIGCAPTION></FIGCAPTION>
