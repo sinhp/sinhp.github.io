@@ -246,6 +246,7 @@ For more serious (and mixed) introductory resources here are some selected paper
      + Hirschowitz. Intersection types. [Here](https://golem.ph.utexas.edu/category/2008/07/girard_on_the_limitations_of_c.html) and [here](https://golem.ph.utexas.edu/category/2008/07/girard_on_the_limitations_of_c.html) 
      + Bengt Nordstrom, et al. [Programming in Martin-Lof’s Type Theory](http://www.cse.chalmers.se/research/group/logic/book/book.pdf) 
      + Martín Hötzel Escardó. [Introduction to Univalent Foundations of Mathematics with Agda](https://arxiv.org/ftp/arxiv/papers/1911/1911.00580.pdf)
+     + Carl Posy. [Epistemology, Ontology and the Continuum](/files/Phil/phil-math/posy_brouwer_kant.pdf)
 
 
 <section>
@@ -259,10 +260,13 @@ For more serious (and mixed) introductory resources here are some selected paper
 </section>
 
    
-   
 ## To learn logic 
 
-A very good place to learn the basics of logic is van Fraassen's [Formal Semantics and Logic](van Fraassen). For other standard references have a look at the [big books of logic](https://www.logicmatters.net/resources/pdfs/Appendix.pdf). Also, for extra resources, see [here](https://www.logicmatters.net/tyl/).  
+
+[Prior Analytics, Aristotle, 350 B.C.E
+](http://classics.mit.edu/Aristotle/prior.html):  the first time in history when Logic is scientifically investigated and it is about deductive reasoning, known as syllogism. The Prior Analytics is part of what later Peripatetics called the Organon. 
+
+A very good place to learn the basics of modern logic is van Fraassen's [Formal Semantics and Logic](https://www.princeton.edu/~fraassen/Formal%20Semantics%20and%20Logic.pdf). For other standard references have a look at the [big books of logic](https://www.logicmatters.net/resources/pdfs/Appendix.pdf). Also, for extra resources, see [here](https://www.logicmatters.net/tyl/).  
 
    * Logical Paradoxes 
      + Hartry Field. Saving Truth From Paradox  
@@ -319,6 +323,21 @@ A very good place to learn the basics of logic is van Fraassen's [Formal Semanti
      + P vs NP 
      + Complexity 
      + Pyknotic stuff
+
+
+
+<section>
+        <h2 id="epigraph"></h2>
+        <div class="epigraph">
+          <blockquote>
+            <p> We shall not cease from exploration 
+                And at the end of all our exploring 
+                Will be to arrive where we started 
+                And know the place for the first time </p>
+            <footer> T.S. Eliot  </footer>
+          </blockquote>
+        </div>
+</section>
 
 
 ## Semiotics and Mathematical notations 
