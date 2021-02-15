@@ -4,9 +4,9 @@ title: "Philosophy and Foundations of Mathematics Reading Group"
 author: Sina Hazratpour
 excerpt: "with focus on the philosophical concerns of the 21st century mathematics"
 tags: 
-  - the future of mathematics
-  - mathematical proofs 
+  - mathematical proofs
   - mathematical intuition
+  - progress in mathematics
   - automated theorem provers
   - interactive theorem provers 
 permalink: /posts/2021/01/PFMRG
@@ -111,39 +111,47 @@ We will review the main tenets of the following philosophies and foundations of 
 * At night before sleep:   
   + [LOGICOMIX](https://www.logicomix.com/en/index.html)
   + [BYRNE’S EUCLID](https://www.c82.net/euclid/)
+  + Noson S. Yanofsky. The Outer Limits of Reason: What Science, Mathematics, and Logic Cannot Tell Us.
+  + [On Proof and Progress in Mathematics](https://arxiv.org/pdf/math/9404236.pdf), See also  
+    [What's a mathematician to do?](https://mathoverflow.net/questions/43690/whats-a-mathematician-to-do)
+  + Saunsers MacLane. Mathematics Form and Function
+  + Robert L. Long. Remarks on the history and philosophy of mathematics. The American Mathematical Monthly, 93(8):609--619, 1986.
+
 * After mid-day coffee: 
   + Mark Colyvan. An Introduction to the Philosophy of Mathematics
   + David Corfield. Towards a Philosophy of Real Mathematics
   + Øystein Linnebo. Philosophy of Mathematics
+  + Penrose, L. S. and Penrose, R. Impossible Objects, a Special Kind of Illusion, 1958. British Journal of Psychology, 49: 31-33.
+  + Where does mathematics come from? 
+     * https://www.kavlifoundation.org/science-spotlights/brain-or-universe-%E2%80%93-where-does-math-come
+     * Where Mathematics Comes From: How the Embodied Mind Brings Mathematics into Being 
+     The authors claim that the mathematics we used to describe as disembodied is in fact embodied. Humans use their bodies, mind, and brain to both form and understand mathematics. All mathematical content resides in embodied ideas and many of the most basic, as well as the most sophisticated, mathematical ideas are metaphorical. 
+  + Hermann Weyl. Mind and nature: Selected writings on philosophy, mathematics and physics. 2002. Edited and with an introduction by Peter Pesic.
+  + Colin McLarty. The rising sea: Grothendieck on simplicity and generality
+  + Howard Stein. Logos, Logic, and Logistike. Phillip Kitcher, eds., History and Philosophy of Modern Mathematics. University of Minnesota Press 238–259, 1988.
+
 * While waking up in the morning or chilaxing you can watch:     
   + Ray Monk. [Intro to the Philosophy of Mathematics](https://www.youtube.com/watch?v=bqGXdh6zb2k&ab_channel=PhilosophyOverdose)
   + Denis Bonnay. [Logic and Mathematics](https://www.youtube.com/watch?v=5LovB0kbkJc&ab_channel=SeriousScience)
-  + Stephen Read. [Logical Paradoxes](https://www.youtube.com/watch?v=uDTUgC48GlY&ab_channel=SeriousScience)  
+  + Stephen Read. [Logical Paradoxes](https://www.youtube.com/watch?v=uDTUgC48GlY&ab_channel=SeriousScience)
+  +  Hartry Field. Logic, Normativity, and Rational Revisability, John Locke Lectures in Philosophy. 
+  Part [I](https://podcasts.ox.ac.uk/2008-lecture-1-puzzle-about-rational-revisability), [II](https://podcasts.ox.ac.uk/2008-lecture-2-what-normative-role-logic), [III](https://podcasts.ox.ac.uk/2008-lecture-3-case-rational-revisability-logic), [IV](https://podcasts.ox.ac.uk/2008-lecture-4-really-revising-logic), 
+  [V](https://podcasts.ox.ac.uk/2008-lecture-5-epistemology-without-metaphysics), 
+  [VI](https://podcasts.ox.ac.uk/2008-lecture-6-revisability-puzzle-revisited)
   + Vladimir Voevodsky. [What if Current Foundations of Mathematics are
 Inconsistent?](https://www.youtube.com/watch?v=O45LaFsaqMA&t=3118s&ab_channel=InstituteforAdvancedStudy)
   + Daniel Sutherland. [What are Numbers? Philosophy of Mathematics](https://youtu.be/xXD57a5BEO0)
   + Mark van Atten. [Brouwer and the Mathematics of the Continuum](https://www.youtube.com/watch?v=WNAm7TH0iOw&ab_channel=LogicandFoundationsofMathematics)
   + David Corfield. [Good mathematics as good narrative](https://www.youtube.com/watch?v=ijQ5cDL67-0&ab_channel=BrendanLarvor) 
 
+
+<!--
+
 For more serious (and mixed) introductory resources here are some selected papers to get an introduction to some of the most interesting and variegated issues in the philosophy of mathematics: 
 
-   * [On Proof and Progress in Mathematics](https://arxiv.org/pdf/math/9404236.pdf), See also  
-     [What's a mathematician to do?](https://mathoverflow.net/questions/43690/whats-a-mathematician-to-do)
-
-
-   * Saunsers MacLane. Mathematics Form and Function
-   * Where does mathematics come from? 
-     + https://www.kavlifoundation.org/science-spotlights/brain-or-universe-%E2%80%93-where-does-math-come
-     + Where Mathematics Comes From: How the Embodied Mind Brings Mathematics into Being 
-     The authors claim that the mathematics we used to describe as disembodied is in fact embodied. Humans use their bodies, mind, and brain to both form and understand mathematics. All mathematical content resides in embodied ideas and many of the most basic, as well as the most sophisticated, mathematical ideas are metaphorical. 
-   * Penrose, L. S. and Penrose, R. Impossible Objects, a Special Kind of Illusion, 1958. British Journal of Psychology, 49: 31-33.
-   * Noson S. Yanofsky. The Outer Limits of Reason: What Science, Mathematics, and Logic Cannot Tell Us. 
-   * Hermann Weyl. Mind and nature: Selected writings on philosophy, mathematics and physics. 2002. Edited and with an introduction by Peter Pesic. 
-   * Colin McLarty. The rising sea: Grothendieck on simplicity and generality
-   * Howard Stein. Logos, Logic, and Logistike. Phillip Kitcher, eds., History and Philosophy of Modern Mathematics. University of Minnesota Press 238–259, 1988.
-   * Robert L. Long. Remarks on the history and philosophy of mathematics. The American Mathematical Monthly, 93(8):609--619, 1986.
-   * Robert S.Tragesser, Three insufficiently attended to aspects of most mathematical proofs: phenomenological studies
-   * Barwise, Etchemendy. Visual Information and Valid Reasoning
+-->
+   
+  
 
 
 ## Thematized Resources 
@@ -155,10 +163,25 @@ For more serious (and mixed) introductory resources here are some selected paper
       + Hyperproofs
       + Proof core. The idea is due to the late philosopher David Charles McCarty. See [What are the limits of mathematical explanation?](https://www.youtube.com/watch?v=6uWS7Kwau1A&ab_channel=CopernicusCenterforInterdisciplinaryStudies) 
       Could _proof cores_ (idea engines that propel formal proofs) be one of the conceptual gaps between mathematical proofs and their formalizations? i.e. does a coding of proofs (w.r.t. a formal language) contains strictly less epistemic data/control the proofs themselves? (e.g. (geometric) proof core of -1. -1 = 1, verus one of its proof code in which integers are coded as pairs of natural numbers.)  Proof cores are more easily expressible in higher languages, and they are closer to intuition and mathematical cognition. 
-
+      + Robert S.Tragesser, Three insufficiently attended to aspects of most mathematical proofs: phenomenological studies
+  
   
 
-      
+  * Visual proofs and the role of visual reasoning in mathematics 
+    + [SEP, Diagrams](https://plato.stanford.edu/entries/diagrams/)
+    + Peirce, C.S., 1933, Collected Papers, Cambridge, MA: Harvard University Press
+    + Barwise, Etchemendy. Visual Information and Valid Reasoning 
+    + Allwein, G. and J. Barwise (eds.), 1996, Logical Reasoning with Diagrams, Oxford: Oxford University Press.
+    + Barwise, J. and E. Hammer, 1994, “Diagrams and the Concept of a Logical System”, in Gabbay, D. (ed.), What is a Logical System? New York: Oxford University Press.
+    + Harel, D., 1988, “On Visual Formalisms”, Communications of the ACM, 31(5): 514–530.
+    + De Toffoli, S., 2017, “Chasing The Diagram – The Use of Visualizations in Algebraic Reasoning”, Review of Symbolic Logic, 10 (1): 158–186.
+    + De Toffoli, S. and Giardino, V., 2014, “Forms and Roles of Diagrams in Knot Theory”, Erkenntnis, 79 (4): 829–842.
+    + Halimi, B., 2012, “Diagrams as Sketches”, Synthese, 186(1): 387–409.
+    + Friedman, M., 2012, “Kant on geometry and spatial intuition”, Synthese, 186: 231–255.
+    + John Mumma, Marco Panza. Diagrams in mathematics: history and philosophy. 
+    + Roberts, D., 1992, “The Existential Graphs of Charles S. Peirce”, Computer and Math. Applic., (23): 639–663.
+
+
 ## Resources for getting familiar with some of the philosophies/foundations of mathematics
    
 
@@ -223,6 +246,9 @@ For more serious (and mixed) introductory resources here are some selected paper
 
 
 Have a look at the [big books of logic](https://www.logicmatters.net/resources/pdfs/Appendix.pdf).  Also, for other resources look [here](https://www.logicmatters.net/tyl/).  
+
+   * Logical Paradoxes 
+     + Hartry Field. Saving Truth From Paradox  
 
    * Gödel's Incompleteness Theorems
      + Smullyan's book 
