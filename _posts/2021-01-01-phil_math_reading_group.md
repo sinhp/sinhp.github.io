@@ -123,8 +123,8 @@ We will review the main tenets of the following philosophies and foundations of 
   + Øystein Linnebo. Philosophy of Mathematics
   + Penrose, L. S. and Penrose, R. Impossible Objects, a Special Kind of Illusion, 1958. British Journal of Psychology, 49: 31-33.
   + Where does mathematics come from? 
-     * https://www.kavlifoundation.org/science-spotlights/brain-or-universe-%E2%80%93-where-does-math-come
-     * Where Mathematics Comes From: How the Embodied Mind Brings Mathematics into Being 
+     * [The Brain or the Universe – Where Does Math Come From?, A Talk at Kavli Foundation](https://www.kavlifoundation.org/science-spotlights/brain-or-universe-%E2%80%93-where-does-math-come)
+     * Where Mathematics Comes From: How the Embodied Mind Brings Mathematics into Being
      The authors claim that the mathematics we used to describe as disembodied is in fact embodied. Humans use their bodies, mind, and brain to both form and understand mathematics. All mathematical content resides in embodied ideas and many of the most basic, as well as the most sophisticated, mathematical ideas are metaphorical. 
   + Hermann Weyl. Mind and nature: Selected writings on philosophy, mathematics and physics. 2002. Edited and with an introduction by Peter Pesic.
   + Colin McLarty. The rising sea: Grothendieck on simplicity and generality
@@ -246,7 +246,7 @@ For more serious (and mixed) introductory resources here are some selected paper
      + Hirschowitz. Intersection types. [Here](https://golem.ph.utexas.edu/category/2008/07/girard_on_the_limitations_of_c.html) and [here](https://golem.ph.utexas.edu/category/2008/07/girard_on_the_limitations_of_c.html) 
      + Bengt Nordstrom, et al. [Programming in Martin-Lof’s Type Theory](http://www.cse.chalmers.se/research/group/logic/book/book.pdf) 
      + Martín Hötzel Escardó. [Introduction to Univalent Foundations of Mathematics with Agda](https://arxiv.org/ftp/arxiv/papers/1911/1911.00580.pdf)
-     + Carl Posy. [Epistemology, Ontology and the Continuum](/files/Phil/phil-math/posy_brouwer_kant.pdf)
+     + Carl Posy. [Epistemology, Ontology and the Continuum](/files/Phil/phil-maths/posy_brouwer_kant.pdf)
 
 
 <section>
