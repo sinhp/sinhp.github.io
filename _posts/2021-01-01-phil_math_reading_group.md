@@ -37,6 +37,7 @@ This article is about a Philosophy and Foundations of Mathematics Reading Group 
 
 
 
+
 ## Goals and hopes
 
 
@@ -101,8 +102,30 @@ We will review the main tenets of the following philosophies and foundations of 
   * Cognitivism  
 
 
-<p class="sans">In below, I list some of the references which I personally found interesting, intriguing, and edifying. Occasionally, we will discuss some of them, but we do not limit ourselves to them.</p>
 
+
+## Upcoming talks
+
+(0) Introduction to formal logic and formal proofs: From Aristotle's Prior Analytics to Frege's Begriffsschrift.
+
+
+## Past talks 
+
+(-1) [The Roots of Constructivism and Intuitionism in Mathematics - Part II](/files/Phil/phil-maths/intuitionism_roots_part_ii.pdf)
+This talk introduced various aspects of intuitionism and its vast differences from the classicial foundation of mathematics (ZFC set theory built on top of the classicial logic). Topics discussed included Brouwer's writings, BHK interpretation, the principle of excluded middle, the axiom of choice, the continuum, the role of real numbers in classicial and intuionistic mathematics, and the creating mind's perception of time. 
+
+(-2) [The Roots of Constructivism and Intuitionism in Mathematics - Part I](/files/Phil/phil-maths/intuitionism_roots_part_i.pdf) 
+This talk mostly centered around the role of foundations, and an informal discussion of various foundations of mathematics
+
+
+
+
+
+
+## Resources and Learning Materials 
+
+
+<p class="sans">In below, I list some of the references which I personally found interesting, intriguing, and edifying. Occasionally, we will discuss some of them, but we do not limit ourselves to them.</p>
 
 
 
@@ -154,8 +177,6 @@ For more serious (and mixed) introductory resources here are some selected paper
 -->
    
   
-
-
 ## Thematized Resources 
 
 
