@@ -268,6 +268,7 @@ For more serious (and mixed) introductory resources here are some selected paper
      + Bengt Nordstrom, et al. [Programming in Martin-Lof’s Type Theory](http://www.cse.chalmers.se/research/group/logic/book/book.pdf) 
      + Martín Hötzel Escardó. [Introduction to Univalent Foundations of Mathematics with Agda](https://arxiv.org/ftp/arxiv/papers/1911/1911.00580.pdf)
      + Carl Posy. [Epistemology, Ontology and the Continuum](/files/Phil/phil-maths/posy_brouwer_kant.pdf)
+     + Richard Holton AND Huw Price. [Ramsey On Saying And Whistling: A Discordant Note](http://web.mit.edu/holton/www/pubs/Ramsey.paper.pdf)
 
 
 <section>
