@@ -158,22 +158,23 @@ For more serious (and mixed) introductory resources here are some selected paper
 
 ## Thematized Resources 
 
-   * On Proofs & Proof assistants
 
-    Regarding mathematical proofs we shall discuss the following these: 
-    (i) Proofs are abstract mathematical objects (inductively-defined data structures such as plain lists, boxed lists, or trees) which are constructed according to the axioms and rules of inference of the logical system. 
-    (ii) Proof is not manipulation of meaningless syntactic symbols, as the manipulists, or strict formalists, would have it. The knowledge of truth is gained though proof.
+### On Proofs & Proof assistants
+  
+  Regarding mathematical proofs we shall discuss the following these: 
+  (i) Proofs are abstract mathematical objects (inductively-defined data structures such as plain lists, boxed lists, or trees) which are constructed according to the axioms and rules of inference of the logical system. 
+  (ii) Proof is not manipulation of meaningless syntactic symbols, as the manipulists, or strict formalists, would have it. The knowledge of truth is gained though proof.
     
-    We shall argue against the first reading and discuss our reasons for favouring the second thesis. Our guiding arguments are essentially those of Corcoran's: 
+  We shall argue against the first reading and discuss our reasons for favouring the second thesis. Our guiding arguments are essentially those of Corcoran's: 
 
-    >_First, belief can be an obstacle to finding a proof because one
+  >_First, belief can be an obstacle to finding a proof because one
     of the marks of proof is its ability to resolve doubt. Second,
     we usually don’t try to prove propositions we don’t believe or
-    at least suspect to be true. Third, the attempt to find proof often leads to doubts we otherwise never would have had. If you
-    have a treasured belief you would hate to be without, do not try
+    at least suspect to be true. Third, the attempt to find proof often leads to doubts we otherwise never would have had. If you have a treasured belief you would hate to be without, do not try
     to prove it._
 
 
+   * Some stuff on proofs
 
       + Richard Tieszen. What is a proof? 
       + Robert L. Constable. [Proof Assistants and the Dynamic Nature of Formal Theories](http://ceur-ws.org/Vol-878/invited1.pdf)
@@ -184,7 +185,6 @@ For more serious (and mixed) introductory resources here are some selected paper
       + Robert S.Tragesser, Three insufficiently attended to aspects of most mathematical proofs: phenomenological studies
 
    
-
 
   * Visual proofs and the role of visual reasoning in mathematics 
 
