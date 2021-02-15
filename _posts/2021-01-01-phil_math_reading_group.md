@@ -160,6 +160,21 @@ For more serious (and mixed) introductory resources here are some selected paper
 
    * On Proofs & Proof assistants
 
+    Regarding mathematical proofs we shall discuss the following these: 
+    (i) Proofs are abstract mathematical objects (inductively-defined data structures such as plain lists, boxed lists, or trees) which are constructed according to the axioms and rules of inference of the logical system. 
+    (ii) Proof is not manipulation of meaningless syntactic symbols, as the manipulists, or strict formalists, would have it. The knowledge of truth is gained though proof.
+    
+    We shall argue against the first reading and discuss our reasons for favouring the second thesis. Our guiding arguments are essentially those of Corcoran's: 
+
+    >_First, belief can be an obstacle to finding a proof because one
+    of the marks of proof is its ability to resolve doubt. Second,
+    we usually don’t try to prove propositions we don’t believe or
+    at least suspect to be true. Third, the attempt to find proof often leads to doubts we otherwise never would have had. If you
+    have a treasured belief you would hate to be without, do not try
+    to prove it._
+
+
+
       + Richard Tieszen. What is a proof? 
       + Robert L. Constable. [Proof Assistants and the Dynamic Nature of Formal Theories](http://ceur-ws.org/Vol-878/invited1.pdf)
       + Herman Geuvers. [Proof assistants: History, ideas and future](https://www.cs.ru.nl/~herman/ictopen.pdf) Also, look at these [slides](https://www.cs.ru.nl/~herman/ictopen.pdf) 
@@ -167,7 +182,8 @@ For more serious (and mixed) introductory resources here are some selected paper
       + Proof core. The idea is due to the late philosopher David Charles McCarty. See [What are the limits of mathematical explanation?](https://www.youtube.com/watch?v=6uWS7Kwau1A&ab_channel=CopernicusCenterforInterdisciplinaryStudies) 
       Could _proof cores_ (idea engines that propel formal proofs) be one of the conceptual gaps between mathematical proofs and their formalizations? i.e. does a coding of proofs (w.r.t. a formal language) contains strictly less epistemic data/control the proofs themselves? (e.g. (geometric) proof core of -1. -1 = 1, verus one of its proof code in which integers are coded as pairs of natural numbers.)  Proof cores are more easily expressible in higher languages, and they are closer to intuition and mathematical cognition. 
       + Robert S.Tragesser, Three insufficiently attended to aspects of most mathematical proofs: phenomenological studies
-  
+
+   
 
 
   * Visual proofs and the role of visual reasoning in mathematics 
