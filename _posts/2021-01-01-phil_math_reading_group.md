@@ -268,7 +268,10 @@ For more serious (and mixed) introductory resources here are some selected paper
      + Bengt Nordstrom, et al. [Programming in Martin-Lof’s Type Theory](http://www.cse.chalmers.se/research/group/logic/book/book.pdf) 
      + Martín Hötzel Escardó. [Introduction to Univalent Foundations of Mathematics with Agda](https://arxiv.org/ftp/arxiv/papers/1911/1911.00580.pdf)
      + Carl Posy. [Epistemology, Ontology and the Continuum](/files/Phil/phil-maths/posy_brouwer_kant.pdf)
-     + Richard Holton AND Huw Price. [Ramsey On Saying And Whistling: A Discordant Note](http://web.mit.edu/holton/www/pubs/Ramsey.paper.pdf)
+     + Richard Holton & Huw Price. [Ramsey On Saying And Whistling: A Discordant Note](http://web.mit.edu/holton/www/pubs/Ramsey.paper.pdf)
+     + Ramsey's Conception of Theories: An Intuitionistic Approach. 
+     + John.L. Bell. [Whole and Part in Mathematics](https://publish.uwo.ca/~jbell/PARTS.pdf)
+     + John.L. Bell. [Divergent conceptions of the continuum in 19th and early 20th century mathematics and philosophy](https://publish.uwo.ca/~jbell/divvergent.pdf) 
 
 
 <section>
