@@ -178,7 +178,7 @@ For more serious (and mixed) introductory resources here are some selected paper
 
       + Richard Tieszen. What is a proof? 
       + Robert L. Constable. [Proof Assistants and the Dynamic Nature of Formal Theories](http://ceur-ws.org/Vol-878/invited1.pdf)
-      + Herman Geuvers. [Proof assistants: History, ideas and future](https://www.cs.ru.nl/~herman/ictopen.pdf) Also, look at these [slides](https://www.cs.ru.nl/~herman/ictopen.pdf) 
+      + Herman Geuvers. [Proof assistants: History, ideas and future](https://www.ias.ac.in/article/fulltext/sadh/034/01/0003-0025) Also, look at these [slides](https://www.cs.ru.nl/~herman/ictopen.pdf) 
       + Hyperproofs
       + Proof core. The idea is due to the late philosopher David Charles McCarty. See [What are the limits of mathematical explanation?](https://www.youtube.com/watch?v=6uWS7Kwau1A&ab_channel=CopernicusCenterforInterdisciplinaryStudies) 
       Could _proof cores_ (idea engines that propel formal proofs) be one of the conceptual gaps between mathematical proofs and their formalizations? i.e. does a coding of proofs (w.r.t. a formal language) contains strictly less epistemic data/control the proofs themselves? (e.g. (geometric) proof core of -1. -1 = 1, verus one of its proof code in which integers are coded as pairs of natural numbers.)  Proof cores are more easily expressible in higher languages, and they are closer to intuition and mathematical cognition. 
