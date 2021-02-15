@@ -248,11 +248,6 @@ For more serious (and mixed) introductory resources here are some selected paper
      + Martín Hötzel Escardó. [Introduction to Univalent Foundations of Mathematics with Agda](https://arxiv.org/ftp/arxiv/papers/1911/1911.00580.pdf)
 
 
-   
-
-   
-   
-## To learn logic 
 <section>
         <h2 id="epigraph"></h2>
         <div class="epigraph">
@@ -261,7 +256,12 @@ For more serious (and mixed) introductory resources here are some selected paper
             <footer> C.S. Peirce</footer>
           </blockquote>
         </div>
-      </section>
+</section>
+
+   
+   
+## To learn logic 
+
 A very good place to learn the basics of logic is van Fraassen's [Formal Semantics and Logic](van Fraassen). For other standard references have a look at the [big books of logic](https://www.logicmatters.net/resources/pdfs/Appendix.pdf). Also, for extra resources, see [here](https://www.logicmatters.net/tyl/).  
 
    * Logical Paradoxes 
