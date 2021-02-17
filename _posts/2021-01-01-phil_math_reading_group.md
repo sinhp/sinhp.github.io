@@ -33,7 +33,7 @@ Friedrich Nietzsche, The Twilight of the Idols_
 -->
 
 
-This article is about a Philosophy and Foundations of Mathematics Reading Group (PFMRG) that will be inaugurated in mid February. We meet bi-weekly, and each session will last about two hours (30-45 minutes for presentation, the rest for the Q&A). The goals of this group and the themes of the presentations are discussed in below.   
+This article is about a Philosophy and Foundations of Mathematics Reading Group (PFMRG) that will be inaugurated in mid February. We meet bi-weekly, and each session will last about two hours (30-45 minutes for presentation, the rest for the Q&A). The goals of this group and the themes of the presentations are discussed in below. The main characteristics of the reading group are the diversity of topics we shall discuss as well as  covering both historical and modern aspects.  
 
 
 
@@ -119,6 +119,15 @@ This talk mostly centered around the role of foundations, and an informal discus
 
 
 
+<section>
+        <h2 id="epigraph"></h2>
+        <div class="epigraph">
+          <blockquote>
+            <p>The growth of our cognitive capacity for generating and understanding new mathematical concepts    </p>
+            <footer>Me</footer>
+          </blockquote>
+        </div>
+</section>
 
 
 
@@ -168,7 +177,9 @@ Inconsistent?](https://www.youtube.com/watch?v=O45LaFsaqMA&t=3118s&ab_channel=In
   + David Corfield. [Good mathematics as good narrative](https://www.youtube.com/watch?v=ijQ5cDL67-0&ab_channel=BrendanLarvor) 
 
 
-Also, there are a lot of interesting articles on logic, philosophy and foundations of mathematics by [John Bell](https://publish.uwo.ca/~jbell/). John was my former mentor. 
+Also, there are a lot of interesting articles on logic, philosophy and foundations of mathematics by [John Bell](https://publish.uwo.ca/~jbell/). John was my former mentor. John is a master in tracing back mathematical ideas to their origins in a very rare and particular way which I call "demummification" of mathematical ideas. He has also had a very interesting life which you can read here: 
+[Perpetual Motion: The Making of a Mathematical Logician](https://publish.uwo.ca/~jbell/perpmonew4.pdf).
+
 
 <!--
 
@@ -186,13 +197,15 @@ For more serious (and mixed) introductory resources here are some selected paper
   (i) Proofs are abstract mathematical objects (inductively-defined data structures such as plain lists, boxed lists, or trees) which are constructed according to the axioms and rules of inference of the logical system. 
   (ii) Proof is not manipulation of meaningless syntactic symbols, as the manipulists, or strict formalists, would have it. The knowledge of truth is gained though proof.
     
-  We shall argue against the first reading and discuss our reasons for favouring the second thesis. Our guiding arguments are essentially those of Corcoran's: 
+  We shall argue against the first thesis and discuss our reasons for favouring the second thesis. Our guiding arguments are essentially those of Corcoran's: 
 
   >_First, belief can be an obstacle to finding a proof because one
     of the marks of proof is its ability to resolve doubt. Second,
     we usually don’t try to prove propositions we don’t believe or
     at least suspect to be true. Third, the attempt to find proof often leads to doubts we otherwise never would have had. If you have a treasured belief you would hate to be without, do not try
     to prove it._
+
+However, the second thesis is far from perfect: it does not have the formal force of the first thesis which led to the creation of wonderful mathematical fields such as proof theory and constructive type theory. Also, how does the claim that <q>the knowledge of truth is gained though proof</q> holds against the Zero-Knowledge Proofs (ZKPs) whereby the proof convinces the verifier to any high degree of certinty (strictly below 100%) 
 
 
    * Some stuff on proofs
