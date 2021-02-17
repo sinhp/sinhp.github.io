@@ -24,7 +24,7 @@ comments: true
             <footer>Friedrich Nietzsche, “ The Twilight of the Idols”</footer>
           </blockquote>
         </div>
-      </section>
+</section>
 
 <!--
 >_You ask me, which of the philosophers' traits are idiosyncracies? For example: their lack of historical sense, their hatred of becoming, their Egypticism. They think that they show their respect for a subject when they dehistoricize it — when they turn it into a mummy. 
@@ -37,6 +37,7 @@ This article is about a Philosophy and Foundations of Mathematics Reading Group 
 
 
 
+<section>
 
 ## Goals and hopes
 
@@ -70,6 +71,9 @@ To put some of the discussions above in context, [here](https://mathoverflow.net
 And he continues 
 
 >_Our understanding frequently deteriorates as well. There are several obvious mechanisms of decay. The experts in a subject retire and die, or simply move on to other subjects and forget. Mathematics is commonly explained and recorded in symbolic and concrete forms that are easy to communicate, rather than in conceptual forms that are easy to understand once communicated. Translation in the direction <code>conceptual -> concrete and symbolic</code> is much easier than translation in the reverse direction, and symbolic forms often replaces the conceptual forms of understanding. And mathematical conventions and taken-for-granted knowledge change, so older texts may become hard to understand._
+
+</section>
+
 
 
 
@@ -217,7 +221,7 @@ However, the second thesis is far from perfect: it does not have the formal forc
       + Proof core. The idea is due to the late philosopher David Charles McCarty. See [What are the limits of mathematical explanation?](https://www.youtube.com/watch?v=6uWS7Kwau1A&ab_channel=CopernicusCenterforInterdisciplinaryStudies) 
       Could _proof cores_ (idea engines that propel formal proofs) be one of the conceptual gaps between mathematical proofs and their formalizations? i.e. does a coding of proofs (w.r.t. a formal language) contains strictly less epistemic data/control the proofs themselves? (e.g. (geometric) proof core of -1. -1 = 1, verus one of its proof code in which integers are coded as pairs of natural numbers.)  Proof cores are more easily expressible in higher languages, and they are closer to intuition and mathematical cognition. 
       + Robert S.Tragesser, Three insufficiently attended to aspects of most mathematical proofs: phenomenological studies
-
+      + Scott Viteri, Simon DeDeo, [Explosive Proofs of Mathematical Truths](https://arxiv.org/pdf/2004.00055.pdf)
    
 
   * Visual proofs and the role of visual reasoning in mathematics 
