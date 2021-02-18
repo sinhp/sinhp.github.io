@@ -37,8 +37,6 @@ This article is about a Philosophy and Foundations of Mathematics Reading Group 
 
 
 
-<section>
-
 ## Goals and hopes
 
 
@@ -72,7 +70,6 @@ And he continues
 
 >_Our understanding frequently deteriorates as well. There are several obvious mechanisms of decay. The experts in a subject retire and die, or simply move on to other subjects and forget. Mathematics is commonly explained and recorded in symbolic and concrete forms that are easy to communicate, rather than in conceptual forms that are easy to understand once communicated. Translation in the direction <code>conceptual -> concrete and symbolic</code> is much easier than translation in the reverse direction, and symbolic forms often replaces the conceptual forms of understanding. And mathematical conventions and taken-for-granted knowledge change, so older texts may become hard to understand._
 
-</section>
 
 
 
