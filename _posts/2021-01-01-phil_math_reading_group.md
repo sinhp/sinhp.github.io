@@ -302,8 +302,11 @@ However, the second thesis is far from perfect: it does not have the formal forc
 ## To learn logic 
 
 
+
 [Prior Analytics, Aristotle, 350 B.C.E
 ](http://classics.mit.edu/Aristotle/prior.html):  the first time in history when Logic is scientifically investigated and it is about deductive reasoning, known as syllogism. The Prior Analytics is part of what later Peripatetics called the Organon. 
+
+Logic, semantics, metamathematics, Papers from 1923 to 1938, by Alfred Tarski, translated by J. H. Woodger, second edition edited and introduced by John Corcoran, Hackett Publishing Company, Indianapolis 1983
 
 A very good place to learn the basics of modern logic is van Fraassen's [Formal Semantics and Logic](https://www.princeton.edu/~fraassen/Formal%20Semantics%20and%20Logic.pdf). For other standard references have a look at the [big books of logic](https://www.logicmatters.net/resources/pdfs/Appendix.pdf). Also, for extra resources, see [here](https://www.logicmatters.net/tyl/).  
 
