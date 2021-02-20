@@ -38,7 +38,7 @@ This article is about a <span>Philosophy and Foundations of Mathematics Reading 
 
 
 
-## Goals and hopes
+## Goals & Hopes
 
 
 The main goal of this reading group is to understand how close the human has come to the point where his machines can do mathematics for him. Some mathematicians, such the Fields medalists Paul Cohen, Tim Gowers, Maxim Kontsevich, and Vladimir Voedodsky  have all at some point predicted that computers will be able to out-reason mathematicians in the 21st century. But is that really plausible?
@@ -78,7 +78,7 @@ And he continues
 
 
 
-## Which philosophies? which foundations? 
+## Which Philosophies? Which Foundations? 
 
 
 Here is a common sense and self-evident proposal: 
@@ -105,12 +105,12 @@ I believe in epistemological anarchism, that is, if needed, we have to be recept
 
 
 
-## Upcoming talks
+## Upcoming Talks
 
 (0) Introduction to formal logic and formal proofs: From Aristotle's Prior Analytics to Frege's Begriffsschrift.
 
 
-## Past talks 
+## Past Talks 
 
 (-1) [The Roots of Constructivism and Intuitionism in Mathematics - Part II](/files/Phil/phil-maths/intuitionism_roots_part_ii.pdf)
 This talk introduced various aspects of intuitionism and its vast differences from the classicial foundation of mathematics (ZFC set theory built on top of the classicial logic). Topics discussed included Brouwer's writings, BHK interpretation, the principle of excluded middle, the axiom of choice, the continuum, the role of real numbers in classicial and intuionistic mathematics, and the creating mind's perception of time. 
@@ -241,8 +241,10 @@ However, the second thesis is far from perfect: it does not have the formal forc
     + Roberts, D., 1992, “The Existential Graphs of Charles S. Peirce”, Computer and Math. Applic., (23): 639–663.
 
 
-## Resources for getting familiar with some of the philosophies/foundations of mathematics
+## Resources For Philosophies/Foundations Of Mathematics
    
+We will get familiar with the following philosophies and foundations of mathematics.
+
 
    * Structuralism and category theory 
 
@@ -303,16 +305,17 @@ However, the second thesis is far from perfect: it does not have the formal forc
 </section>
 
    
-## To learn logic 
-
+## How To Learn Logic? 
 
 
 [Prior Analytics, Aristotle, 350 B.C.E
 ](http://classics.mit.edu/Aristotle/prior.html):  the first time in history when Logic is scientifically investigated and it is about deductive reasoning, known as syllogism. The Prior Analytics is part of what later Peripatetics called the Organon. 
 
-Logic, semantics, metamathematics, Papers from 1923 to 1938, by Alfred Tarski, translated by J. H. Woodger, second edition edited and introduced by John Corcoran, Hackett Publishing Company, Indianapolis 1983
+
 
 A very good place to learn the basics of modern logic is van Fraassen's [Formal Semantics and Logic](https://www.princeton.edu/~fraassen/Formal%20Semantics%20and%20Logic.pdf). For other standard references have a look at the [big books of logic](https://www.logicmatters.net/resources/pdfs/Appendix.pdf). Also, for extra resources, see [here](https://www.logicmatters.net/tyl/).  
+
+   * Logic, semantics, metamathematics, Papers from 1923 to 1938, by Alfred Tarski, translated by J. H. Woodger, second edition edited and introduced by John Corcoran, Hackett Publishing Company, Indianapolis 1983
 
    * Logical Paradoxes 
      + Hartry Field. Saving Truth From Paradox  
