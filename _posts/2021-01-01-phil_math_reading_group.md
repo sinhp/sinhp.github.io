@@ -21,7 +21,7 @@ comments: true
         <div class="epigraph">
           <blockquote>
             <p>You ask me, which of the philosophers' traits are idiosyncracies? For example: their lack of historical sense, their hatred of becoming, their Egypticism. They think that they show their respect for a subject when they dehistoricize it — when they turn it into a mummy. </p>
-            <footer>Friedrich Nietzsche, “ The Twilight of the Idols”</footer>
+            <footer>Friedrich Nietzsche, “The Twilight of the Idols”</footer>
           </blockquote>
         </div>
 </section>
@@ -30,10 +30,11 @@ comments: true
 
 Friedrich Nietzsche, The Twilight of the Idols_
 -->
-This article is about a <span>Philosophy and Foundations of Mathematics Reading Group (PFMRG)<label for="sn-pfmrg" class="margin-toggle sidenote-number"></label></span><input type="checkbox" id="sn-pfmrg" class="margin-toggle"/><span class="sidenote"><em>I am leading the group. It is hosted on Falafe server on [Discord](https://discord.com/). The participants (mostly PhDs and postdocs in sciences, arts, philosophy, and engineering) have keen interests in philosophical matters, but have little or no previous experience in logic or mathematics. In a way, this is even a better occasion to think the original and the historical, the genuinely histoical, preceding and thereby anticipating all successive history of logic and philosophy of mathematics.</em></span> which is inaugurated in mid February 2021. We meet bi-weekly, and each session will last about two hours (30-45 minutes for presentation, the rest for the Q&A). The goals of this group and the themes of the presentations are discussed in below. The main characteristics of the reading group are the diversity of topics we shall discuss as well as  covering both historical and modern aspects.  
+This article is about a <span>Philosophy and Foundations of Mathematics Reading Group (PFMRG)<label for="sn-pfmrg" class="margin-toggle sidenote-number"></label></span><input type="checkbox" id="sn-pfmrg" class="margin-toggle"/><span class="sidenote"><em>I am leading this group. It is hosted on Falafe server on [Discord](https://discord.com/) where we have well over a hundred members. We meet bi-weekly, and each session will last about two hours (30-45 minutes for presentation, the rest for the Q&A). Most members (mostly PhDs and postdocs in sciences, arts, philosophy, and engineering) have keen interests in philosophical matters, but have little or no previous experience in logic or mathematics. In a way, this is even a better occasion to think the original and the historical, the genuinely histoical, preceding and thereby anticipating all successive history of logic and philosophy of mathematics.</em></span> which is inaugurated in mid February 2021. The goals of this group and the themes of the presentations are discussed in below. The main characteristics of the reading group are the diversity of topics we shall discuss as well as  covering both historical and modern aspects.  
 
 
-
+<section>	
+</section>
 
 
 
@@ -72,6 +73,9 @@ And he continues
 
 
 
+<section>	
+</section>
+
 
 
 ## Which philosophies? which foundations? 
@@ -82,19 +86,11 @@ Here is a common sense and self-evident proposal:
 >_What mathematicians think and do should be important for the philosophy of mathematics._
 
 Now, if you are not familiar with the current state of affairs in the philosophy of mathematics 
-in academia, you are for a hard surprise that the proposal above could not be further from the reality of academic. 
-
-Well, this reading group is a serious attempt to learn to think about mathematic again; we do not want to confine ourselves with the narrow and arcane framework of interests of the academic philosophy of mathematics. 
-
-We shall try to ask worthy questions: 
+in academia, you are for a hard surprise that the proposal above could not be further from the reality of academic. Well, this reading group is a serious attempt to learn to think about mathematic again; we do not want to confine ourselves with the narrow and arcane framework of interests of the academic philosophy of mathematics. We shall try to ask worthy questions: 
 
 >_When do we call a kind of knowledge mathematical? How does mathematical knowledge grow? What is mathematical progress? What makes some mathematical ideas (or theories) better than others? What is mathematical explanation? etc_ 
 
-I believe in epistemological anarchism, that is, if needed, we have to be receptive to ideas from the most disparate and apparently far-flung domains, even at the price of losing the comfort of our nests. 
-
-Therefore, in this reading group we will remain open to all ideas and philosophies as long as they are helpful to our goals and hopes discussed in above. May this group be a place for deep learning (and deep unlearning/ unindoctorination) as well as unashamedly free speculations.   
-
-We will review the main tenets of the following philosophies and foundations of mathematics: 
+I believe in epistemological anarchism, that is, if needed, we have to be receptive to ideas from the most disparate and apparently far-flung domains, even at the price of losing the comfort of our nests. Therefore, in this reading group we will remain open to all ideas and philosophies as long as they are helpful to our goals and hopes discussed in above. May this group be a place for deep learning (and deep unlearning/ unindoctorination) as well as unashamedly free speculations. We will review the main tenets of the following philosophies and foundations of mathematics: 
 
   * Constructivism and Intuitionism
   * Structuralism
@@ -102,6 +98,10 @@ We will review the main tenets of the following philosophies and foundations of 
   * Fictionalism 
   * Cognitivism  
 
+
+
+<section>	
+</section>
 
 
 
@@ -207,7 +207,6 @@ For more serious (and mixed) introductory resources here are some selected paper
     to prove it._
 
 However, the second thesis is far from perfect: it does not have the formal force of the first thesis which led to the creation of wonderful mathematical fields such as proof theory and constructive type theory. Also, how does the claim that <q>the knowledge of truth is gained though proof</q> holds against the Zero-Knowledge Proofs (ZKPs) whereby the proof convinces the verifier to any high degree of certinty (strictly below 100%) 
-
 
    * Some stuff on proofs
 
@@ -385,7 +384,6 @@ A very good place to learn the basics of modern logic is van Fraassen's [Formal 
 
   + Louis H. Kauffman. [The Mathematics of Charles Sanders Peirce](https://homepages.math.uic.edu/~kauffman/)
   + Cajori, F. 1993. A History of Mathematical Notation, New York: Dover Reprints. (Original published in two volumes by Open Court in London in 1929.) 
-
 
   There is a lot to be said about the mathematical notations and symbols: for millenia they have been _cognitive technologies_ enabling us to think previously unthinkable thoughts.  For instance, take Khwarizmi's solution of the problem of solving the quadratic polynomial equation: 
   
