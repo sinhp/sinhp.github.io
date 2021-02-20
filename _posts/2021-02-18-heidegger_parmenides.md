@@ -44,6 +44,12 @@ The saying of Parmenides says the beginning of the still-concealed withdrawal of
 
 
 
+
+From Heidegger Gesamtausgabe
+Complete works and concomitant content on beyng.com
+
+
+
 EINLEITUNG
 
 
