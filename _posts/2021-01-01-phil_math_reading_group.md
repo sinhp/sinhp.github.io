@@ -107,9 +107,14 @@ I believe in epistemological anarchism, that is, if needed, we have to be recept
 
 ## Upcoming Talks
 
-(0) [Introduction to formal logic and formal proofs: From Aristotle's Prior Analytics to Frege's Begriffsschrift](/files/phil/phil-maths/pfmrg-0-slides/index.html#/overview).
+(0) Introduction to formal logic and formal proofs: From Aristotle's Prior Analytics to Frege's Begriffsschrift
 
+<!--
+(/files/phil/phil-maths/pfmrg-0-slides/index.html#/overview).
+-->
+<!--
 [more slides](/files/phil/phil-maths/pfmrg-1-slides/index.html)
+-->
 
 ## Past Talks 
 
