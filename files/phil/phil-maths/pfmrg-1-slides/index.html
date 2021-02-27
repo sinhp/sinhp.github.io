@@ -1,0 +1,613 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Triangulations</title>
+  <script src="lib/js/jquery-1.11.2.min.js"></script>
+  <script src="lib/js/jcanvas.min.js"></script>
+  <script src="lib/js/queue.min.js"></script>
+  <script src="js/geometry.js"></script>
+  <script src="js/graph.js"></script>
+  <script src="js/triangulate.js"></script>
+  <script src="js/sim.js"></script>
+  <script src="js/index.js"></script>
+  <script src="data/banana.js"></script>
+  <script src="data/key.js"></script>
+  <script src="data/ty.js"></script>
+  <script src="data/sheet.js"></script>
+  <script src="data/guitar.js"></script>
+  <script src="js/steps.js"></script>
+  <link rel="stylesheet" type="text/css" href="css/index.css" />
+  <link rel="stylesheet" type="text/css" href="css/steps.css" />
+</head>
+<body>
+<div id="impress">
+
+<div id="step-title" class="step orange" data-x="-1000" data-y="0" data-z="1000"
+     data-rotate-x="180">
+  <h1 class="title">Triangulations</h1>
+  <!--
+  <p class="author">Marcin Kaczmarek</p>
+  <p class=institution>
+    Institute of Computer Science<br>
+    University of Wrocław
+  </p>
+  -->
+</div>
+
+<div id="step-turn-this" class="step orange"
+  data-x="0" data-y="-500" data-z="-1000">
+  <h1 class="center-text">Let's see how to turn this</h1>
+  <canvas class="center-block" width="400px" height="400px"></canvas>
+</div>
+
+<div id="step-into-this" class="step orange"
+  data-x="0" data-y="0" data-z="0">
+  <h1 class="center-text">Into this</h1>
+  <canvas class="center-block" width="400px" height="400px"></canvas>
+</div>
+
+<div id="step-why-care" class="step orange"
+  data-x="600" data-y="0" data-z="0"
+  data-rotate-z="-90">
+  <h1 class="center-text">Why care?</h1>
+</div>
+
+<div id="step-physics" class="step orange"
+  data-x="1100" data-y="0" data-z="400"
+  data-rotate-y="-50">
+  Such meshes are needed for
+  <h1>Physics Simulation<h2>
+</div>
+
+<div id="step-interp" class="step orange"
+  data-x="1700" data-y="-200" data-z="800"
+  data-rotate-y="-20" data-rotate-z="-20">
+  Determine domain neighborhood for
+  <h1>Interpolation</h1>
+</div>
+
+<div id="step-art" class="step orange"
+  data-x="2500" data-y="-100" data-z="800"
+  data-rotate-y="20" data-rotate-z="20">
+  Provide a nice tool for
+  <h1>Generative Art</h1>
+</div>
+
+<div id="step-cool" class="step red center-text"
+  data-x="3200" data-y="-200" data-z="1000"
+  data-rotate-z="-20">
+  And are simply
+  <h1>Cool!</h1>
+</div>
+
+<div id="step-sim-1" class="step white sim"
+  data-x="4000" data-y="0" data-z="0">
+  Suppose we want to simulate a rigid body
+</div>
+
+<div id="step-sim-2" class="step white sim"
+  data-x="5000" data-y="0" data-z="0">
+  We could approximate the body with a mesh
+</div>
+
+<div id="step-sim-3" class="step white sim"
+  data-x="6000" data-y="0" data-z="0">
+  Vertices being material points and edges, rods connecting them
+</div>
+
+<div id="step-sim-4" class="step white sim"
+  data-x="7000" data-y="0" data-z="0">
+  <canvas class="center-block" width="800" height="600"></canvas>
+</div>
+
+<div id="step-sim-5" class="step white sim"
+  data-x="8000" data-y="0" data-z="0">
+  That couldn't have worked, huh?
+</div>
+
+<div id="step-sim-6" class="step white sim"
+  data-x="9000" data-y="0" data-z="0">
+  We eliminate <em>loose</em> vertices by connecting everything into
+  triangles
+</div>
+
+<div id="step-sim-7" class="step orange"
+  data-x="6500" data-y="-1900" data-scale="6">
+  <canvas width="800" height="600"></canvas>
+</div>
+
+<div id="step-better" class="step orange"
+  data-x="3500" data-y="600" data-z="0" data-rotate-z="-90">
+  That's better, but still not quite good*
+</div>
+
+<div id="step-better-footnote" class="step gray"
+  data-x="3490" data-y="265" data-scale="0.05" data-rotate-z="-90">
+  Keep in mind that our dummy example has nothing to do with a
+  carefully carried out physics simulation using, e.g., the Finite Elements Method. <em>This presentation is not about that.</em>
+</div>
+
+<div id="step-suffer" class="step orange"
+  data-x="3650" data-y="600" data-z="0" data-rotate-z="-90">
+  It seems that we suffer because of the presence of very acute angles
+</div>
+
+<div id="step-deal-with" class="step orange"
+  data-x="3800" data-y="600" data-z="0" data-rotate-z="-90">
+  It has to be dealt with somehow. But first get the basics straight.
+</div>
+
+<div id="step-triangulation" class="step green"
+  data-x="4000" data-y="600" data-z="0" data-rotate-z="-90">
+  <h1>Triangulation</h1>
+  <p>
+    <b>Definition.</b> A <em>triangulation of a polygon</em> is a decomposition
+    of its area into disjoint triangular components.
+  </p>
+</div>
+
+<div id="step-good-news" class="step green"
+  data-x="4500" data-y="600" data-z="0" data-rotate-z="-90">
+  <h1>Good News!</h1>
+  <p>
+    <b>Theorem.</b> Every <em>polygon</em> without intersecting sides can be
+    divided into triangles.
+  </p>
+</div>
+
+<div id="step-good-news-proof-1" class="step green"
+  data-x="4900" data-y="600" data-z="0" data-rotate-z="-90">
+  <b>Proof.</b> It suffices to show that every such polygon that isn't
+  a triangle itself, has a diagonal.
+</div>
+
+<div id="step-good-news-proof-2" class="step green"
+  data-x="5150" data-y="600" data-z="0" data-rotate-z="-90">
+  Take a convex vertex <i>a</i> and check if its immediate neighbours,
+  <i>b</i> and <i>c</i>, can be connected to form a diagonal.
+</div>
+
+<div id="step-good-news-proof-3" class="step green"
+  data-x="5700" data-y="600" data-z="0" data-rotate-z="-90">
+  <p>
+    If not, let <i>d</i> be the vertex inside triangle <i>abc</i> closest to
+    <i>a</i> in the direction perpendicular to <i>bc</i>. It is guaranteed that
+    <i>ad</i> is a diagonal.
+  <p>
+  <div>
+    <canvas class="center-block" width="400px" height="400px"></canvas>
+    <i class="a">a</i><i class="b">b</i><i class="c">c</i><i class="d">d</i>
+  </div>
+</div>
+
+<div id="step-pslg" class="step purple"
+  data-x="6400" data-y="600" data-z="0" data-rotate-x="90">
+  <h1>Planar Straight-Line Graph</h1>
+  <p>We usually deal with more general shapes.</p>
+  <p>
+    <b>Definition.</b> A <em>planar straight-line graph</em> (abbr. PSLG) is
+    an <am>embedding</am> of a <em>planar graph</em> in the plane such that all
+    edges are straight line segments.
+  </p>
+</div>
+
+<div id="step-pslg-example" class="step purple"
+  data-x="6400" data-y="600" data-z="800" data-rotate-x="90">
+  <canvas class="center-block" width="600" height="500"></canvas>
+  <p>
+    Additionally to vertices and edges, such graphs have <em>faces</em> which
+    are connected components of the plane minus the graph.
+  </p>
+</div>
+
+<div id="step-better-news" class="step purple"
+  data-x="6400" data-y="600" data-z="1600" data-rotate-x="90">
+  <h1>Better News!</h1>
+  <p>
+    Actually the reasoning in the proof can be pushed through for polygons with
+    holes as well, and hence for the faces of any PSLG.
+  </p>
+  <p>
+    We also get out of it a <em>quadratic</em> algorithm for PSLG triangulation.
+  </p>
+</div>
+
+<div id="step-simple-triangulation" class="step purple"
+  data-x="6400" data-y="600" data-z="2400" data-rotate-x="90">
+  <h1 class="center-text">Simple Triangulation</h1>
+  <canvas class="ceter-block" width="800" height="600"></canvas>
+</div>
+
+<div id="step-simple-triangulation-better" class="step white"
+  data-x="6393" data-y="600" data-z="2365" data-rotate-x="90"
+  data-scale="0.01">
+  <h1>That's Slow</h1>
+  <p>
+    Although this <i>O(n<sup>2</sup>)</i> algorithm is still better than the
+    <i>O(n<sup>3</sup>)</i> naive approach, various command and conquer
+    approaches yield a <i>O(n</i>log<i>n)</i> procedure.
+  </p>
+  <p>
+    It was actually discovered by <em>Bernard Chazelle</em> that every simple
+    polygon <em>without</em> holes can be triangulated in time <i>O(n)</i>. The
+    method isn't straightforward though.
+  </p>
+</div>
+
+<div id="step-simple-triangulation-bad" class="step white"
+  data-x="6393" data-y="600" data-z="2373" data-rotate-x="90"
+  data-scale="0.01">
+  <h1>And Bad</h1>
+  <canvas class="center-block" width="400" height="400"></canvas>
+  <p>
+    Our algorithm ensures no quality of the triangulation. The banana didn't
+    take it well.
+  </p>
+</div>
+
+<div id="step-quality" class="step blue"
+  data-x="6393" data-y="650" data-z="2373" data-rotate-x="90"
+  data-scale="0.1">
+  <h1>Triangulation Quality</h1>
+  <p>
+    Measures of quality arise from practical usage.
+  </p>
+  <p>
+    For example, the precision of FE methods usually depends on the sizes of
+    the triangles, whereas small angles harm stability.
+  </p>
+</div>
+
+<div id="step-delaunay" class="step blue"
+  data-x="6393" data-y="700" data-z="2373" data-rotate-x="90">
+  <h1>Delaunay Triangulation</h1>
+  <p>
+    <b>Definition.</b> A <em>Delaunay triangulation</em> of a point set is
+    a set of triangles connecting all the points such that no point is inside
+    the circumcircle of any triangle.
+  </p>
+</div>
+
+<div id="step-delaunay-example" class="step blue"
+  data-x="6393" data-y="700" data-z="2373">
+  <canvas class="center-block" width="600" height="800"></canvas>
+</div>
+
+<div id="step-visibility" class="step blue"
+  data-x="6393" data-y="700" data-z="0">
+  <p>
+    <b>Definition.</b> We say that two points, <i>a</i> and <i>b</i>, are
+    <em>visible</em> to each other, if the segment <i>ab</i> doesn't
+    intersect any of the edges of a PSLG.
+  </p>
+  <p>
+    A point is said to be visible to a point <em>set</em>, if it's visible to
+    any of it's elements.
+  </p>
+</div>
+
+<div id="step-cdt" class="step blue"
+  data-x="6393" data-y="0" data-z="0">
+  <h1>Constrained Delaunay Triangulation</h1>
+  <p>
+    <b>Definition.</b> A <em>constrained Delaunay triangulation</em> (abbr. CDT)
+    of a PSLG is a triangulation in which no circumcircle of a triangle contains
+    vertices <em>visible to the interior</em> of the triangle.
+  </p>
+</div>
+
+<div id="step-cdt-example" class="step blue"
+  data-x="5500" data-y="0" data-z="0" data-rotate-y="50">
+  <canvas class="center-block" width="600" height="600"></canvas>
+</div>
+
+<div id="step-delaunay-quality" class="step blue"
+  data-x="4700" data-y="0" data-z="0">
+  <canvas class="center-block" width="400" height="400"></canvas>
+  <p>
+    In a moment we will see that Delaunay triangulations have some nice
+    properties. But first find out how to compute them.
+  </p>
+</div>
+
+<div id="step-edge-quad" class="step red"
+  data-x="3700" data-y="0" data-z="0" data-rotate-y="0">
+  <p>
+    Every edge in a triangulation, as long as it's not on the boundary, has an
+    enclosing quadrilateral
+  </p>
+</div>
+
+<div id="step-edge-reversed" class="step red"
+  data-x="3800" data-y="150" data-z="0" data-rotate-y="0" data-rotate-z="90">
+  <p>
+    <b>Definition.</b> We say that an edge is <em>reversed</em> if it is not
+    present in the (constrained) Delaunay triangulation of its quad.
+  </p>
+  <div>
+    <canvas class="base" width="500" height="500"></canvas>
+    <canvas class="arcs" width="500" height="500"></canvas>
+  </div>
+</div>
+
+<div id="step-flip-1" class="step red"
+  data-x="3700" data-y="0" data-z="0" data-rotate-x="180">
+  <h1>The <span class="flip">Flip</span></h1>
+  <p>
+    <b>Definition.</b> Replacing a triangulation edge by the other diagonal of
+    its enclosing quad is called a <em>flip</em>.
+  </p>
+</div>
+
+<div id="step-flip-2" class="step red"
+  data-x="2500" data-y="0" data-z="0" data-rotate-y="180">
+  <p>
+    The diagonal is flipped as soon as it gets reversed. This always yields
+    a Dalaunay triangulated quad.
+  </p>
+  <canvas class="center-block" width="500" height="500"></canvas>
+</div>
+
+<div id="step-flip-algo-intro" class="step red"
+  data-x="1500" data-y="0" data-z="0" data-rotate-x="180">
+  We have come to a very simple algorithm that transforms any
+  triangulation into a Delaunay triangulation.
+</div>
+
+<div id="step-flip-algo" class="step red"
+  data-x="500" data-y="0" data-z="0">
+  <h1>The <span class="flip">Flip</span> Algorithm</h1>
+  <p>
+    <b>Algorithm.</b> As long as there are reversed edges, pick one and flip it.
+  </p>
+</div>
+
+<div id="step-flip-algo-theorem" class="step red"
+  data-x="500" data-y="300" data-z="0">
+  <b>Theorem.</b> If no edge in a triangulation is reversed, the triangulation
+  is (constrained) Delaunay.
+</div>
+
+<div id="step-flip-algo-proof-1" class="step red"
+  data-x="500" data-y="750" data-z="0">
+  <p>
+    <b>Proof.</b> Suppose there is a triangle <i>abc</i> and outside <i>ac</i>
+    a point <i>p</i> that is within the circumcircle. Assume &ang;<i>cpa</i> is
+    the greatest among all such angles.
+  </p>
+</div>
+
+<div id="step-flip-algo-proof-2" class="step red"
+  data-x="500" data-y="1020" data-z="0">
+  <div>
+    <canvas class="step-1" width="500" height="500"></canvas>
+    <canvas class="step-2" width="500" height="500"></canvas>
+    <i class="step-1 a">a</i>
+    <i class="step-1 b">b</i>
+    <i class="step-1 c">c</i>
+    <i class="step-2 d">d</i>
+    <i class="step-1 p">p</i>
+  </div>
+  <p>
+    But consider the adjecent triangle <i>cda</i>. Its circumcircle also
+    contains <i>p</i> and the angle &ang;<i>cpd</i> is greater than
+    &ang;<i>cpa</i>!
+  </p>
+</div>
+
+<div id="step-flip-algo-proof-3" class="step red"
+  data-x="500" data-y="1500" data-z="0">
+  <p>
+    In order for this proof to work in constrained setting, one has to
+    notice, that if <i>p</i> is visible to the triangle <i>abc</i>, it must also
+    be visible to <i>cda</i>.
+  </p>
+</div>
+
+<div id="step-flip-algo-problem-1" class="step gray"
+  data-x="500" data-y="2300" data-z="0" data-rotate-z="90">
+  But there is a problem&hellip;
+</div>
+
+<div id="step-flip-algo-problem-2" class="step gray"
+  data-x="500" data-y="3000" data-z="0" data-rotate-z="90">
+  Fixing one edge may break another one, so how do we know the algorithm
+  terminates?
+</div>
+
+<div id="step-flip-algo-angles-1" class="step red"
+  data-x="500" data-y="4000" data-z="0">
+  <b>Definition.</b> An <em>angle sequence</em> of a triangulation is the nondecreasing sequence of the angles of all its triangles.
+</div>
+
+<div id="step-flip-algo-angles-2" class="step red"
+  data-x="500" data-y="4450" data-z="0">
+  <p>
+    <b>Fact.</b> By simple geometric observation, flipping a reversed edge
+    increases the smallest angle of the two triangles making up the enclosing
+    quad.
+  </p>
+  <div>
+    <canvas class="center-block" width="800" height="400"></canvas>
+    <span class="alpha">&alpha;</span>
+    <span class="beta">&beta;</span>
+    <span class="alphaltbeta">&alpha; &lt; &beta;</span>
+  </div>
+</div>
+
+<div id="step-flip-algo-terminates" class="step red"
+  data-x="500" data-y="5000" data-z="0">
+  <p>
+    <b>Conclusion.</b> Every iteration of the Flip algorithm increases the angle sequence of the triangulation. Therefore, the process must terminate.
+  </p>
+</div>
+
+<div id="step-flip-algo-complexity" class="step white"
+  data-x="500" data-y="4600" data-z="-1000" data-scale="0.1">
+  <h1>Meh&hellip;</h1>
+  <p>
+    It can actually be shown that up to <i>O(n<sup>2</sup>)</i> iterations are
+    needed to reach a Delaunay triangulation.
+  </p>
+  <p>
+    Methods running in <i>O(n</i>log<i>n)</i> are known.
+</div>
+
+<div id="step-delaunay-maxmin" class="step red"
+  data-x="500" data-y="5000" data-z="0">
+  <h1>The MaxMin Angle Property</h1>
+  <p>A very nice property of Delaunay triangulation follows.</p>
+  <p>
+    <b>Theorem.</b> Among all triangulations, the Delaunay triangulation has
+    the greatest angle sequence. In particular, it has the greatest minimum
+    angle.
+  </p>
+</div>
+
+<div id="step-flip-visu" class="step red"
+  data-x="500" data-y="6000" data-z="0">
+  <h1 class="center-text">The <span class="flip">Flip</span> Algorithm</h1>
+  <canvas class="center-block" width="800" height="600"></canvas>
+</div>
+
+<div id="step-dalaunay-sadly-1" class="step gray"
+  data-x="500" data-y="6000" data-z="0" data-rotate-y="360">
+  Sadly, in our dummy simulation, the banana was already Delaunay and still had
+  small angles.
+</div>
+
+<div id="step-dalaunay-sadly-2" class="step gray"
+  data-x="500" data-y="6000" data-z="0">
+  This is as good as we can get, restricting ourselves to the input points.
+</div>
+
+<div id="step-ruppert-intro-1" class="step green"
+  data-x="0" data-y="0" data-z="0">
+  <p>
+    We can allow inserting points into our shape, thus making better
+    triangulations possible.
+  </p>
+</div>
+
+<div id="step-ruppert-intro-2" class="step green"
+  data-x="0" data-y="230" data-z="0">
+  <div>
+    <canvas class="center-block base" width="400px" height="400px"></canvas>
+    <canvas class="center-block steiner" width="400px" height="400px"></canvas>
+  </div>
+  <p>
+    The additional points are called <em>Steiner points</em>.
+  </p>
+</div>
+
+<div id="step-ruppert-intro-3" class="step green"
+  data-x="0" data-y="800" data-z="0">
+  <h1>Ruppert's Algorithm</h1>
+  <p>
+    Next up we will show an algorithm proposed by <em>Jim Ruppert</em> that
+    produces triangulations without certain types of triangles.
+  </p>
+</div>
+
+<div id="step-ruppert-intro-4" class="step green"
+  data-x="0" data-y="1200" data-z="0">
+  It works by repediately removing undesired elements by inserting Steiner
+  points. The Delaunay property is then maintained with appropriate flips.
+</div>
+
+<div id="step-encroached-edge" class="step green"
+  data-x="-400" data-y="1800" data-z="0" data-rotate-y="-20">
+  <h1>Encroached Edge</h1>
+  <p>
+    <b>Definition.</b> We say an <em>input</em> edge is <em>encroached</em> if
+    it contains a visible point in its <em>diametral circle</em>.
+  </p>
+</div>
+
+<div id="step-encroached-edge-sol" class="step green"
+  data-x="-400" data-y="2050" data-z="0" data-rotate-y="-20">
+  <div>
+    <canvas class="base" width="400px" height="400px"></canvas>
+    <canvas class="step-1" width="400px" height="400px"></canvas>
+    <canvas class="step-2" width="400px" height="400px"></canvas>
+  </div>
+  <p>
+    Such input edge is divided into halves, that may, or may not be encroached.
+  </p>
+</div>
+
+<div id="step-bad-tri" class="step green"
+  data-x="400" data-y="1700" data-z="0" data-rotate-y="20">
+  <h1>Bad Triangle</h1>
+  <p>
+    <b>Definition.</b> A triangle is considered <em>bad</em> if it doesn't
+    fulfill constraints defined by the user.
+  </p>
+  <p>
+    The algorithm supports imposing a lower bound for angles, or an upper
+    bound for triangle area.
+  </p>
+</div>
+
+<div id="step-bad-tri-sol-1" class="step green"
+  data-x="400" data-y="2400" data-z="0" data-rotate-y="20">
+  <p>
+    In this case, a Steiner point is inserted in the circumcenter of the bad
+    triangle.
+  </p>
+</div>
+
+<div id="step-bad-tri-sol-2" class="step green"
+  data-x="400" data-y="2580" data-z="0" data-rotate-y="20">
+  <div>
+    <canvas class="step-1" width="400px" height="400px"></canvas>
+    <canvas class="step-2" width="400px" height="400px"></canvas>
+    <canvas class="base" width="400px" height="400px"></canvas>
+  </div>
+  <p>
+    The Delaunay property ensures the triangle is removed.
+  </p>
+</div>
+
+<div id="step-ruppert-except" class="step green"
+  data-x="0" data-y="3000" data-z="0">
+  <p>
+    The Steiner point is not inserted for the bad triangle if it would
+    encroach any input edge. In such case, the would-be-encroached edges
+    are split instead.
+  </p>
+</div>
+
+<div id="step-ruppert-prio" class="step green"
+  data-x="0" data-y="3300" data-z="0">
+  <p>
+    Also, we handle bad triangles only when there are no more encroached
+    input edges.
+  </p>
+</div>
+
+<div id="step-ruppert-visu" class="step green"
+  data-x="200" data-y="3900" data-z="100" data-rotate-x="-40"
+  data-rotate-z="-20">
+  <h1 class="center-text">Ruppert's Algorithm</h1>
+  <p class="center-text">
+    Example:
+    <select>
+      <option>Key</option>
+      <option>Guitar</option>
+      <option>Sheet</option>
+    </select>
+    Min. angle: <span class="angle">0</span>&deg;, Steiner points: <span class="steiner">0</span>
+  </p>
+  <canvas class="center-block" width="900" height="600"></canvas>
+</div>
+
+<div id="step-ty" class="step purple"
+  data-x="0" data-y="2800" data-z="800" data-rotate-x="90"
+  data-rotate-z="10">
+  <canvas class="center-block" width="900" height="800"></canvas>
+</div>
+
+<script src="lib/js/impress.js"></script>
+</body>
+</html>
