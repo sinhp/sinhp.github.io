@@ -1,0 +1,6 @@
+automatic go to next page when next page clicked.
+impress add class to current step.
+
+all files.
+add meta information to index,html.
+add to search engines.
