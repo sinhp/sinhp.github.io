@@ -131,7 +131,7 @@ This talk mostly centered around the role of foundations, and an informal discus
         <div class="epigraph">
           <blockquote>
             <p>Historically what has underlied the growth of our cognitive capacity for generating and understanding new mathematical concepts is basically the recognition of our increasing tolerance for thinking the insane.</p>
-            <footer>Me</footer>
+            <footer></footer>
           </blockquote>
         </div>
 </section>
