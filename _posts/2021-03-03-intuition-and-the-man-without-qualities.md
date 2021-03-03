@@ -4,7 +4,7 @@ title: "Mathematical Intuition According To Robert Musil'
 author: Sina Hazratpour
 date: 2021-03-03
 comments: true
-permalink: /posts/2021/03/intuition-and-the-man-without-qualities 
+permalink:	/posts/2021/03/intuition-and-the-man-without-qualities 
 excerpt: "From The Man Without Qualities"
 comments: true
 ---
