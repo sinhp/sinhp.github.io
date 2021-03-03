@@ -1,6 +1,6 @@
 ---
 layout: tufte
-title: "Mathematical Intuition According To Robert Musil'
+title: "Mathematical Intuition According To Robert Musil" 
 author: Sina Hazratpour
 date: 2021-03-03
 comments: true
