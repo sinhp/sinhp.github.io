@@ -83,18 +83,17 @@ layout: compress
       </footer>
     </div>
     
-    
-    {% if site.comments.provider and page.comments %}
-      {% include comments.html %}
-    {% endif %}
   </article>
 
  
   <div class="page__footer">
       <footer>
-       {% if page.share %}{% include social-share.html %}{% endif %}
        {% include post_pagination.html %} 
       <a href="/blog/"><h3><u>Back to the blog</u><h3></a>
+        {% if page.share %}{% include social-share.html %}{% endif %}
+        {% if site.comments.provider and page.comments %}
+        {% include comments.html %}
+        {% endif %}
       </footer>
   </div>  
 
