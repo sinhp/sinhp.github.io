@@ -85,8 +85,9 @@ Here is a common sense and self-evident proposal:
 
 >_What mathematicians think and do should be important for the philosophy of mathematics._
 
-Now, if you are not familiar with the current state of affairs in the philosophy of mathematics 
-in academia, you are for a hard surprise that the proposal above could not be further from the reality of academic. Well, this reading group is a serious attempt to learn to think about mathematic again; we do not want to confine ourselves with the narrow and arcane framework of interests of the academic philosophy of mathematics. We shall try to ask worthy questions: 
+Now, if you are not familiar with the current state of affairs in the philosophy of mathematics in academia, you are for a hard surprise that the proposal above could not be further from the reality of the most of academic activities in philosophy of mathematics. Not in this reading group. We do not want to confine ourselves with the narrow interests of the academic philosophy of mathematics. Here we tend to think of mathematics as a rich network of ideas and their formal embodiements, therefore we will be concerned with the history and development of ideas, concepts, and structures in various branches of mathematics rather than reducing the content of our philosophical interest either to set theory or arithmetic. Therefore, a basic knowledge of mathematics is necessary as a background for the philosophy of mathematics. To get started, perhaps the best introduction is Saunders MacLane's [Mathematics Form and Function](https://www.springer.com/gp/book/9781461293408). 
+
+In particular, we shall try to ask questions such as  
 
 >_When do we call a kind of knowledge mathematical? How does mathematical knowledge grow? What is mathematical progress? What makes some mathematical ideas (or theories) better than others? What is mathematical explanation? etc_ 
 
@@ -153,7 +154,7 @@ This talk mostly centered around the role of foundations, and an informal discus
   + Noson S. Yanofsky. The Outer Limits of Reason: What Science, Mathematics, and Logic Cannot Tell Us.
   + [On Proof and Progress in Mathematics](https://arxiv.org/pdf/math/9404236.pdf), See also  
     [What's a mathematician to do?](https://mathoverflow.net/questions/43690/whats-a-mathematician-to-do)
-  + Saunsers MacLane. Mathematics Form and Function
+  + Saunders MacLane. Mathematics Form and Function
   + Robert L. Long. Remarks on the history and philosophy of mathematics. The American Mathematical Monthly, 93(8):609--619, 1986.
 
 * After mid-day coffee: 
