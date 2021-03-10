@@ -38,7 +38,7 @@ _what does it mean to see a structure as a formalization of a mathematical theor
 
 
 `To Read More:`
- Reflections on mathematical understanding and categorical structuralism <a href="/files/CT/reflection-formalization-categorical.pdf" target="_blank"> <i class="fa fa-file-pdf-o" aria-hidden="true"></i> </a>
+ Reflections on mathematical understanding and categorical structuralism <a href="/files/Phil/philos_math/reflections-mathstr-understanding.pdf" target="_blank"> <i class="fa fa-file-pdf-o" aria-hidden="true"></i> </a>
 
 
 
