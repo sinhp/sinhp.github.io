@@ -20,7 +20,7 @@ This is the second part of the essay <q>Reflections on mathematical understandin
 
 `To Read More:`
 
- Reflections on mathematical understanding and categorical structuralism: Part II <a href="/files/phil/phil-maths/reflections-mathstr-understanding-II.pdf" target="_blank"> <i class="fa fa-file-pdf-o" aria-hidden="true"></i> </a>
+ Reflections on mathematical understanding and categorical structuralism: Part II <a href="/files/Phil/philos_math/reflections-mathstr-understanding-II.pdf" target="_blank"> <i class="fa fa-file-pdf-o" aria-hidden="true"></i> </a>
 
 
 

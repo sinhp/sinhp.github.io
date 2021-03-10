@@ -2,7 +2,7 @@
 layout: tufte
 title: "Two Dogmas of Empiricism by Willard Van Orman Quine"
 author: Sina Hazratpour
-excerpt: ""
+excerpt: "Quine's Empiricism about mathematics"
 tags: 
 permalink: /posts/2021/02/quine-two-dogmas
 date: 2021-02-28
