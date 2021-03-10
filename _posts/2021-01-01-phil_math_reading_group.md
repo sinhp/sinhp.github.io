@@ -108,7 +108,10 @@ I believe in epistemological anarchism, that is, if needed, we have to be recept
 
 ## Upcoming Talks
 
-(0) [Introduction to formal logic and formal proofs: From Aristotle's Prior Analytics to Frege's Begriffsschrift](/files/phil/phil-maths/impress-slides/index.html)
+(1) [Introduction to formal logic and formal proofs: From Aristotle's Prior Analytics to Frege's Begriffsschrift](/files/phil/phil-maths/pfmrg-0-slides/index.html)
+
+(0) [The initial meeting: introduction to Kant's philosophy of mathematics](/files/phil/phil-maths/pfmrg-0-slides/index.html)
+
 
 <!--
 (/files/phil/phil-maths/pfmrg-0-slides/index.html#/overview).
@@ -256,29 +259,29 @@ We will get familiar with the following philosophies and foundations of mathemat
 
     The following two papers give a good feel for the appearance of structuralist reasoning in simple kind of mathematics.  
 
-     + Richard Dedekind. Was sind und was sollen die Zahlen?
-     + Paul Benacerraf. What numbers could not be. Philosophical Review, 74:47--73, 1965
+        + Richard Dedekind. Was sind und was sollen die Zahlen?
+        + Paul Benacerraf. What numbers could not be. Philosophical Review, 74:47--73, 1965
 
     A categorical formulation of the structuralist thesis is in 
 
-     + Steve Awodey. Structure in mathematics and logic: A categorical perspective. Philosophia Mathematica, 4(3):209--237, 1996
+        + Steve Awodey. Structure in mathematics and logic: A categorical perspective. Philosophia Mathematica, 4(3):209--237, 1996
     
     To get a good introduction to category theory:  
 
-    + Steve Awodey. Category Theory. OUP.  
-    + Emily Riehl. [Category Theory in Context](https://math.jhu.edu/~eriehl/context/)
-     + I. Moerdijk and J. van Oosten. [Topos Theory](https://webspace.science.uu.nl/~ooste110/syllabi/toposmoeder.pdf)
-     + Brendan Fong and David I. Spivak. Seven Sketches in Compositionality: An Invitation to Applied Category Theory
+        + Steve Awodey. Category Theory. OUP.  
+        + Emily Riehl. [Category Theory in Context](https://math.jhu.edu/~eriehl/context/)
+        + I. Moerdijk and J. van Oosten. [Topos Theory](https://webspace.science.uu.nl/~ooste110/syllabi/toposmoeder.pdf)
+        + Brendan Fong and David I. Spivak. Seven Sketches in Compositionality: An Invitation to Applied Category Theory
 
     And on the relationship between the structuralist thesis and the univalent foundation:
      
-     + Steve Awodey. Structuralism, Invariance, and Univalence. Philosophia mathematica 22(1):1–11, 2014.
+        + Steve Awodey. Structuralism, Invariance, and Univalence. Philosophia mathematica 22(1):1–11, 2014.
 
     
     On the relationship between category theory and the set theoretic foundation look at 
-    + Michael A. Shulman. Set theory for category theory
+        + Michael A. Shulman. Set theory for category theory
 
-
+    
 
    * Formalism 
 
