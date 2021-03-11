@@ -122,10 +122,10 @@ I believe in epistemological anarchism, that is, if needed, we have to be recept
 
 ## Past Talks 
 
-(-1) [The Roots of Constructivism and Intuitionism in Mathematics - Part II](/files/Phil/phil-maths/intuitionism_roots_part_ii.pdf)
+(-1) [The Roots of Constructivism and Intuitionism in Mathematics - Part II](/files/Phil/philos_math/intuitionism_roots_part_ii.pdf)
 This talk introduced various aspects of intuitionism and its vast differences from the classicial foundation of mathematics (ZFC set theory built on top of the classicial logic). Topics discussed included Brouwer's writings, BHK interpretation, the principle of excluded middle, the axiom of choice, the continuum, the role of real numbers in classicial and intuionistic mathematics, and the creating mind's perception of time. 
 
-(-2) [The Roots of Constructivism and Intuitionism in Mathematics - Part I](/files/Phil/phil-maths/intuitionism_roots_part_i.pdf) 
+(-2) [The Roots of Constructivism and Intuitionism in Mathematics - Part I](/files/Phil/philos_math/intuitionism_roots_part_i.pdf) 
 This talk mostly centered around the role of foundations, and an informal discussion of various foundations of mathematics
 
 
