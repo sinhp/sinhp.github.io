@@ -1,0 +1,15 @@
+fhs = filesystem hierarchy standard
+
+
+command line shell - terminal
+1-6 - 7-12
+
+username@hostname - $ - #
+case-sensitive
+tab - uparrow
+shift pgup - shift pgdn
+ctrl alt backspace
+ctrl alt del
+ctrl + c - kill signal
+ctrl + z - stop - fg resume
+ctrl + s - ctrl + q

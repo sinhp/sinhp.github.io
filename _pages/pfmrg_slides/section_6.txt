@@ -1,0 +1,53 @@
+grep = globally search a regular expression and print | . , * , $ , \(\) , [] , \+
+
+
+lscpu
+lspci | option => vvv
+
+distrowatch
+
+compile from source
+
+deb
+install deb file | gui | dpkg | options => -i | --install | -r | -R
+
+apt-get | package tools | options => update | install | remove | purge | upgrade | dist-upgrade
+/var/cache
+apt-cache | options => show | search
+
+rpm
+
+yum
+
+mv | move file  and directory | options => -v | --version
+
+more
+less
+
+tail | options => f
+
+top | k
+htop
+
+ln | options => s | example: ln -sv /home/mas/Public/ Videos/symbolic_name
+ln | hardlink
+
+
+free | otopns => -h | -help
+
+alias suod=sudo
+
+ifconfig
+ping
+
+sudo
+
+/etc/passwd
+/etc/group
+/etc/shadow
+
+useradd
+
+adduser => simple
+
+sort
