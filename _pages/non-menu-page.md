@@ -9,9 +9,11 @@ redirect_from:
 ---
 
 This is a page not in the menu. You can use markdown in this page.
-
+ 
 Heading 1
 ======
+
+What is the heading?
 
 Heading 2
 ======
