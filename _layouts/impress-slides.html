@@ -1,0 +1,31 @@
+---
+layout: compress
+---
+
+{% include base_path %}
+
+<!doctype html>
+<html lang="{{ site.locale | slice: 0,2 }}" class="no-js">
+  <head>
+    
+    {% if page.use_math %}
+      {% include mathjax_support %}
+    {% endif %} 
+
+    <link href="pages/pfmrg_slides/web_files/css/font.css" rel="stylesheet" />
+    <link href="pages/pfmrg_slides/web_files/css/stylesheet.css" rel="stylesheet" />
+    <link href="pages/pfmrg_slides/web_files/css/table.css" rel="stylesheet" />
+    <link rel="icon" href="pages/pfmrg_slides/resource/images/Raphael_the_school_of_Athens_large.jpg" />
+
+  </head>
+
+  <body>
+
+    {% include browser-upgrade.html %}
+    {% include masthead.html %}
+
+    {{ content }}
+
+
+  </body>
+</html>
