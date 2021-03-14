@@ -7,7 +7,6 @@ layout: compress
 <!doctype html>
 <html lang="en">
   <head>
-    
     {% if page.use_math %}
       {% include mathjax_support %}
     {% endif %} 
@@ -15,15 +14,19 @@ layout: compress
     <link href="pages/pfmrg_slides/web_files/css/font.css" rel="stylesheet" />
     <link href="pages/pfmrg_slides/web_files/css/stylesheet.css" rel="stylesheet" />
     <link href="pages/pfmrg_slides/web_files/css/table.css" rel="stylesheet" />
-    <link rel="icon" href="pages/pfmrg_slides/resource/images/Raphael_the_school_of_Athens_large.jpg" />
+    <link rel="icon" href="/pages/pfmrg_slides/resource/images/Raphael_the_school_of_Athens_large.jpg" />
 
   </head>
 
-  <body>
+  <body class="impress-not-supported">
 
 
 
     {{ content }}
+
+
+  <script src="pages/pfmrg_slides/web_files/js/impress.js"></script>
+  <script>impress().init();</script>
 
 
   </body>
