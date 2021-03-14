@@ -108,7 +108,7 @@ I believe in epistemological anarchism, that is, if needed, we have to be recept
 
 ## Upcoming Talks
 
-(1) [Introduction to formal logic and formal proofs: From Aristotle's Prior Analytics to Frege's Begriffsschrift](https://sinhp.github.io/files/Phil/philos_math/pfmrg-0-slides/index.html#/apriori_aposteriori)
+(1) [Introduction to formal logic and formal proofs: From Aristotle's Prior Analytics to Frege's Begriffsschrift](https://sinhp.github.io/files/Phil/philos_math/pfmrg-slides/index.html#/apriori_aposteriori)
 
 (0) [The initial meeting: introduction to Kant's philosophy of mathematics](/files/Phil/philos_math/pfmrg-slides/index.html)
 
