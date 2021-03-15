@@ -34,6 +34,9 @@ This article is about a <span>Philosophy and Foundations of Mathematics Reading 
 
 
 <section>	
+
+<iframe src="https://discord.com/widget?id=768610016802373663&theme=dark" width="350" height="500" allowtransparency="true" frameborder="0" sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"></iframe>
+
 </section>
 
 
