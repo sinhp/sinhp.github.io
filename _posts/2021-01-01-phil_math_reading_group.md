@@ -30,10 +30,13 @@ comments: true
 
 Friedrich Nietzsche, The Twilight of the Idols_
 -->
-<p>This article is about a <span>Philosophy and Foundations of Mathematics Reading Group (PFMRG)<label for="sn-pfmrg" class="margin-toggle sidenote-number"></label></span><input type="checkbox" id="sn-pfmrg" class="margin-toggle"/><span class="sidenote"><em>I am leading this group. It is hosted on Falafe server on [Discord](https://discord.com/) where we have well over a hundred members. We meet bi-weekly, and each session will last about two hours (30-45 minutes for presentation, the rest for the Q&A). Most members (mostly PhDs and postdocs in sciences, arts, philosophy, and engineering) have keen interests in philosophical matters, but have little or no previous experience in logic or mathematics. In a way, this is even a better occasion to think the original and the historical, the genuinely histoical, preceding and thereby anticipating all successive history of logic and philosophy of mathematics.</em>
+<p>This article is about a <span>Philosophy and Foundations of Mathematics Reading Group (PFMRG)<label for="sn-pfmrg" class="margin-toggle sidenote-number"></label></span><input type="checkbox" id="sn-pfmrg" class="margin-toggle"/><span class="sidenote"><em>I am leading this group. It is hosted on Falafe server on 
+<a href="https://discord.com/" target="_blank">Discord</a> where we have well over a hundred members. We meet bi-weekly, and each session will last about two hours (30-45 minutes for presentation, the rest for the Q&A). Most members (mostly PhDs and postdocs in sciences, arts, philosophy, and engineering) have keen interests in philosophical matters, but have little or no previous experience in logic or mathematics. In a way, this is even a better occasion to think the original and the historical, the genuinely histoical, preceding and thereby anticipating all successive history of logic and philosophy of mathematics.</em>
+<br>
 </span>
 which is inaugurated in mid February 2021. The goals of this group and the themes of the presentations are discussed in below. The main characteristics of the reading group are the diversity of topics we shall discuss as well as covering both historical and modern aspects.
-<label for="mn-discord" class="margin-toggle">&#8853;</label><input type="checkbox" id="mn-discord" class="margin-toggle"/><span class="marginnote"><iframe src="https://discord.com/widget?id=768610016802373663&theme=dark" width="350" height="500" allowtransparency="true" frameborder="0" sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"></iframe></span></p>
+<label for="mn-discord" class="margin-toggle">&#8853;</label><input type="checkbox" id="mn-discord" class="margin-toggle"/><span class="marginnote"><iframe src="https://discord.com/widget?id=768610016802373663&theme=dark" width="350" height="500" allowtransparency="true" frameborder="0" sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"></iframe></span>
+</p>
 
 
 
