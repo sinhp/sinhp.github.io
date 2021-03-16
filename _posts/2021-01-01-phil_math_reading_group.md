@@ -35,6 +35,11 @@ Friedrich Nietzsche, The Twilight of the Idols_
 <br>
 </span>
 which is inaugurated in mid February 2021. The goals of this group and the themes of the presentations are discussed in below. The main characteristics of the reading group are the diversity of topics we shall discuss as well as covering both historical and modern aspects.
+<label for="mn-yt-channel" class="margin-toggle">&#8853;</label><input type="checkbox" id="mn-yt-channel" class="margin-toggle"/><span class="marginnote"><iframe src="https://youtube.com/playlist?list=PLLSwxwJoqOFFaNVfQoxxApcM15Et4rgiP" width="350" height="500" allowtransparency="true" frameborder="0" sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"></iframe></span>
+
+
+
+
 <!--
 <label for="mn-discord" class="margin-toggle">&#8853;</label><input type="checkbox" id="mn-discord" class="margin-toggle"/><span class="marginnote"><iframe src="https://discord.com/widget?id=768610016802373663&theme=dark" width="350" height="500" allowtransparency="true" frameborder="0" sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"></iframe></span>
 -->
