@@ -13,6 +13,7 @@ location: "virtual"
 
 
 
-`Part I - Slides` <a href="/files/intuitionism-roots-1.pdf" target="_blank"> <i class="fa fa-file-pdf-o" aria-hidden="true"></i> </a>
+`Part I - Slides` <a href="/files/Phil/philos_math/intuitionism_roots_part_i.pdf" target="_blank"> <i class="fa fa-file-pdf-o" aria-hidden="true"></i> </a>
 
 
+`Part II - Slides` <a href="/files/Phil/philos_math/intuitionism_roots_part_ii.pdf" target="_blank"> <i class="fa fa-file-pdf-o" aria-hidden="true"></i> </a>
