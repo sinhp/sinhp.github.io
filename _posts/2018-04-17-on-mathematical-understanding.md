@@ -10,7 +10,6 @@ comments: true
 ---
 
 
-{% include macro %}
 
 
 _**Warning: As it stands this write up is incomplete and half-baked! Read at your own risk!**_
