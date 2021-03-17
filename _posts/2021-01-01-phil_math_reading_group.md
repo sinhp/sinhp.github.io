@@ -31,7 +31,7 @@ comments: true
 Friedrich Nietzsche, The Twilight of the Idols_
 -->
 <p>This article is about a <span>Philosophy and Foundations of Mathematics Reading Group (PFMRG)<label for="sn-pfmrg" class="margin-toggle sidenote-number"></label></span><input type="checkbox" id="sn-pfmrg" class="margin-toggle"/><span class="sidenote"><em>I am leading this group. It is hosted on Falafe server on 
-<a href="https://discord.com/" target="_blank">Discord</a> where we have well over a hundred members. We meet bi-weekly, and each session will last about two hours (30-45 minutes for presentation, the rest for the Q&A). Most members (mostly PhDs and postdocs in sciences, arts, philosophy, and engineering) have keen interests in philosophical matters, but have little or no previous experience in logic or mathematics. In a way, this is even a better occasion to think the original and the historical, the genuinely histoical, preceding and thereby anticipating all successive history of logic and philosophy of mathematics. The recording of the talks are found in this <a href="https://youtube.com/playlist?list=PLLSwxwJoqOFFaNVfQoxxApcM15Et4rgiP">channel</a>. </em>
+<a href="https://discord.com/" target="_blank">Discord</a> where we have well over a hundred members. The running language is Persian. We meet bi-weekly, and each session will last about two hours (30-45 minutes for presentation, the rest for the Q&A). Most members (mostly PhDs and postdocs in sciences, arts, philosophy, and engineering) have keen interests in philosophical matters, but have little or no previous experience in logic or mathematics. In a way, this is even a better occasion to think the original and the historical, the genuinely histoical, preceding and thereby anticipating all successive history of logic and philosophy of mathematics. The recording of the talks are found in this <a href="https://youtube.com/playlist?list=PLLSwxwJoqOFFaNVfQoxxApcM15Et4rgiP">channel</a>. </em>
 <br>
 </span>
 which is inaugurated in mid February 2021. The goals of this group and the themes of the presentations are discussed in below. The main characteristics of the reading group are the diversity of topics we shall discuss as well as covering both historical and modern aspects.
@@ -123,9 +123,8 @@ I believe in epistemological anarchism, that is, if needed, we have to be recept
 
 ## Upcoming Talks
 
-(1) [Introduction to formal logic and formal proofs: From Aristotle's Prior Analytics to Frege's Begriffsschrift](https://sinhp.github.io/files/Phil/philos_math/pfmrg-slides/index.html#/apriori_aposteriori)
 
-(0) [The initial meeting: introduction to Kant's philosophy of mathematics](/files/Phil/philos_math/pfmrg-slides/index.html)
+(2) Introduction to formal logic and formal proofs: From Aristotle's Prior Analytics to Frege's Begriffsschrift]: [slides](https://sinhp.github.io/files/Phil/philos_math/pfmrg-slides/index.html#/apriori_aposteriori)
 
 
 <!--
@@ -136,6 +135,11 @@ I believe in epistemological anarchism, that is, if needed, we have to be recept
 -->
 
 ## Past Talks 
+
+(1) Introduction to Logicism an Frege's Begriffsschrift, [slides](https://sinhp.github.io/files/Phil/philos_math/pfmrg-slides/index.html#/apriori_aposteriori), [video recording](https://youtu.be/YEO1n6aLi7E)
+
+(0) The initial meeting: Introduction to Kant's philosophy of mathematics, [slides](/files/Phil/philos_math/pfmrg-slides/index.html), [video recording](https://youtu.be/HGZ8-58HS3w)
+
 
 (-1) [The Roots of Constructivism and Intuitionism in Mathematics - Part II](/files/Phil/philos_math/intuitionism_roots_part_ii.pdf)
 This talk introduced various aspects of intuitionism and its vast differences from the classicial foundation of mathematics (ZFC set theory built on top of the classicial logic). Topics discussed included Brouwer's writings, BHK interpretation, the principle of excluded middle, the axiom of choice, the continuum, the role of real numbers in classicial and intuionistic mathematics, and the creating mind's perception of time. 
