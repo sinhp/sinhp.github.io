@@ -1,8 +1,8 @@
 ---
 layout: tufte
-title: "Die Sonne sinkt, "
+title: "Die Sonne sinkt"
 author: Friedrich Nietzsche
-excerpt: "aus Dionysus-Dithyramben (1888)"
+excerpt: "Friedrich Nietzsche, aus Dionysus-Dithyramben (1888)"
 permalink: /posts/2021/03/die-sonne-sinkt
 date: 2021-03-21
 location: ""
@@ -12,44 +12,81 @@ comments: true
 
 
 
-Die Sonne sinkt
+## Die Sonne sinkt
 
-Nicht lange durstest du noch,
+Nicht lange durstest du noch, 
+
 verbranntes Herz!
+
 Verheissung ist in der Luft,
+
 aus unbekannten Mündern bläst mich’s an
+
 — die grosse Kühle kommt ...
 
+
+
+
 Meine Sonne stand heiss über mir im Mittage:
+
 seid mir gegrüsst, dass ihr kommt
+
 ihr plötzlichen Winde
+
 ihr kühlen Geister des Nachmittags!
+
 Die Luft geht fremd und rein.
+
 Schielt nicht mit schiefem
 Verführerblick
+
 die Nacht mich an? ...
+
 Bleib stark, mein tapfres Herz!
+
 Frag nicht: warum? —
 
 
+
+
 Tag meines Lebens!
+
 die Sonne sinkt.
+
 Schon steht die glatte
+
 Fluth vergüldet.
+
 Warm athmet der Fels:
+
 schlief wohl zu Mittag
+
 das Glück auf ihm seinen Mittagsschlaf?
+
 In grünen Lichtern
+
 spielt Glück noch der braune Abgrund herauf.
+
 Tag meines Lebens!
+
 gen Abend gehts!
+
 Schon glüht dein Auge
+
 halbgebrochen,
+
 schon quillt deines Thaus
+
 Thränengeträufel,
+
 schon läuft still über weisse Meere
+
 deiner Liebe Purpur,
+
 deine letzte zögernde Seligkeit ...
+
+
+
 
 
 Heiterkeit, güldene, komm!
@@ -66,6 +103,9 @@ müssig steht nun mein Kahn.
 Sturm und Fahrt — wie verlernt er das!
 Wunsch und Hoffen ertrank,
 glatt liegt Seele und Meer.
+
+
+
 
 Siebente Einsamkeit!
 Nie empfand ich
