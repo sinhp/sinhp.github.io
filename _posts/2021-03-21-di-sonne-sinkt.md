@@ -90,29 +90,47 @@ deine letzte zögernde Seligkeit ...
 
 
 Heiterkeit, güldene, komm!
+
 du des Todes
+
 heimlichster süssester Vorgenuss!
+
 — Lief ich zu rasch meines Wegs?
+
 Jetzt erst, wo der Fuss müde ward,
+
 holt dein Blick mich noch ein,
+
 holt dein Glück mich noch ein.
+
 Rings nur Welle und Spiel.
 Was je schwer war,
+
 sank in blaue Vergessenheit,
+
 müssig steht nun mein Kahn.
+
 Sturm und Fahrt — wie verlernt er das!
+
 Wunsch und Hoffen ertrank,
+
 glatt liegt Seele und Meer.
 
 
 
 
 Siebente Einsamkeit!
+
 Nie empfand ich
+
 näher mir süsse Sicherheit,
+
 wärmer der Sonne Blick.
+
 — Glüht nicht das Eis meiner Gipfel noch?
+
 Silbern, leicht, ein Fisch
+
 schwimmt nun mein Nachen hinaus ...
 
 
