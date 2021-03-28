@@ -10,7 +10,7 @@ table, caption, tbody, tfoot, thead, tr, th, td,
 article, aside, canvas, details, embed,
 figure, figcaption, footer, header, hgroup,
 menu, nav, output, ruby, section, summary,
-time, mark, audio, video
+time, mark, audio, video, clr1, clr2, clr3, clr4, clr5
 {
     margin: 0;
     padding: 0;
@@ -76,12 +76,47 @@ body
 
 b{ font-weight: bold }
 
-strong
+code
 {
+font-family: OpenSans;
+color: #699000;
+padding: 15px 0px;
+} 
+
+
+clr1
+{
+font-family: OpenSans;
+color: #00BFFF;
+} 
+
+clr2
+{
+color: #F59B00;
+} 
+
+clr3
+{
+color: #008080;
+} 
+
+clr4
+{
+color: #A0522D;
+} 
+
+clr5
+{
+color: #6B0F24;
+} 
+
+
+strong{
 font-weight: bold;
 color: rgb(255, 68, 68);
 padding: 15px 0px;
 } 
+
 
 
 
@@ -150,7 +185,7 @@ em{
     box-sizing:         border-box;
 
     font-family: DroidSans;
-    font-size: 48px;
+    font-size: 36px;
     line-height: 1.5;
 }
 
