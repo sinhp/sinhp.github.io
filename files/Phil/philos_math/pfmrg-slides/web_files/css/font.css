@@ -24,25 +24,25 @@
 }
 
 
-@font-face {
-  font-family: 'Lato';
-  font-style: normal;
+@font-face 
+{
+  font-family: "Lato-Regular";
   font-weight: 400;
   src: url("web_files/font/Lato/Lato-Regular.ttf");
 }
 
-@font-face {
-  font-family: 'Lato';
-  font-style: italic;
+@font-face 
+{
+  font-family: "Lato-Italic";
   font-weight: 400;
-  src: url("web_files/font/Lato/Lato-Regular.ttf");
+  src: url("web_files/font/Lato/Lato-Italic.ttf");
 }
 
-@font-face {
-  font-family: 'Lato';
-  font-style: bold;
+@font-face 
+{
+  font-family: "Lato-Bold";
   font-weight: 700;
-  src: url("web_files/font/Lato/Lato-Regular.ttf");
+  src: url("web_files/font/Lato/Lato-Bold.ttf");
 }
 
 @font-face {
