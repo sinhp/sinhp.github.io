@@ -299,24 +299,22 @@ We will get familiar with the following philosophies and foundations of mathemat
     
   Good introductions to category theory are:   
 
-      * Steve Awodey. _Category Theory_. OUP. 2006  
+      * Steve Awodey. <em>Category Theory</em>. OUP. 2006  
       * Emily Riehl. [Category Theory in Context](https://math.jhu.edu/~eriehl/context/), Dover, 2016
       * I. Moerdijk and J. van Oosten. [Topos Theory](https://webspace.science.uu.nl/~ooste110/syllabi/toposmoeder.pdf)
-      * Brendan Fong and David I. Spivak. _Seven Sketches in Compositionality: An Invitation to Applied Category Theory_
-      * Elaine Landry. _Categories for the Working Philosopher_. OUP. 2017
+      * Brendan Fong and David I. Spivak. <em>Seven Sketches in Compositionality: An Invitation to Applied Category Theory</em>
+      * Elaine Landry. <em>Categories for the Working Philosopher</em>. OUP. 2017
 
-    + And on the relationship between the structuralist thesis and the univalent foundation:
+    On the relationship between the structuralist thesis and the univalent foundation:
      
       * Steve Awodey. Structuralism, Invariance, and Univalence. Philosophia mathematica 22(1):1–11, 2014.
 
-
-    
-    + On the relationship between category theory and the set theoretic foundation: 
+    On the relationship between category theory and the set theoretic foundation: 
 
       * Michael A. Shulman. Set theory for category theory
 
     
-    
+
 
 ### Formalism 
     
