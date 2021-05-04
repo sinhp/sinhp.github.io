@@ -274,37 +274,53 @@ However, the second thesis is far from perfect: it does not have the formal forc
    
 We will get familiar with the following philosophies and foundations of mathematics.
 
-  * Structuralism and category theory 
+<h2 id= "structuralism"> Structuralism </h2>
+  
+  <p>   The following papers give a good introduction to the structuralist thinking within simple kinds of structures. </p>
 
-    + The following two papers give a good feel for the appearance of structuralist reasoning in simple kind of mathematics.  
+  * [Richard Dedekind. Was sind und was sollen die Zahlen?](https://mathcs.clarku.edu/~djoyce/numbers/dedekind.pdf)
+  * Paul Benacerraf. What numbers could not be. Philosophical Review, 74:47--73, 1965
 
-      * Richard Dedekind. Was sind und was sollen die Zahlen?
-      * Paul Benacerraf. What numbers could not be. Philosophical Review, 74:47--73, 1965
+  * Barry Mazur, [When is one thing equal to some other thing?](http://people.math.harvard.edu/~mazur/preprints/when_is_one.pdf), 2007
 
-    + A categorical formulation of the structuralist thesis is in 
 
-      * Steve Awodey. Structure in mathematics and logic: A categorical perspective. Philosophia Mathematica, 4(3):209--237, 1996
+
+### Structuralism and category theory    
+
+   A categorical formulation of the structuralist thesis is in  
+
+  * Steve Awodey. “Structure in mathematics and logic: A categorical perspective“. Philosophia Mathematica, 4(3):209--237, 1996
+
+      and a follow-up: 
+
+  * Steve Awodey. “An Answer to Hellman’s Question: Does Category Theory Provide a Framework for Mathematical Structuralism“, Philosophia Mathematica, 2004  
+
+  * Feferman, S. “Categorical Foundations and Foundations of Category Theory”, 1977.
     
-    + To get a good introduction to category theory:  
+  Good introductions to category theory are:   
 
-      * Steve Awodey. Category Theory. OUP.  
-      * Emily Riehl. [Category Theory in Context](https://math.jhu.edu/~eriehl/context/)
+      * Steve Awodey. _Category Theory_. OUP. 2006  
+      * Emily Riehl. [Category Theory in Context](https://math.jhu.edu/~eriehl/context/), Dover, 2016
       * I. Moerdijk and J. van Oosten. [Topos Theory](https://webspace.science.uu.nl/~ooste110/syllabi/toposmoeder.pdf)
-      * Brendan Fong and David I. Spivak. Seven Sketches in Compositionality: An Invitation to Applied Category Theory
+      * Brendan Fong and David I. Spivak. _Seven Sketches in Compositionality: An Invitation to Applied Category Theory_
+      * Elaine Landry. _Categories for the Working Philosopher_. OUP. 2017
 
     + And on the relationship between the structuralist thesis and the univalent foundation:
      
       * Steve Awodey. Structuralism, Invariance, and Univalence. Philosophia mathematica 22(1):1–11, 2014.
 
+
     
-    + On the relationship between category theory and the set theoretic foundation look at 
+    + On the relationship between category theory and the set theoretic foundation: 
+
       * Michael A. Shulman. Set theory for category theory
 
     
+    
 
-  * Formalism 
-
-     + Syntax vs semantics: the distinction between the two did not always exist, and it is one of the most fruitful inventions in the history of mathematics.   
+### Formalism 
+    
+   * Syntax vs semantics: the distinction between the two did not always exist, and it is one of the most fruitful inventions in the history of mathematics.   
      + Synthetics vs analtics mathematics: what are the differences and similarities?  
      + Gerhard Heinzmann and Hannes Leitgeb. Formalism, Formalization, Intuition and Understanding in Mathematics: From Informal Practice to Formal Systems and Back Again. Université de Lorraine/CNRS, Nancy 2018.
      + Jeremy Avigad. Number theory and elementary arithmetic. Philosophia mathematica, 3(11):257--284, 2003.  
