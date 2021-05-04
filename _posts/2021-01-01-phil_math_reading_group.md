@@ -296,27 +296,28 @@ We will get familiar with the following philosophies and foundations of mathemat
   * Steve Awodey. “An Answer to Hellman’s Question: Does Category Theory Provide a Framework for Mathematical Structuralism“, Philosophia Mathematica, 2004  
 
   * Feferman, S. “Categorical Foundations and Foundations of Category Theory”, 1977.
-    
+  
+
   Good introductions to category theory are:   
 
-      * Steve Awodey. <em>Category Theory</em>. OUP. 2006  
-      * Emily Riehl. [Category Theory in Context](https://math.jhu.edu/~eriehl/context/), Dover, 2016
-      * I. Moerdijk and J. van Oosten. [Topos Theory](https://webspace.science.uu.nl/~ooste110/syllabi/toposmoeder.pdf)
-      * Brendan Fong and David I. Spivak. <em>Seven Sketches in Compositionality: An Invitation to Applied Category Theory</em>
-      * Elaine Landry. <em>Categories for the Working Philosopher</em>. OUP. 2017
+  * Steve Awodey. Category Theory. OUP. 2006  
+  * Emily Riehl. [Category Theory in Context](https://math.jhu.edu/~eriehl/context/), Dover, 2016
+  * I. Moerdijk and J. van Oosten. [Topos Theory](https://webspace.science.uu.nl/~ooste110/syllabi/toposmoeder.pdf)
+  * Brendan Fong and David I. Spivak. Seven Sketches in Compositionality: An Invitation to Applied Category Theory
+  * Elaine Landry. Categories for the Working Philosopher. OUP. 2017
 
-    On the relationship between the structuralist thesis and the univalent foundation:
+  On the relationship between the structuralist thesis and the univalent foundation:
      
-      * Steve Awodey. Structuralism, Invariance, and Univalence. Philosophia mathematica 22(1):1–11, 2014.
+  * Steve Awodey. Structuralism, Invariance, and Univalence. Philosophia mathematica 22(1):1–11, 2014.
 
-    On the relationship between category theory and the set theoretic foundation: 
+  On the relationship between category theory and the set theoretic foundation: 
 
-      * Michael A. Shulman. Set theory for category theory
+  * Michael A. Shulman. Set theory for category theory
 
     
 
 
-### Formalism 
+## Formalism 
     
    * Syntax vs semantics: the distinction between the two did not always exist, and it is one of the most fruitful inventions in the history of mathematics.   
      + Synthetics vs analtics mathematics: what are the differences and similarities?  
