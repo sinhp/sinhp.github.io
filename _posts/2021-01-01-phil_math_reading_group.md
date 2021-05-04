@@ -466,6 +466,7 @@ And all these words and their meaning are compressed in in modern mathematical n
 <FIGCAPTION></FIGCAPTION>
 </figure> 
 
+$$ a^2 + b^2 = c^2 $$
 
 
 ### And what if I am interested in set theory? 
