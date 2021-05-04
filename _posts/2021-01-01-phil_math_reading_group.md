@@ -317,7 +317,7 @@ We will get familiar with the following philosophies and foundations of mathemat
     
 
 
-### Formalism 
+## Formalism 
     
    * Syntax vs semantics: the distinction between the two did not always exist, and it is one of the most fruitful inventions in the history of mathematics.   
      + Synthetics vs analtics mathematics: what are the differences and similarities?  
