@@ -11,7 +11,7 @@ use_math: true
 location: "Birmingham, UK"
 ---
 
-{% include macro %}
+
 
 `Introduction:`
 
