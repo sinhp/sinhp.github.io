@@ -10,7 +10,7 @@ tags:
   - automated theorem provers
   - interactive theorem provers 
 permalink: /posts/2021/01/PFMRG
-date: 2021-01-01
+date: 2021-01-20
 use_math: true
 location: "Utrecht, NL"
 comments: true
@@ -466,7 +466,7 @@ And all these words and their meaning are compressed in in modern mathematical n
 <FIGCAPTION></FIGCAPTION>
 </figure> 
 
-$$ a^2 + b^2 = c^2 $$
+
 
 
 ### And what if I am interested in set theory? 
