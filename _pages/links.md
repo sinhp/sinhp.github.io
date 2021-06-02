@@ -10,7 +10,7 @@ redirect_from:
 ## Podcast 
 
 * [Entitled Opinions](https://entitledopinions.stanford.edu/)
-
+* [Elucidations, a University of Chicago philosophy podcast](https://lucian.uchicago.edu/blogs/elucidations/past-episodes/)
 
 ## Some of my favourite maths and computer science blogs
 
