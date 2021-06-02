@@ -1,0 +1,22 @@
+---
+layout: tufte
+title: "Mathematics and the mind"
+author: Sina Hazratpour
+excerpt: ""
+tags: 
+  - Bayesian network
+  - Neural network 
+  - Computability
+  - Number sense
+  - Quantical 
+  - Numerical 
+  - Origin of numbers
+  - Cognitive content of numbers 
+permalink: /posts/2021/06/cog-math
+date: 2021-06-01
+use_math: true
+comments: true
+---
+
+
+Some cognitive aspects of mathematics <a href="/files/Phil/philos_math/some_cognitive_aspects_of_math.pdf" target="_blank"> <i class="fa fa-file-pdf-o" aria-hidden="true"></i> </a>
