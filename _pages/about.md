@@ -9,12 +9,14 @@ redirect_from:
 ---
 
 
-I am a mathematician working in the foundation of mathematics and its connection to theoretical computer science. My main research interests include constructive mathematics and type theory, category theory and categorical logic, and higher category theory. I am also interested in applications of these areas to topology and algberaic topology. On the side, I recently started to learn more about Topological Data Analysis and Persistent Homology. 
+I am a mathematician working in the foundation of mathematics and its connection to theoretical computer science. My main research interests include category theory and categorical logic, type theory, and higher category theory. I am also interested in applications of these areas to topology and algebraic topology. On the side, I recently started to learn more about topological data analysis and persistent homology. 
 
-I was born in Qeshm Island in Iran. I have lived in Iran, Canada, UK, and the Netherlands. I speak Persian, English, and Dutch. 	
+I was born in Qeshm Island in Iran. I have lived in Iran, Canada, UK, and the Netherlands. I speak English, Dutch, and Persian. 	
 
 
 ## Academic Profile
+
+I am currently a postdoctoral research fellow at the Department of Mathematics of the Johns Hopkins University. My PI is <a href="https://math.jhu.edu/~eriehl/" target="_blank"> Emily Riehl </a>. Our project is within the burgeoning field of (constructive) synthetic homotopy theory.
 
 From Nov 2019 until Nov 2020, I was a Research Fellow at the University of Leeds Logic group working on the project <em>Univalent type theories: models, equalities, and coherence</em> in collaboration with Prof. <a href="http://www1.maths.leeds.ac.uk/~pmtng/" target ="_blank"> Nicola Gambino </a>  (University of Leeds) and Prof. <a href="http://www.contrib.andrew.cmu.edu/~awodey/" target ="_blank">Steve Awodey</a> (Carnegie Mellon University) to develop a Kripke-Joyal style forcing semantics for Homotopy Type Theory. This semantics extends the usual Kripke-Joyal Semantics for IHOL (Higher Order Intuitionistic Logic) in toposes. Here is my page at Leeds: https://eps.leeds.ac.uk/maths/staff/6531/dr-sina-hazratpour
 
@@ -25,10 +27,6 @@ Prior to joining Birmingham I was at Western University in London (Ontario) wher
 
 
 
-
-<!--
- a member of <a href="https://www.cs.bham.ac.uk/research/groupings/theory/" target="_blank">Theory of Computation</a> group at University of Birmingham. 
---> 
  
 
 Other interests 
@@ -36,7 +34,7 @@ Other interests
 
 I am fond of remote places in nature, museums, hiking, and photography. I am an avid reader of philosophy and history of philosophical thoughts and enjoy discussing them. The fourfold Nietzsche (Thus Spoke Zarathustra), Heidegger (Being and Time), Foucault (The Order of Things), and Sloterdijk (Critique of Cynical Reason) have made the most impact on my thinking.  
 
-Another interest of mine, related to the history of mathematics, is the history of the foundation and practice of mathematics in 19th and early 20th century. This includes for example Dedekind's foundational work in algebra and arithmetic, Klein's Erlangen Program in geometry, Frege's logicism, Husserl's phenomenology of mathematical thinking, the Formalism project of Hilbert and the ensuing axiomatic (re)turn in mathematics, Brouwer's intuitionism, Weyl's predicativism and his mediation between intuitionism and formalism, and Cassirer's structuralist account of mathematical knowledge. You can read more [here](https://sinhp.github.io/links/#phil-math:reading-list). Ocassionally, I will write some of my thoughts on range of issues of philosphical nature on <a href="/year-archive">my blog</a>. 
+Another interest of mine, related to the history of mathematics, is the history of the foundation and practice of mathematics in 19th and early 20th century. This includes for example Dedekind's foundational work in algebra and arithmetic, Klein's Erlangen Program in geometry, Frege's logicism, Husserl's phenomenology of mathematical thinking, the Formalism project of Hilbert and the ensuing axiomatic (re)turn in mathematics, Brouwer's intuitionism, Weyl's predicativism and his mediation between intuitionism and formalism, and Cassirer's structuralist account of mathematical knowledge. You can read more [here](https://sinhp.github.io/links/#phil-math:reading-list). Occasionally, I will write some of my thoughts on range of issues of philosophical nature on <a href="/year-archive">my blog</a>. 
 
  
 
