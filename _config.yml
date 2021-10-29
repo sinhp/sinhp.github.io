@@ -231,7 +231,7 @@ defaults:
   # _demonstration
   - scope:
       path: ""
-      type: demonstration
+      type: teaching
     values:
       layout: single
       author_profile: true
