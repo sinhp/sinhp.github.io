@@ -1,6 +1,6 @@
 ---	
 title: "Demonstrator for Models Of Computation"		
-collection: teaching		
+collection: demonstration		
 type: "2nd year undergraduate module"		
 permalink: /teaching/2018-models-of-computation
 venue: "University of Birmingham, School of Computer Science"		
