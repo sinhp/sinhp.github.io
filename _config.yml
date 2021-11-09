@@ -81,8 +81,8 @@ author:
   name             : "Sina Hazratpour"
   avatar           : "deathridelaugh.jpg"
   bio              : 
-  location         : "Utrecht, NL"
-  employer         :
+  location         : # "Utrecht, NL"
+  employer         : "Johns Hopkins University"
   googlescholar    : 
   email            : "sinahazratpour@gmail.com"
   uri              :
@@ -92,10 +92,10 @@ author:
   flickr           :
   facebook         : 
   foursquare       :
-  github           : "sinhp"
-  google_plus      : "SinaHazratpour"
+  github           : #"sinhp"
+  google_plus      : #"SinaHazratpour"
   keybase          :
-  instagram        :
+  instagram        : "sinahtpr"
   lastfm           :
   linkedin         : "sina-hazratpour"
   orcid            : 
