@@ -8,6 +8,14 @@ author_profile: true
 
 {% include base_path %}
 
+<hr>
+<hr>
+<h2 id="publication"><font color="#336666">Publications</font></h2> 
+
+{% for post in site.publications reversed %}
+  {% include archive-single.html %}
+{% endfor %}
+
 
 <h2><font color="#336666">Talks And Presentations</font></h2> 
 <!--
@@ -17,18 +25,6 @@ author_profile: true
 {% for post in site.talks reversed %}
   {% include archive-single-talk.html %}
 {% endfor %}
-
-
-
-    
-<hr>
-<hr>
-<h2 id="publication"><font color="#336666">Publications</font></h2> 
-
-{% for post in site.publications reversed %}
-  {% include archive-single.html %}
-{% endfor %}
-
 
 
 <h2 id="htt"><font color="#336666">Reading Group on Arithmetic Universes</font></h2> 
