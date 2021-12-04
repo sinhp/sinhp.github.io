@@ -7,15 +7,19 @@ date: 2018-04-21
 venue: 'Theory and Application of Categories (TAC)'
 use_math: true
 ---
+
 <!-- include it up there if you have it
 citation: 'Your Name, You. (2009). &quot;Paper Title Number 1.&quot; <i>Journal 1</i>. 1(1).'
 -->
+
+
+{% include macro %}
 
 Sina Hazratpour, Steve Vickers. &quot;Fibration of contexts beget fibrations of toposes &quot; <a href="/files/draft/prem-draft-fibrations-of-toposes.pdf" target="_blank"> <i class="fa fa-file-pdf-o" aria-hidden="true"></i> </a>, [arXiv:1808.08291](https://arxiv.org/abs/1808.08291) (2018)
  <i>Theory and Application of Categories (TAC)<i>, 35(16), pages 562--593, 2020 [URL](http://www.tac.mta.ca/tac/volumes/35/16/35-16abs.html)
 
 
-{% include macro %}
+
 
 `Abstract:` We introduce a notion of (op)fibration in the 2-category Con of contexts.
 We give a new characterization of weak fibrations internal in 2-categories. Using this
