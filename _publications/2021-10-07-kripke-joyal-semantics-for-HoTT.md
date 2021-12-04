@@ -2,7 +2,7 @@
 title: "Kripke-Joyal forcing for type theory and uniform fibrations"
 collection: publications
 permalink: /publication/2021-10-07-kripke-joyal-semantics-for-HoTT
-excerpt: ''
+excerpt: 'with Steve Awodey and Nicola Gambino'
 venue: 'Arxiv preprint'
 date: 2021-10-07
 ---
