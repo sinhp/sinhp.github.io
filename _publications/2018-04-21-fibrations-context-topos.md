@@ -2,7 +2,7 @@
 title: "Fibration of contexts beget fibrations of toposes"
 collection: publications
 permalink: /publication/2018-04-21-fibrations-context-topos
-excerpt: ''
+excerpt: 'with Steve Vickers'
 date: 2018-04-21
 venue: 'Theory and Application of Categories (TAC)'
 use_math: true
