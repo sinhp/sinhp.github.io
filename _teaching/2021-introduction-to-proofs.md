@@ -13,7 +13,8 @@ This course introduces students to the natural deduction style of encoding proof
 ### Course website 
 [https://introproofs.github.io/](https://introproofs.github.io/jhu301-f21/)
 
-
+### Course Syllabus 
+<i class="fa fa-file-pdf-o" aria-hidden="true"> [Download here](/files/Syllabus_Introduction To Proofs_Fall 2021.pdf) 
 
 
 
