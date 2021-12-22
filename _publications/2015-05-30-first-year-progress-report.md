@@ -5,7 +5,6 @@ permalink: /publication/2015-05-30-first-year-progress-report
 excerpt: 'A general report of the first year including background studies submitted to my thesis committee '
 date: 2015-05-30
 venue: 'School of Computer Science, University of Birmingham'
-paperurl: 'http://sinhp.github.io/files/first-year-progress-report.pdf'
 ---
 <!-- include it up there if you have it
 citation: 'Your Name, You. (2009). &quot;Paper Title Number 1.&quot; <i>Journal 1</i>. 1(1).'
