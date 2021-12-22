@@ -16,6 +16,8 @@ I was born in [Qeshm Island](https://en.wikipedia.org/wiki/Qeshm_Island) in Iran
 
 ## Academic Profile
 
+[Microsoft Academic Profile](https://academic.microsoft.com/profile/h510f1e7-fe1i-46jj-9fgg-71ieeg664740/SinaHazratpour/publication/search?q=Sina%20Hazratpour&qe=%2540%2540%2540USER.PUBLICATIONS%253Dd510b1a7-ba1e-46ff-9bcc-71eaac664740&f=&orderBy=0)
+
 I am currently a postdoctoral research fellow at the Department of Mathematics of the Johns Hopkins University. My PI is <a href="https://math.jhu.edu/~eriehl/" target="_blank"> Emily Riehl</a>. Our project is within the burgeoning field of (constructive) synthetic homotopy theory.
 
 From Nov 2019 until Nov 2020, I was a Research Fellow at the University of Leeds Logic group working on the project <em>Univalent type theories: models, equalities, and coherence</em> in collaboration with Prof. <a href="http://www1.maths.leeds.ac.uk/~pmtng/" target ="_blank"> Nicola Gambino </a>  (University of Leeds) and Prof. <a href="http://www.contrib.andrew.cmu.edu/~awodey/" target ="_blank">Steve Awodey</a> (Carnegie Mellon University) to develop a [Kripke-Joyal style forcing semantics for Homotopy Type Theory](/publication/2021-10-07-kripke-joyal-semantics-for-HoTT). This semantics extends the usual Kripke-Joyal Semantics for IHOL (Higher Order Intuitionistic Logic) in toposes. 
