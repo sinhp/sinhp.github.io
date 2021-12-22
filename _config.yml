@@ -83,7 +83,7 @@ author:
   bio              : 
   location         : # "Utrecht, NL"
   employer         : "Johns Hopkins"
-  googlescholar    : 
+  googlescholar    : "https://scholar.google.com/citations?user=YsFXtpQAAAAJ&hl=en"
   email            : "sinahazratpour@gmail.com"
   uri              :
   bitbucket        :
@@ -98,7 +98,7 @@ author:
   instagram        : "sinahtpr"
   lastfm           :
   linkedin         : "sina-hazratpour"
-  orcid            : 
+  orcid            : "https://orcid.org/0000-0002-7921-9149"
   pinterest        :
   soundcloud       :
   stackoverflow    : # http://stackoverflow.com/users/123456/username
