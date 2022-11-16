@@ -12,7 +12,7 @@ redirect_from:
 * [Entitled Opinions](https://entitledopinions.stanford.edu/)
 * [Elucidations, a University of Chicago philosophy podcast](https://lucian.uchicago.edu/blogs/elucidations/past-episodes/)
 
-## Some of my favourite maths and computer science blogs
+## Some of my favourite maths and computer science wiki/blogs
 
 * [nLab](https://ncatlab.org/nlab/show/HomePage):
  a wiki-lab for collaborative work on Mathematics, Physics and Philosophy heavily oriented toward discussions on category theory and higher category theory. 
@@ -99,8 +99,6 @@ Since 2013 I have started to study philosophy of mathematics and science more se
 
 * [Martin Heidegger](http://www.beyng.com/)
 
-* [London Review of Books](https://www.lrb.co.uk/)
-
 * [Philosophy Now](https://philosophynow.org/)
 
 * [Aeon](https://aeon.co/)
@@ -116,6 +114,8 @@ Since 2013 I have started to study philosophy of mathematics and science more se
 * [Why Nations Fail](http://whynationsfail.com/)
 
 * [The Long Read: The Guardian](https://www.theguardian.com/news/series/the-long-read)
+
+* [London Review of Books](https://www.lrb.co.uk/)
 
 * [Hidden Forces](https://www.hiddenforcespod.com/)
 
@@ -135,12 +135,12 @@ Since 2013 I have started to study philosophy of mathematics and science more se
 
 
 ------------------------------------------------------------------------------------------------
-## This Wesbite
+## This Website
 
 
-This website is hosted on **GitHub pages**. [GitHub pages](https://pages.github.com) is a free service in which websites are built and hosted from code and data stored in a GitHub repository, automatically updating when a new commit is made to the respository. Pages are created by [Jekyll Now](http://www.jekyllnow.com/), a more user-friendly version of [Jekyll](https://jekyllrb.com/) and perfect for building minimal and static, yet beautiful, secure, and stable websites. A really quick and easy-to-follow guide is provided [here](https://www.smashingmagazine.com/2014/08/build-blog-jekyll-github-pages/). For a quick start, you can also find the source code for setting up your own website at [barryclark/jekyll-now](https://github.com/barryclark/jekyll-now).  
+This website is hosted on **GitHub pages**. [GitHub pages](https://pages.github.com) is a free service in which websites are built and hosted from code and data stored in a GitHub repository, automatically updating when a new commit is made to the repository. Pages are created by [Jekyll Now](http://www.jekyllnow.com/), a more user-friendly version of [Jekyll](https://jekyllrb.com/) and perfect for building minimal and static, yet beautiful, secure, and stable websites. A really quick and easy-to-follow guide is provided [here](https://www.smashingmagazine.com/2014/08/build-blog-jekyll-github-pages/). For a quick start, you can also find the source code for setting up your own website at [barryclark/jekyll-now](https://github.com/barryclark/jekyll-now).  
 
-I used the front page of a website that is powered by the [academicpages template](https://github.com/academicpages/academicpages.github.io). This template was forked from the [Minimal Mistakes Jekyll Theme](https://mmistakes.github.io/minimal-mistakes/) created by Michael Rose, and then extended to support the kinds of content that academics have: publications, talks, teaching, a portfolio, blog posts, and a dynamically-generated CV. You can fork [this repository](https://github.com/academicpages/academicpages.github.io) right now, modify the configuration and markdown files, add your own PDFs and other content, and have your own site for free, with no ads! An older version of this template powers my own personal website at [stuartgeiger.com](http://stuartgeiger.com), which uses [this Github repository](https://github.com/staeiou/staeiou.github.io).
+I used the front page of a website that is powered by the [academic pages template](https://github.com/academicpages/academicpages.github.io). This template was forked from the [Minimal Mistakes Jekyll Theme](https://mmistakes.github.io/minimal-mistakes/) created by Michael Rose, and then extended to support the kinds of content that academics have: publications, talks, teaching, a portfolio, blog posts, and a dynamically-generated CV. You can fork [this repository](https://github.com/academicpages/academicpages.github.io) right now, modify the configuration and markdown files, add your own PDFs and other content, and have your own site for free, with no ads! An older version of this template powers my own personal website at [stuartgeiger.com](http://stuartgeiger.com), which uses [this Github repository](https://github.com/staeiou/staeiou.github.io).
 
 
 Make sure you check this [guide](http://jmcglone.com/guides/github-pages/) as well. Personally, I found it very useful and succinct. 
