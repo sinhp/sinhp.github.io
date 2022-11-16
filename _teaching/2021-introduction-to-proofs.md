@@ -1,5 +1,5 @@
 ---	
-title: "Instructor for Introduction to Proofs"		
+title: "Instructor for Introduction to Proofs (Fall 2021)"		
 collection: teaching		
 type: "Upper level undergraduate math course"		
 permalink: /teaching/2021-introduction-to-proofs
