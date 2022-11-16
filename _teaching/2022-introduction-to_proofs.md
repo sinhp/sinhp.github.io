@@ -32,12 +32,15 @@ This course does not have any mathematical prerequisite, however, it is expected
 ### What does Lean add? 
 
 The main objective of adding Lean to this course was to improve understanding and facilitating the creation of proofs, as opposed to the main use of a proof assistant which is to formalize new mathematics. We use Lean for: 
+
 -  checking the validity of our proofs, 
 -  getting instant feedback to help students see potential mistakes in their mathematical reasoning and helping them with completing their proofs, 
 -  formalizing and digitizing proofs thereby allowing students to have easier access to background knowledge on demand,
 -  achieving a deeper understanding of many aspects of our pen-and-paper proofs by formalizing them.
+- basic computation (with numbers, matrices, polynomials)
 
-
+### Zulip Server
+Lectures, homework, announcement, etc are announced on the [Zulip server](https://introproofs.zulipchat.com/login/) of the course. Plus, there is a very active stream of questions and answers where we debug code in real time. 
 
 
 ### Teaching workflow 
@@ -48,11 +51,7 @@ Here's my workflow in teaching with Lean : I usually spend about twenty to thirt
 
 I have only eight students, and I make them into 4 teams (rotating teams each lecture). For every line of code, I wait until the team whose turn it is to suggest a solution to the current Lean goal, and then I type their solution. If Lean gives us an error, I explain the error, and then I go to the next team and ask them if they have a solution. If no team at all gives a solution to the current goal, and this happened very rarely so far, I write my own solution, and we move on to the next lemma/theorem.
 
-In Spring 2022 semester, a little less than half of my students responded well to the use of Lean and and the rest followed without much enthusiasm and in some cases with apathy.
-
-This semester, so far, everyone seems to be enthusiastic, and we usually end up proving some statement in multiple ways, since different students/teams like to propose their own distinct solutions with their own favorite tactic. For instance, some students love apply, some others are addicted to have, and two students who use calc whenever possible. You can also tell this from their homework solutions.
-
-I am writing a report (a collection of mistakes I did last semester, and how i fixed them this time) about the main factors responsible for the increased enthusiasm/participation from Spring 2022 to Fall 2022. I'll post it here when I'm done with it. I think the main factor is to instill in students a (mild) obsession with Lean, and having a Zulip server for my course, so that my TAs and I could help and debug in real-time, has been very helpful in this regard. We did not have a Zulip server in Spring 2022, and I think this was one of the mistakes.
+This semester, so far, everyone seems to be enthusiastic, and we usually end up proving some statement in multiple ways, since different students/teams like to propose their own distinct solutions with their own favorite tactic. For instance, some students love `apply`, some others are addicted to `have`, and two students who use `calc` whenever possible. 
 
 
 
