@@ -16,13 +16,13 @@ excerpt: "Isiah Berlin in his famous essay Two Concepts Of Liberty contrasted tw
 
 
 
-I recently read Isaiah Berlin's famous essay [two concepts of liberty][1] in which he delineates between two different historical understanding of the notion of liberty; the __negative__  and __positive__ liberty chiefly in their political sense. The essay is both concise and very clear in exposition, and  rich in terms of various historical events and references. After rerading it, I felt I was left with a sense of real and original intellectual force. 
+I recently read Isaiah Berlin's famous essay [two concepts of liberty][1] in which he delineates between two different historical understanding of the notion of liberty; the __negative__  and __positive__ liberty chiefly in their political sense. The essay is both concise and very clear in exposition, and  rich in terms of various historical events and references. After rereading it, I felt I was left with a sense of real and original intellectual force. 
 
 
 For the purpose of this post, I merely intend to report my understanding of his formulation of the crucial distinction between theses two concepts of liberty and the importance and usefulness of having this distinction in mind for our political discourse.
 
 
-However, before we delve into our philsophical contemplation, here is a pretty cool [BBC documentary][3] featuring an interview with Isaiah Berlin.  if you are curious about Berlin's personality and his life, I will totally recommend it. You will learn amazing facts about his interactions with giant intellectuals of 20th century, most notably J. L. Austin, A. J. Ayer, Ludwig Wittgenstein, John Maynard Keynes and Virginia Woolf. His views about political upheavals of 20th century is enlightening as well. For instance, he mentions somewhere in the interview that the conservative British politicians from his college, All Soul College Oxford, such as Sir John Simon, Secretary of State for Foreign Affairs (1931-1935), regarded Soviet communism idealogically far worse than Nazi Germany and Hitler and Fascist Italy and considered growth of these dictatorial regimes as a shield against spread of communism!!! 
+However, before we delve into our philosophical contemplation, here is a pretty cool [BBC documentary][3] featuring an interview with Isaiah Berlin.  if you are curious about Berlin's personality and his life, I will totally recommend it. You will learn amazing facts about his interactions with giant intellectuals of 20th century, most notably J. L. Austin, A. J. Ayer, Ludwig Wittgenstein, John Maynard Keynes and Virginia Woolf. His views about political upheavals of 20th century is enlightening as well. For instance, he mentions somewhere in the interview that the conservative British politicians from his college, All Soul College Oxford, such as Sir John Simon, Secretary of State for Foreign Affairs (1931-1935), regarded Soviet communism ideologically far worse than Nazi Germany and Hitler and Fascist Italy and considered growth of these dictatorial regimes as a shield against spread of communism!!! 
 
 
 <iframe width="350" height="240" src="https://www.youtube.com/embed/zDAGngAc9_M" frameborder="0" allowfullscreen></iframe>
@@ -40,10 +40,8 @@ However, before we delve into our philsophical contemplation, here is a pretty c
 
 
 
-1. [Two ways of conceiving concept of liberty](#TwoWays) 
-  * Negative liberty 
-  * Positive liberty 
-2. Usefeulness of the distinction
+- [  Two ways of conceiving the concept of liberty](#--two-ways-of-conceiving-the-concept-of-liberty)
+2. Usefulness of the distinction
 3. Where could we go wrong? 
 4. Is it always possible to distinguish between these two in different scenarios of human affairs? 
 
@@ -52,8 +50,8 @@ However, before we delve into our philsophical contemplation, here is a pretty c
 
 ## <a name="TwoWays"> </a> Two ways of conceiving the concept of liberty
 
-There are myriad of ways that human beings think and have thouhgt about their freedom in many different contexts. What Berlin does in this essay is demonstrating that the two modes of thinking about liberty, that is *positive* and *negative*,  are more fundamental and more inclusive than any other modes. Almost all formulations somehow will fall into one of this divisons.
-First, the idea of negative and positive liberty is not due to Berlin hismself and goes back at least to Kant. ([negative and positive liberty][2]). The terms "positive" and "negative" do not signify moral judgements on the kinds of freedom, but rather are indicative of their philosophical meanings. As Berlin writes 
+There are myriad of ways that human beings think and have thought about their freedom in many different contexts. What Berlin does in this essay is demonstrating that the two modes of thinking about liberty, that is *positive* and *negative*,  are more fundamental and more inclusive than any other modes. Almost all formulations somehow will fall into one of this divisions.
+First, the idea of negative and positive liberty is not due to Berlin himself and goes back at least to Kant. ([negative and positive liberty][2]). The terms "positive" and "negative" do not signify moral judgements on the kinds of freedom, but rather are indicative of their philosophical meanings. As Berlin writes 
 
 > The "positive" sense of the word "liberty" derives from the wish on the part of the individual to be his own master. 
 
