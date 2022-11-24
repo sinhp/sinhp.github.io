@@ -7,13 +7,13 @@ venue: "Johns Hopkins University"
 date: 2022-08-28		
 ---	
 
-<!-- {% include image.html url="/images/posts/2022/img_fac_lean.png" description="Image factorization of a function in Lean" %} -->
+{% include image.html url="/images/posts/2022/img_fac_lean.png"  description="Image factorization of a function in Lean"  %}
  
 
-<figure>  
+<!-- <figure>  
 <br/><img src='/images/posts/2022/img_fac_lean.png'>
 <FIGCAPTION>The Canonical Image Factorization of a Function in Lean</FIGCAPTION>
-</figure>
+</figure> -->
 
 This course introduces you to the the language of mathematics and the methods of mathematical proofs. We learn the rules of logic whereby we identify strategies for proving mathematical statements based on their logical structures. We will then learn about some elementary aspects of number systems, sets, functions, relations, inductive types (such as lists, trees, graphs), algebraic structures, and metric spaces. As we learn these topics, we teach our computers every piece of mathematics we learn, that is we learn mathematics by formalizing it in <a href="https://leanprover.github.io/" target="_blank"><font color="#68ACE5">Lean</font></a> interactive proof assistant. Formalization can be seen as a kind of computer programming: we will write mathematical definitions, theorems, and proofs in a  language that Lean can understand. In return, Lean provides instant feedback, helps us with writing our proofs and ultimately certifies the correctness of our proofs.
 
