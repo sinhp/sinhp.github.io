@@ -21,9 +21,9 @@ This course does not have any mathematical prerequisite, however, it is expected
 
 
 
-### Course website 
+<!-- ### Course website 
 
-[https://introproofs.github.io/](https://introproofs.github.io/s22/)
+[https://introproofs.github.io/](https://introproofs.github.io/s22/) -->
 
 
 
