@@ -1,0 +1,127 @@
+---
+layout: archive
+permalink: /meetings/
+title: "Conferences, Workshops and Visits"
+author_profile: true
+redirect_from:
+  - /meetings.html
+---
+
+{% include base_path %}
+{% capture written_year %}'None'{% endcapture %}
+{% for post in site.meetings reversed %}
+  {% capture year %}{{ post.date | date: '%Y' }}{% endcapture %}
+  {% if year != written_year %}
+  <h2 id="{{ year | slugify }}" class="archive__subtitle">{{ year }}</h2>
+  {% capture written_year %}{{ year }}{% endcapture %}
+{% endif %}
+  {% include archive-single-meeting.html %}
+{% endfor %} 
+
+
+<h2><font color="#800020"> Online Meetings </font></h2>
+
+{% capture written_year %}'None'{% endcapture %}
+{% for post in site.meetings-online reversed %}
+  {% capture year %}{{ post.date | date: '%Y' }}{% endcapture %}
+  {% if year != written_year %}
+  <h2 id="{{ year | slugify }}" class="archive__subtitle"></h2>
+  {% capture written_year %}{% endcapture %}
+{% endif %}
+  {% include archive-single-meeting.html %}
+{% endfor %} 
+
+
+
+
+<!-- - [Homotopy Type Theory Electronic Seminar Talks](https://www.uwo.ca/math/faculty/kapulkin/seminars/hottest.html), 2018 - present
+- [Pittsburgh's Online HoTT Seminar](http://mathieu.anel.free.fr/seminar.html), 2019-2021
+- [Masaryk University Algebra Seminar](https://www.math.muni.cz/~bourkej/BAS.html), 2020
+- [Birmingham Point-free Topology Seminar](), 2020  -->
+
+
+<!-- 
+
+**[Applied Category Theory Workshop]**, Leiden, May 2018
+
+
+
+
+\end{itemize}
+
+\cvsubsection{Physical Meetings}
+
+\begin{itemize}
+
+
+% \item\textbf{\href{https://math.jhu.edu/~data/}{Data Science Seminars (2021 - )}}
+% \\{Johns Hopkins University}
+
+
+
+
+
+% \item\textbf{\href{https://uclouvain.be/fr/node/52943}{Summer School in Algebra and Topology}}
+% \\{Universite catholique de Louvain 12-15 September 2018}
+
+ \item\textbf{\href{https://}{Applied Category Theory Workshop}}
+ \\{Leiden, May 2018}
+
+% \item\textbf{\href{https://weyl100.wordpress.com/}{Das Kontinuum – 100 years later}}
+% \\ {\em with travel award of  £250 }
+% \\{University of Leeds. September 11-15, 2018}
+
+
+
+% \item\textbf{\href{http://www.fields.utoronto.ca/activities/17-18/sms-2018}{Derived and Higher Structures in Geometry and Physics}}
+% \\ {\em accompanied with a research visit (Prof.Khalkhali) and travel award of 1000 CAD }
+% \\{Fields Institute, Toronto. June 11-21, 2018}
+
+\item\textbf{\href{https://www.uni-log.org/wk6-logic-and-categories.html}{Logic and Categories at Unilog}}
+\\{Vichy, France, June 21-26 June, 2018}
+
+% \item\textbf{\href{https://www.math.muni.cz/~loregianf/PSSL103/PSSL103.php}{PSSL 103}}
+% \\{ \em with travel award of \EURdig 250}
+% \\{Masaryk University, Brno. April 7-8, 2018}
+
+\item\textbf{\href{https://www.mpim-bonn.mpg.de/node/6791}{Conference for Young researchers in homotopy theory and categorical structures}}
+\\{MPIM, Bonn. February 13-15, 2017}
+
+
+
+
+\item\textbf{\href{http://www.preschema.com/motives-dag-2016/}{Motives and Derived Algebraic Geometry}}
+\\{University of Essen. May 6-8, 2016}
+
+
+
+% \item\textbf{\href{https://www.lms.ac.uk/2015/150-years-london-mathematical-society}{150 Years of London Mathematical Society}}
+% \\{University of Birmingham, UK, September 18-20, 2015}
+
+\item\textbf{\href{https://mathmeetings.net/at-gt}{Workshop in Category Theory and Algebraic Topology}}
+\\{Université catholique de Louvain. September 10-13, 2015}
+
+\item\textbf{\href{https://sites.google.com/site/infdimreps/}{Infinite-Dimensional Representations of Finite-Dimensional Algebras}}
+\\{Summer School, University of Manchester, September 8-13, 2015}
+
+\item\textbf{\href{https://www.newton.ac.uk/event/hifw04}{British Logic Colloquium 2015}}
+\\{University of Cambridge. September 1-4, 2015}
+
+
+\item\textbf{\href{http://www.helsinki.fi/sls2015/}{Scandinavian Logic Summer School 2015}}
+\\ {\em with travel award of \EURdig 600}
+\\{University of Helsinki. July 27-August 3, 2015}
+
+\item\textbf{\href{http://www.cs.ox.ac.uk/qpl2015/}{QPL 2015}}
+\\ {\em with travel award of  £300 }
+\\{University of Oxford. July 13-17, 2015}
+
+% \item\textbf{Young Topologists' Meeting 2015}
+% \\{EPFL, Switzerland, July 6–10, 2015}
+
+\item\textbf{\href{http://www.qmac.ox.ac.uk/}{HoTT workshop by QMAC}}
+\\ {\em with travel award of £800 }
+\\{University of Oxford. November 7-10, 2014}
+\end{itemize}
+
+\end{itemize} -->

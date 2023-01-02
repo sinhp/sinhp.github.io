@@ -1,9 +1,8 @@
 ---
 permalink: /links/
-title: "Useful Links"
+title: "Other Places"
 author_profile: true
 redirect_from: 
-  - /md/
   - /links.html
 ---
 
@@ -21,7 +20,7 @@ redirect_from:
  -->  
 
 * [The n-Category Café](https://golem.ph.utexas.edu/category/):
- called n-Cafe for short, it is a group blog where authors posts intriguing stuff on recent research work mostly on cateogry theory, higher category theory, categorical logic, diagrammatic reasoning, applied category theory. The posts are not too long and they tend to bring the core ideas to the front for general maths audience. 
+ called n-Cafe for short, it is a group blog where authors posts intriguing stuff on recent research work mostly on category theory, higher category theory, categorical logic, diagrammatic reasoning, applied category theory. The posts are not too long and they tend to bring the core ideas to the front for general maths audience. 
  
 * [HoTT Blog](https://homotopytypetheory.org/blog/):
   main blog for homotopy type theory (aka univalent foundation aka synthetic homotopy theory)
@@ -36,13 +35,13 @@ redirect_from:
   A blog by Andrej Bauer on connections between mathematics and the theory of computation 
   
 * [Physics Forum](https://www.physicsforums.com/insights/a-first-idea-of-quantum-field-theory/):
-  Posts on mathematical physics on physics forum, particularly from Urs Schrieber and John Baez.  
+  Posts on mathematical physics on physics forum, particularly from Urs Schreiber and John Baez.  
  
 * [Terence Tao's Blog](https://terrytao.wordpress.com/):
  a must-see blog if you are into combinatorics, probability theory, or analayis. 
 
 * [Dan Ghica's Lab Lunch](http://researchblogs.cs.bham.ac.uk/thelablunch/):
-  A blog on game semantics, an interactive approach to denotational semantic, and feometry of synthesis among many other things
+  A blog on game semantics, an interactive approach to denotational semantic, and geometry of synthesis among many other things
 
 * [Graphical Linear Algebra](https://graphicallinearalgebra.net/about/): 
   Pawel Sobocinski's artful project: linear algebra done right (the diagrammatic way).   

@@ -3,9 +3,9 @@ collection: talks
 type: "HoTT Seminar"
 permalink: /talks/2020-12-11-Kripke-Joyal-Semantics-For-Dependent-Type-Theory
 venue: "Pittsburgh HoTT Seminar"
-date: 2020-11-12
+date: 2020-12-11
 location: "Online"
-excerpt: "Talks at Pittsburgh and YaMCATS, Based on a joint work with Steve Awodey and Nicola Gambino"
+excerpt: "The result here was earlier presented at the Yorkshire and Midlands Category Theory Seminars (YaMCATS) and Ghent–Leeds Virtual Logic Seminar and also at CATS seminars at ILLC, UvA, Amsterdam."
 use_math: true
 ---
 
@@ -19,3 +19,5 @@ I also gave a talk on the same work in [YaMCATS](https://www2.le.ac.uk/departmen
 
 `Slides:` _Kripke-Joyal semantics for dependent type theory_, Yorkshire and Midlands Category Theory Seminar, February 2021
 <a href="/files/CT/kjshott_slides_YaMCATS.pdf" target="_blank"> <i class="fa fa-file-pdf-o" aria-hidden="true"></i> </a>
+
+And also in [CATS seminars at ILLC](https://staff.fnwi.uva.nl/t.uemura/cats/) in Amsterdam in March 2021. 

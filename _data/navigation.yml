@@ -1,18 +1,23 @@
 # main links links
 main:
   
-
   - title: "Research"
     url: /research/    
 
   - title: "Teaching"
     url: /teaching/    
     
- 
-      
-  - title: "Blog Posts"
+  - title: "Meetings"
+    url: /meetings/   
+
+  - title: "Thoughts"
     url: /blog/
-    
-    
-  - title: "Useful Links"
+
+  - title: "Other Places"
     url: /links/
+
+ 
+ 
+    
+    
+ 

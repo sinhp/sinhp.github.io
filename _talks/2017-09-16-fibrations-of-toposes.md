@@ -1,6 +1,7 @@
 ---
 collection: talks
 type: "Conference talk, PSSL 101"
+title: "Fibrations of Toposes and Etale Maps"
 permalink: /talks/2017-09-16-fibrations-of-toposes
 venue: "School of Mathematics, University of Leeds"
 date: 2017-09-16
@@ -24,4 +25,4 @@ Borrowing from work of Ross Street we define a notion of (op)fibration in the 2-
 
 
 
-`Update:` These ideas have been baked into my thesis which was submitted recently. [Download here]({{ site.baseurl }}/files/thesis/PhD-thesis.pdf)
+`Update (April 2019):` These ideas have been baked into my thesis which was submitted recently and can be [download here]({{ site.baseurl }}/files/thesis/PhD-thesis.pdf)

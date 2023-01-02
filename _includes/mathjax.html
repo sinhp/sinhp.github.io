@@ -1,4 +1,4 @@
-<script type="text/x-mathjax-config">
+<!-- <script type="text/x-mathjax-config">
   MathJax.Hub.Config({
     TeX: {
       equationNumbers: {
@@ -14,4 +14,41 @@
     }
   });
 </script>
-<script src='https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/latest.js?config=TeX-AMS_CHTML' async></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/latest.js?config=TeX-AMS_CHTML' async></script> -->
+
+<script>
+  window.MathJax = {
+    tex: {
+      tags: "ams",
+      inlineMath: [ ['$','$'], ['\\(', '\\)'] ],
+      displayMath: [ ['$$','$$'], ['\\[', '\\]']],
+      processEscapes: true,
+    },
+    options: {
+      skipHtmlTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code']
+    },
+    loader: {
+      load: ['[tex]/amscd']
+    }
+  };
+  </script>
+  <script type="text/javascript" id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js"></script>  
+
+ 
+     
+ {% if page.katex %}
+     <!-- KaTeX -->
+    <!--- 
+     <link rel="stylesheet" href="../assets/plugins/katex/main.css">
+     <link rel="stylesheet" href="../assets/plugins/katex/main.js">
+    -->
+      <!--KaTeX-->
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.15.1/dist/katex.css" integrity="sha384-WsHMgfkABRyG494OmuiNmkAOk8nhO1qE+Y6wns6v+EoNoTNxrWxYpl5ZYWFOLPCM" crossorigin="anonymous">
+      <script defer src="https://cdn.jsdelivr.net/npm/katex@0.15.1/dist/katex.js" integrity="sha384-lhN3C1JSmmvbT89RGOy6nC8qFBS8X/PLsBWIqiNdD4WGNsYOWpS2Il0x4TBrK8E2" crossorigin="anonymous"></script>
+      <script defer src="https://cdn.jsdelivr.net/npm/katex@0.15.1/dist/contrib/auto-render.min.js" integrity="sha384-+XBljXPPiv+OzfbB3cVmLHf4hdUFHlWNZN5spNQ7rmHTXpd7WvJum6fIACpNNfIR" crossorigin="anonymous"
+     onload="renderMathInElement(document.body, { delimiters: [ {left: '\$', right: '\$', display: false}, {left: '$$', right: '$$', display: true},  {left: '\\(', right: '\\)', display: false}, {left: '\\[', right: '\\]', display: true} ], throwOnError: false, macros: {'\\To': '\\Rightarrow','\\false': '\\bot', '\\props': '\\mathbb{P}\\text{rop}', '\\NN': '\\mathbb{N}', '\\ZZ': '\\mathbb{Z}', '\\QQ': '\\mathbb{Q}', '\\RR': '\\mathbb{R}', '\\CC': '\\mathbb{C}', '\\EE': '\\mathbb{E}', '\\OO': '\\mathbb{O}', '\\U': '\\mathbb{U}', '\\iso':'\\cong', '\\id':'\\mathrm{id}', '\\Sub':'_{#1}', '\\set':'\\{#1\\}', '\\compl':'{#1}^{\\mathsf{c}}','\\cons':'\\kappa_{#1}','\\inl':'\\mathsf{inl}','\\inr':'\\mathsf{inr}', '\\img':'{\\mathbf{I}\\mathbf{m}}', '\\fix':'{\\mathbf{F}\\mathbf{i}\\mathbf{x}}',  '\\defeq':'=_{\\mathrm{def}}','\\qed':'\\blacksquare', '\\iff':'\\Leftrightarrow', 
+     '\\ht':'\\mathrm{ht}','\\wd':'\\mathrm{wd}', 
+     '\\min':'\\mathrm{min}', '\\mono':'\\rightarrowtail', '\\maps':'\\colon', '\\graph':'\\mathrm{graph}', '\\after':'\\circ', '\\xto':'\\xrightarrow', '\\ext':'[#1]', '\\0':'\\mathsf{0}', '\\1':'\\mathsf{1}', '\\2':'\\mathsf{2}',  '\\suc':'\\mathsf{suc}', '\\pred':'\\mathsf{pred}', '\\rec':'\\mathsf{rec}', '\\pf':'\\mathsf{PF}(#1)', '\\monus':'\\stackrel{.}{-}',  '\\pr':'{#1}^{\\prime}','\\powerset': '\\mathcal{P}'}});"></script>
+ {% endif %}
+ 
+ 

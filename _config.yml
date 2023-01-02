@@ -24,10 +24,10 @@ comments:
     shortname            :  sinhp-github-io
   discourse:
     server               : # https://meta.discourse.org/t/embedding-discourse-comments-via-javascript/31963 , e.g.: meta.discourse.org
-  facebook:
-    appid                :
-    num_posts            : # 5 (default)
-    colorscheme          : # "light" (default), "dark"
+  #facebook:
+  #  appid                :
+  #  num_posts            : # 5 (default)
+  #  colorscheme          : # "light" (default), "dark"
 staticman:
   allowedFields          : ['name', 'email', 'url', 'message']
   branch                 : "gh-pages" # "master", "gh-pages"
@@ -56,8 +56,8 @@ yandex_site_verification :
 # Social Sharing  
 twitter:
   username               : SinaHazratpour
-facebook:
-  username               : sinahazratpour
+#facebook:
+ # username               : #sinahazratpour
   app_id                 :
   publisher              :
 og_image                 :  # Open Graph/Twitter default site image
@@ -72,8 +72,8 @@ social:
 # Analytics
 analytics: 
   provider               :  false # false (default), "google", "google-universal", "custom"
-  google:
-    tracking_id          : UA-131086222-1
+  #google:
+  #  tracking_id          : UA-131086222-1
 
 
 # Site Author
@@ -165,6 +165,7 @@ kramdown:
   toc_levels: 1..6
   smart_quotes: lsquo,rsquo,ldquo,rdquo
   enable_coderay: false
+  math_engine: katex
 
 
 # Collections
@@ -172,6 +173,12 @@ collections:
   teaching:
     output: true
     permalink: /:collection/:path/
+  meetings:
+    output: true
+    permalink: /:collection/:path/  
+  meetings-online:
+    output: true
+    permalink: /:collection/:path/    
   demonstration:
     output: true
     permalink: /:collection/:path/  
@@ -201,6 +208,17 @@ defaults:
       comments: true
       share: true
       related: true
+  # _meetings
+  - scope:
+      path: ""
+      type: meetings
+    values:
+      layout: single
+      author_profile: false
+      read_time: true
+      comments: true
+      share: true
+      related: true      
   # _nl
   - scope:
       path: ""

@@ -1,15 +1,14 @@
 ---
 collection: talks
-type: "ASL Meeting 2022"
+type: "Association for Symbolic Logic, 2022 Annual Meeting"
 permalink: /talks/2022-04-09-Kripke-Joyal-Semantics-For-Homotopy-Type-Theory
-venue: ""
+venue: "Cornell University, Ithaca, USA"
 date: 2022-04-09
-location: "Cornell University, Ithaca"
-excerpt: "Based on a joint work with Steve Awodey and Nicola Gambino"
+# excerpt: "Based on a joint work with Steve Awodey and Nicola Gambino"
 use_math: true
 ---
 
-`Slides:` _Kripke-Joyal Semantics For Homotopy Type Theory_  <a href="/files/CT/kjshott_ASL.pdf" target="_blank"> <i class="fa fa-file-pdf-o" aria-hidden="true"></i> </a>
+<a href="/files/CT/kjshott_ASL.pdf" target="_blank"> `Slides` </a>
 
 
 

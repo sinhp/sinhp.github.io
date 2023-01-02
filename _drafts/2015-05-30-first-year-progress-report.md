@@ -1,5 +1,5 @@
 ---
-title: "First Year Progress Report"
+title: "Progress Report"
 collection: publications
 permalink: /publication/2015-05-30-first-year-progress-report
 excerpt: 'A general report of the first year including background studies submitted to my thesis committee '

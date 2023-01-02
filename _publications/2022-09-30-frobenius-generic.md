@@ -4,7 +4,7 @@ generic point"
 collection: publications
 permalink: /publication/2022-30-09-A_2-categorical_proof_of_Frobenius_for_fibrations_defined_from_a_generic_point
 excerpt: 'Joint work with [Emily Riehl](https://emilyriehl.github.io)'
-venue: 'Arxiv'
+# venue: 'Arxiv'
 date: 2022-09-30
 ---
 <!-- include it up there if you have it
