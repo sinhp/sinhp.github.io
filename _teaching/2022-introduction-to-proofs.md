@@ -3,7 +3,7 @@ title: "Introduction to Proofs with Lean (Fall 2022)"
 collection: teaching		
 type: "Upper level undergraduate math course"		
 permalink: /teaching/2022-introduction-to-proofs
-venue: "Johns Hopkins University"		
+venue: "Hodson 301, Homewood Campus, Johns Hopkins University"		
 date: 2022-08-28		
 ---	
 
@@ -18,6 +18,32 @@ date: 2022-08-28
 This course introduces you to the the language of mathematics and the methods of mathematical proofs. We learn the rules of logic whereby we identify strategies for proving mathematical statements based on their logical structures. We will then learn about some elementary aspects of number systems, sets, functions, relations, inductive types (such as lists, trees, graphs), algebraic structures, and metric spaces. As we learn these topics, we teach our computers every piece of mathematics we learn, that is we learn mathematics by formalizing it in <a href="https://leanprover.github.io/" target="_blank"><font color="#68ACE5">Lean</font></a> interactive proof assistant. Formalization can be seen as a kind of computer programming: we will write mathematical definitions, theorems, and proofs in a  language that Lean can understand. In return, Lean provides instant feedback, helps us with writing our proofs and ultimately certifies the correctness of our proofs.
 
 This course does not have any mathematical prerequisite, however, it is expected that you are familiar with basic high-school algebra. Although a basic programming experience can go far toward your excelling in this course, we actually don’t presuppose any background in formalization or in programming. 
+
+
+## Course Syllabus 
+
+- Introduction to Type Theory and Lean Prover (Lean 3) <button class="modal lean"> </button> 
+- Definitions, Examples, Lemmas and Theorems in Lean
+- Basic Algebraic Identities
+- Functions 
+- Algebra of Functions 
+- Equality of Functions
+- Logic of Propositions 
+- Logic of Predicates 
+- Bundled Structures 
+- Unbundled Structures 
+- Surjection-Injection Factorization of Functions
+- Type Classes 
+- Graph Hackathon
+- The Algebraic Hierarchy 
+- The Commutative Ring of Gaussian Integers
+- Inductive Types 
+- Quotient Types: Constructing Integers from Natural Numbers 
+- Basics of Categories (in `Lean4`)
+- Functors 
+- Natural Transformations and the Yoneda Lemma 
+  
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Today I gave the last lecture of Intro to Proofs course at Johns Hopkins. It was fun; the last thing we discussed was the Yoneda lemma. <a href="https://t.co/SDzqjo7Qlf">pic.twitter.com/SDzqjo7Qlf</a></p>&mdash; Sina (@sina_htpr) <a href="https://twitter.com/sina_htpr/status/1600677998554132480?ref_src=twsrc%5Etfw">December 8, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 
 
