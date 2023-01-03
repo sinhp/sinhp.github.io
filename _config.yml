@@ -173,15 +173,15 @@ collections:
   teaching:
     output: true
     permalink: /:collection/:path/
+  demonstration:
+    output: true
+    permalink: /:collection/:path/  
   meetings:
     output: true
     permalink: /:collection/:path/  
   meetings-online:
     output: true
     permalink: /:collection/:path/    
-  demonstration:
-    output: true
-    permalink: /:collection/:path/  
   publications:
     output: true
     permalink: /:collection/:path/
@@ -202,7 +202,7 @@ defaults:
       path: ""
       type: posts
     values:
-      layout: 
+      layout: single
       author_profile: false
       read_time: true
       comments: true
@@ -245,16 +245,14 @@ defaults:
       layout: single
       author_profile: true
       share: true
-      comments: true
   # _demonstration
   - scope:
       path: ""
-      type: teaching
+      type: demonstration
     values:
       layout: single
-      author_profile: true
+      author_profile: false
       share: true
-      comments: true    
   # _publications
   - scope:
       path: ""
