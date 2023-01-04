@@ -1,10 +1,10 @@
 ---	
 title: "Putnam Training Sessions"		
-collection: teaching			
-permalink: /teaching/2013-2014-putnam-western
+collection: demonstration			
+permalink: /demonstration/putnam-western
 venue: "Faculty of Science, Western University"
 date: 2014-09-22
-type: "Preparation and Selection of Western's Team for Putnam Competitions"		
+type: "Preparation and Selection of Western's Team for Putnam Competitions, 2013-2014"		
 ---	
 
     

@@ -1,31 +1,63 @@
 ---
 layout: archive
-title: "Teaching"
 permalink: /teaching/
+title: "Teaching"
 author_profile: true
+redirect_from:
+  - /teaching.html
 ---
 
+For each course in below, you can find the syllabus, lectures, code repos, objectives and values, teaching assistants and other information by opening the link in the title which leads to the course page. 
 
-
-
+<h2 id="instructor"><font color="#002d72">Instructor, Johns Hopkins University, USA</font></h2> 
 {% include base_path %}
-<!-- #68ACE5 -->
+{% capture written_year %}'None'{% endcapture %}
 {% for post in site.teaching reversed %}
-  {% include archive-single.html %}
-{% endfor %}
-
-<!--
-
-<p> I have been demonstrator for several modules during my time in Birmingham, and the experience has been quite positive for me. Transitioning from a pure mathematics background to a computer science department was not as straight forward but it ultimately worked out well. Not only do these two worlds have different cultures but also they require a different set of skills and more importantly a different mindset particularly for teaching students.
-</p>  
-
-<p> Also, during my masters programme at Western I had a lot of TAing to do. Other than usual routine Calculus and Linear Algebra teaching and helping students in help centre, <a href="http://www-home.math.uwo.ca/~mpinson/" target="_blank"><font color="#336666">Martin Pinsonnault</font></a> and I were running training sessions for Western maths team for <a href="https://www.maa.org/math-competitions/putnam-competition" target="_blank"><font color="#336666">Putnam competition</font></a> in 2013 and 2014 which was quite fun. </p>
-
--->
+  {% capture year %}{{ post.date | date: '%Y' }}{% endcapture %}
+  {% if year != written_year %}
+  <!-- <h2 id="{{ year | slugify }}" class="archive__subtitle">{{ year }}</h2> -->
+  {% capture written_year %}{{ year }}{% endcapture %}
+{% endif %}
+  {% include archive-single-teaching.html %}
+{% endfor %} 
 
 
+
+<h2 id="demonstrator"><font color="#002d72">Demonstrator in Computer Science, University of Birmingham, UK</font></h2>
 {% include base_path %}
-
+{% capture written_year %}'None'{% endcapture %}
 {% for post in site.demonstration reversed %}
-  {% include archive-single.html %}
-{% endfor %}
+  {% capture year %}{{ post.date | date: '%Y' }}{% endcapture %}
+  {% if year != written_year %}
+  <!-- <h2 id="{{ year | slugify }}" class="archive__subtitle">{{ year }}</h2> -->
+  {% capture written_year %}{{ year }}{% endcapture %}
+{% endif %}
+  {% include archive-single-teaching.html %}
+{% endfor %} 
+
+
+<h2 id="GTA"><font color="#4F2683">Graduate Teaching Assistant, Western University, Canada</font></h2>
+{% include base_path %}
+{% capture written_year %}'None'{% endcapture %}
+{% for post in site.GTA reversed %}
+  {% capture year %}{{ post.date | date: '%Y' }}{% endcapture %}
+  {% if year != written_year %}
+  <!-- <h2 id="{{ year | slugify }}" class="archive__subtitle">{{ year }}</h2> -->
+  {% capture written_year %}{{ year }}{% endcapture %}
+{% endif %}
+  {% include archive-single-teaching.html %}
+{% endfor %} 
+
+
+
+<h2 id="trainer"><font color="#800020">Math Competition Trainer</font></h2>
+{% include base_path %}
+{% capture written_year %}'None'{% endcapture %}
+{% for post in site.comp-training reversed %}
+  {% capture year %}{{ post.date | date: '%Y' }}{% endcapture %}
+  {% if year != written_year %}
+  <!-- <h2 id="{{ year | slugify }}" class="archive__subtitle">{{ year }}</h2> -->
+  {% capture written_year %}{{ year }}{% endcapture %}
+{% endif %}
+  {% include archive-single-teaching.html %}
+{% endfor %} 

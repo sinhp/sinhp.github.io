@@ -152,7 +152,8 @@ $susy: (
    ========================================================================== */
 
 $border-radius              : 4px;
-$box-shadow                 : 0 1px 1px rgba(0, 0, 0, 0.125);
+// formerly rgba(0, 0, 0, 0.125)
+$box-shadow                 : 0 1px 1px #a09fa2; 
 $navicon-width              : 28px;
 $navicon-height             : 4px;
 $global-transition          : all 0.2s ease-in-out;

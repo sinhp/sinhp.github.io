@@ -1,14 +1,14 @@
 ---	
-title: "Demonstrator for Models Of Computation"		
+title: "Models Of Computation (Spring 2017)"		
 collection: demonstration		
 type: "2nd year undergraduate module"		
-permalink: /teaching/2018-models-of-computation
-venue: "University of Birmingham, School of Computer Science"		
+permalink: /demonstration/2018-models-of-computation
+venue: "School of Computer Science, University of Birmingham"		
 date: 2018-01-11		
 location: "Birmingham, UK"		
 ---	
  			
-* [Models Of Computation, Winter 2018](https://www.cs.bham.ac.uk/internal/modules/2017/06-05934/) 		
+* [Models Of Computation, Spring 2017](https://www.cs.bham.ac.uk/internal/modules/2017/06-05934/) 		
    * Module Lecturer: [Steve Vickers](http://www.cs.bham.ac.uk/~sjv/) 
    * <details> 
       <summary>Details </summary>

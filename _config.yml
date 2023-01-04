@@ -55,7 +55,7 @@ yandex_site_verification :
 
 # Social Sharing  
 twitter:
-  username               : SinaHazratpour
+  username               : sina_htpr
 #facebook:
  # username               : #sinahazratpour
   app_id                 :
@@ -176,6 +176,12 @@ collections:
   demonstration:
     output: true
     permalink: /:collection/:path/  
+  GTA:
+    output: true
+    permalink: /:collection/:path/ 
+  comp-training:
+    output: true
+    permalink: /:collection/:path/         
   meetings:
     output: true
     permalink: /:collection/:path/  
@@ -251,8 +257,24 @@ defaults:
       type: demonstration
     values:
       layout: single
-      author_profile: false
+      author_profile: true
       share: true
+  # _GTA
+  - scope:
+      path: ""
+      type: GTA
+    values:
+      layout: single
+      author_profile: true
+      share: true    
+ # _GTA
+  - scope:
+      path: ""
+      type: comp-training
+    values:
+      layout: single
+      author_profile: true
+      share: true         
   # _publications
   - scope:
       path: ""

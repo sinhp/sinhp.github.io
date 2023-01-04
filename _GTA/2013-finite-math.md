@@ -1,7 +1,7 @@
 ---	
-title: "Teaching Assistant for MATH 1228 (Finite Maths)"		
-collection: teaching		
-permalink: /teaching/2013-autumn-MATH-1228
+title: "Finite Maths (MATH 1228)"		
+collection: GTA		
+permalink: /GTA/2013-finite-math
 venue: "Mathematics Department, Western University"		
 date: 2014-10-23
 type: "An undergraduate course for social science students"
@@ -11,5 +11,5 @@ type: "An undergraduate course for social science students"
    * Lecturer: Vicky Olds
    * Activities: 
      * Running exercise classes 
-     * Marking mid-term and final exmas papers
+     * Marking mid-term and final exams papers
      * Private tutorials 

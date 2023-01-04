@@ -1,8 +1,8 @@
 ---	
 title: "Demonstrator for Elements of Functional Programming (OCaml)"		
-collection: teaching		
+collection: demonstration		
 type: "1st year undergraduate module"		
-permalink: /teaching/2015-OCaml
+permalink: /demonstration/2015-OCaml
 venue: "University of Birmingham, School of Computer Science"		
 location: "Birmingham, UK"		
 date: 2015-09-03

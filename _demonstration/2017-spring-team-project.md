@@ -1,9 +1,9 @@
 ---	
-title: "Demonstrator for Team Project Module"		
-collection: teaching		
+title: "Team Project Module (Spring 2017)"		
+collection: demonstration		
 type: "2nd year undergraduate module"		
-permalink: /teaching/spring-team-project
-venue: "University of Birmingham, School of Computer Science"		
+permalink: /demonstration/spring-team-project
+venue: "School of Computer Science, University of Birmingham"		
 date: 2017-03-01		
 location: "Birmingham, UK"		
 ---	
