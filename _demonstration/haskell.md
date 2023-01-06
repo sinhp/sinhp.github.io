@@ -2,7 +2,7 @@
 title: "Functional Programming with Haskell (Autumn 2015)"
 collection: demonstration
 type: "2nd year undergraduate module"
-permalink: /demonstration/2015-Functional Programming-Haskell
+permalink: /demonstration/haskell
 venue: "School of Computer Science, University of Birmingham"
 date: 2015-09-26
 location: "Birmingham, UK"
