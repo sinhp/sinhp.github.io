@@ -2,7 +2,7 @@
 title: "Team Project Module (Spring 2017)"		
 collection: demonstration		
 type: "2nd year undergraduate module"		
-permalink: /demonstration/spring-team-project
+permalink: /demonstration/team-project-java
 venue: "School of Computer Science, University of Birmingham"		
 date: 2017-03-01		
 location: "Birmingham, UK"		
