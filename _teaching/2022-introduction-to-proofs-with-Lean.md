@@ -20,9 +20,11 @@ This course introduces you to the the language of mathematics and the methods of
 This course does not have any mathematical prerequisite, however, it is expected that you are familiar with basic high-school algebra. Although a basic programming experience can go far toward your excelling in this course, we actually don’t presuppose any background in formalization or in programming. 
 
 
-## Course Syllabus 
+<!-- ## Course Syllabus  -->
 
-- Introduction to Type Theory and Lean Prover (Lean 3) <button class="modal lean"> </button> 
+![](/images/f22-introproofs-with-Lean-syllabus.png)
+
+<!-- - Introduction to Type Theory and Lean Prover (Lean 3) <button class="modal lean"> </button> 
 - Definitions, Examples, Lemmas and Theorems in Lean
 - Basic Algebraic Identities
 - Functions 
@@ -42,7 +44,7 @@ This course does not have any mathematical prerequisite, however, it is expected
 - Basics of Categories (in `Lean4`)
 - Functors 
 - Natural Transformations and the Yoneda Lemma 
-  
+   -->
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">Today I gave the last lecture of Intro to Proofs course at Johns Hopkins. It was fun; the last thing we discussed was the Yoneda lemma. <a href="https://t.co/SDzqjo7Qlf">pic.twitter.com/SDzqjo7Qlf</a></p>&mdash; Sina (@sina_htpr) <a href="https://twitter.com/sina_htpr/status/1600677998554132480?ref_src=twsrc%5Etfw">December 8, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 
