@@ -3,7 +3,7 @@ layout: tufte
 title: "Abendlich strahlt der Sonne Auge"
 author: Sina
 excerpt: "Rheingold, Rheingold"
-permalink: /posts/2023/03/abendlich_strahlt_der der_Sonne_Auge
+permalink: /posts/2023/03/abendlich_strahlt_der_Sonne_Auge
 date: 2023-03-03
 comments: true
 ---
