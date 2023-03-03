@@ -3,7 +3,7 @@ layout: tufte
 title: "The Forbidden Naiad of Wagner's Music"
 author: Sina
 excerpt: "die Walküre, conducted by Jaap van Zwede"
-permalink: /posts/2021/01/forbidden-naiad
+permalink: /posts/2023/01/forbidden-naiad
 date: 2023-01-05
 comments: true
 ---
