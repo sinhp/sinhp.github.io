@@ -1,5 +1,5 @@
 ---
-layout: single 
+layout: tufte 
 title: 'How to read Peter Sloterdijk?' 
 date: 2018-08-14
 comments: true
@@ -53,10 +53,6 @@ Also, do not look for a unifying logical theme through works of Sloterdijk. His 
 > Man is a rope, stretched between beast and Übermensch. 
 
 
-<!--
-, Kierkegaard 
--->
-
 In the first volume of his celebrated magnum opus Sphären trilogy, Globen, he uses topology of globes and spheres as the running spatial metaphor for immunity and nurturing. His philosophico-morphological theory is based on an understanding of the history of culture as [spatialisations of forms](http://www.tate.org.uk/context-comment/video/spaces-transformation-spatialised-immunity). He blends form, order, and thinking into the mix of spheres and the result is the archaeology of the human attempt to dwell within spaces, from womb to globe. 
 
 
@@ -78,7 +74,6 @@ The other trend in his writings is a "playful thinking" of hermeneutic kind:
  Language, Martin Heidegger, 1953)
  
 There is an abundance of reliance on classical etymology and their semantic evolution for clarification of concepts, as well as a palpable lack of sympathy for metaphysics. 
-
 
 I am on the opinion that it is necessary to engage actively with Sloterdijk's thoughts and ideas. He presents the kind of philosophy at which the late Heidegger was hinting. A philosophy so imbued with forms, art, and life that it is no longer an imprisoning language of abstract concepts but has as its main characteristic a psycho-somatic approach to life. It tortures language to makes us move: either out of joy or of cringe and disgust. It welcomes technology (as opposed to Heidegger) in a broad sense which includes programming of consciousness to better our lives; Sloterdijk uses the terms anthropotechnics. It demands us to think anew about what it means _to be human_ in the age of data and digital mass media and mass-consciousness. 
 
