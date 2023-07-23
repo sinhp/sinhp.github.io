@@ -38,7 +38,7 @@ There is a way in which one can read khôra as the Primordial Nature existing be
 <p>
 <label for="mn-light-cone" class="margin-toggle">&#8853;</label><input type="checkbox" id="mn-light-cone" class="margin-toggle"/>
 <span class="marginnote"><img src="/files/posts/2022/receptacle_being/light_cone_glenstone.png" alt="Glenstone"/>
-An opening of light in the Glenstone Museum, Potomac, Maryland
+<em>An opening of light in the Glenstone Museum, Potomac, Maryland, picture by yours truly.</em>
 </span> 
 </p>
 
@@ -49,7 +49,7 @@ Some thinkers have reinterpreted Plato's receptacle concept of space of beings K
 
 <p>
   <label for="mn-dasein-structure" class="margin-toggle">&#8853;</label><input type="checkbox" id="mn-dasein-structure" class="margin-toggle"/>
-    <span class="marginnote"><img src="/files/posts/2022/receptacle_being/dasein_structure.png" alt="Image of a Rhinoceros"/>From Edgar C. Boedeker Jr <em>Individual and Community in Early Heidegger: Situating das Man, the Man-self, and Self-ownership in Dasein's Ontological Structure</em>, Inquiry, 44:1, 63-99, 2001. 
+    <span class="marginnote"><img src="/files/posts/2022/receptacle_being/dasein_structure.png" alt="Image of a Rhinoceros"/>From Edgar C. Boedeker Jr, <em>Individual and Community in Early Heidegger</em>, Inquiry, 44:1, 63-99, 2001. 
     </span> 
 </p>
 In Heidegger's philosophy, Being can be analyzed into three essential and co-constitutive moments: "encountering" entities, "projection", and "thrownness". To interpret an entity as "referring to" a possibility is to seize or grasp (ergreifen) that possibility expressly (eigens). For someone to seize a possibility expressly is thus for her to project an entity upon that possibility. When this occurs, Dasein also allows the entity in question to show itself in terms of, or to be <strong>"illuminated"</strong> by, the possibility to be actualized in the future. In keeping with the "lighting" function of expressly seized possibilities, Heidegger refers to the totality of meaning-possibilities as a "lighted clearing" (Lichtung) <label for="sn-lichtung" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-lichtung" class="margin-toggle"/><span class="sidenote">e.g. Sein und Zeit 133</span> or "the open' (das Offene). 
@@ -65,28 +65,36 @@ Following the footsteps of Heidegger, in his celebrated magnum opus "Sphären" t
 
 <br/><img src='/images/Aerocene-de-Thomas-Saraceno.jpg'>
 
-<p>
-  <label for="mn-container-to-container" class="margin-toggle">&#8853;</label><input type="checkbox" id="mn-container-to-container" class="margin-toggle"/>
-    <span class="marginnote"><img src="/files/posts/2022/receptacle_being/circles_of_inferno.jpeg " alt="circles of Hell"/>Dante's circles of Hell. 
-    </span> 
-</p>
+
 Throughout the history of philosophy, the receptacle concept of space has in some form or another been dominant such as in Plato or in Aristotle’s concerning world-spheres. Some conceived human existence as the wandering through different receptacles. Humans come out of the first receptacle, the mother's womb, and they end in a grave, also a receptacle. They go from container to container and in the middle stage of their passage, there is this great container which is the world. 
 
+<p>
+  <label for="mn-container-to-container" class="margin-toggle">&#8853;</label><input type="checkbox" id="mn-container-to-container" class="margin-toggle"/>
+    <span class="marginnote"><img src="/files/posts/2022/receptacle_being/circles_of_inferno.jpeg " alt="circles of Hell"/>Dante's circles of Hell. <em><a href="https://exhibits.library.villanova.edu/dante-illustrated/spaces"> Vernon, William Warren, de Imola Benvenutus, and Edward Moore. Readings On the Inferno of Dante: Chiefly Based On the Commentary of Benvenuto Da Imola. London; New York: Macmillan and Co., 1894. Falvey Memorial Library. Special Collections.</a></em>
+    </span> 
+</p>
 Sloterdijk's trilogy of spheres is an ambitious and provocative attempt to rethink the receptacle way of thinking about spaces of being. He uses the metaphor of spheres to describe different forms and modes of spatial relations, from the intimate to the global to the plural.
 
 Sloterdijk challenges the modern conception of space as a <em>homogeneous, abstract and neutral container</em>, and proposes instead a <em>dynamic, relational and affective</em> understanding of space as a product of human practices (anthropotechnics) and interactions.
 > We know and use at least two or three deeply differing concepts of space. One is the concept of space used by physicists, mathematicians or topologists. It is the homogeneous space, the completely neutralized space in which the equipotentiality of points is presupposed as a mathematical axiom, perhaps even as an ontological axiom. Between equipotential points one can draw an arbitrary number of lines, as many times as one would like. This concept of space is mostly used by neo-liberals and also by common commentators when they speak of globalization. They usually mistake this geometrical space of points in topology for the space of geographers. The geographer’s space is a space that already comes closer to reality, to the living space of natural subjects, which understand space to be something like environment (Umwelt). For us that is usually connected to the sense of dwelling, of the space of living. So inasmuch as people are living creatures that dwell, they create a wholly different and living, vital space, a space of meaning, in which all objects around are charged with a variety of semantic values. And then there is a third concept of space, which is in a sense the most mysterious, and which my work actually deals with most – that is, the first part of my trilogy (Sphären) – and that is [...] in a sense the ‘psychodynamic space’, which is the space in which existence takes place. [...] For me, the relational space of existence is to be understood as ecstatic coexistence in the souls of others, or in the field of the soul of others, and vice versa. They themselves are ecstatic because the other always already penetrates them. And that means somehow that that erotic ecstasis is prior to the subject itself [...] when one operates with three so different concepts of space, one needs relatively many words to separate them from each other.
 
+
+The secular/global space may be characterized as that which is of neutral value, that which has no innate qualitative differences, and is thus indicative of a chaotic, unstructured level of human experience. 
+Sloterdijk like Heidegger rejects the "cartesian" world-picture whereby it is assumed that we, as the the master manipulator of the world, can take the world apart and divide it up in its components and understand the causal relations between them, in such a way that we instrumentally manipulate the world in whatever way we like. We can remain at the centre of the world and at the same time apart from it, from where we rule the world.
+
 <p>
-  <label for="mn-sphere-decomposition" class="margin-toggle">&#8853;</label><input type="checkbox" id="mn-sphere-decomposition" class="margin-toggle"/>
-    <span class="marginnote"><img src="/files/posts/2022/receptacle_being/sphere_decomposition.jpeg" alt="Sphere Decomposition"/> 
+  <label for="mn-society-sphere" class="margin-toggle">&#8853;</label><input type="checkbox" id="mn-society-sphere" class="margin-toggle"/>
+    <span class="marginnote"><img src="/files/posts/2022/receptacle_being/society-sphere.jpeg" alt="Sphere Decomposition"/> <em>Generated by Bing AI Image Creator</em>
     </span> 
 </p>
-The secular/global space may be characterized as that which is of neutral value, that which has no innate qualitative differences, and is thus indicative of a chaotic, unstructured level of human experience. 
-Sloterdijk like Heidegger rejects the "cartesian"<label for="sn-cartesian" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-cartesian" class="margin-toggle"/><span class="sidenote">Descartes, Bacon, and others</span> world-picture whereby it is assumed that we, as the the master manipulator of the world, can take the world apart and divide it up in its components and understand the causal relations between them, in such a way that we instrumentally manipulate the world in whatever way we like. We can remain at the centre of the world and at the same time apart from it, from where we rule the world.
-
 In Sphären Sloterdijk develops a new understanding of modern spaces of coexistence and co-immunity in the wake of death of God. He traces the evolution of his spatial forms from the primal bubbles of intimacy and symbiosis, such as the mother-child dyad, to protective membranes and immune systems, to the globes of imperial and universalist ambitions, such as the Roman Empire, Christianity, and the 20th and 21st century Global Capitalism. Later in the Foams, he considers the fragmented and networked multiplicities, such as the modern metropolis and the internet. Sloterdijk argues that every sphere is a form of immunization, a way of creating a habitable interior within a hostile exterior. In Sloterdijk's spherology, there are spheres within spheres and spheres over spheres. Like Nietzsche, Sloterdijk criticizes the dominant paradigms of Western philosophy, such as Platonism and Cartesianism, for their dualistic and transcendental tendencies that separate humans from their worldly conditions. 
-> The true world -- we have abolished. What world has remained? The apparent one perhaps? But no! With the true world we have also abolished the apparent one. [...] I conjure you, my brethren, remain true to the earth, and believe not those who speak unto you of superearthly hopes!
+
+<blockquote>
+            <p>
+              <em>The true world &ndash; we have abolished. What world has remained? The apparent one perhaps? But no! With the true world we have also abolished the apparent one. [...] I conjure you, my brethren, remain true to the earth, and believe not those who speak unto you of superearthly hopes!</em>
+            </p>
+            <footer>Friedrich Nietzsche, <cite>“Thus Spoke Zarathustra”</cite></footer>
+</blockquote>
 
 
 
