@@ -4,7 +4,7 @@ title: 'Formalization of Condensed Mathematics'
 permalink: 
 venue: Dept. of Mathematical Sciences, University of Copenhagen
 excerpt: June 26-30, 2023
-comments: true
+comments: false
 tags:
   - Lean4
   - ITP 

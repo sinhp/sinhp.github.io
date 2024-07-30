@@ -1,0 +1,19 @@
+---
+layout: archive
+permalink: /talks/
+author_profile: true
+---
+
+{% include base_path %}
+
+<!-- <h2><font color="#002d72">Talks And Presentations</font></h2>  -->
+<h2 id="talks"><font color="#002d72">Talks And Presentations</font></h2> 
+<!--
+<p style="text-decoration:underline;"><a href="/talkmap.html">See a map of all the places I've given a talk!</a></p>
+-->
+
+{% for post in site.talks reversed %}
+  {% include archive-single-talk.html %}
+{% endfor %}
+
+
