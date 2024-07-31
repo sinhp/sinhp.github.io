@@ -10,14 +10,19 @@ main:
   - title: "Meetings"
     url: /meetings/   
 
-  - title : "Formalization"
-    url: /formalization/
+  - title : "Lean"
+    url: /lean/
+
+  - title : "Talks"
+    url: /talks/ 
 
   - title: "Thoughts"
     url: /blog/
 
   - title: "Other Places"
     url: /links/
+
+ 
 
  
  
