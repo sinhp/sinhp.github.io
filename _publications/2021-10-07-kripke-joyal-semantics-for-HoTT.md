@@ -3,7 +3,7 @@ title: "Kripke-Joyal forcing for type theory and uniform fibrations"
 collection: publications
 permalink: /publication/2021-10-07-kripke-joyal-semantics-for-HoTT
 excerpt: 'with [Steve Awodey](http://www.contrib.andrew.cmu.edu/~awodey/) and [Nicola Gambino](http://www1.maths.leeds.ac.uk/~pmtng/)'
-venue: 'Selecta Mathematica - New Series, to appear'
+venue: 'Selecta Mathematica, Volume 30, No. 7'
 date: 2024-04-05
 ---
 
@@ -11,6 +11,8 @@ date: 2024-04-05
 <!-- written with S. Awodey and N.Gambino  -->
 
 <!-- <i>Selecta Mathematica - New Series, to appear.</i> -->
+
+[Link to journal publication](https://link.springer.com/article/10.1007/s00029-024-00962-2)
 
 <i class="fa fa-file-pdf-o" aria-hidden="true"> [arXiv Preprint](https://arxiv.org/pdf/2110.14576.pdf), 2021. 55 pages.
 
