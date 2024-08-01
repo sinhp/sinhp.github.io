@@ -18,6 +18,12 @@ author_profile: true
 {% endfor %} -->
 
 
+<h2><font color="#800020">Linear Algebra Game</font></h2>
+With Alex Bentkamp, Jon Eugester, and Marcus Zibrowius, we developed the [Linear Algebra Game](https://adam.math.hhu.de/linear-algebra-game) for teaching a seminar course on proof-based linear algebra to undergraduate students at Heinrich Heine University, Düsseldorf. We also maintain the [Lean Game Server](https://adam.math.hhu.de). See more about this in the following link below from a talk I gave at the Hausdorff Research Institute in Mathematics (HIM), Bonn. 
+
+<a href="https://www.youtube.com/watch?v=f8LuzA7k4K4"><i class="fa fa-fw fa-youtube" aria-hidden="true"></i> Linear Algebra Game in Lean4</a>
+
+
 <h2><font color="#800020"> Contribution to Mathlib </font></h2>
 
 - [Grothendieck construction for category-valued functors](https://github.com/leanprover-community/mathlib4/blob/master/Mathlib/CategoryTheory/Grothendieck.lean)
@@ -29,7 +35,6 @@ author_profile: true
 - [Various basic API lemmas in set theory](https://github.com/leanprover-community/mathlib4/blob/master/Mathlib/Data/Set/Basic.lean)
 - [Triple adjunctions of slice cateogries](https://github.com/leanprover-community/mathlib4/pull/14519)
 - [Wide subcategories]()
-
 
 <h2><font color="#800020"> Teaching with Lean Interactive Theorem Prover</font></h2>
 
