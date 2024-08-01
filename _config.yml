@@ -194,9 +194,6 @@ collections:
   lean-projects:
     output: true
     permalink: /:collection/:path/  
-  lean-mathlib: 
-    output: true
-    permalink: /:collection/:path/  
   portfolio:
     output: true
     permalink: /:collection/:path/
@@ -290,10 +287,10 @@ defaults:
       author_profile: true
       share: false
       comments: false
-  # _lean
+  # _lean-projects
   - scope:
       path: ""
-      type: lean
+      type: lean-projects
     values:
       layout: single
       author_profile: true

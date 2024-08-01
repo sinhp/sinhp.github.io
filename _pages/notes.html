@@ -6,37 +6,36 @@ author_profile: true
 
 {% include base_path %}
 
-<h2 id="publication"><font color="#002d72">Publications</font></h2> 
 
-{% for post in site.publications reversed %}
-  {% include archive-single-paper.html %}
-{% endfor %}
+<h2 id="notes"><font color="#002d72">Expository Papers And Notes</font></h2>
 
-
-<!-- <h2><font color="#002d72">Talks And Presentations</font></h2>  -->
-<h2 id="talks"><font color="#002d72">Talks And Presentations</font></h2> 
-<!--
-<p style="text-decoration:underline;"><a href="/talkmap.html">See a map of all the places I've given a talk!</a></p>
+<!-- Writing notes helps me to grasp a mathematical concept or construction and they become less elusive in my mind. Here are the notes from some of my talks for which I had time to type them up. Any reports of mistakes and errors from the reader are always welcome.  -->
+<!-- Also, suggestions and recommendations on how to improve a presentation of a concept or how to communicate the essential ideas of a construction are greatly appreciated.   
 -->
 
-{% for post in site.talks reversed %}
-  {% include archive-single-talk.html %}
+{% for post in site.notes reversed %}
+  {% include archive-single.html %}
+{% endfor %}
+
+{% for post in site.portfolio reversed %}
+  {% include archive-single.html %}
 {% endfor %}
 
 
+<h2 id="notes"><font color="#002d72">Seminars and Reading Groups</font></h2>
 
-<h2 id="jhu-top-seminar"><font color="#002d72">Topology Seminar at Johns Hopkins (2021-2022)</font></h2> 
+<h3 id="jhu-top-seminar"><font color="#002d72">Topology Seminar at Johns Hopkins (2021-2022)</font></h3> 
 <p> With Maru Sarazola and Tim Campion we are organizing <a href="https://jhu-top-seminar.github.io/#2021-2022"><font color="#002d72">Topology Seminar at Johns Hopkins</font></a> 
 <!-- If you are interested in giving a talk, either in person at Hopkins or via Zoom, please drop a line. -->
 </p>
 
 
-<h2 id="htt"><font color="#002d72">Reading Group on Arithmetic Universes (2018-2019)</font></h2> 
+<h3 id="htt"><font color="#002d72">Reading Group on Arithmetic Universes (2018-2019)</font></h3> 
 <p> With Alexander Oldenziel, Joost van Dijk and a few others we have an informal weekly reading sessions on Arithmetic Universes and Goedel's incompleteness theorem in Utrecht and Amsterdam. </p>
 
 
 
-<h2 id="CARGO"><font color="#002d72">CARGO (2016-2019)</font></h2> 
+<h3 id="CARGO"><font color="#002d72">CARGO (2016-2019)</font></h3> 
 <p>  
 I am one of the organizers of category theory reading group (CARGO). The meetings takes place at the school of computer science on a weekly basis. The participants are mostly PhD students and research fellows in theoretical computer science. 
 
@@ -57,19 +56,7 @@ I am one of the organizers of category theory reading group (CARGO). The meeting
 
 
 
-<h3 id="notes"><font color="#002d72">Expository Papers And Notes</font></h3>
 
-Writing notes helps me to grasp a mathematical concept or construction and they become less elusive in my mind. Here are the notes from some of my talks for which I had time to type them up. Any reports of mistakes and errors from the reader are always welcome. 
-<!-- Also, suggestions and recommendations on how to improve a presentation of a concept or how to communicate the essential ideas of a construction are greatly appreciated.   
--->
-
-{% for post in site.notes reversed %}
-  {% include archive-single.html %}
-{% endfor %}
-
-{% for post in site.portfolio reversed %}
-  {% include archive-single.html %}
-{% endfor %}
 
 
 

@@ -7,11 +7,14 @@ main:
   - title: "Teaching"
     url: /teaching/    
         
+  - title : "Lean"
+    url: /lean-projects/
+
+  - title: "Notes"
+    url: /notes/  
+
   - title: "Meetings"
     url: /meetings/   
-
-  - title : "Lean"
-    url: /lean/
 
   - title : "Talks"
     url: /talks/ 
@@ -19,7 +22,7 @@ main:
   - title: "Thoughts"
     url: /blog/
 
-  - title: "Other Places"
+  - title: "Misc"
     url: /links/
 
  

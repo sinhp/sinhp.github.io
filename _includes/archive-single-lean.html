@@ -28,14 +28,8 @@
     <h3 class="archive__item-title" itemprop="headline">
       <p> <a href="{{ base_path }}{{ post.url }}" rel="permalink">{{ title }}</a> </p>
     </h3>
-    {% if post.link %}<p class="page__meta"><i class="fa fa-fw fa-github" aria-hidden="true"></i> <a href="{{ post.link }}">Link to the Github repository</a></p>{% endif %}
-    {% if post.venue %}<p class="archive__item-excerpt" itemprop="description">{{ post.venue }} {% endif %}
-    {% if post.excerpt and site.read_more != 'enabled' %}
-    <p class="archive__item-excerpt" itemprop="description">{{ post.excerpt | markdownify }}</p>
-    {% elsif post.excerpt and site.read_more == 'enabled' %}
-    <p class="archive__item-excerpt" itemprop="description"><p>{{ post.excerpt | markdownify | remove: '<p>' | remove: '</p>' }}<strong><a href="{{ base_path }}{{ post.url }}" rel="permalink"> Read more</a></strong></p></p>
-    {% endif %}     
-
+    {% if post.link %}<p class="page__meta"><i class="fa fa-fw fa-github" aria-hidden="true"></i> <a href="{{ post.link }}">Link to the Github repository</a></p>
+    {% endif %}
   </article>
 </div>
 
