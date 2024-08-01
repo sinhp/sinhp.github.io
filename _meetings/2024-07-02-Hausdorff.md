@@ -23,6 +23,6 @@ You can watch the video recording of most talks:
 
 And here are the recording my talks:
 
-[Linear Algebra Game in Lean4](https://www.youtube.com/watch?v=f8LuzA7k4K4)
-[Polynomial Functors in Lean 4](https://www.youtube.com/watch?v=TyPdTd6rfrQ&t=2521s)
-[HoTT in Lean4](https://www.youtube.com/watch?v=f8LuzA7k4K4)
+- [Linear Algebra Game in Lean4](https://www.youtube.com/watch?v=f8LuzA7k4K4)
+- [Polynomial Functors in Lean 4](https://www.youtube.com/watch?v=TyPdTd6rfrQ&t=2521s)
+- [HoTT in Lean4](https://www.youtube.com/watch?v=f8LuzA7k4K4)
