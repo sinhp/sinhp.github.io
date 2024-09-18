@@ -50,7 +50,8 @@ I am an avid reader of philosophy and history and enjoy discussing them.
 The best novel I have read is Robert Musil's *Der Mann ohne Eigenschaften* from 1921. Musil's wit is unsurpassable, and he understood the human condition in modernity like no other being.
 
 <!-- Another interest of mine is the history of mathematics, in particular the history of the foundation and practice of mathematics in 19th and early 20th century. This includes Frege's logicism, Dedekind's foundational work in algebra and arithmetic, Klein's Erlangen Program in geometry, Husserl's phenomenology of mathematical thinking, and Cassirer's structuralist account of mathematical knowledge. You can read more [here](https://sinhp.github.io/links/#phil-math:reading-list).  -->
-<strike>Occasionally, I write some of my thoughts on range of issues of philosophical nature on <a href="/year-archive">my blog</a></strike>.  -->
+
+<!-- Occasionally, I write some of my thoughts on range of issues of philosophical nature on <a href="/year-archive">my blog</a> -->
 
  
 <div class="footer-col footer-col-3">
