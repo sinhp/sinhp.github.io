@@ -30,7 +30,7 @@ I earned my PhD in theoretical computer science under supervision of Steve Vicke
 <!-- The idea was to carve out from the 2-category of Grothendieck toposes (over varying bases) the part that corresponds to the logic of Arithmetic Universes (finitary plus free algebras by means of list objects).  -->
 It was examined by Peter Johnstone and Martín Escardó. 
 
-Prior to joining Birmingham I was at Western University in London (Canada) where I did my masters in pure mathematics. I learnt intuitionistic logic and topos theory from John Lane Bell -- In fact, I first heard about topos theory and intuitionistic logic in his classical philosophy of mathematics course. I also learnt differential geometry from Martin Pinsonnault.
+Before that I was at Western University in London (Canada). I learnt intuitionistic logic and topos theory from John Lane Bell -- In fact, I first heard about topos theory and intuitionistic logic in his classical philosophy of mathematics course. I also learnt differential geometry from Martin Pinsonnault.
 
 ## Short biography 
 I was born in Qeshm Island in the Persian Gulf in Iran. I grew up in Iran, I have lived in the Canada, UK, USA, and the Netherlands. I speak English, Dutch, and Persian.
