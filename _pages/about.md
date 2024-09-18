@@ -37,15 +37,17 @@ I was born in Qeshm Island in the Persian Gulf in Iran. I grew up in Iran, I hav
 
 ### Other interests
 
-Started in gymnastics, and later played football (i.e. soccer) as a midfielder.
+Started in gymnastics (6-12), and later switched to playing football as a midfielder. The sport I like to watch is free-style wrestling.
 
 I am fond of remote places in the mountains, and I go hiking, and remain off-the-grid every now and then.
 
-I am interested in Art history and Architecture and I like to go to museums. 
+I am interested in Art history and Architecture and I like to go to museums.
 
-I am an avid reader of philosophy and history and enjoy discussing them. The fourfold works of Nietzsche (Thus Spoke Zarathustra), Heidegger (Being and Time), Foucault (The Order of Things), and Sloterdijk (Critique of Cynical Reason) have influenced my thinking, and my life. "Thus Spoke Zarathustra" was one of the best events of my life. 
+I am an avid reader of philosophy and history and enjoy discussing them.
 
-The best novel I have read is Robert Musil's  "Der Mann ohne Eigenschaften" from 1921. Musil's wit is unsurpassable, and he understood the human condition in modernity like no other being.
+<!-- The most influential books fourfold works of Nietzsche (Thus Spoke Zarathustra), Heidegger (Being and Time), Foucault (The Order of Things), and Sloterdijk (Critique of Cynical Reason) have influenced my thinking, and my life. "Thus Spoke Zarathustra" was one of the best events of my life.  -->
+
+The best novel I have read is Robert Musil's *Der Mann ohne Eigenschaften* from 1921. Musil's wit is unsurpassable, and he understood the human condition in modernity like no other being.
 
 <!-- Another interest of mine is the history of mathematics, in particular the history of the foundation and practice of mathematics in 19th and early 20th century. This includes Frege's logicism, Dedekind's foundational work in algebra and arithmetic, Klein's Erlangen Program in geometry, Husserl's phenomenology of mathematical thinking, and Cassirer's structuralist account of mathematical knowledge. You can read more [here](https://sinhp.github.io/links/#phil-math:reading-list).  -->
 <strike>Occasionally, I write some of my thoughts on range of issues of philosophical nature on <a href="/year-archive">my blog</a></strike>.  -->
