@@ -95,7 +95,7 @@ author:
   github           : #"sinhp"
   google_plus      : #"SinaHazratpour"
   keybase          :
-  instagram        : "sina.hazratpour"
+  instagram        : "sina.in.nl" # formerly, "sina.hazratpour"
   lastfm           :
   linkedin         : "sina-hazratpour"
   orcid            : "https://orcid.org/0000-0002-7921-9149"
@@ -203,6 +203,9 @@ collections:
   notes:
     output: true
     permalink: /:collection/:path/
+  places:
+    output: true
+    permalink: /:collection/:path/  
 
 # Defaults
 defaults:
