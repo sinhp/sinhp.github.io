@@ -8,7 +8,7 @@ tags:
   - Der Ring des Nibelungen 
   - Nietzsche contra Wagner 
 excerpt: "Thinking about the Ring"  
-permalink: /posts/2023/06/spaces-of-being
+permalink: /posts/2024/11/the-case-of-Wagner
 comments: true
 location: Leiden, NL
 ---
