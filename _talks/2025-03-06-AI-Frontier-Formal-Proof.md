@@ -2,7 +2,7 @@
 collection: talks
 title: "New Frontiers of Formal Proof Revolution"
 type: "IPM Mathematics Seminars"
-permalink: /talks/HoTT-Lean-HIM
+permalink: /talks/AI-Frontier-Formal-Proof
 venue: "IPM Institute For Research In Fundamental Sciences, Tehran"
 date: 2025-03-06
 excerpt: "" 
