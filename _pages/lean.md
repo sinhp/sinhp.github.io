@@ -31,14 +31,15 @@ With Alex Bentkamp, Jon Eugester, and Marcus Zibrowius, we developed the <a href
 - [Locally Cartesian Closed Categories ](https://github.com/leanprover-community/mathlib4/pull/22321)
 - [Monoidal and Cartesian Distributive Categories](https://github.com/leanprover-community/mathlib4/pull/20182)
 - [Grothendieck construction for category-valued functors](https://github.com/leanprover-community/mathlib4/blob/master/Mathlib/CategoryTheory/Grothendieck.lean)
-- [Cartesian closedness of sheaf categories, with Dagur Asgeirsson, Jon Eugster](https://github.com/leanprover-community/mathlib4/pull/15262)
-- [Stonean is precoherent, with Dagur Asgeirsson, Jon Eugster, Boris Bolvig Kjær, Nima Rasekh](https://github.com/leanprover-community/mathlib4/pull/6725)
+- [Cartesian closedness of sheaf categories, coauthored with Dagur Asgeirsson, Jon Eugster](https://github.com/leanprover-community/mathlib4/pull/15262)
+- [Finite products for the preorder category of a meet-semilattice with a top element](https://github.com/leanprover-community/mathlib4/pull/21094)
+- [Stonean is precoherent,coauthored with Dagur Asgeirsson, Jon Eugster, Boris Bolvig Kjær, Nima Rasekh](https://github.com/leanprover-community/mathlib4/pull/6725)
 - [Grothendieck construction for type-valued functors](https://github.com/leanprover-community/mathlib4/blob/master/Mathlib/CategoryTheory/Elements.lean)
-- [ExtrDisc is precoherent, with Dagur Asgeirsson, Jon Eugster, Boris Bolvig Kjær, Nima Rasekh](https://github.com/leanprover-community/mathlib4/pull/5861)
+- [ExtrDisc is precoherent, coauthored with Dagur Asgeirsson, Jon Eugster, Boris Bolvig Kjær, Nima Rasekh](https://github.com/leanprover-community/mathlib4/pull/5861)
 - [Profinite is precoherent](https://github.com/leanprover-community/mathlib4/pull/5858)
 - [Various basic API lemmas in set theory](https://github.com/leanprover-community/mathlib4/blob/master/Mathlib/Data/Set/Basic.lean)
 - [Triple adjunctions of slice cateogries](https://github.com/leanprover-community/mathlib4/pull/14519)
-- [Wide subcategories]()
+- [Wide subcategories](https://github.com/leanprover-community/mathlib4/pull/15374)
 
 <h2><font color="#800020"> Teaching with Lean Interactive Theorem Prover</font></h2>
 
