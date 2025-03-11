@@ -19,13 +19,17 @@ author_profile: true
 
 
 <h2><font color="#800020">Linear Algebra Game</font></h2>
-With Alex Bentkamp, Jon Eugester, and Marcus Zibrowius, we developed the [Linear Algebra Game](https://adam.math.hhu.de/linear-algebra-game) for teaching a seminar course on proof-based linear algebra to undergraduate students at Heinrich Heine University, Düsseldorf. We also maintain the [Lean Game Server](https://adam.math.hhu.de). See more about this in the following link below from a talk I gave at the Hausdorff Research Institute in Mathematics (HIM), Bonn. 
+With Alex Bentkamp, Jon Eugester, and Marcus Zibrowius, we developed the <a href="https://adam.math.hhu.de/#/g/hhu-adam/robo"><font color="#800020">Linear Algebra Game</font></a> for teaching a seminar course on proof-based linear algebra to undergraduate students at Heinrich Heine University, Düsseldorf. We also maintain the <a href="https://adam.math.hhu.de"><font color="#800020">Lean Game Server</font></a>. You can make your own game using the <a href="https://github.com/hhu-adam/GameSkeleton"><font color="#800020">Game Skeleton</font></a>.
 
-<a href="https://www.youtube.com/watch?v=f8LuzA7k4K4"><i class="fa fa-fw fa-youtube" aria-hidden="true"></i> Linear Algebra Game in Lean4</a>
+<!-- See more about this in the following link below from a talk I gave at the Hausdorff Research Institute in Mathematics (HIM), Bonn.  -->
+
+<!-- <a href="https://www.youtube.com/watch?v=f8LuzA7k4K4"><i class="fa fa-fw fa-youtube" aria-hidden="true"></i> Linear Algebra Game in Lean4</a> -->
 
 
 <h2><font color="#800020"> Contribution to Mathlib </font></h2>
 
+- [Locally Cartesian Closed Categories ](https://github.com/leanprover-community/mathlib4/pull/22321)
+- [Monoidal and Cartesian Distributive Categories](https://github.com/leanprover-community/mathlib4/pull/20182)
 - [Grothendieck construction for category-valued functors](https://github.com/leanprover-community/mathlib4/blob/master/Mathlib/CategoryTheory/Grothendieck.lean)
 - [Cartesian closedness of sheaf categories, with Dagur Asgeirsson, Jon Eugster](https://github.com/leanprover-community/mathlib4/pull/15262)
 - [Stonean is precoherent, with Dagur Asgeirsson, Jon Eugster, Boris Bolvig Kjær, Nima Rasekh](https://github.com/leanprover-community/mathlib4/pull/6725)
