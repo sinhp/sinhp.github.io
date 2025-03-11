@@ -10,14 +10,14 @@ main:
   - title : "Lean"
     url: /lean-projects/
 
+  - title : "Talks"
+    url: /talks/ 
+
   - title: "Notes"
     url: /notes/  
 
   - title: "Meetings"
     url: /meetings/   
-
-  - title : "Talks"
-    url: /talks/ 
 
   - title: "Thoughts"
     url: /blog/
