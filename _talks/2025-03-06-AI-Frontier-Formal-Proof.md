@@ -8,7 +8,10 @@ date: 2025-03-06
 excerpt: "" 
 ---
 
-<p class="page__meta"><i class="fa fa-fw fa-youtube" aria-hidden="true"></i> <a href="https://math.ipm.ac.ir/logic/videos.jsp">Recording of the talk</a></p>
+<p class="page__meta"><i class="fa fa-fw fa-youtube" aria-hidden="true"></i> <a href="https://www.youtube.com/watch?v=3TEcm98uTUI">Recording of the talk</a></p>
+
+<p class="page__meta"><i class="fa fa-fw fa-youtube" aria-hidden="true"></i> <a href="https://math.ipm.ac.ir/logic/videos.jsp">Extended version with Q&A</a></p>
+
 
 #### Abstract: 
 
@@ -16,4 +19,3 @@ Mathematicians have used machines and datasets to aid their research for millenn
 
 In this talk, I will introduce Lean, a popular proof assistant based on dependent type theory. I will give an overview of Lean’s community-based mathematical library Mathlib. I will survey the state of the art in using Lean in mathematical research. Finally, I will highlight Lean’s powerful metaprogramming framework, and how we are employing it in a new collaborative project to bring Homotopy Type Theory (HoTT) and synthetic homotopical reasoning into Lean4.
 
-<p class="page__meta"><i class="fa fa-fw fa-github" aria-hidden="true"></i> <a href="https://github.com/sinhp/groupoid_model_in_lean4">Github repository</a></p>
