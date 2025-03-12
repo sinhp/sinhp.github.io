@@ -8,8 +8,6 @@ date: 2025-03-06
 excerpt: "" 
 ---
 
-Stockholm Mathematics Centre
-
 <p class="page__meta"><i class="fa fa-fw fa-youtube" aria-hidden="true"></i> <a href="https://math.ipm.ac.ir/logic/videos.jsp">Recording of the talk</a></p>
 
 #### Abstract: 
