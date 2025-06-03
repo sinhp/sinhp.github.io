@@ -6,7 +6,7 @@ date: 2024-04-15
 venue: 'Mathematical Structures in Computer Science'
 journal: true
 paperurl: 'https://www.cambridge.org/core/journals/mathematical-structures-in-computer-science/article/2categorical-proof-of-frobenius-for-fibrations-defined-from-a-generic-point/8A9A180160D0833C108E51B0B5D1E6F2'
-bibtexurl: 'sinhp.github.io/papers#frobenius-generic'
+bibtexurl: 'https://sinhp.github.io/papers#frobenius-generic'
 preprint: 'https://arxiv.org/abs/2210.00078'
 coauthor: 'Emily Riehl'
 ---
