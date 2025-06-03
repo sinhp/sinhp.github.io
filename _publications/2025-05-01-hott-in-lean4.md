@@ -4,7 +4,7 @@ collection: publications
 permalink: /publication/2025-05-01-hott-in-lean4
 excerpt: 'with Steve Awodey, Mario Carneiro, Joseph Hua, Wojciech Nawrocki, Spencer Woolfson'
 venue: 'Types 2025'
-date: 2025-05-01
+date: 2025-04-15
 ---
 
 [Link to publication](https://msp.cis.strath.ac.uk/types2025/abstracts/TYPES2025_paper25.pdf)

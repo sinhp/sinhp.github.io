@@ -2,8 +2,7 @@
 title: "PhD Thesis"
 collection: publications
 permalink: /publication/2019-05-01-PhD-thesis
-excerpt: 'Under supervision of Steve Vickers'
-venue: University of Birmingham (UK)
+venue: 'University of Birmingham (UK)'
 date: 2019-05-01
 ---
 
