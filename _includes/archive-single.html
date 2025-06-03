@@ -33,17 +33,27 @@
         <a href="{{ base_path }}{{ post.url }}" rel="permalink" target ="_blank">{{ title }}</a>
       {% endif %}
     </h3>
-    
     {% if post.read_time %}
       <p class="page__meta"><i class="fa fa-clock-o" aria-hidden="true"></i> {% include read-time.html %}</p>
     {% endif %}
-
         {% if post.collection == 'teaching' %}
           <p> {{ post.type }}, <i>{{ post.venue }}</i> </p>
+        {% elsif post.collection == 'publications' %}
+          {%if post.journal and post.coauthor and post.code %}
+            <p>with {{ post.coauthor }}. Published in <i><font color="#002d72">{{ post.venue }}</font></i> | <a href="{{ post.paperurl }}">Download Paper</a> | <a href="{{ post.bibtexurl }}">Cite Paper</a> | <a href="{{ post.preprint }}">arXiv</a> | <a href="{{ post.code }}"><code>Code</code></a> </p>
+          {% elsif post.journal and post.coauthor %}
+            <p>with {{ post.coauthor }} <br/> Published in <i><font color="#002d72">{{ post.venue }}</font></i> <br/> <a href="{{ post.paperurl }}"><code>Download Paper</code></a> &nbsp; <a href="{{ post.bibtexurl }}"><code>Cite Paper</code></a> &nbsp; <a href="{{ post.preprint }}"><code>arXiv</code></a> </p>
+          {% elsif post.journal and post.code %}
+            <p>Published in <i><font color="#002d72"> {{ post.venue }} </font></i> | <a href="{{ post.paperurl }}">Download Paper</a> | <a href="{{ post.bibtexurl }}">Cite Paper</a> | <a href="{{ post.preprint }}">arXiv</a> | <a href="{{ post.code }}"><code>Code</code></a> </p>
+          {% elsif post.journal %}
+            <p>Published in <i><font color="#002d72">{{ post.venue }}</font></i> | <a href="{{ post.paperurl }}">Download Paper</a> | <a href="{{ post.bibtexurl }}">Cite Paper</a> | <a href="{{ post.preprint }}">arXiv</a> </p>  
+          {% elsif post.code %}
+            <p>Presented in <i><font color="#002d72">{{ post.venue }}</font></i> <br/> <a href="{{ post.paperurl }}"><code>Download Paper</code></a> &nbsp; <a href="{{ post.bibtexurl }}"><code>Cite Paper</code></a> &nbsp; <a href="{{ post.paperurl }}"><code>arXiv</code></a> &nbsp; <a href="{{ post.code }}"><code>Code</code></a> </p>
+          {%elsif post.venue %}
+            <p>Presented in <i><font color="#002d72">{{ post.venue }}</font></i> | <a href="{{ post.paperurl }}">Download Paper</a> | <a href="{{ post.bibtexurl }}">Cite Paper</a> &nbsp; <a href="{{ post.paperurl }}"><code>arXiv</code></a> </p>
+          {% endif %}       
         {% elsif post.collection == 'demonstration' %}
           <p> {{ post.type }}, <i>{{ post.venue }}</i>, {{ post.date | default: "1900-01-01" | date: "%Y" }} </p>
-        {% elsif post.collection == 'publications' %}
-          <p>Published in <i>{{ post.venue }}</i>, {{ post.date | default: "1900-01-01" | date: "%Y" }} </p>
         {% elsif post.collection == 'lean' %}
           <p> {{ post.type }}</p>  
         {% elsif post.collection == 'portfolio' %}
@@ -54,21 +64,16 @@
          <p class="page__date"><strong><i class="fa fa-fw fa-calendar" aria-hidden="true"></i> {{ site.data.ui-text[site.locale].date_label | default: "Published:" }}</strong> <time datetime="{{ post.date | default: "1900-01-01" | date_to_xmlschema }}">{{ post.date | default: "1900-01-01" | date: "%B %d, %Y" }}</time></p>
         {% endif %}
 
+    <font color="#800020"></font>
+
+
     {% if post.excerpt and site.read_more != 'enabled' %}
     <p class="archive__item-excerpt" itemprop="description">{{ post.excerpt | markdownify }}</p>
     {% elsif post.excerpt and site.read_more == 'enabled' %}
     <p class="archive__item-excerpt" itemprop="description"><p>{{ post.excerpt | markdownify | remove: '<p>' | remove: '</p>' }}<strong><a href="{{ base_path }}{{ post.url }}" rel="permalink"> Read more</a></strong></p></p>
     {% endif %}
 
-   
-    
-    {% if post.citation and post.paperurl %}
-      <p>Recommended citation: {{ post.citation }} <a href="{{ post.paperurl }}" target ="_blank"><u>{{ post.paperurl }}</u></a></p>
-    {% elsif post.citation %}
-      <p>Recommended citation: {{ post.citation }} </p>
-    {% elsif post.paperurl %}
-      <p>Download <a href=" {{ post.paperurl }} " target ="_blank"><u>here</u></a></p>
-    {% endif %}
 
+    
   </article>
 </div>

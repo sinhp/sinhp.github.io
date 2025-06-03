@@ -3,13 +3,14 @@ title: "PhD Thesis"
 collection: publications
 permalink: /publication/2019-05-01-PhD-thesis
 venue: 'University of Birmingham (UK)'
+excerpt: 'A logical study of some 2-categorical aspects of topos theory'
 date: 2019-05-01
 ---
 
-Hazratpour, Sina (2019). &quot;A logical study of some 2-categorical aspects of topos theory.&quot; <i>University of Birmingham</i>.
+<!-- A logical study of some 2-categorical aspects of topos theory. -->
 
-<i class="fa fa-file-pdf-o" aria-hidden="true"> [Download here](https://etheses.bham.ac.uk//id/eprint/9752/7/Hazratpour2019PhD.pdf) 
-
+<i class="fa fa-file-pdf-o" aria-hidden="true"> [`Download here`](https://etheses.bham.ac.uk//id/eprint/9752/7/Hazratpour2019PhD.pdf) /slashdep
+[The University Library eThesis](https://etheses.bham.ac.uk/id/eprint/9752/)
 🇬🇧 [Link to the deposit in the British Library](https://ethos.bl.uk/OrderDetails.do?did=1&uin=uk.bl.ethos.834290)
 
 

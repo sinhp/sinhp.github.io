@@ -2,15 +2,20 @@
 title: "Fibration of contexts beget fibrations of toposes"
 collection: publications
 permalink: /publication/2018-04-21-fibrations-context-topos
-excerpt: 'with [Steve Vickers](https://www.cs.bham.ac.uk/~sjv/)'
 date: 2020-04-29
 venue: 'Theory and Application of Categories (TAC)'
 use_math: true
 katex: true
+journal : true
+paperurl: 'http://www.tac.mta.ca/tac/volumes/35/16/35-16abs.html'
+bibtexurl: 'sinhp.github.io/papers#fibrations-context-topos'
+preprint: 'https://arxiv.org/abs/1808.08291'
+coauthor: 'Steve Vickers'
 ---
 
 <!-- include it up there if you have it
 citation: 'Your Name, You. (2009). &quot;Paper Title Number 1.&quot; <i>Journal 1</i>. 1(1).'
+excerpt: 'with [Steve Vickers](https://www.cs.bham.ac.uk/~sjv/)'
 -->
 
 
