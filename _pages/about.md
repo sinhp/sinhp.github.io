@@ -10,9 +10,9 @@ redirect_from:
 
 My work centers on [category theory](https://ncatlab.org/nlab/show/category+theory) and its applications to logic and semantics, with a focus on emerging mathematical foundations such as Homotopy Type Theory. I explore the rich interplay between logic, category theory, and algebraic topology, particularly in areas such as synthetic homotopy theory. My favorite tools are internal languages and categorical semantics which enable us to make new bridges between these disciplines. See my [publications]({{ baseurl }}/publications/) for more details.
 
-My other major interest is [formalization of mathematics]({{ baseurl }}/lean/) in interactive theorem provers, particularly in [Lean 4]({{ baseurl }}/lean/). I am a regular contributor to Mathlib's category theory library and I've been implemeting tools and automation for categories in Lean. My goal is to make Lean a natural and friendly tool for category theory research and teaching.
+My other major interest is [formalization of mathematics]({{ baseurl }}/lean-projects/) in interactive theorem provers, particularly in [Lean 4](https://lean-lang.org). I am a regular contributor to Mathlib's category theory library and I've been implemeting tools and automation for categories in Lean. My goal is to make Lean a natural and friendly tool for category theory research and teaching.
 
-I currently lead several [formalization projects]({{ baseurl }}/lean/) in Lean 4 in areas related to logic, category theory, homotopy theory, and their interplay. If any of these topics interest you, I encourage you to reach out! I am always looking for collaborators and students who are interested in these areas.
+I currently lead several [formalization projects]({{ baseurl }}/lean-projects/) in Lean 4 in areas related to logic, category theory, homotopy theory, and their interplay. If any of these topics interest you, I encourage you to reach out! I am always looking for collaborators and students who are interested in these areas.
 
 I have extensively used [Lean  in my teaching of math courses]({{ baseurl }}/teaching/), and I am very excited about the ways interactive theorem provers — particularly Lean — are changing how mathematics is learned and taught.
 
