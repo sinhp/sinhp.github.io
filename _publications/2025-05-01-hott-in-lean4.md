@@ -7,6 +7,8 @@ date: 2025-04-15
 paperurl: 'https://msp.cis.strath.ac.uk/types2025/abstracts/TYPES2025_paper25.pdf'
 bibtexurl: 'sinhp.github.io/papers#hott-in-lean4'
 code: 'https://github.com/sinhp/groupoid_model_in_lean4'
+preprint: 'https://sinhp.github.io/groupoid_model_in_lean4'
+preprint-id: Lean blueprint
 ---
 
 <h7> <strong> with Steve Awodey, Mario Carneiro, Joseph Hua, Wojciech Nawrocki, Spencer Woolfson </strong></h7>

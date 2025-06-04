@@ -10,6 +10,7 @@ journal : true
 paperurl: 'http://www.tac.mta.ca/tac/volumes/35/16/35-16abs.html'
 bibtexurl: 'sinhp.github.io/papers#fibrations-context-topos'
 preprint: 'https://arxiv.org/abs/1808.08291'
+preprint-id: 'arXiv:1808.08291'
 coauthor: 'Steve Vickers'
 ---
 

@@ -6,6 +6,7 @@ venue: 'Selecta Mathematica'
 journal: true
 paperurl: 'https://link.springer.com/article/10.1007/s00029-024-00962-2'
 preprint: 'https://arxiv.org/pdf/2110.14576.pdf'
+preprint-id: 'arXiv:2110.14576'
 bibtexurl: 'https://sinhp.github.io/papers#kripke-joyal-uniform-fibrations'
 coauthor: 'Steve Awodey, Nicola Gambino'
 date: 2024-04-05

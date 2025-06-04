@@ -40,15 +40,18 @@
           <p> {{ post.type }}, <i>{{ post.venue }}</i> </p>
         {% elsif post.collection == 'publications' %}
           {%if post.journal and post.coauthor and post.code %}
-            <p>with {{ post.coauthor }}. Published in <i><font color="#002d72">{{ post.venue }}</font></i> | <a href="{{ post.paperurl }}">Download Paper</a> | <a href="{{ post.bibtexurl }}">Cite Paper</a> | <a href="{{ post.preprint }}">arXiv</a> | <a href="{{ post.code }}"><code>Code</code></a> </p>
+            <p>with {{ post.coauthor }}. Published in <i><font color="#002d72">{{ post.venue }}</font></i> | <a href="{{ post.paperurl }}">Download Paper</a> &nbsp; <a href="{{ post.bibtexurl }}"><i class="fa fa-quote-left" style="color:#555;"></i> Cite Paper</a> <a href="{{ post.preprint }}"> </a> | <a href="{{ post.code }}"><code><i class="fa fa-cogs" style="color:#555;"></i> Code</code></a> </p>
           {% elsif post.journal and post.coauthor %}
-            <p>with {{ post.coauthor }} <br/> Published in <i><font color="#002d72">{{ post.venue }}</font></i> <br/> <a href="{{ post.paperurl }}"><code>Download Paper</code></a> &nbsp; <a href="{{ post.bibtexurl }}"><code>Cite Paper</code></a> &nbsp; <a href="{{ post.preprint }}"><code>arXiv</code></a> </p>
+            <p>with {{ post.coauthor }} <br/> Published in <i><font color="#002d72">{{ post.venue }}</font></i> <br/> 
+              <a href="{{ post.paperurl }}"><code><i class="fa fa-file-pdf-o" style="color: #b31b1b;"></i> Download Paper</code></a> &nbsp; <a href="{{ post.bibtexurl }}"><code><i class="fa fa-quote-left"></i> Cite Paper</code></a> &nbsp; <a href="{{ post.preprint }}"><code> {{ post.preprint-id }} </code></a> </p>
           {% elsif post.journal and post.code %}
-            <p>Published in <i><font color="#002d72"> {{ post.venue }} </font></i> | <a href="{{ post.paperurl }}">Download Paper</a> | <a href="{{ post.bibtexurl }}">Cite Paper</a> | <a href="{{ post.preprint }}">arXiv</a> | <a href="{{ post.code }}"><code>Code</code></a> </p>
+            <p>Published in <i><font color="#002d72"> {{ post.venue }} </font></i> | <a href="{{ post.paperurl }}">Download Paper</a> | <a href="{{ post.bibtexurl }}">Cite Paper</a> | <a href="{{ post.preprint }}">arXiv</a> | <a href="{{ post.code }}"><code><i class="fa fa-cogs" style="color:#555;" title="code"></i> Code</code></a> </p>
           {% elsif post.journal %}
-            <p>Published in <i><font color="#002d72">{{ post.venue }}</font></i> | <a href="{{ post.paperurl }}">Download Paper</a> | <a href="{{ post.bibtexurl }}">Cite Paper</a> | <a href="{{ post.preprint }}">arXiv</a> </p>  
+            <p>Published in <i><font color="#002d72">{{ post.venue }}</font></i> &nbsp; <a href="{{ post.paperurl }}">Download Paper</a> &nbsp; <a href="{{ post.bibtexurl }}">Cite Paper</a> &nbsp; <a href="{{ post.preprint }}">arXiv</a> </p>  
           {% elsif post.code %}
-            <p>Presented in <i><font color="#002d72">{{ post.venue }}</font></i> <br/> <a href="{{ post.paperurl }}"><code>Download Paper</code></a> &nbsp; <a href="{{ post.bibtexurl }}"><code>Cite Paper</code></a> &nbsp; <a href="{{ post.paperurl }}"><code>arXiv</code></a> &nbsp; <a href="{{ post.code }}"><code>Code</code></a> </p>
+            <p>Presented in <i><font color="#002d72">{{ post.venue }}</font></i> <br/> <a href="{{ post.paperurl }}"><code><i class="fa fa-file-pdf-o" style="color: #b31b1b;"></i> Download Paper</code></a> &nbsp; <a href="{{ post.bibtexurl }}"><code><i class="fa fa-quote-left" style="color:#555;"></i> Cite Paper</code></a> &nbsp; <a href="{{ post.preprint }}"><code> {{ post.preprint-id }} </code></a> &nbsp; <a href="{{ post.code }}"><code><i class="fa fa-cogs" style="color:#555;"></i> Code</code></a> </p>
+          {%elsif post.book %}
+             <p> {{ post.venue }} <br/> <a href="{{ post.paperurl }}"><code><i class="fa fa-file-pdf-o" style="color: #b31b1b;"></i> Download Paper</code></a> </p>  
           {%elsif post.venue %}
             <p>Presented in <i><font color="#002d72">{{ post.venue }}</font></i> | <a href="{{ post.paperurl }}">Download Paper</a> | <a href="{{ post.bibtexurl }}">Cite Paper</a> &nbsp; <a href="{{ post.paperurl }}"><code>arXiv</code></a> </p>
           {% endif %}       
