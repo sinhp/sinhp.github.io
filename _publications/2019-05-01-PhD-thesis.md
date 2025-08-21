@@ -11,7 +11,7 @@ paperurl: 'https://etheses.bham.ac.uk//id/eprint/9752/7/Hazratpour2019PhD.pdf'
 <!-- A logical study of some 2-categorical aspects of topos theory. -->
 
 [`Download here`](https://etheses.bham.ac.uk//id/eprint/9752/7/Hazratpour2019PhD.pdf) <br/>
-[The University Library eThesis](https://etheses.bham.ac.uk/id/eprint/9752/) <br/>
+[The University Library eThesis](https://etheses.bham.ac.uk//id/eprint/9752/) <br/>
 🇬🇧 [Link to the deposit in the British Library](https://ethos.bl.uk/OrderDetails.do?did=1&uin=uk.bl.ethos.834290)
 
 
