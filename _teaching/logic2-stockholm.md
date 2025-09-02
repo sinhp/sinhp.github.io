@@ -23,7 +23,7 @@ Another great resource is Avigad's Mathematical Logic and Computation book.
 
 ### Some Slides 
 
-- [History of computability](../files/teaching/what-is-computation.pdf)
+- [History of computability](/files/teaching/what-is-computation.pdf)
 
 
 
