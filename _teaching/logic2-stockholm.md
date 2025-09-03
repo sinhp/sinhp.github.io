@@ -17,9 +17,13 @@ Logic II is a second level logic course, giving an introduction to major topics 
 
 ## Resources
 
-The course textbook is R. Cori, D. Lascar, 2001, Mathematical logic, a course with exercises, Part II: Recursion Theory, Gödel’s Theorems, Set Theory, Model Theory (Oxford University Press). 
+The course textbook is the following book: 
 
-Another great resource is Avigad's Mathematical Logic and Computation book.  
+R. Cori, D. Lascar, 2001, _Mathematical Logic, A Course with Exercises, Part II: Recursion Theory, Gödel’s Theorems, Set Theory, Model Theory_, Oxford University Press. 
+
+I also highly Jeremy Avigad's excellent book: 
+
+Avigad, Jeremy. 2022. _Mathematical Logic and Computation_. Cambridge: Cambridge University Press.
 
 ### Some Slides 
 
