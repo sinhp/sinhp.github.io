@@ -3,7 +3,7 @@ title: "Introduction to Proofs with Lean Proof Assistant (Fall 2022)"
 collection: teaching		
 type: "Upper level undergraduate math course"		
 permalink: /teaching/2022-introduction-to-proofs-with-Lean
-venue: "Hodson 301, Homewood Campus, Johns Hopkins University"		
+venue: "Johns Hopkins University"		
 date: 2022-08-28		
 ---	
 

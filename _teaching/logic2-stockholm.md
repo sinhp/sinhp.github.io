@@ -1,5 +1,5 @@
 ---	
-title: "Logic II"	
+title: "Logic II : Computability, Set Theory, and Model Theory"	
 collection: teaching		
 type: "Masters level course"		
 permalink: /teaching/2025-logic2-stockholm/

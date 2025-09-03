@@ -3,7 +3,7 @@ title: "Mathematical and Computational Foundations of Data Science (Spring 2023)
 collection: teaching		
 type: "Upper level undergraduate course"		
 permalink: /teaching/2023-data-science
-venue: "Shaffer 300, Homewood Campus, Johns Hopkins University"				
+venue: "Johns Hopkins University"				
 ---	
 
 ### Course Description 
