@@ -1,5 +1,5 @@
 ---	
-title: "Introduction to Proofs with Lean Proof Assistant (Fall 2022)"		
+title: "Introduction to Proofs with Lean Proof Assistant (Spring 2022, Fall 2022, Fall 2023, Spring 2024)"		
 collection: teaching		
 type: "Upper level undergraduate math course"		
 permalink: /teaching/2022-introduction-to-proofs-with-Lean
