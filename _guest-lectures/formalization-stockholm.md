@@ -4,7 +4,7 @@ collection: teaching
 type: "PhD course, VT 2025"		
 permalink: /teaching/2025-formalization-stockholm/
 venue: "Stockholm University, Sweden"
-date: 2025		
+date: 2025-05-28		
 ---	
 
 I gave two guest lectures on metaprogramming and tactic writing in Lean 4. This [github repository](github.com/sinhp/mpil25) hosts the lecture notes and code.
