@@ -3,7 +3,7 @@ title: "Models Of Computation (Spring 2017)"
 collection: demonstration		
 type: "2nd year undergraduate module"		
 permalink: /demonstration/2018-models-of-computation
-venue: "School of Computer Science, University of Birmingham"		
+venue: "School of Computer Science, University of Birmingham, UK"		
 date: 2018-01-11		
 location: "Birmingham, UK"		
 ---	

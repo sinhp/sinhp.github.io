@@ -3,7 +3,7 @@ title: "Mathematics for Computer Science (Spring 2016)"
 collection: demonstration		
 type: "1st year undergraduate module"		
 permalink: /demonstration/2016-spring-intro-to-maths-for-cs
-venue: "School of Computer Science, University of Birmingham"		
+venue: "School of Computer Science, University of Birmingham, UK"		
 date: 2016-04-11		
 location: "Birmingham, UK"		
 ---	

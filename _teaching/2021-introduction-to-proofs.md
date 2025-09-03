@@ -3,7 +3,7 @@ title: "Introduction to Proofs (Fall 2021 & Spring 2022)"
 collection: teaching		
 type: "Upper level undergraduate math course"		
 permalink: /teaching/2021-introduction-to-proofs
-venue: "Johns Hopkins University"		
+venue: "Johns Hopkins University, USA"		
 date: 2021-08-28		
 ---	
 

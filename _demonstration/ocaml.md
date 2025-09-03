@@ -3,7 +3,7 @@ title: "Elements of Functional Programming with OCaml (Autumns 2015, 2016, 2017)
 collection: demonstration		
 type: "1st year undergraduate module"		
 permalink: /demonstration/ocaml
-venue: "University of Birmingham, School of Computer Science"		
+venue: "School of Computer Science, University of Birmingham, UK"		
 location: "Birmingham, UK"		
 date: 2017-11-06		
 ---	
