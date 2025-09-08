@@ -12,7 +12,7 @@ author_profile: true
 </font></h2>
 
 <p> with <em>Michail Karatarakis</em> <br/> 
-<strong> A Computable Lean 4 Mechanization of GNNs in Monoidal Locuses</strong>  <br/>
+<strong> A Computable Lean 4 Mechanization of GNNs in Monoidal Locoses</strong>  <br/>
 
 <p> with <em>Peter Lumsdaine</em> <br/> 
 <strong> Mechanization of Essentially Algebraic Theories in Arithmetic Universes (Rocq and Lean 4) </strong> <br/>
