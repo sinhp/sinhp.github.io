@@ -16,7 +16,7 @@ author_profile: true
 
 <p> with <em>Peter Lumsdaine</em> <br/> 
 <strong> Mechanization of Essentially Algebraic Theories in Arithmetic Universes (Rocq and Lean 4) </strong> <br/>
-Peter's talk at <a href="https://progetto-itaca.github.io/fests/fest25.html#lumsdaine">Itaca Fest 2025 <i class="fa fa-fw fa-external-link" aria-hidden="true"></i></a> <br/>
+Watch Peter's talk at <a href="https://www.youtube.com/watch?v=O_KLG-m7s8E&list=PLwOJoZOlTAm-jHtLIJi-GzTLJ2r_fM-Pb&index=4">Itaca Fest 2025 <i class="fa fa-fw fa-youtube" aria-hidden="true"></i></a> <br/>
 <!-- <a href="https://sinhp.github.io/au/"><code>Lean blueprint</code></a> &nbsp;  -->
 <!-- <a href="https://github.com/sinhp/au"><code>Code</code></a></p> -->
 
