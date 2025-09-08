@@ -11,11 +11,14 @@ author_profile: true
 <i class="fa fa-wrench" style="color:white; font-size: 0.6em; margin-top: 0.2em;"></i>
 </font></h2>
 
+<p> with Michail Karatarakis <br/> 
+<strong> A Lean4 mechanization of GNNs in Monoidal Locuses</strong>  <br/>
+
 <p> with Peter Lumsdaine <br/> 
-<strong> Gödel's Incompleteness Theorems in Lean 4 </strong> <br/>
-A Lean blueprint for Gödel's incompleteness theorems and its categorification in Arithmetic Universes <br>
+<strong> Mechanization of Essentially Algebraic Theories in Arithmetic Universes (Rocq and Lean 4) </strong> <br/>
+See [Peter's talk](https://progetto-itaca.github.io/fests/fest25.html#lumsdaine) at Itaca Fest 2025<br>
 <!-- <a href="https://sinhp.github.io/au/"><code>Lean blueprint</code></a> &nbsp;  -->
-<a href="https://github.com/sinhp/au"><code>Code</code></a></p>
+<!-- <a href="https://github.com/sinhp/au"><code>Code</code></a></p> -->
 
 
 <h2 id="pub"><font color="#002d72">Selected Publications</font></h2>
