@@ -2,7 +2,7 @@
 title: "Real Analysis (MATH 2122A)"		
 collection: GTA		
 permalink: /GTA/2014-real-analysis
-venue: "Mathematics Department, Western University"		
+venue: "Mathematics Department, Western University 🇨🇦"		
 date: 2014-02-05
 type: "Upper level mathematics undergraduate course"
 ---	

@@ -3,7 +3,7 @@ title: "Computer Formalisation of Mathematics"
 collection: teaching		
 type: "PhD course, VT 2025"		
 permalink: /teaching/2025-formalization-stockholm/
-venue: "Stockholm University, Sweden"
+venue: "Stockholm University, Sweden 🇸🇪"
 date: 2025-05-28		
 ---	
 

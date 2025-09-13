@@ -2,7 +2,7 @@
 title: "Finite Maths (MATH 1228)"		
 collection: GTA		
 permalink: /GTA/2013-finite-math
-venue: "Mathematics Department, Western University"		
+venue: "Mathematics Department, Western University 🇨🇦"		
 date: 2014-10-23
 type: "An undergraduate course for social science students"
 ---	
