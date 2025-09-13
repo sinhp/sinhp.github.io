@@ -7,15 +7,13 @@ venue: "Stockholm University 🇸🇪"
 date: 2025-09-02		
 ---	
 
-
-
-Logic II is a second level logic course, giving an introduction to major topics of modern mathematical logic. It consists of three main parts:
+[Logic II](https://utbildning.su.se/english/education/course-catalogue/mm/mm7022) is a second level logic course, giving an introduction to major topics of modern mathematical logic. It consists of three main parts:
 
 - Computability and incompleteness: models of computability; (un)decidability and (un)computability; coding of logic, and Gödel’s incompleteness theorems.
 - Axiomatic foundations: Zermelo–Fraenkel set theory, and the development of mathematics therein, including ordinals, cardinals, transfinite recursion, the axiom of choice and its applications, and first independence results
 - Model theory: structures and isomorphisms, elementary equivalence and embeddings, the Löwenheim–Skolem theorems, categoricity, back-and-forth arguments, and applications/examples including non-standard analysis
 
-## Resources
+## Textbooks
 
 The course textbook is the following book: 
 
@@ -25,15 +23,16 @@ I also highly Jeremy Avigad's excellent book:
 
 Avigad, Jeremy. 2022. _Mathematical Logic and Computation_. Cambridge: Cambridge University Press.
 
-### Some Slides 
+### Course Materials
+
+[The course page on kurser.math.su.se](https://kurser.math.su.se/course/view.php?id=1674)
+
+#### Some Slides 
 
 - [History of computability](/files/teaching/what-is-computation.pdf)
 
+### The Lean Diary
 
+[https://github.com/sinhp/CompLean/](https://github.com/sinhp/CompLean/)
 
-
-
-
-
-
-		
+Lean is used as a digital diary for the first part of the course. The companion Lean code contains detailed definitions of the main concepts of the lectures, some basic examples and computations, and verified proofs of some of main theorems of computability and incompleteness.
