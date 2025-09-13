@@ -5,7 +5,7 @@ type: "1st year undergraduate module"
 permalink: /demonstration/2016-spring-intro-to-maths-for-cs
 venue: "School of Computer Science, University of Birmingham, UK"		
 date: 2016-04-11		
-location: "Birmingham, UK"		
+location: "Birmingham 🇬🇧"		
 ---	
  			
 * [Introduction to Mathematics for Computer Science, Semester 2, 2016](https://canvas.bham.ac.uk/courses/15666/pages/intro-maths-cs-2-contents) 		

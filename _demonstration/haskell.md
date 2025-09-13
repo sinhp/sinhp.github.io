@@ -5,7 +5,7 @@ type: "2nd year undergraduate module"
 permalink: /demonstration/haskell
 venue: "School of Computer Science, University of Birmingham, UK"
 date: 2015-09-26
-location: "Birmingham, UK"
+location: "Birmingham 🇬🇧"
 ---
 
 * Functional Programming, Haskell, Semester 1, 2015

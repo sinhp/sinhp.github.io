@@ -5,7 +5,7 @@ type: "2nd year undergraduate module"
 permalink: /demonstration/2018-models-of-computation
 venue: "School of Computer Science, University of Birmingham, UK"		
 date: 2018-01-11		
-location: "Birmingham, UK"		
+location: "Birmingham 🇬🇧"		
 ---	
  			
 * [Models Of Computation, Spring 2017](https://www.cs.bham.ac.uk/internal/modules/2017/06-05934/) 		
