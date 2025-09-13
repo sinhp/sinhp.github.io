@@ -17,11 +17,15 @@ date: 2025-09-02
 
 The course textbook is the following book: 
 
-R. Cori, D. Lascar, 2001, _Mathematical Logic, A Course with Exercises, Part II: Recursion Theory, Gödel’s Theorems, Set Theory, Model Theory_, Oxford University Press. 
+R. Cori, D. Lascar, 2001, _Mathematical Logic, A Course with Exercises, Part II: Recursion Theory, Gödel’s Theorems, Set Theory, Model Theory_, Oxford University Press.
 
-I also highly Jeremy Avigad's excellent book: 
+I also highly recommend Jeremy Avigad's excellent book:
 
-Avigad, Jeremy. 2022. _Mathematical Logic and Computation_. Cambridge: Cambridge University Press.
+Avigad, Jeremy. 2022. _Mathematical Logic and Computation_. Cambridge University Press.
+
+For Turing Machines we use 
+
+Bridges, Douglas. 1994. _Computability: A Mathematical Sketchbook_. Springer.
 
 ### Course Materials
 
