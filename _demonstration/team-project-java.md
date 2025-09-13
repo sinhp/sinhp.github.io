@@ -5,7 +5,7 @@ type: "2nd year undergraduate module"
 permalink: /demonstration/team-project-java
 venue: "School of Computer Science, University of Birmingham"		
 date: 2017-03-01		
-location: "Birmingham, UK"		
+location: "Birmingham 🇬🇧"		
 ---	
  			
 * [Team Project, Semester 2, 2017](https://canvas.bham.ac.uk/courses/21812) 		

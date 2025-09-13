@@ -4,7 +4,7 @@ collection: demonstration
 type: "1st year undergraduate module"		
 permalink: /demonstration/ocaml
 venue: "School of Computer Science, University of Birmingham, UK"		
-location: "Birmingham, UK"		
+location: "Birmingham 🇬🇧"		
 date: 2017-11-06		
 ---	
  		
