@@ -3,7 +3,7 @@ title: "Mathematical and Computational Foundations of Data Science (Spring 2023)
 collection: teaching		
 type: "Upper level undergraduate course"		
 permalink: /teaching/2023-data-science
-venue: "Johns Hopkins University, USA"				
+venue: "Johns Hopkins University 🇺🇸"				
 ---	
 
 ### Course Description 
