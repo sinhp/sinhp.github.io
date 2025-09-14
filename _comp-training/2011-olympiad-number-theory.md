@@ -2,7 +2,7 @@
 title: "Iranian Mathematics Olympiad"		
 collection: demonstration			
 permalink: /comp-training/imo
-venue: "NODET High School, Iran"
+venue: "NODET High School (Sampad) 🇮🇷"
 date: 2011-09-01
 type: "Training High School students for partaking in the national mathematics olympiad"		
 ---	
