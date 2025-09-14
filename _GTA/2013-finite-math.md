@@ -7,8 +7,7 @@ date: 2014-10-23
 type: "An undergraduate course for social science students"
 ---	
  			
-* Methods of Finite Mathematics, Autumn 2013 	
-   * Lecturer: Vicky Olds
+* Methods of Finite Mathematics, Autumn 2013
    * Activities: 
      * Running exercise classes 
      * Marking mid-term and final exams papers
