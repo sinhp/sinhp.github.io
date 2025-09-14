@@ -2,7 +2,7 @@
 title: "Metric Space Topology (MATH 3122B)"		
 collection: GTA		
 permalink: /GTA/2014-metric-space-topology
-venue: "Mathematics Department, Western University"		
+venue: "Mathematics Department, Western University 🇨🇦"		
 type: "Upper level mathematics undergraduate course"	
 date: 2014-10-15		
 ---	
