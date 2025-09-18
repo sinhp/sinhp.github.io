@@ -1,7 +1,7 @@
 ---
 title: "The Groupoid Model of Homotopy Type Theory in Lean4"
 collection: lean
-permalink: /lean/2024-06-14-HoTTinLean
+permalink: /lean-projects/2024-06-14-HoTTinLean
 date: 2024-06-14
 link : https://github.com/sinhp/groupoid_model_in_lean4
 ---

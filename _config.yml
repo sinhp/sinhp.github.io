@@ -196,6 +196,9 @@ collections:
   lean-projects:
     output: true
     permalink: /:collection/:path/  
+  lean-seminars:
+    output: true
+    permalink: /:collection/:path/      
   portfolio:
     output: true
     permalink: /:collection/:path/
@@ -309,6 +312,15 @@ defaults:
       author_profile: true
       share: false
       comments: false    
+  # _lean-seminars
+  - scope:
+      path: ""
+      type: lean-seminars
+    values:
+      layout: single
+      author_profile: true
+      share: false
+      comments: false       
   # _portfolio
   - scope:
       path: ""
