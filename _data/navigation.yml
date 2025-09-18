@@ -8,7 +8,7 @@ main:
     url: /teaching/    
         
   - title : "Lean"
-    url: /lean-projects/
+    url: /lean/
 
   - title : "Talks"
     url: /talks/ 
