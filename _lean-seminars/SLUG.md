@@ -5,6 +5,23 @@ permalink: /lean/SLUG
 date: 2025-09-18
 ---
 
+<!-- <figure>
+  <img src="/assets/images/my-image.jpg" alt="A beautiful sunset over mountains" style="max-width: 100%;">
+  <figcaption>
+    A beautiful sunset over mountains. <br>
+    <small>Photo by John Doe on Unsplash</small>
+  </figcaption>
+</figure> -->
+
+<!-- ![slug bronze sculpture by Katja Aglert](/files/meeting/slug.png) -->
+
+<figure>
+  <img src="/files/meeting/slug.png" alt="A bronze sculpture by Katja Aglert" style="max-width: 100%;">
+  <figcaption>
+    <small>A bronze sculpture by <a href="https://katjaaglert.com/filter/Liminal-Creature/Liminal-Creature">Katja Aglert</a></small>
+  </figcaption>
+</figure>
+
 ### What
 
 A reading group run by [Yaël Yanis Dillies](https://www.su.se/english/profiles/yadi8568-1.745057) and me, where we discuss different aspects of interactive theorem proving, programming, and metaprogramming in Lean.
