@@ -24,7 +24,7 @@ date: 2025-09-18
 
 ### What
 
-A reading group run by [Yaël Yanis Dillies](https://www.su.se/english/profiles/yadi8568-1.745057) and me, where we discuss different aspects of interactive theorem proving, programming, and metaprogramming in Lean.
+A reading group run by [Yaël Dillies](https://www.su.se/english/profiles/yadi8568-1.745057) and me, where we discuss different aspects of interactive theorem proving, programming, and metaprogramming in Lean.
 
 Everyone is welcome to join! More experienced users are welcome to propose projects in formalization, programming, or metaprogramming.
 
@@ -32,7 +32,8 @@ If you are curious about Lean but don’t have much experience, you’re also we
 
 ### Where
 
-The Mathematics Department, Stockholm University
+The Mathematics Department, Stockholm University 
+Location on [Open Street Map](https://www.openstreetmap.org/?mlat=59.35472&mlon=18.05553#map=18/59.354720/18.055530)
 
 ### When
 
