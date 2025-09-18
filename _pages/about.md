@@ -50,10 +50,7 @@ I was born in Qeshm Island in the Persian Gulf in Iran. I have lived in Iran, th
 
 ### Other interests
 
-I started sports in gymnastics (6-12), and later switched to playing football (socccer) as a midfielder. I still play football (soccer) every now and then, but tend to go for trail running more often these days.
-I am fond of remote places in the mountains, and I go hiking, and remain off-the-grid every now and then.
-
-I am interested in Art history and Architecture and I like to go to museums.
+I started sports in gymnastics (6-12), and later switched to playing football (soccer) as a midfielder. I go for trail running more often these days. I am fond of remote places in the mountains, and I go hiking, and remain off-the-grid every now and then. I am also interested in Art history and Architecture and I like to go to museums.
 
 I am an avid reader of philosophy and history and enjoy discussing them. If I had to read one book for the second time, it would be Nietzsche's *Also sprach Zarathustra*. The most fun book I have read is Robert Musil's *Der Mann ohne Eigenschaften* from 1921. Among mathematician-writers I like to read Haussdorff, Hermann Weyl, and Gian Carlo Rota. The last mathematician who could be claimed to know everything about mathematics was probably Henri Poincaré. Löic Pujet introduced me to *Last Thoughts* by Poincaré, which was a great fun to read.
 

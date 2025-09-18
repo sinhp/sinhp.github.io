@@ -5,14 +5,6 @@ permalink: /lean/SLUG
 date: 2025-09-18
 ---
 
-<!-- <figure>
-  <img src="/assets/images/my-image.jpg" alt="A beautiful sunset over mountains" style="max-width: 100%;">
-  <figcaption>
-    A beautiful sunset over mountains. <br>
-    <small>Photo by John Doe on Unsplash</small>
-  </figcaption>
-</figure> -->
-
 <!-- ![slug bronze sculpture by Katja Aglert](/files/meeting/slug.png) -->
 
 <figure>
@@ -32,8 +24,9 @@ If you are curious about Lean but don’t have much experience, you’re also we
 
 ### Where
 
-The Mathematics Department, Stockholm University 
-Location on [Open Street Map](https://www.openstreetmap.org/?mlat=59.35472&mlon=18.05553#map=18/59.354720/18.055530)
+The Mathematics Department, Stockholm University
+
+See the location on [Open Street Map](https://www.openstreetmap.org/?mlat=59.35472&mlon=18.05553#map=18/59.354720/18.055530).
 
 ### When
 
@@ -49,6 +42,5 @@ Location on [Open Street Map](https://www.openstreetmap.org/?mlat=59.35472&mlon=
 | v 48   | 2025-11-27  | 14:00 - 17:00    | Mötesrum 16 - Mittag-Lefflerrummet, Albano Hus 1, Vån 3 |
 | v 49   | 2025-12-04  | 14:00 - 17:00    | Mötesrum 16 - Mittag-Lefflerrummet, Albano Hus 1, Vån 3 |
 | v 50   | 2025-12-11  | 14:00 - 17:00    | Mötesrum 11 - Kovalevskyrummet, Albano Hus 1, Vån 3     |
-
 
 __BYOLoL (Bring Your Own Lean on a Laptop)__
