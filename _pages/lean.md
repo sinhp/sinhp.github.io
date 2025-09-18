@@ -1,9 +1,15 @@
 ---
 layout: archive
 title: "Lean Interactive Theorem Prover"
-permalink: /lean-projects/
+permalink: /lean/
 author_profile: true
 ---
+
+<h2><font color="#800020"> SLUG (Stockholm Lean User Group) </font></h2>
+{% include base_path %}
+{% for post in site.lean-seminars reversed %}
+  {% include archive-single-lean.html %}
+{% endfor %}
 
 
 <h2><font color="#800020"> Formalization Projects </font></h2>
