@@ -45,7 +45,8 @@ With Alex Bentkamp, Jon Eugester, and Marcus Zibrowius, we developed the <a href
 
 <h3> Introduction to Proofs </h3>
 
-1. <a href="https://github.com/sinhp/ProofLab4/tree/master">Johns Hopkins University, Fall 2023 <i class="fa fa-external-link" aria-hidden="true"></i></a>
-2. <a href="https://sinhp.github.io/teaching/2022-introduction-to-proofs-with-Lean">Johns Hopkins University, Fall 2022 <i class="fa fa-external-link" aria-hidden="true"></i></a>
-3. <a href="https://introproofs.github.io/s22">Johns Hopkins University, Spring 2022 <i class="fa fa-external-link" aria-hidden="true"></i></a>
-4. <a href="https://introproofs.github.io/jhu301-f21/">Johns Hopkins University, Fall 2021 <i class="fa fa-external-link" aria-hidden="true"></i></a>
+1. <a href="https://sinhp.github.io/teaching/2025-logic2-stockholm/">_Computability and Incompleteness_, Stockholm University, Fall 2025 <i class="fa fa-external-link" aria-hidden="true"></i></a>
+2. <a href="https://github.com/sinhp/Proofs-S24/tree/master">_Introduction to Proofs_, Johns Hopkins University, Spring 2024 <i class="fa fa-external-link" aria-hidden="true"></i></a>
+3. <a href="https://github.com/sinhp/ProofLab4/tree/master">_Introduction to Proofs_, Johns Hopkins University, Fall 2023 <i class="fa fa-external-link" aria-hidden="true"></i></a>
+4. <a href="https://sinhp.github.io/teaching/2022-introduction-to-proofs-with-Lean">_Introduction to Proofs_, Johns Hopkins University, Fall 2022 <i class="fa fa-external-link" aria-hidden="true"></i></a>
+5. <a href="https://introproofs.github.io/s22">_Introduction to Proofs_, Johns Hopkins University, Spring 2022 <i class="fa fa-external-link" aria-hidden="true"></i></a>
