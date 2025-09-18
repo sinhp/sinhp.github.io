@@ -45,8 +45,7 @@ With Alex Bentkamp, Jon Eugester, and Marcus Zibrowius, we developed the <a href
 
 <h3> Introduction to Proofs </h3>
 
-1. [Johns Hopkins University, Fall 2023](https://github.com/sinhp/ProofLab4/tree/master)
-2. [Johns Hopkins University, Fall 2022](https://sinhp.github.io/teaching/2022-introduction-to-proofs-with-Lean)
-3. [Johns Hopkins University, Spring 2022](https://introproofs.github.io/s22)
-4. [Johns Hopkins University, Fall 2021](https://introproofs.github.io/jhu301-f21/)
-
+1. <a href="https://github.com/sinhp/ProofLab4/tree/master">Johns Hopkins University, Fall 2023 <i class="fa fa-external-link" aria-hidden="true"></i></a>
+2. <a href="https://sinhp.github.io/teaching/2022-introduction-to-proofs-with-Lean">Johns Hopkins University, Fall 2022 <i class="fa fa-external-link" aria-hidden="true"></i></a>
+3. <a href="https://introproofs.github.io/s22">Johns Hopkins University, Spring 2022 <i class="fa fa-external-link" aria-hidden="true"></i></a>
+4. <a href="https://introproofs.github.io/jhu301-f21/">Johns Hopkins University, Fall 2021 <i class="fa fa-external-link" aria-hidden="true"></i></a>
