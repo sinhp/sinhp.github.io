@@ -22,14 +22,15 @@ div.highlighter-rouge, figure.highlight {
     font-size: $type-size-6;
     line-height: 1;
     text-transform: none;
-    speak: none;
   }
 
   .highlight {
     margin: 0;
     font-family: $monospace;
-    font-size: $type-size-7;
-    line-height: 1.8;
+    // Increase code font size to match base text for better readability.
+    // $type-size-5 is ~1em (about 16px) as defined in _variables.scss.
+    font-size: 14px;
+    line-height: 2;
   }
 }
 

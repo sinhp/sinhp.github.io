@@ -161,7 +161,9 @@ kramdown:
   auto_ids: true
   footnote_nr: 1
   entity_output: as_char
+  toc: true
   toc_levels: 1..6
+  toc_sticky : true
   smart_quotes: lsquo,rsquo,ldquo,rdquo
   enable_coderay: false
   math_engine: katex
@@ -195,7 +197,10 @@ collections:
     permalink: /:collection/:path/
   lean-projects:
     output: true
-    permalink: /:collection/:path/  
+    permalink: /:collection/:path/
+  lean-tutorials:
+    output: true
+    permalink: /:collection/:path/      
   lean-seminars:
     output: true
     permalink: /:collection/:path/      
@@ -312,6 +317,15 @@ defaults:
       author_profile: true
       share: false
       comments: false    
+  # _lean-tutorials
+  - scope:
+      path: ""
+      type: lean-tutorials
+    values:
+      layout: single
+      author_profile: true
+      share: false
+      comments: false       
   # _lean-seminars
   - scope:
       path: ""
@@ -362,6 +376,7 @@ timezone: Europe/London # http://en.wikipedia.org/wiki/List_of_tz_database_time_
 
 # Plugins
 gems:
+  - jekyll-toc
   - jekyll-paginate
   - jekyll-sitemap
   - jekyll-gist

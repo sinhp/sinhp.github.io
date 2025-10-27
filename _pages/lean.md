@@ -5,9 +5,9 @@ permalink: /lean/
 author_profile: true
 ---
 
-<h2><font color="#800020"> SLUG (Stockholm Lean User Group) </font></h2>
+<h2><font color="#800020"> Some Tutorials </font></h2>
 {% include base_path %}
-{% for post in site.lean-seminars reversed %}
+{% for post in site.lean-tutorials reversed %}
   {% include archive-single-lean.html %}
 {% endfor %}
 
@@ -15,6 +15,13 @@ author_profile: true
 <h2><font color="#800020"> Formalization Projects </font></h2>
 {% include base_path %}
 {% for post in site.lean-projects reversed %}
+  {% include archive-single-lean.html %}
+{% endfor %}
+
+
+<h2><font color="#800020"> SLUG (Stockholm Lean User Group) </font></h2>
+{% include base_path %}
+{% for post in site.lean-seminars reversed %}
   {% include archive-single-lean.html %}
 {% endfor %}
 
