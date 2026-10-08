@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "Short Bio"
+title: ""
 # excerpt: "Short Bio"
 author_profile: true
 redirect_from: 
@@ -48,11 +48,11 @@ It was examined by Peter Johnstone and Martín Escardó.
 
 Before that I was at Western University in London (Canada). I learnt intuitionistic logic and topos theory from John Lane Bell -- In fact, I first heard about topos theory and intuitionistic logic in his classical philosophy of mathematics course. I also learnt differential geometry from Martin Pinsonnault.
 
-## Short biography
+## Short Biography
 
 I was born in Qeshm Island in the Persian Gulf in Iran. I have lived in Iran, the Canada, UK, USA, the Netherlands, and Sweden. I speak English, Dutch, and Persian.
 
-### Other interests
+<!-- ### Other interests -->
 
 I started sports in gymnastics (6-12), and later switched to playing football (soccer) as a midfielder. I go for trail running more often these days. I am fond of remote places in the mountains, and I go hiking, and remain off-the-grid every now and then. I am also interested in Art history and Architecture and I like to go to museums.
 
