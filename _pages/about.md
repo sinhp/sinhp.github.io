@@ -11,9 +11,7 @@ redirect_from:
 
 My work sits at the intersection of machine learning for formal reasoning, formal methods (automated and interactive theorem proving), and category theory. I come to this from categorical logic and Homotopy Type Theory, where internal languages and categorical semantics have been my favorite tools for building bridges between logic, category theory, and algebraic topology, particularly in synthetic homotopy theory. See my [publications]({{ baseurl }}/publications/) for more details.
 
-I am currently a senior research associate at the University of Cambridge working on machine learning for automated theorem proving in Jamie Vicary's group. 
-
-Currently, most AI tools for mathematics work essentially as LLM copilots: language models propose proof steps from text, with no built-in grasp of the objects or the domains they reason about. We hope to build more efficient neural architectures built on bespoke mathematical representation spaces, drawn from categorical structures of type theory, which encode the structural symmetries of the underlying mathematical structure of the objects and domains they reason about in a way that is integrated with proof assistants at both the front-end (e.g. tactics) and the back-end (kernel checking, compilation in the learning loop). 
+I am currently a senior research associate at the [University of Cambridge](https://www.cst.cam.ac.uk/people/sh2451) working on [machine learning for automated theorem proving]({{ baseurl }}/aiformath-cambridge/) in Jamie Vicary's group. 
 
 Previously, in 2024–25, I was a Lean expert at [Harmonic AI](https://www.harmonic.fun/). 
 
