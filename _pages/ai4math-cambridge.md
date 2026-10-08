@@ -1,5 +1,5 @@
 ---
-permalink: /ml-for-atp/
+permalink: /ai4math-cambridge/
 title: "Machine Learning for Automated Theorem Proving"
 author_profile: true
 ---
