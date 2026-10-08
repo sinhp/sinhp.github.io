@@ -18,32 +18,8 @@ teaser                   :  # filename of teaser fallback teaser image placed in
 breadcrumbs              : false # true, false (default)
 words_per_minute         : 160
 read_more                : "" # if enabled, adds "Read more" links to excerpts
-comments:                
-  provider               : "disqus"
-  disqus:                 
-    shortname            :  sinhp-github-io
-  discourse:
-    server               : # https://meta.discourse.org/t/embedding-discourse-comments-via-javascript/31963 , e.g.: meta.discourse.org
-  #facebook:
-  #  appid                :
-  #  num_posts            : # 5 (default)
-  #  colorscheme          : # "light" (default), "dark"
-staticman:
-  allowedFields          : ['name', 'email', 'url', 'message']
-  branch                 : "gh-pages" # "master", "gh-pages"
-  commitMessage          : "New comment."
-  filename               : comment-{@timestamp}
-  format                 : "yml"
-  moderation             : true
-  path                   : "_data/comments/{options.slug}"
-  requiredFields         : ['name', 'email', 'message']
-  transforms:
-    email                : "md5"
-  generatedFields:
-    date:
-      type               : "date"
-      options:
-        format           : "iso8601" # "iso8601" (default), "timestamp-seconds", "timestamp-milliseconds"
+comments:
+  provider               : false
 atom_feed:
   path                   : # blank (default) uses feed.xml
 
@@ -375,7 +351,7 @@ timezone: Europe/London # http://en.wikipedia.org/wiki/List_of_tz_database_time_
 
 
 # Plugins
-gems:
+plugins:
   - jekyll-toc
   - jekyll-paginate
   - jekyll-sitemap

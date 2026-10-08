@@ -1,30 +1,36 @@
 ---
 permalink: /
-title: ""
-# excerpt: "About me"
+title: "Short Bio"
+# excerpt: "Short Bio"
 author_profile: true
 redirect_from: 
   - /about/
   - /about.html
 ---
 
-My work centers on [category theory](https://ncatlab.org/nlab/show/category+theory) and its applications to logic and semantics, with a focus on emerging mathematical foundations such as Homotopy Type Theory. I explore the rich interplay between logic, category theory, and algebraic topology, particularly in areas such as synthetic homotopy theory. My favorite tools are internal languages and categorical semantics which enable us to make new bridges between these disciplines. See my [publications]({{ baseurl }}/publications/) for more details.
 
-My other major interest is [formalization of mathematics]({{ baseurl }}/lean-projects/) in interactive theorem provers, particularly in [Lean 4](https://lean-lang.org). I am a regular contributor to Mathlib's category theory library and I've been implemeting tools and automation for categories in Lean. My goal is to make Lean a natural and friendly tool for category theory research and teaching.
+My work sits at the intersection of machine learning for formal reasoning, formal methods (automated and interactive theorem proving), and category theory. I come to this from categorical logic and Homotopy Type Theory, where internal languages and categorical semantics have been my favorite tools for building bridges between logic, category theory, and algebraic topology, particularly in synthetic homotopy theory. See my [publications]({{ baseurl }}/publications/) for more details.
 
-I currently lead several [formalization projects]({{ baseurl }}/lean-projects/) in Lean 4 in areas related to logic, category theory, homotopy theory, and their interplay. If any of these topics interest you, I encourage you to reach out! I am always looking for collaborators and students who are interested in these areas.
+I am currently a senior research associate at the University of Cambridge working on machine learning for automated theorem proving in Jamie Vicary's group. 
 
-I have extensively used [Lean  in my teaching of math courses]({{ baseurl }}/teaching/), and I am very excited about the ways interactive theorem provers — particularly Lean — are changing how mathematics is learned and taught.
+Currently, most AI tools for mathematics work essentially as LLM copilots: language models propose proof steps from text, with no built-in grasp of the objects or the domains they reason about. We hope to build more efficient neural architectures built on bespoke mathematical representation spaces, drawn from categorical structures of type theory, which encode the structural symmetries of the underlying mathematical structure of the objects and domains they reason about in a way that is integrated with proof assistants at both the front-end (e.g. tactics) and the back-end (kernel checking, compilation in the learning loop). 
 
-Looking ahead, I'm interested in exploring how interactive theorem proving and automated reasoning can contribute to the development of [provably safe AI](https://arxiv.org/abs/2405.06624).
+Previously, in 2024–25, I was a Lean expert at [Harmonic AI](https://www.harmonic.fun/). 
 
-<!-- I am a researcher in category theory, type theory, logic, interactive theorem proving and formalization of mathematics. 
+I currently lead several [formalization projects]({{ baseurl }}/lean-projects/) in Lean 4 in areas related to logic, category theory, homotopy theory, machine learning, and their interplay. With Steve Awodey, I co-lead [HoTTLean](https://github.com/sinhp/HoTTLean), a deep embedding of Homotopy Type Theory in Lean 4, together with a formalization of its meta-theory. Its [certifying type checker](https://dl.acm.org/doi/10.1145/3779031.3779087) lets one write synthetic proofs in HoTT and soundly transfer them to classical statements about, for example, groupoids. As a next stage, we are considering an AI proof-search agent inside HoTTLean, to test whether machine provers reason better in a synthetic language such as HoTT than in classical Lean. HoTT also becomes a natural target language for autoformalization: parallel proofs in HoTT and in Mathlib would give a dataset for training models that translate between the HoTT libraries of Rocq and Agda and Lean's Mathlib.
 
-I am also a user of Lean4, a formalizer of category theory in Lean, a contributor to mathlib.
+My other major interest is [formalization of mathematics]({{ baseurl }}/lean-projects/) in interactive theorem provers, particularly in [Lean 4](https://lean-lang.org). I am a regular contributor to, and reviewer for, Mathlib's category theory library, where my contributions include condensed mathematics, cohomology theory, weak factorization systems, and locally cartesian closed categories. I've also been implementing tools and automation for categories in Lean, and in 2024 I formalized the theory of [polynomial functors](https://github.com/sinhp/Poly) in maximal generality. My goal is to make Lean a natural and friendly tool for category theory research and teaching.
+<!-- 
+Other ongoing projects include a mechanization of graph neural networks in monoidal categories, using CAP for computation and Lean to prove their properties, and, with Peter LeFanu Lumsdaine, a modular formalization of essentially algebraic theories in Rocq and Lean, inspired by our new formulation of Joyal's arithmetic universes. If any of these topics interest you, I encourage you to reach out! I am always looking for collaborators and students who are interested in these areas. -->
 
-Currently I am implementing geometric deep learning algorithms in Lean 4. -->
+I have extensively used [Lean in my teaching of math courses]({{ baseurl }}/teaching/). At Johns Hopkins I redesigned Introduction to Proofs, integrating Lean, and in Fall 2023 added machine learning to the course: students generated conjectures with neural networks, tested them in Lean, and corrected AI-generated proofs. I am very excited about the ways interactive theorem provers — particularly Lean — are changing how mathematics is learned and taught.
 
-<!-- I am also interested in learning more about certain aspects of verification and machine learning. -->
+Looking ahead, I am interested in trustworthy and modular autoformalization. As AI agents generate ever longer formal proofs, it becomes harder to check that the formal statements say what the informal mathematics says, especially when agents write ad-hoc definitions instead of building on libraries such as Mathlib. I would like to explore decomposing autoformalization into independently checkable modules at different levels of abstraction, with category theory and synthetic mathematics as organizing tools. 
+
+More broadly, I'm interested in how interactive theorem proving and automated reasoning can contribute to the development of provably safe AI. 
+
+<!-- %](https://arxiv.org/abs/2405.06624). -->
+
 
 ## Academic Profile
 
