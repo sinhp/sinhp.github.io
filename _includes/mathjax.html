@@ -23,12 +23,14 @@
       inlineMath: [ ['$','$'], ['\\(', '\\)'] ],
       displayMath: [ ['$$','$$'], ['\\[', '\\]']],
       processEscapes: true,
+      {% if page.use_xypic %}packages: {'[+]': ['xypic']},{% endif %}
     },
     options: {
       skipHtmlTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code']
     },
     loader: {
-      load: ['[tex]/amscd']
+      {% if page.use_xypic %}paths: {xyjax: 'https://cdn.jsdelivr.net/gh/sonoisa/XyJax-v3@3.0.1/build/'},
+      load: ['[tex]/amscd', '[xyjax]/xypic.js']{% else %}load: ['[tex]/amscd']{% endif %}
     }
   };
   </script>
