@@ -1,0 +1,1603 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Covariant Yoneda Lemma in Lean 4 — Sina Hazratpour (sinhp.github.io)</title>
+  <style>
+    /* ==========================================================================
+       1. DESIGN TOKENS & TYPOGRAPHY (100% Self-Contained, Offline-Ready)
+       ========================================================================== */
+    :root {
+      --bg-paper: #faf9f5;
+      --bg-grid: rgba(27, 34, 44, 0.075);
+      --card-bg: #ffffff;
+      --card-nested-bg: #fcfcfa;
+      --ink-primary: #1b222c;
+      --ink-secondary: #4a5568;
+      --ink-muted: #718096;
+      --border-subtle: #dcd8ce;
+      --border-strong: #2b3648;
+
+      /* Academic Callout & Diagram Accents */
+      --accent-blue: #1d4ed8;
+      --accent-blue-soft: rgba(29, 78, 216, 0.10);
+      --accent-emerald: #047857;
+      --accent-emerald-soft: rgba(4, 120, 87, 0.11);
+      --accent-amber: #b45309;
+      --accent-amber-soft: rgba(180, 83, 9, 0.12);
+      --accent-rose: #be123c;
+      --accent-rose-soft: rgba(190, 18, 60, 0.11);
+
+      /* Lean 4 Code Block & Syntax Highlighting */
+      --code-bg: #161b22;
+      --code-border: #30363d;
+      --code-text: #e6edf3;
+      --code-kw: #ff7b72;
+      --code-type: #79c0ff;
+      --code-fn: #d2a8ff;
+      --code-op: #ffa657;
+      --code-comment: #8b949e;
+
+      /* System Academic Typography Stacks (Zero External Font Requests) */
+      --font-serif: "Palatino Linotype", "Book Antiqua", Palatino, Georgia, serif;
+      --font-sans: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      --font-mono: "JetBrains Mono", "Fira Code", "SFMono-Regular", Menlo, Monaco, Consolas, monospace;
+
+      /* Slipshow Camera Spring Curve */
+      --camera-transition: transform 0.92s cubic-bezier(0.22, 1, 0.36, 1);
+    }
+
+    *, *::before, *::after {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    html, body {
+      width: 100%;
+      height: 100%;
+      overflow: hidden;
+      background-color: var(--bg-paper);
+      color: var(--ink-primary);
+      font-family: var(--font-sans);
+      -webkit-font-smoothing: antialiased;
+      user-select: none;
+    }
+
+    /* ==========================================================================
+       2. INFINITE SPATIAL VIEWPORT & 3550x1960 WORLD CANVAS
+       ========================================================================== */
+    #viewport {
+      position: fixed;
+      inset: 0;
+      overflow: hidden;
+      background-color: var(--bg-paper);
+      background-image: radial-gradient(var(--bg-grid) 1.25px, transparent 1.25px);
+      background-size: 28px 28px;
+      cursor: grab;
+      touch-action: none;
+    }
+
+    #viewport.panning {
+      cursor: grabbing;
+    }
+
+    #canvas-world {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 3550px;
+      height: 1960px;
+      transform-origin: 0 0;
+      transition: var(--camera-transition);
+      will-change: transform;
+    }
+
+    #canvas-world.no-transition {
+      transition: none !important;
+    }
+
+    /* Background SVG Layer for Global Proof Dependency Arrows */
+    #dependency-arrows {
+      position: absolute;
+      inset: 0;
+      width: 100%;
+      height: 100%;
+      pointer-events: none;
+      z-index: 1;
+    }
+
+    /* World-Anchored Vector SVG Chalk Layer (Scales & Pans with Canvas) */
+    #chalk-layer {
+      position: absolute;
+      inset: 0;
+      width: 100%;
+      height: 100%;
+      pointer-events: none;
+      z-index: 50;
+    }
+
+    #chalk-layer.drawing-active {
+      pointer-events: all;
+      cursor: crosshair;
+    }
+
+    /* ==========================================================================
+       3. SLIPS (CARDS) & NESTED THEOREM CONTAINER
+       ========================================================================== */
+    .slip {
+      position: absolute;
+      background: var(--card-bg);
+      border: 1.5px solid var(--border-subtle);
+      border-radius: 14px;
+      padding: 26px 30px;
+      box-shadow: 0 12px 32px rgba(27, 34, 44, 0.06), 0 2px 6px rgba(27, 34, 44, 0.04);
+      z-index: 10;
+      opacity: 0.34;
+      filter: blur(0.6px);
+      transition:
+        opacity 0.65s ease,
+        filter 0.65s ease,
+        border-color 0.5s ease,
+        box-shadow 0.5s ease;
+      cursor: pointer;
+    }
+
+    .slip.active {
+      opacity: 1;
+      filter: none;
+      border-color: var(--border-strong);
+      box-shadow: 0 24px 56px rgba(27, 34, 44, 0.13), 0 4px 12px rgba(27, 34, 44, 0.06);
+      cursor: default;
+      z-index: 20;
+    }
+
+    /* Global Bird's-Eye Overview keeps every slip crisp and clickable */
+    #canvas-world.overview-mode .slip {
+      opacity: 0.94;
+      filter: none;
+      cursor: pointer;
+    }
+
+    #canvas-world.overview-mode .slip.active {
+      opacity: 1;
+      border-color: var(--accent-blue);
+      box-shadow: 0 0 0 4px var(--accent-blue-soft), 0 24px 56px rgba(27, 34, 44, 0.14);
+    }
+
+    /* Parent Container for Theorem II.1 (Holds Nested Subslips 4 & 5) */
+    .theorem-group {
+      position: absolute;
+      background: rgba(244, 242, 236, 0.74);
+      border: 2px dashed #b8b2a6;
+      border-radius: 20px;
+      padding: 24px 32px;
+      z-index: 5;
+      opacity: 0.45;
+      transition: opacity 0.65s ease, border-color 0.5s ease, background 0.5s ease;
+    }
+
+    .theorem-group.group-active,
+    #canvas-world.overview-mode .theorem-group {
+      opacity: 1;
+      border-color: var(--accent-blue);
+      background: rgba(244, 246, 252, 0.8);
+    }
+
+    .theorem-group-header {
+      display: flex;
+      align-items: baseline;
+      justify-content: space-between;
+      gap: 24px;
+      padding-bottom: 14px;
+      border-bottom: 1px solid rgba(27, 34, 44, 0.12);
+    }
+
+    /* ==========================================================================
+       4. TYPOGRAPHY, BADGES, LINKS & LAYOUT HELPERS
+       ========================================================================== */
+    .slip-tag {
+      display: inline-flex;
+      align-items: center;
+      gap: 7px;
+      font-size: 11.5px;
+      font-weight: 700;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      padding: 4px 10px;
+      border-radius: 6px;
+      margin-bottom: 10px;
+    }
+
+    .tag-blue { background: var(--accent-blue-soft); color: var(--accent-blue); }
+    .tag-emerald { background: var(--accent-emerald-soft); color: var(--accent-emerald); }
+    .tag-amber { background: var(--accent-amber-soft); color: var(--accent-amber); }
+    .tag-rose { background: var(--accent-rose-soft); color: var(--accent-rose); }
+
+    h1 {
+      font-family: var(--font-serif);
+      font-size: 38px;
+      line-height: 1.15;
+      font-weight: 700;
+      color: var(--ink-primary);
+      margin-bottom: 10px;
+    }
+
+    h2 {
+      font-family: var(--font-serif);
+      font-size: 25.5px;
+      line-height: 1.22;
+      font-weight: 700;
+      color: var(--ink-primary);
+      margin-bottom: 8px;
+    }
+
+    p {
+      font-size: 15.5px;
+      line-height: 1.55;
+      color: var(--ink-secondary);
+      margin-bottom: 12px;
+    }
+
+    .math-serif {
+      font-family: var(--font-serif);
+      font-style: italic;
+    }
+
+    .math-block {
+      background: #f6f4ee;
+      border-left: 3.5px solid var(--accent-blue);
+      padding: 10px 15px;
+      border-radius: 0 8px 8px 0;
+      font-family: var(--font-serif);
+      font-size: 18px;
+      color: var(--ink-primary);
+      margin: 10px 0 14px;
+    }
+
+    .two-col {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 20px;
+      align-items: start;
+    }
+
+    /* Repository Attribution Card */
+    .repo-card {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 14px;
+      padding: 11px 15px;
+      border-radius: 10px;
+      background: #f4f7fe;
+      border: 1px solid rgba(29, 78, 216, 0.25);
+      text-decoration: none;
+      color: var(--ink-primary);
+      margin-bottom: 12px;
+      transition: transform 0.18s ease, box-shadow 0.18s ease, border-color 0.18s ease;
+    }
+
+    .repo-card:hover {
+      transform: translateY(-1px);
+      border-color: var(--accent-blue);
+      box-shadow: 0 6px 16px rgba(29, 78, 216, 0.12);
+    }
+
+    .repo-badge {
+      font-family: var(--font-mono);
+      font-size: 12px;
+      font-weight: 600;
+      color: #ffffff;
+      background: var(--accent-blue);
+      padding: 5px 10px;
+      border-radius: 6px;
+      white-space: nowrap;
+    }
+
+    .roadmap-card {
+      background: #f7f6f2;
+      padding: 12px 15px;
+      border-radius: 10px;
+      border: 1px solid var(--border-subtle);
+    }
+
+    .roadmap-link {
+      display: block;
+      font-size: 13.5px;
+      color: var(--ink-secondary);
+      padding: 3px 0;
+      cursor: pointer;
+      transition: color 0.15s ease;
+    }
+
+    .roadmap-link:hover {
+      color: var(--accent-blue);
+      text-decoration: underline;
+    }
+
+    /* ==========================================================================
+       5. MODE TABS, LEAN 4 CODE BLOCKS & SIMULATED INFOVIEW
+       ========================================================================== */
+    .mode-switch {
+      display: inline-flex;
+      background: #eceae2;
+      padding: 3px;
+      border-radius: 8px;
+      border: 1px solid var(--border-subtle);
+      margin-bottom: 12px;
+      gap: 3px;
+    }
+
+    .mode-tab {
+      font-family: var(--font-sans);
+      font-size: 12.5px;
+      font-weight: 600;
+      padding: 5px 11px;
+      border-radius: 6px;
+      border: none;
+      background: transparent;
+      color: var(--ink-secondary);
+      cursor: pointer;
+      transition: all 0.16s ease;
+    }
+
+    .mode-tab:hover {
+      color: var(--ink-primary);
+    }
+
+    .mode-tab.active-tab {
+      background: #ffffff;
+      color: var(--accent-blue);
+      box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1);
+    }
+
+    .btn-row {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      margin-top: 8px;
+    }
+
+    .mini-btn {
+      font-family: var(--font-sans);
+      font-size: 12.5px;
+      font-weight: 600;
+      padding: 6px 11px;
+      border-radius: 7px;
+      border: 1px solid var(--border-subtle);
+      background: #f7f6f2;
+      color: var(--ink-primary);
+      cursor: pointer;
+      transition: all 0.16s ease;
+    }
+
+    .mini-btn:hover {
+      border-color: var(--accent-blue);
+      color: var(--accent-blue);
+    }
+
+    .mini-btn.active-btn {
+      background: var(--accent-blue);
+      border-color: var(--accent-blue);
+      color: #ffffff;
+    }
+
+    .lean-card {
+      background: var(--code-bg);
+      border: 1px solid var(--code-border);
+      border-radius: 10px;
+      padding: 14px 16px;
+      font-family: var(--font-mono);
+      font-size: 13px;
+      line-height: 1.56;
+      color: var(--code-text);
+      overflow-x: auto;
+      user-select: text;
+    }
+
+    .lean-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 10px;
+      font-size: 11.5px;
+      color: var(--code-comment);
+      border-bottom: 1px solid var(--code-border);
+      padding-bottom: 7px;
+      margin-bottom: 9px;
+    }
+
+    .lean-header a {
+      color: #79c0ff;
+      text-decoration: none;
+    }
+
+    .lean-header a:hover {
+      text-decoration: underline;
+    }
+
+    .kw { color: var(--code-kw); font-weight: 600; }
+    .ty { color: var(--code-type); }
+    .fn { color: var(--code-fn); }
+    .op { color: var(--code-op); }
+    .cm { color: var(--code-comment); font-style: italic; }
+
+    /* Interactive Symbol Tokens inside Lean 4 Code */
+    .lean-sym {
+      display: inline-block;
+      padding: 0 4px;
+      border-radius: 4px;
+      background: rgba(121, 192, 255, 0.15);
+      border-bottom: 1.5px dashed #79c0ff;
+      cursor: pointer;
+      transition: background 0.15s ease;
+    }
+
+    .lean-sym:hover, .lean-sym.selected-sym {
+      background: rgba(121, 192, 255, 0.35);
+      color: #ffffff;
+    }
+
+    /* Interactive Tactic Lines inside Lean 4 Proof */
+    .tactic-line {
+      display: block;
+      padding: 2px 8px;
+      margin: 0 -8px;
+      border-radius: 5px;
+      border-left: 3px solid transparent;
+      cursor: pointer;
+      transition: background 0.15s ease;
+    }
+
+    .tactic-line:hover {
+      background: rgba(255, 255, 255, 0.07);
+    }
+
+    .tactic-line.selected-tactic {
+      background: rgba(56, 139, 253, 0.2);
+      border-left-color: #58a6ff;
+    }
+
+    /* Embedded Lean 4 Infoview Panel */
+    .infoview-panel {
+      background: #f4f6fa;
+      border: 1px solid #cbd5e1;
+      border-radius: 10px;
+      padding: 13px 15px;
+      font-family: var(--font-mono);
+      font-size: 12.2px;
+      line-height: 1.52;
+      color: #1e293b;
+    }
+
+    .infoview-title {
+      font-family: var(--font-sans);
+      font-size: 11px;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.07em;
+      color: var(--accent-blue);
+      margin-bottom: 7px;
+      display: flex;
+      justify-content: space-between;
+    }
+
+    .goal-turnstile {
+      color: var(--accent-emerald);
+      font-weight: 700;
+    }
+
+    /* SVG Diagram Container */
+    .diag-box {
+      background: #fcfbf8;
+      border: 1px solid var(--border-subtle);
+      border-radius: 10px;
+      padding: 10px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .svg-edge {
+      transition: stroke 0.25s ease, stroke-width 0.25s ease, opacity 0.25s ease;
+    }
+
+    /* ==========================================================================
+       6. FLOATING BOTTOM HUD & WORLD CHALK TOOLBAR
+       ========================================================================== */
+    #hud {
+      position: fixed;
+      bottom: 16px;
+      left: 50%;
+      transform: translateX(-50%);
+      z-index: 100;
+      display: flex;
+      align-items: center;
+      gap: 9px;
+      background: rgba(27, 34, 44, 0.94);
+      backdrop-filter: blur(10px);
+      color: #f8fafc;
+      padding: 7px 14px;
+      border-radius: 999px;
+      box-shadow: 0 12px 30px rgba(0, 0, 0, 0.24);
+      font-size: 12.5px;
+      max-width: calc(100vw - 24px);
+      overflow-x: auto;
+      scrollbar-width: none;
+    }
+
+    #hud::-webkit-scrollbar {
+      display: none;
+    }
+
+    .hud-btn, .hud-link {
+      background: rgba(255, 255, 255, 0.1);
+      border: 1px solid rgba(255, 255, 255, 0.15);
+      color: #f8fafc;
+      padding: 5px 11px;
+      border-radius: 999px;
+      font-size: 12px;
+      font-weight: 600;
+      cursor: pointer;
+      text-decoration: none;
+      white-space: nowrap;
+      transition: background 0.15s ease;
+    }
+
+    .hud-btn:hover, .hud-link:hover {
+      background: rgba(255, 255, 255, 0.22);
+    }
+
+    .hud-btn.active-tool {
+      background: #eab308;
+      color: #111827;
+      border-color: #eab308;
+    }
+
+    .step-dots {
+      display: flex;
+      align-items: center;
+      gap: 6px;
+      padding: 0 4px;
+    }
+
+    .dot {
+      width: 9px;
+      height: 9px;
+      border-radius: 50%;
+      background: rgba(255, 255, 255, 0.28);
+      cursor: pointer;
+      flex-shrink: 0;
+      transition: transform 0.2s ease, background 0.2s ease;
+    }
+
+    .dot.active-dot {
+      background: #60a5fa;
+      transform: scale(1.32);
+    }
+
+    .hud-divider {
+      width: 1px;
+      height: 18px;
+      background: rgba(255, 255, 255, 0.18);
+      flex-shrink: 0;
+    }
+
+    .swatch {
+      width: 15px;
+      height: 15px;
+      border-radius: 50%;
+      border: 2px solid rgba(255, 255, 255, 0.45);
+      cursor: pointer;
+      flex-shrink: 0;
+    }
+
+    .swatch.active-swatch {
+      transform: scale(1.2);
+      border-color: #ffffff;
+    }
+
+    #step-label {
+      font-weight: 600;
+      color: #e2e8f0;
+      min-width: 175px;
+      text-align: center;
+      white-space: nowrap;
+    }
+  </style>
+</head>
+<body>
+
+  <div id="viewport">
+    <div id="canvas-world">
+
+      <!-- ====================================================================
+           GLOBAL SVG DEPENDENCY GRAPH (Connects all 6 Slips across the Canvas)
+           ==================================================================== -->
+      <svg id="dependency-arrows" viewBox="0 0 3550 1960" aria-hidden="true">
+        <defs>
+          <marker id="world-arrow" markerWidth="10" markerHeight="10" refX="8" refY="3.5" orient="auto">
+            <path d="M0,0 L9,3.5 L0,7 Z" fill="#94a3b8" />
+          </marker>
+          <marker id="world-arrow-blue" markerWidth="10" markerHeight="10" refX="8" refY="3.5" orient="auto">
+            <path d="M0,0 L9,3.5 L0,7 Z" fill="#1d4ed8" />
+          </marker>
+        </defs>
+        <!-- Slip 1 -> Slip 2 -->
+        <path d="M 1048 395 L 1208 395" stroke="#94a3b8" stroke-width="3" stroke-dasharray="7 6" fill="none" marker-end="url(#world-arrow)" />
+        <!-- Slip 2 -> Slip 3 -->
+        <path d="M 2188 395 L 2348 395" stroke="#94a3b8" stroke-width="3" stroke-dasharray="7 6" fill="none" marker-end="url(#world-arrow)" />
+        <!-- Slip 3 -> Theorem II.1 Container -->
+        <path d="M 2875 690 C 2875 785, 1155 745, 1155 832" stroke="#1d4ed8" stroke-width="3" stroke-dasharray="7 6" fill="none" marker-end="url(#world-arrow-blue)" />
+        <!-- Subslip 4 -> Subslip 5 -->
+        <path d="M 1118 1410 L 1178 1410" stroke="#1d4ed8" stroke-width="3" fill="none" marker-end="url(#world-arrow-blue)" />
+        <!-- Theorem II.1 Container -> Slip 6 -->
+        <path d="M 2218 1345 L 2348 1345" stroke="#94a3b8" stroke-width="3" stroke-dasharray="7 6" fill="none" marker-end="url(#world-arrow)" />
+      </svg>
+
+      <!-- ====================================================================
+           SLIP 1: TITLE, ROADMAP & REPOSITORY ATTRIBUTION
+           ==================================================================== -->
+      <section class="slip active" id="slip-1" data-step="0" style="left: 100px; top: 110px; width: 940px; height: 570px;">
+        <div style="display: flex; align-items: center; justify-content: space-between; gap: 12px; flex-wrap: wrap;">
+          <span class="slip-tag tag-blue">Formalized Category Theory · Lean 4</span>
+          <a href="https://sinhp.github.io" target="_blank" rel="noopener noreferrer" style="font-size: 13px; font-weight: 600; color: var(--accent-blue); text-decoration: none;">
+            Sina Hazratpour · sinhp.github.io ↗
+          </a>
+        </div>
+
+        <h1>Covariant Yoneda Lemma in Lean 4</h1>
+        <p style="margin-bottom: 10px;">
+          Bridging Sina Hazratpour’s <strong>2023 standalone formalization</strong> in
+          <code>github.com/sinhp/CovariantYonedaLean4</code> (<code>CovYoneda/src/yoneda.lean</code>) with
+          Mathlib’s <code>CategoryTheory.Yoneda</code> on an interactive spatial proof canvas.
+        </p>
+
+        <!-- Direct Clickable Repository Attribution Card -->
+        <a class="repo-card" href="https://github.com/sinhp/CovariantYonedaLean4/blob/main/CovYoneda/src/yoneda.lean" target="_blank" rel="noopener noreferrer" onclick="event.stopPropagation()">
+          <div>
+            <div style="font-weight: 700; font-size: 14px; color: var(--accent-blue);">
+              github.com/sinhp/CovariantYonedaLean4 · CovYoneda/src/yoneda.lean
+            </div>
+            <div style="font-size: 12.5px; color: var(--ink-secondary);">
+              2023 Standalone Lean 4 Proof (Self-contained Category, Functor, NatTrans &amp; Yoneda Bijection)
+            </div>
+          </div>
+          <span class="repo-badge">View Source ↗</span>
+        </a>
+
+        <div class="math-block" style="margin: 8px 0 12px;">
+          <strong>Core Isomorphism:</strong> &nbsp;
+          <span class="math-serif">Nat(Hom<sub>C</sub>(A, −), F) ≅ F(A)</span>
+          &nbsp; naturally in <span class="math-serif">A ∈ C</span> and <span class="math-serif">F : C → Type</span>.
+        </div>
+
+        <div class="two-col">
+          <div class="roadmap-card">
+            <div style="font-weight: 700; font-size: 13.5px; margin-bottom: 4px; color: var(--accent-blue);">Part I · Naturality &amp; Formalization</div>
+            <span class="roadmap-link" onclick="goToStep(0); event.stopPropagation();">1. Roadmap &amp; CovariantYonedaLean4 Attribution</span>
+            <span class="roadmap-link" onclick="goToStep(1); event.stopPropagation();">2. Commutative Naturality Square (Def. I.1)</span>
+            <span class="roadmap-link" onclick="goToStep(2); event.stopPropagation();">3. Lean 4 Structures: CovYoneda vs. Mathlib</span>
+          </div>
+          <div class="roadmap-card">
+            <div style="font-weight: 700; font-size: 13.5px; margin-bottom: 4px; color: var(--accent-emerald);">Part II · Yoneda Proof &amp; Embedding</div>
+            <span class="roadmap-link" onclick="goToStep(3); event.stopPropagation();">4. Subslip II.1a: Element-Chasing Bijection</span>
+            <span class="roadmap-link" onclick="goToStep(4); event.stopPropagation();">5. Subslip II.1b: Tactic Proof &amp; Goal Infoview</span>
+            <span class="roadmap-link" onclick="goToStep(5); event.stopPropagation();">6. Corollary III.1: Full Faithfulness &amp; Global Map</span>
+          </div>
+        </div>
+      </section>
+
+      <!-- ====================================================================
+           SLIP 2: DEFINITION I.1 — NATURAL TRANSFORMATION & COMMUTATIVE SQUARE
+           ==================================================================== -->
+      <section class="slip" id="slip-2" data-step="1" style="left: 1220px; top: 110px; width: 960px; height: 570px;">
+        <span class="slip-tag tag-emerald">Definition I.1 · Natural Transformation</span>
+        <h2>Commuting Squares Between Functors</h2>
+        <div class="two-col">
+          <div>
+            <p>
+              Let <span class="math-serif">F, G : C → D</span> be functors. A <strong>natural transformation</strong>
+              <span class="math-serif">α : F ⇒ G</span> assigns to each object <span class="math-serif">X ∈ C</span> a component
+              <span class="math-serif">α<sub>X</sub> : F(X) → G(X)</span> such that for every <span class="math-serif">f : X → Y</span>:
+            </p>
+            <div class="math-block" style="font-size: 18px;">
+              G(f) ∘ α<sub>X</sub> = α<sub>Y</sub> ∘ F(f)
+            </div>
+            <p style="font-size: 14.5px;">
+              Highlight either path around the naturality square to inspect how components intertwine with functorial transport:
+            </p>
+            <div class="btn-row">
+              <button class="mini-btn active-btn" id="nat-btn-both" onclick="setNaturalityMode('both', event)">Both Paths</button>
+              <button class="mini-btn" id="nat-btn-top" onclick="setNaturalityMode('top', event)">G(f) ∘ α<sub>X</sub></button>
+              <button class="mini-btn" id="nat-btn-bot" onclick="setNaturalityMode('bot', event)">α<sub>Y</sub> ∘ F(f)</button>
+            </div>
+            <div id="nat-status" style="margin-top: 12px; font-size: 13.5px; color: var(--accent-emerald); font-weight: 600;">
+              Showing full commuting square: both routes from F(X) to G(Y) agree.
+            </div>
+          </div>
+
+          <div class="diag-box">
+            <svg width="390" height="335" viewBox="0 0 390 335">
+              <defs>
+                <marker id="arr-blue" markerWidth="9" markerHeight="9" refX="7" refY="3" orient="auto">
+                  <path d="M0,0 L8,3 L0,6 Z" fill="#1d4ed8" />
+                </marker>
+                <marker id="arr-rose" markerWidth="9" markerHeight="9" refX="7" refY="3" orient="auto">
+                  <path d="M0,0 L8,3 L0,6 Z" fill="#be123c" />
+                </marker>
+              </defs>
+
+              <!-- Nodes -->
+              <rect x="44" y="34" width="76" height="44" rx="8" fill="#eff6ff" stroke="#1d4ed8" stroke-width="2" />
+              <text x="82" y="62" text-anchor="middle" font-family="Georgia, serif" font-style="italic" font-size="20" fill="#1b222c">F(X)</text>
+
+              <rect x="270" y="34" width="76" height="44" rx="8" fill="#ecfdf5" stroke="#047857" stroke-width="2" />
+              <text x="308" y="62" text-anchor="middle" font-family="Georgia, serif" font-style="italic" font-size="20" fill="#1b222c">G(X)</text>
+
+              <rect x="44" y="246" width="76" height="44" rx="8" fill="#eff6ff" stroke="#1d4ed8" stroke-width="2" />
+              <text x="82" y="274" text-anchor="middle" font-family="Georgia, serif" font-style="italic" font-size="20" fill="#1b222c">F(Y)</text>
+
+              <rect x="270" y="246" width="76" height="44" rx="8" fill="#ecfdf5" stroke="#047857" stroke-width="2" />
+              <text x="308" y="274" text-anchor="middle" font-family="Georgia, serif" font-style="italic" font-size="20" fill="#1b222c">G(Y)</text>
+
+              <!-- Top edge: alpha_X -->
+              <line id="edge-alphaX" class="svg-edge" x1="126" y1="56" x2="260" y2="56" stroke="#1d4ed8" stroke-width="3" marker-end="url(#arr-blue)" />
+              <text x="193" y="42" text-anchor="middle" font-family="Georgia, serif" font-style="italic" font-size="18" fill="#1d4ed8">α<tspan dy="4" font-size="13">X</tspan></text>
+
+              <!-- Right edge: G(f) -->
+              <line id="edge-Gf" class="svg-edge" x1="308" y1="84" x2="308" y2="236" stroke="#1d4ed8" stroke-width="3" marker-end="url(#arr-blue)" />
+              <text x="336" y="166" text-anchor="middle" font-family="Georgia, serif" font-style="italic" font-size="18" fill="#1d4ed8">G(f)</text>
+
+              <!-- Left edge: F(f) -->
+              <line id="edge-Ff" class="svg-edge" x1="82" y1="84" x2="82" y2="236" stroke="#be123c" stroke-width="3" marker-end="url(#arr-rose)" />
+              <text x="52" y="166" text-anchor="middle" font-family="Georgia, serif" font-style="italic" font-size="18" fill="#be123c">F(f)</text>
+
+              <!-- Bottom edge: alpha_Y -->
+              <line id="edge-alphaY" class="svg-edge" x1="126" y1="268" x2="260" y2="268" stroke="#be123c" stroke-width="3" marker-end="url(#arr-rose)" />
+              <text x="193" y="294" text-anchor="middle" font-family="Georgia, serif" font-style="italic" font-size="18" fill="#be123c">α<tspan dy="4" font-size="13">Y</tspan></text>
+
+              <!-- Center commuting symbol -->
+              <text x="195" y="168" text-anchor="middle" font-family="Georgia, serif" font-size="24" fill="#64748b">↺ =</text>
+            </svg>
+            <div style="font-size: 12.5px; color: var(--ink-muted);">Naturality square in category <span class="math-serif">D</span> for <span class="math-serif">f : X → Y</span></div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ====================================================================
+           SLIP 3: LEAN 4 FORMALIZATION — COVYONEDA (2023) VS. MATHLIB
+           ==================================================================== -->
+      <section class="slip" id="slip-3" data-step="2" style="left: 2360px; top: 110px; width: 1030px; height: 570px;">
+        <div style="display: flex; align-items: center; justify-content: space-between; gap: 12px; flex-wrap: wrap;">
+          <span class="slip-tag tag-amber">Lean 4 Formalization · CovYoneda vs. Mathlib</span>
+          <div class="mode-switch" onclick="event.stopPropagation()">
+            <button class="mode-tab active-tab" id="tab-def-cov" onclick="switchDefMode('cov', event)">sinhp/CovariantYonedaLean4 (2023 Standalone)</button>
+            <button class="mode-tab" id="tab-def-mathlib" onclick="switchDefMode('mathlib', event)">Mathlib (CategoryTheory.NatTrans)</button>
+          </div>
+        </div>
+
+        <h2>Structures &amp; Representable Functor <span class="math-serif">Hom(A, −)</span></h2>
+        <p style="font-size: 14.5px; margin-bottom: 10px;">
+          Click highlighted symbols (<code style="color: var(--accent-blue);">⥤</code>, <code style="color: var(--accent-blue);">⟶</code>, <code style="color: var(--accent-blue);">≫</code>, <code style="color: var(--accent-blue);">naturality</code>, <code style="color: var(--accent-blue);">Hom</code>) to inspect their elaborated types in the Infoview:
+        </p>
+
+        <div class="two-col" style="grid-template-columns: 1.22fr 0.78fr;">
+          <!-- View A: sinhp/CovariantYonedaLean4 (2023 Standalone) -->
+          <div class="lean-card" id="code-def-cov">
+            <div class="lean-header">
+              <a href="https://github.com/sinhp/CovariantYonedaLean4/blob/main/CovYoneda/src/yoneda.lean" target="_blank" rel="noopener noreferrer" onclick="event.stopPropagation()">
+                sinhp/CovariantYonedaLean4 · CovYoneda/src/yoneda.lean ↗
+              </a>
+              <span>Zero-Mathlib Standalone</span>
+            </div>
+<pre style="margin: 0; font-family: inherit;"><span class="cm">-- Standalone definitions from sinhp/CovariantYonedaLean4 (2023)
+-- (Replace lines below with verbatim lines from CovYoneda/src/yoneda.lean if desired)</span>
+<span class="kw">structure</span> <span class="ty">Category</span> (<span class="ty">Obj</span> : <span class="ty">Type</span> u) <span class="kw">where</span>
+  <span class="fn">Hom</span>  : <span class="ty">Obj</span> → <span class="ty">Obj</span> → <span class="ty">Type</span> v
+  <span class="fn">id</span>   : ∀ X, <span class="fn">Hom</span> X X
+  <span class="fn">comp</span> : ∀ {X Y Z}, <span class="fn">Hom</span> X Y → <span class="fn">Hom</span> Y Z → <span class="fn">Hom</span> X Z
+
+<span class="kw">structure</span> <span class="ty">NatTrans</span> (F G : C <span class="lean-sym selected-sym" onclick="inspectLeanSymbol('functor', event)">⥤</span> D) <span class="kw">where</span>
+  <span class="fn">app</span> : ∀ X : C, F.obj X <span class="lean-sym" onclick="inspectLeanSymbol('hom', event)">⟶</span> G.obj X
+  <span class="lean-sym" onclick="inspectLeanSymbol('naturality', event)"><span class="fn">naturality</span></span> : ∀ {X Y : C} (f : X ⟶ Y),
+    F.map f <span class="lean-sym" onclick="inspectLeanSymbol('comp', event)">≫</span> app Y = app X ≫ G.map f
+
+<span class="kw">def</span> <span class="lean-sym" onclick="inspectLeanSymbol('homfunctor', event)"><span class="fn">Hom</span></span> (A : C) : C ⥤ <span class="ty">Type</span> v <span class="kw">where</span>
+  obj X   := A ⟶ X
+  map f g := g ≫ f</pre>
+          </div>
+
+          <!-- View B: Mathlib CategoryTheory.NatTrans -->
+          <div class="lean-card" id="code-def-mathlib" style="display: none;">
+            <div class="lean-header">
+              <span>Mathlib/CategoryTheory/NatTrans.lean</span>
+              <span>Mathlib4 Standard</span>
+            </div>
+<pre style="margin: 0; font-family: inherit;"><span class="kw">structure</span> <span class="ty">NatTrans</span> {C D : <span class="ty">Type</span>*} [<span class="ty">Category</span> C] [<span class="ty">Category</span> D]
+    (F G : C <span class="lean-sym" onclick="inspectLeanSymbol('functor', event)">⥤</span> D) : <span class="ty">Type</span>* <span class="kw">where</span>
+  <span class="fn">app</span> : ∀ X : C, F.obj X <span class="lean-sym" onclick="inspectLeanSymbol('hom', event)">⟶</span> G.obj X
+  <span class="lean-sym" onclick="inspectLeanSymbol('naturality', event)"><span class="fn">naturality</span></span> : ∀ {X Y : C} (f : X ⟶ Y),
+    F.map f <span class="lean-sym" onclick="inspectLeanSymbol('comp', event)">≫</span> app Y = app X ≫ G.map f := <span class="kw">by</span> aesop_cat
+
+<span class="cm">-- Covariant representable functor in Mathlib:</span>
+<span class="kw">abbrev</span> <span class="lean-sym" onclick="inspectLeanSymbol('homfunctor', event)"><span class="fn">coyonedaObj</span></span> (A : C) : C ⥤ <span class="ty">Type</span> v :=
+  coyoneda.obj (Opposite.op A)
+
+<span class="kw">infixr</span>:10 <span class="op">" ⟹ "</span> =&gt; <span class="ty">NatTrans</span></pre>
+          </div>
+
+          <!-- Simulated Lean 4 Infoview Inspector -->
+          <div class="infoview-panel">
+            <div class="infoview-title">
+              <span>Lean 4 Infoview · Symbol Inspector</span>
+              <span>Elaborated</span>
+            </div>
+            <div id="infoview-1-body">
+              <div style="font-weight: 700; color: #0f172a; margin-bottom: 6px;">Functor (C ⥤ D)</div>
+              <div style="color: #334155; margin-bottom: 8px;">
+                <code>C ⥤ D : Type (max u₁ u₂ v₁ v₂)</code>
+              </div>
+              <div style="font-family: var(--font-sans); font-size: 13px; color: #475569; line-height: 1.5;">
+                Bundles an object map <code>obj : C → D</code>, a morphism map <code>map : (X ⟶ Y) → (obj X ⟶ obj Y)</code>,
+                and functoriality axioms <code>map_id</code> and <code>map_comp</code>.
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ====================================================================
+           PARENT CONTAINER: THEOREM II.1 (THE COVARIANT YONEDA LEMMA)
+           Houses Nested Subslips 4 & 5 so the camera zooms inside the theorem!
+           ==================================================================== -->
+      <div class="theorem-group" id="theorem-container" style="left: 100px; top: 840px; width: 2110px; height: 1010px;">
+        <div class="theorem-group-header">
+          <div>
+            <span class="slip-tag tag-blue" style="margin-bottom: 4px;">Theorem II.1 · Nested Proof Architecture</span>
+            <h2 style="margin-bottom: 0;">The Covariant Yoneda Lemma: &nbsp;<span class="math-serif">Nat(Hom<sub>C</sub>(A, −), F) ≅ F(A)</span></h2>
+          </div>
+          <div style="font-size: 14px; color: var(--ink-secondary); max-width: 780px;">
+            Steps 4 and 5 zoom inside Theorem II.1: first chasing <span class="math-serif">id<sub>A</sub></span> across the naturality square,
+            then stepping line-by-line through the mechanized Lean 4 proof in <code>CovYoneda/src/yoneda.lean</code> and Mathlib.
+          </div>
+        </div>
+
+        <!-- ==================================================================
+             SLIP 4 (SUBSLIP II.1a): BIJECTION & ELEMENT-CHASING DIAGRAM
+             ================================================================== -->
+        <section class="slip" id="slip-4" data-step="3" style="left: 45px; top: 175px; width: 965px; height: 785px; background: var(--card-nested-bg);">
+          <span class="slip-tag tag-blue">Subslip II.1a · Element Chasing</span>
+          <h2>Why <span class="math-serif">α</span> Is Uniquely Determined by <span class="math-serif">α<sub>A</sub>(id<sub>A</sub>)</span></h2>
+          <p style="font-size: 15px;">
+            Set <span class="math-serif">X = A</span> and evaluate naturality at <span class="math-serif">f : A → Y</span> applied to
+            the universal element <span class="math-serif">id<sub>A</sub> ∈ Hom<sub>C</sub>(A, A)</span>:
+          </p>
+          <div class="math-block" style="font-size: 17.5px;">
+            α<sub>Y</sub>(f) = α<sub>Y</sub>(f ∘ id<sub>A</sub>) = (α<sub>Y</sub> ∘ Hom(A, f))(id<sub>A</sub>) = F(f)(α<sub>A</sub>(id<sub>A</sub>))
+          </div>
+
+          <div class="two-col" style="grid-template-columns: 1.15fr 0.85fr; align-items: center;">
+            <div class="diag-box">
+              <svg width="450" height="335" viewBox="0 0 450 335">
+                <defs>
+                  <marker id="y-arr" markerWidth="9" markerHeight="9" refX="7" refY="3" orient="auto">
+                    <path d="M0,0 L8,3 L0,6 Z" fill="#1d4ed8" />
+                  </marker>
+                  <marker id="y-arr-em" markerWidth="9" markerHeight="9" refX="7" refY="3" orient="auto">
+                    <path d="M0,0 L8,3 L0,6 Z" fill="#047857" />
+                  </marker>
+                </defs>
+
+                <!-- Top-left: id_A in Hom(A, A) -->
+                <rect id="ynode-id" x="24" y="28" width="146" height="58" rx="9" fill="#eff6ff" stroke="#1d4ed8" stroke-width="2.2" />
+                <text x="97" y="52" text-anchor="middle" font-family="Georgia, serif" font-style="italic" font-size="16" fill="#1e3a8a">Hom(A, A)</text>
+                <text x="97" y="74" text-anchor="middle" font-family="monospace" font-weight="700" font-size="14" fill="#1d4ed8">id_A</text>
+
+                <!-- Top-right: alpha_A(id_A) in F(A) -->
+                <rect id="ynode-fa" x="280" y="28" width="146" height="58" rx="9" fill="#ecfdf5" stroke="#047857" stroke-width="2.2" />
+                <text x="353" y="52" text-anchor="middle" font-family="Georgia, serif" font-style="italic" font-size="16" fill="#065f46">F(A)</text>
+                <text x="353" y="74" text-anchor="middle" font-family="monospace" font-weight="700" font-size="13.5" fill="#047857">u := α_A(id_A)</text>
+
+                <!-- Bottom-left: f in Hom(A, Y) -->
+                <rect id="ynode-f" x="24" y="242" width="146" height="58" rx="9" fill="#f8fafc" stroke="#64748b" stroke-width="2" />
+                <text x="97" y="266" text-anchor="middle" font-family="Georgia, serif" font-style="italic" font-size="16" fill="#334155">Hom(A, Y)</text>
+                <text x="97" y="288" text-anchor="middle" font-family="monospace" font-weight="700" font-size="14" fill="#334155">f = f ∘ id_A</text>
+
+                <!-- Bottom-right: F(f)(u) in F(Y) -->
+                <rect id="ynode-fy" x="280" y="242" width="146" height="58" rx="9" fill="#fef3c7" stroke="#b45309" stroke-width="2.2" />
+                <text x="353" y="266" text-anchor="middle" font-family="Georgia, serif" font-style="italic" font-size="16" fill="#92400e">F(Y)</text>
+                <text x="353" y="288" text-anchor="middle" font-family="monospace" font-weight="700" font-size="13" fill="#b45309">α_Y(f) = F(f)(u)</text>
+
+                <!-- Arrows -->
+                <line x1="176" y1="57" x2="270" y2="57" stroke="#047857" stroke-width="2.8" marker-end="url(#y-arr-em)" />
+                <text x="223" y="45" text-anchor="middle" font-family="Georgia, serif" font-style="italic" font-size="16" fill="#047857">α<tspan dy="3" font-size="12">A</tspan></text>
+
+                <line x1="97" y1="92" x2="97" y2="232" stroke="#1d4ed8" stroke-width="2.8" marker-end="url(#y-arr)" />
+                <text x="54" y="168" text-anchor="middle" font-family="Georgia, serif" font-style="italic" font-size="15" fill="#1d4ed8">f ∘ (−)</text>
+
+                <line x1="353" y1="92" x2="353" y2="232" stroke="#047857" stroke-width="2.8" marker-end="url(#y-arr-em)" />
+                <text x="386" y="168" text-anchor="middle" font-family="Georgia, serif" font-style="italic" font-size="16" fill="#047857">F(f)</text>
+
+                <line x1="176" y1="271" x2="270" y2="271" stroke="#1d4ed8" stroke-width="2.8" marker-end="url(#y-arr)" />
+                <text x="223" y="295" text-anchor="middle" font-family="Georgia, serif" font-style="italic" font-size="16" fill="#1d4ed8">α<tspan dy="3" font-size="12">Y</tspan></text>
+              </svg>
+            </div>
+
+            <div>
+              <div style="font-weight: 700; font-size: 14px; margin-bottom: 8px;">Interactive Element Trace:</div>
+              <div class="btn-row" style="flex-direction: column;">
+                <button class="mini-btn active-btn" id="trace-btn-0" onclick="traceYoneda(0, event)">1. Seed element: id_A ∈ Hom(A, A)</button>
+                <button class="mini-btn" id="trace-btn-1" onclick="traceYoneda(1, event)">2. Evaluate α_A(id_A) = u ∈ F(A)</button>
+                <button class="mini-btn" id="trace-btn-2" onclick="traceYoneda(2, event)">3. Push along F(f) to get α_Y(f)</button>
+              </div>
+              <p id="yoneda-trace-desc" style="margin-top: 12px; font-size: 13.5px; color: var(--ink-secondary);">
+                Start at the universal element <strong>id_A</strong> in the top-left corner; every morphism <em>f : A → Y</em> is the image of <strong>id_A</strong> under post-composition.
+              </p>
+            </div>
+          </div>
+        </section>
+
+        <!-- ==================================================================
+             SLIP 5 (SUBSLIP II.1b): LEAN 4 PROOF & LIVE TACTIC GOAL STATES
+             ================================================================== -->
+        <section class="slip" id="slip-5" data-step="4" style="left: 1090px; top: 175px; width: 975px; height: 785px; background: var(--card-nested-bg);">
+          <div style="display: flex; align-items: center; justify-content: space-between; gap: 10px; flex-wrap: wrap;">
+            <span class="slip-tag tag-emerald">Subslip II.1b · Lean 4 Tactic Proof</span>
+            <div class="mode-switch" onclick="event.stopPropagation()">
+              <button class="mode-tab active-tab" id="tab-proof-cov" onclick="switchProofMode('cov', event)">CovYoneda/src/yoneda.lean</button>
+              <button class="mode-tab" id="tab-proof-mathlib" onclick="switchProofMode('mathlib', event)">Mathlib (yonedaEquiv)</button>
+            </div>
+          </div>
+
+          <h2>Mechanizing the Yoneda Equivalence</h2>
+          <p style="font-size: 14.5px; margin-bottom: 10px;">
+            Click any tactic line below to step through the live Lean 4 proof state and goal turnstile (<code>⊢</code>):
+          </p>
+
+          <!-- Proof View A: sinhp/CovariantYonedaLean4 (Standalone) -->
+          <div class="lean-card" id="code-proof-cov" style="margin-bottom: 12px;">
+            <div class="lean-header">
+              <a href="https://github.com/sinhp/CovariantYonedaLean4/blob/main/CovYoneda/src/yoneda.lean" target="_blank" rel="noopener noreferrer" onclick="event.stopPropagation()">
+                CovYoneda/src/yoneda.lean · Standalone Proof ↗
+              </a>
+              <span>Click a tactic line</span>
+            </div>
+<pre style="margin: 0; font-family: inherit;"><span class="cm">-- Standalone Yoneda equivalence (sinhp/CovariantYonedaLean4, 2023)
+-- (Paste verbatim lines from CovYoneda/src/yoneda.lean here if customizing)</span>
+<span class="kw">def</span> <span class="fn">yoneda_fwd</span> (α : <span class="ty">NatTrans</span> (<span class="fn">Hom</span> A) F) : F.obj A := α.app A (𝟙 A)
+<span class="kw">def</span> <span class="fn">yoneda_bwd</span> (u : F.obj A) : <span class="ty">NatTrans</span> (<span class="fn">Hom</span> A) F := {
+  app := <span class="kw">fun</span> _ f =&gt; F.map f u,
+  naturality := <span class="kw">fun</span> g =&gt; <span class="kw">by</span> funext f; exact F.map_comp f g u
+}
+<span class="kw">theorem</span> <span class="fn">yoneda_left_inv</span> (α : <span class="ty">NatTrans</span> (<span class="fn">Hom</span> A) F) :
+    <span class="fn">yoneda_bwd</span> (<span class="fn">yoneda_fwd</span> α) = α := <span class="kw">by</span>
+<span class="tactic-line selected-tactic" id="cov-tac-0" onclick="selectTactic('cov', 0, event)">  apply <span class="ty">NatTrans</span>.ext; funext Y f</span>
+<span class="tactic-line" id="cov-tac-1" onclick="selectTactic('cov', 1, event)">  <span class="kw">have</span> h := congrFun (α.naturality f) (𝟙 A)</span>
+<span class="tactic-line" id="cov-tac-2" onclick="selectTactic('cov', 2, event)">  rw [Category.id_comp] <span class="kw">at</span> h</span>
+<span class="tactic-line" id="cov-tac-3" onclick="selectTactic('cov', 3, event)">  exact h.symm</span></pre>
+          </div>
+
+          <!-- Proof View B: Mathlib yonedaEquiv -->
+          <div class="lean-card" id="code-proof-mathlib" style="display: none; margin-bottom: 12px;">
+            <div class="lean-header">
+              <span>Mathlib/CategoryTheory/Yoneda.lean</span>
+              <span>Click a tactic line</span>
+            </div>
+<pre style="margin: 0; font-family: inherit;"><span class="kw">def</span> <span class="fn">yonedaEquiv</span> {C : <span class="ty">Type</span>*} [<span class="ty">Category</span> C] (A : C) (F : C <span class="op">⥤</span> <span class="ty">Type</span>*) :
+    (coyoneda.obj (op A) <span class="op">⟶</span> F) <span class="op">≃</span> F.obj A <span class="kw">where</span>
+  toFun α := α.app A (𝟙 A)
+  invFun u := {
+    app := <span class="kw">fun</span> Y f =&gt; F.map f u
+    naturality := <span class="kw">by</span> intro X Y g; ext f; simp [Functor.map_comp]
+  }
+  left_inv α := <span class="kw">by</span>
+<span class="tactic-line selected-tactic" id="mathlib-tac-0" onclick="selectTactic('mathlib', 0, event)">    ext Y f</span>
+<span class="tactic-line" id="mathlib-tac-1" onclick="selectTactic('mathlib', 1, event)">    dsimp [yonedaEquiv]</span>
+<span class="tactic-line" id="mathlib-tac-2" onclick="selectTactic('mathlib', 2, event)">    <span class="kw">have</span> h := α.naturality f</span>
+<span class="tactic-line" id="mathlib-tac-3" onclick="selectTactic('mathlib', 3, event)">    simpa <span class="kw">using</span> congrFun h (𝟙 A)</span>
+  right_inv u := <span class="kw">by</span> simp</pre>
+          </div>
+
+          <!-- Interactive Tactic Goal State Infoview -->
+          <div class="infoview-panel">
+            <div class="infoview-title">
+              <span>Tactic State · Infoview</span>
+              <span id="tac-line-badge">CovYoneda · Line 1: apply NatTrans.ext; funext Y f</span>
+            </div>
+            <pre id="infoview-2-body" style="margin: 0; font-family: inherit; white-space: pre-wrap;">C : Type u
+inst : Category C
+A : C
+F : C ⥤ Type v
+α : NatTrans (Hom A) F
+Y : C
+f : A ⟶ Y
+<span class="goal-turnstile">⊢</span> F.map f (α.app A (𝟙 A)) = α.app Y f</pre>
+          </div>
+        </section>
+      </div>
+
+      <!-- ====================================================================
+           SLIP 6: COROLLARY III.1 — YONEDA EMBEDDING & GLOBAL ARCHITECTURE
+           ==================================================================== -->
+      <section class="slip" id="slip-6" data-step="5" style="left: 2360px; top: 840px; width: 1030px; height: 1010px;">
+        <div style="display: flex; align-items: center; justify-content: space-between; gap: 10px; flex-wrap: wrap;">
+          <span class="slip-tag tag-rose">Corollary III.1 · Full Faithfulness</span>
+          <button class="mini-btn" id="slip6-zoom-btn" onclick="toggleSlip6Focus(event)">Zoom In to Corollary III.1</button>
+        </div>
+
+        <h2>The Yoneda Embedding &amp; Full Proof Architecture</h2>
+        <p>
+          Instantiating <span class="math-serif">F := Hom<sub>C</sub>(B, −)</span> in Theorem II.1 yields a canonical bijection
+          between morphisms in <span class="math-serif">C</span> and natural transformations between representable functors:
+        </p>
+
+        <div class="math-block" style="font-size: 18.5px;">
+          <span class="math-serif">Hom<sub>C</sub>(B, A) ≅ Nat(Hom<sub>C</sub>(A, −), Hom<sub>C</sub>(B, −))</span>
+        </div>
+
+        <p>
+          Hence the contravariant Yoneda embedding
+          <span class="math-serif">よ : C<sup>op</sup> ⥤ (C ⥤ Type)</span>
+          is <strong>fully faithful</strong>: two objects <span class="math-serif">A, B ∈ C</span> are isomorphic
+          if and only if their representable functors are naturally isomorphic.
+        </p>
+
+        <div class="lean-card" style="margin-top: 10px; margin-bottom: 14px;">
+          <div class="lean-header">
+            <span>Yoneda.lean · FullyFaithful Instance</span>
+            <span>✓ Type-checked in Lean 4</span>
+          </div>
+<pre style="margin: 0; font-family: inherit;"><span class="kw">def</span> <span class="fn">fullyFaithfulCoyoneda</span> : (coyoneda (<span class="ty">C</span> := C)).<span class="ty">FullyFaithful</span> <span class="kw">where</span>
+  preimage {X Y} α := (yonedaEquiv X.unop (coyoneda.obj Y)).toFun α
+  map_preimage α   := (yonedaEquiv _ _).right_inv α
+  preimage_map f   := <span class="kw">by</span> simp [yonedaEquiv]</pre>
+        </div>
+
+        <a class="repo-card" href="https://github.com/sinhp/CovariantYonedaLean4/blob/main/CovYoneda/src/yoneda.lean" target="_blank" rel="noopener noreferrer" onclick="event.stopPropagation()">
+          <div>
+            <div style="font-weight: 700; font-size: 13.5px; color: var(--accent-blue);">
+              Explore Full Formalization: github.com/sinhp/CovariantYonedaLean4
+            </div>
+            <div style="font-size: 12px; color: var(--ink-secondary);">
+              CovYoneda/src/yoneda.lean · Hosted on sinhp.github.io
+            </div>
+          </div>
+          <span class="repo-badge">GitHub ↗</span>
+        </a>
+
+        <div style="background: #f4f6fa; border: 1px solid #cbd5e1; border-radius: 10px; padding: 12px 15px;">
+          <div style="font-weight: 700; font-size: 13px; color: var(--accent-blue); margin-bottom: 3px;">
+            Global Spatial Proof Graph (Overview)
+          </div>
+          <div style="font-size: 13px; color: var(--ink-secondary); line-height: 1.48;">
+            The camera frames the complete 6-slip architecture—from Definition I.1 and <code>CovariantYonedaLean4</code> (top)
+            through the nested Yoneda Lemma subslips (bottom-left) to Corollary III.1 (bottom-right). Click any card to zoom back in.
+          </div>
+        </div>
+      </section>
+
+      <!-- ====================================================================
+           WORLD-ANCHORED VECTOR SVG CHALK LAYER (Scales & Pans with Canvas)
+           ==================================================================== -->
+      <svg id="chalk-layer" viewBox="0 0 3550 1960"></svg>
+
+    </div>
+  </div>
+
+  <!-- ========================================================================
+       FLOATING BOTTOM PRESENTER HUD (Includes link back to sinhp.github.io)
+       ======================================================================== -->
+  <nav id="hud" aria-label="Presentation Controls">
+    <a class="hud-link" href="https://sinhp.github.io" title="Return to Sina Hazratpour's Homepage">← sinhp.github.io</a>
+    <div class="hud-divider"></div>
+    <button class="hud-btn" onclick="prevStep()" title="Previous Slip (Left Arrow)">← Prev</button>
+    <div class="step-dots" id="step-dots"></div>
+    <span id="step-label">1 / 6 · Roadmap</span>
+    <button class="hud-btn" onclick="nextStep()" title="Next Slip (Right Arrow / Space)">Next →</button>
+    <div class="hud-divider"></div>
+    <button class="hud-btn" id="overview-btn" onclick="toggleOverview()" title="Toggle Full Canvas Overview (O)">Overview (O)</button>
+    <button class="hud-btn" id="pen-btn" onclick="togglePen()" title="Toggle World Chalk Pen (P)">Pen (P)</button>
+    <div class="swatch active-swatch" style="background: #eab308;" onclick="setPenColor('#eab308', this)" title="Amber Chalk"></div>
+    <div class="swatch" style="background: #ef4444;" onclick="setPenColor('#ef4444', this)" title="Crimson Chalk"></div>
+    <div class="swatch" style="background: #2563eb;" onclick="setPenColor('#2563eb', this)" title="Royal Blue Chalk"></div>
+    <button class="hud-btn" onclick="clearChalk()" title="Clear Chalk (C)">Clear</button>
+  </nav>
+
+  <script>
+    /* ==========================================================================
+       1. SLIPSHOW CAMERA WAYPOINTS (3550x1960 World Bounding Boxes)
+       ========================================================================== */
+    const SLIPS = [
+      { id: "slip-1", title: "1 / 6 · Roadmap",           box: { x: 80,   y: 90,   w: 980,  h: 610 }, overview: false },
+      { id: "slip-2", title: "2 / 6 · Naturality Square", box: { x: 1200, y: 90,   w: 1000, h: 610 }, overview: false },
+      { id: "slip-3", title: "3 / 6 · CovYoneda & Lean",  box: { x: 2340, y: 90,   w: 1070, h: 610 }, overview: false },
+      { id: "slip-4", title: "4 / 6 · Yoneda Chasing",    box: { x: 125,  y: 995,  w: 1005, h: 825 }, overview: false, insideGroup: true },
+      { id: "slip-5", title: "5 / 6 · Lean 4 Proof",      box: { x: 1170, y: 995,  w: 1015, h: 825 }, overview: false, insideGroup: true },
+      { id: "slip-6", title: "6 / 6 · Corollary & Map",   box: { x: 40,   y: 50,   w: 3420, h: 1850 }, overview: true }
+    ];
+
+    let currentStep = 0;
+    let manualOverview = false;
+    let slip6Focused = false;
+    let camState = { tx: 0, ty: 0, scale: 1 };
+
+    const worldEl = document.getElementById("canvas-world");
+    const viewportEl = document.getElementById("viewport");
+    const theoremGroupEl = document.getElementById("theorem-container");
+    const stepLabelEl = document.getElementById("step-label");
+    const dotsContainer = document.getElementById("step-dots");
+    const overviewBtn = document.getElementById("overview-btn");
+
+    /* Build HUD progress dots */
+    SLIPS.forEach((s, idx) => {
+      const dot = document.createElement("div");
+      dot.className = "dot" + (idx === 0 ? " active-dot" : "");
+      dot.title = s.title;
+      dot.onclick = () => goToStep(idx);
+      dotsContainer.appendChild(dot);
+    });
+
+    /* Compute CSS transform to center and fit a world bounding box {x, y, w, h} */
+    function focusWorldBox(box, animate = true) {
+      if (!animate) {
+        worldEl.classList.add("no-transition");
+      } else {
+        worldEl.classList.remove("no-transition");
+      }
+
+      const vw = window.innerWidth;
+      const vh = window.innerHeight;
+      const padX = Math.max(24, vw * 0.035);
+      const padTop = 30;
+      const padBottom = 80; // Reserve space for bottom HUD
+
+      const availW = Math.max(200, vw - padX * 2);
+      const availH = Math.max(200, vh - padTop - padBottom);
+      const scale = Math.min(availW / box.w, availH / box.h);
+
+      const cx = box.x + box.w / 2;
+      const cy = box.y + box.h / 2;
+      const screenCx = vw / 2;
+      const screenCy = padTop + availH / 2;
+
+      const tx = screenCx - cx * scale;
+      const ty = screenCy - cy * scale;
+
+      camState = { tx, ty, scale };
+      worldEl.style.transform = `translate3d(${tx.toFixed(2)}px, ${ty.toFixed(2)}px, 0) scale(${scale.toFixed(5)})`;
+
+      if (!animate) {
+        requestAnimationFrame(() => worldEl.classList.remove("no-transition"));
+      }
+    }
+
+    function goToStep(idx, animate = true) {
+      currentStep = (idx + SLIPS.length) % SLIPS.length;
+      manualOverview = false;
+      slip6Focused = false;
+      document.getElementById("slip6-zoom-btn").textContent = "Zoom In to Corollary III.1";
+
+      const target = SLIPS[currentStep];
+
+      document.querySelectorAll(".slip").forEach((el, i) => {
+        el.classList.toggle("active", i === currentStep);
+      });
+
+      document.querySelectorAll(".dot").forEach((el, i) => {
+        el.classList.toggle("active-dot", i === currentStep);
+      });
+
+      theoremGroupEl.classList.toggle("group-active", Boolean(target.insideGroup));
+      worldEl.classList.toggle("overview-mode", Boolean(target.overview));
+      overviewBtn.classList.toggle("active-tool", Boolean(target.overview));
+      stepLabelEl.textContent = target.title;
+
+      focusWorldBox(target.box, animate);
+    }
+
+    function nextStep() { goToStep(currentStep + 1); }
+    function prevStep() { goToStep(currentStep - 1); }
+
+    function toggleOverview() {
+      manualOverview = !manualOverview;
+      slip6Focused = false;
+      if (manualOverview) {
+        worldEl.classList.add("overview-mode");
+        overviewBtn.classList.add("active-tool");
+        focusWorldBox({ x: 40, y: 50, w: 3420, h: 1850 }, true);
+      } else {
+        goToStep(currentStep, true);
+      }
+    }
+
+    function toggleSlip6Focus(e) {
+      if (e) e.stopPropagation();
+      slip6Focused = !slip6Focused;
+      const btn = document.getElementById("slip6-zoom-btn");
+      if (slip6Focused) {
+        worldEl.classList.remove("overview-mode");
+        overviewBtn.classList.remove("active-tool");
+        btn.textContent = "⊞ Back to Global Overview";
+        focusWorldBox({ x: 2340, y: 820, w: 1070, h: 1050 }, true);
+      } else {
+        goToStep(5, true);
+      }
+    }
+
+    /* Click any slip card directly to zoom the camera to it */
+    document.querySelectorAll(".slip").forEach((el) => {
+      el.addEventListener("click", (e) => {
+        if (penActive || didDrag) return;
+        if (e.target.closest("a, button, .lean-sym, .tactic-line, .mode-switch")) return;
+        const stepIdx = Number(el.dataset.step);
+        if (!Number.isNaN(stepIdx) && (stepIdx !== currentStep || manualOverview)) {
+          goToStep(stepIdx);
+        }
+      });
+    });
+
+    /* ==========================================================================
+       2. FREE DRAG-TO-PAN, TOUCH PAN & MOUSE-WHEEL ZOOM
+       ========================================================================== */
+    let isPanning = false;
+    let didDrag = false;
+    let panStart = { x: 0, y: 0 };
+
+    function startPan(clientX, clientY) {
+      isPanning = true;
+      didDrag = false;
+      panStart = { x: clientX - camState.tx, y: clientY - camState.ty };
+      viewportEl.classList.add("panning");
+      worldEl.classList.add("no-transition");
+    }
+
+    function movePan(clientX, clientY) {
+      if (!isPanning) return;
+      didDrag = true;
+      camState.tx = clientX - panStart.x;
+      camState.ty = clientY - panStart.y;
+      worldEl.style.transform = `translate3d(${camState.tx.toFixed(2)}px, ${camState.ty.toFixed(2)}px, 0) scale(${camState.scale.toFixed(5)})`;
+    }
+
+    function endPan() {
+      if (!isPanning) return;
+      isPanning = false;
+      viewportEl.classList.remove("panning");
+      worldEl.classList.remove("no-transition");
+      setTimeout(() => { didDrag = false; }, 45);
+    }
+
+    viewportEl.addEventListener("mousedown", (e) => {
+      if (penActive || e.target.closest("a, button, .lean-sym, .tactic-line, .mode-switch, #hud")) return;
+      startPan(e.clientX, e.clientY);
+    });
+
+    window.addEventListener("mousemove", (e) => movePan(e.clientX, e.clientY));
+    window.addEventListener("mouseup", endPan);
+
+    /* Touch support for tablets & phones */
+    viewportEl.addEventListener("touchstart", (e) => {
+      if (penActive || e.touches.length !== 1) return;
+      if (e.target.closest("a, button, .lean-sym, .tactic-line, .mode-switch, #hud")) return;
+      startPan(e.touches[0].clientX, e.touches[0].clientY);
+    }, { passive: true });
+
+    window.addEventListener("touchmove", (e) => {
+      if (!isPanning || e.touches.length !== 1) return;
+      movePan(e.touches[0].clientX, e.touches[0].clientY);
+    }, { passive: true });
+
+    window.addEventListener("touchend", endPan);
+
+    viewportEl.addEventListener("wheel", (e) => {
+      e.preventDefault();
+      worldEl.classList.add("no-transition");
+      const zoomFactor = e.deltaY < 0 ? 1.09 : 0.91;
+      const newScale = Math.min(2.6, Math.max(0.22, camState.scale * zoomFactor));
+
+      const wx = (e.clientX - camState.tx) / camState.scale;
+      const wy = (e.clientY - camState.ty) / camState.scale;
+
+      camState.scale = newScale;
+      camState.tx = e.clientX - wx * newScale;
+      camState.ty = e.clientY - wy * newScale;
+      worldEl.style.transform = `translate3d(${camState.tx.toFixed(2)}px, ${camState.ty.toFixed(2)}px, 0) scale(${camState.scale.toFixed(5)})`;
+    }, { passive: false });
+
+    /* ==========================================================================
+       3. SLIP 2 INTERACTIVITY: COMMUTATIVE NATURALITY SQUARE PATHS
+       ========================================================================== */
+    function setNaturalityMode(mode, e) {
+      if (e) e.stopPropagation();
+      ["both", "top", "bot"].forEach((m) => {
+        document.getElementById("nat-btn-" + m).classList.toggle("active-btn", m === mode);
+      });
+
+      const topEdges = ["edge-alphaX", "edge-Gf"];
+      const botEdges = ["edge-Ff", "edge-alphaY"];
+      const statusEl = document.getElementById("nat-status");
+
+      if (mode === "both") {
+        topEdges.forEach(id => {
+          document.getElementById(id).style.opacity = "1";
+          document.getElementById(id).setAttribute("stroke-width", "3");
+        });
+        botEdges.forEach(id => {
+          document.getElementById(id).style.opacity = "1";
+          document.getElementById(id).setAttribute("stroke-width", "3");
+        });
+        statusEl.textContent = "Showing full commuting square: both routes from F(X) to G(Y) agree.";
+        statusEl.style.color = "#047857";
+      } else if (mode === "top") {
+        topEdges.forEach(id => {
+          document.getElementById(id).style.opacity = "1";
+          document.getElementById(id).setAttribute("stroke-width", "4.5");
+        });
+        botEdges.forEach(id => {
+          document.getElementById(id).style.opacity = "0.2";
+          document.getElementById(id).setAttribute("stroke-width", "2");
+        });
+        statusEl.textContent = "Upper-right path: apply component α_X : F(X) → G(X), then lift via G(f).";
+        statusEl.style.color = "#1d4ed8";
+      } else {
+        topEdges.forEach(id => {
+          document.getElementById(id).style.opacity = "0.2";
+          document.getElementById(id).setAttribute("stroke-width", "2");
+        });
+        botEdges.forEach(id => {
+          document.getElementById(id).style.opacity = "1";
+          document.getElementById(id).setAttribute("stroke-width", "4.5");
+        });
+        statusEl.textContent = "Lower-left path: transport via F(f) : F(X) → F(Y), then apply component α_Y.";
+        statusEl.style.color = "#be123c";
+      }
+    }
+
+    /* ==========================================================================
+       4. SLIP 3 INTERACTIVITY: COVYONEDA VS. MATHLIB & INFOVIEW INSPECTOR
+       ========================================================================== */
+    function switchDefMode(mode, e) {
+      if (e) e.stopPropagation();
+      document.getElementById("tab-def-cov").classList.toggle("active-tab", mode === "cov");
+      document.getElementById("tab-def-mathlib").classList.toggle("active-tab", mode === "mathlib");
+      document.getElementById("code-def-cov").style.display = mode === "cov" ? "block" : "none";
+      document.getElementById("code-def-mathlib").style.display = mode === "mathlib" ? "block" : "none";
+    }
+
+    const LEAN_SYMBOLS = {
+      functor: {
+        title: "Functor (C ⥤ D)",
+        sig: "C ⥤ D : Type (max u₁ u₂ v₁ v₂)",
+        doc: "Bundles an object map <code>obj : C → D</code>, a morphism map <code>map : (X ⟶ Y) → (obj X ⟶ obj Y)</code>, and functoriality axioms <code>map_id</code> and <code>map_comp</code>."
+      },
+      hom: {
+        title: "Hom Morphism Type (X ⟶ Y)",
+        sig: "Hom : Obj → Obj → Type v   [notation: X ⟶ Y]",
+        doc: "Type of morphisms from object <code>X</code> to object <code>Y</code> in the ambient category <code>C</code>."
+      },
+      comp: {
+        title: "Diagrammatic Composition (f ≫ g)",
+        sig: "comp : (X ⟶ Y) → (Y ⟶ Z) → (X ⟶ Z)",
+        doc: "Left-to-right categorical composition: first apply <code>f : X ⟶ Y</code>, then <code>g : Y ⟶ Z</code>."
+      },
+      naturality: {
+        title: "NatTrans.naturality",
+        sig: "∀ {X Y : C} (f : X ⟶ Y), F.map f ≫ app Y = app X ≫ G.map f",
+        doc: "Naturality square commutativity obligation ensuring components intertwine cleanly with functorial action."
+      },
+      homfunctor: {
+        title: "Covariant Representable Functor Hom(A, −)",
+        sig: "Hom (A : C) : C ⥤ Type v   (Mathlib: coyoneda.obj (op A))",
+        doc: "Sends each object <code>X : C</code> to the Hom-type <code>A ⟶ X</code> and acts on morphisms <code>f : X ⟶ Y</code> by post-composition <code>g ↦ g ≫ f</code>."
+      }
+    };
+
+    function inspectLeanSymbol(key, e) {
+      if (e) e.stopPropagation();
+      document.querySelectorAll(".lean-sym").forEach(el => el.classList.remove("selected-sym"));
+      if (e && e.currentTarget) e.currentTarget.classList.add("selected-sym");
+
+      const info = LEAN_SYMBOLS[key];
+      if (!info) return;
+      document.getElementById("infoview-1-body").innerHTML = `
+        <div style="font-weight: 700; color: #0f172a; margin-bottom: 6px;">${info.title}</div>
+        <div style="color: #334155; margin-bottom: 8px;"><code>${info.sig}</code></div>
+        <div style="font-family: var(--font-sans); font-size: 13px; color: #475569; line-height: 1.5;">${info.doc}</div>
+      `;
+    }
+
+    /* ==========================================================================
+       5. SLIP 4 & 5 INTERACTIVITY: YONEDA CHASING & TACTIC INFOVIEW STATES
+       ========================================================================== */
+    const YONEDA_TRACES = [
+      {
+        active: ["ynode-id"],
+        desc: "Start at the universal element <strong>id_A</strong> in the top-left corner; every morphism <em>f : A → Y</em> is the image of <strong>id_A</strong> under post-composition."
+      },
+      {
+        active: ["ynode-id", "ynode-fa"],
+        desc: "Evaluating the component <strong>α_A</strong> at <strong>id_A</strong> produces a single element <strong>u := α_A(id_A) ∈ F(A)</strong>."
+      },
+      {
+        active: ["ynode-id", "ynode-fa", "ynode-f", "ynode-fy"],
+        desc: "Chasing both paths forces <strong>α_Y(f) = F(f)(u)</strong> for every <em>Y</em> and <em>f</em>—so <em>α</em> is 100% determined by <em>u ∈ F(A)</em>."
+      }
+    ];
+
+    function traceYoneda(idx, e) {
+      if (e) e.stopPropagation();
+      [0, 1, 2].forEach(i => document.getElementById("trace-btn-" + i).classList.toggle("active-btn", i === idx));
+      const allNodes = ["ynode-id", "ynode-fa", "ynode-f", "ynode-fy"];
+      const step = YONEDA_TRACES[idx];
+      allNodes.forEach(nid => {
+        const isOn = step.active.includes(nid);
+        document.getElementById(nid).style.opacity = isOn ? "1" : "0.32";
+      });
+      document.getElementById("yoneda-trace-desc").innerHTML = step.desc;
+    }
+
+    let activeProofMode = "cov";
+
+    const TACTIC_STATES = {
+      cov: [
+        {
+          badge: "CovYoneda · Line 1: apply NatTrans.ext; funext Y f",
+          goal: `C : Type u\ninst : Category C\nA : C\nF : C ⥤ Type v\nα : NatTrans (Hom A) F\nY : C\nf : A ⟶ Y\n<span class="goal-turnstile">⊢</span> F.map f (α.app A (𝟙 A)) = α.app Y f`
+        },
+        {
+          badge: "CovYoneda · Line 2: have h := congrFun (α.naturality f) (𝟙 A)",
+          goal: `α : NatTrans (Hom A) F\nY : C, f : A ⟶ Y\nh : α.app Y (𝟙 A ≫ f) = F.map f (α.app A (𝟙 A))\n<span class="goal-turnstile">⊢</span> F.map f (α.app A (𝟙 A)) = α.app Y f`
+        },
+        {
+          badge: "CovYoneda · Line 3: rw [Category.id_comp] at h",
+          goal: `α : NatTrans (Hom A) F\nY : C, f : A ⟶ Y\nh : α.app Y f = F.map f (α.app A (𝟙 A))\n<span class="goal-turnstile">⊢</span> F.map f (α.app A (𝟙 A)) = α.app Y f`
+        },
+        {
+          badge: "CovYoneda · Line 4: exact h.symm",
+          goal: `<span class="goal-turnstile">No goals · yoneda_left_inv QED ✓</span>\n\nEvery natural transformation α : Hom(A, −) ⇒ F is uniquely reconstructed from α.app A (𝟙 A).`
+        }
+      ],
+      mathlib: [
+        {
+          badge: "Mathlib · Line 1: ext Y f",
+          goal: `C : Type u₁\ninst✝ : Category C\nA : C\nF : C ⥤ Type u₂\nα : coyoneda.obj (op A) ⟶ F\nY : C, f : A ⟶ Y\n<span class="goal-turnstile">⊢</span> (invFun (toFun α)).app Y f = α.app Y f`
+        },
+        {
+          badge: "Mathlib · Line 2: dsimp [yonedaEquiv]",
+          goal: `α : coyoneda.obj (op A) ⟶ F\nY : C, f : A ⟶ Y\n<span class="goal-turnstile">⊢</span> F.map f (α.app A (𝟙 A)) = α.app Y f`
+        },
+        {
+          badge: "Mathlib · Line 3: have h := α.naturality f",
+          goal: `α : coyoneda.obj (op A) ⟶ F\nY : C, f : A ⟶ Y\nh : ((coyoneda.obj (op A)).map f ≫ α.app Y) = (α.app A ≫ F.map f)\n<span class="goal-turnstile">⊢</span> F.map f (α.app A (𝟙 A)) = α.app Y f`
+        },
+        {
+          badge: "Mathlib · Line 4: simpa using congrFun h (𝟙 A)",
+          goal: `<span class="goal-turnstile">No goals · yonedaEquiv.left_inv QED ✓</span>\n\ncongrFun h (𝟙 A) evaluates both sides on (𝟙 A) and Category.id_comp closes the goal.`
+        }
+      ]
+    };
+
+    function switchProofMode(mode, e) {
+      if (e) e.stopPropagation();
+      activeProofMode = mode;
+      document.getElementById("tab-proof-cov").classList.toggle("active-tab", mode === "cov");
+      document.getElementById("tab-proof-mathlib").classList.toggle("active-tab", mode === "mathlib");
+      document.getElementById("code-proof-cov").style.display = mode === "cov" ? "block" : "none";
+      document.getElementById("code-proof-mathlib").style.display = mode === "mathlib" ? "block" : "none";
+      selectTactic(mode, 0);
+    }
+
+    function selectTactic(mode, idx, e) {
+      if (e) e.stopPropagation();
+      [0, 1, 2, 3].forEach(i => {
+        const el = document.getElementById(`${mode}-tac-${i}`);
+        if (el) el.classList.toggle("selected-tactic", i === idx);
+      });
+      const state = TACTIC_STATES[mode][idx];
+      document.getElementById("tac-line-badge").textContent = state.badge;
+      document.getElementById("infoview-2-body").innerHTML = state.goal;
+    }
+
+    /* ==========================================================================
+       6. WORLD-ANCHORED VECTOR SVG CHALK PEN (Stays pinned to diagram coords)
+       ========================================================================== */
+    let penActive = false;
+    let penColor = "#eab308";
+    let currentPolyline = null;
+    let strokePoints = [];
+
+    const chalkLayer = document.getElementById("chalk-layer");
+    const penBtn = document.getElementById("pen-btn");
+
+    function togglePen() {
+      penActive = !penActive;
+      chalkLayer.classList.toggle("drawing-active", penActive);
+      penBtn.classList.toggle("active-tool", penActive);
+    }
+
+    function setPenColor(hex, swatchEl) {
+      penColor = hex;
+      document.querySelectorAll(".swatch").forEach(s => s.classList.remove("active-swatch"));
+      if (swatchEl) swatchEl.classList.add("active-swatch");
+      if (!penActive) togglePen();
+    }
+
+    function clearChalk() {
+      chalkLayer.innerHTML = "";
+    }
+
+    function clientToWorld(clientX, clientY) {
+      return {
+        x: (clientX - camState.tx) / camState.scale,
+        y: (clientY - camState.ty) / camState.scale
+      };
+    }
+
+    chalkLayer.addEventListener("pointerdown", (e) => {
+      if (!penActive) return;
+      e.stopPropagation();
+      chalkLayer.setPointerCapture(e.pointerId);
+      const pt = clientToWorld(e.clientX, e.clientY);
+      strokePoints = [`${pt.x.toFixed(1)},${pt.y.toFixed(1)}`];
+
+      currentPolyline = document.createElementNS("http://www.w3.org/2000/svg", "polyline");
+      currentPolyline.setAttribute("fill", "none");
+      currentPolyline.setAttribute("stroke", penColor);
+      currentPolyline.setAttribute("stroke-width", "5");
+      currentPolyline.setAttribute("stroke-linecap", "round");
+      currentPolyline.setAttribute("stroke-linejoin", "round");
+      currentPolyline.setAttribute("points", strokePoints.join(" "));
+      chalkLayer.appendChild(currentPolyline);
+    });
+
+    chalkLayer.addEventListener("pointermove", (e) => {
+      if (!penActive || !currentPolyline) return;
+      const pt = clientToWorld(e.clientX, e.clientY);
+      strokePoints.push(`${pt.x.toFixed(1)},${pt.y.toFixed(1)}`);
+      currentPolyline.setAttribute("points", strokePoints.join(" "));
+    });
+
+    chalkLayer.addEventListener("pointerup", () => {
+      currentPolyline = null;
+      strokePoints = [];
+    });
+
+    /* ==========================================================================
+       7. KEYBOARD SHORTCUTS & WINDOW RESIZE HANDLER
+       ========================================================================== */
+    window.addEventListener("keydown", (e) => {
+      if (e.key === "ArrowRight" || e.key === "PageDown" || (e.key === " " && !e.shiftKey)) {
+        e.preventDefault();
+        nextStep();
+      } else if (e.key === "ArrowLeft" || e.key === "PageUp" || (e.key === " " && e.shiftKey)) {
+        e.preventDefault();
+        prevStep();
+      } else if (e.key >= "1" && e.key <= "6") {
+        goToStep(Number(e.key) - 1);
+      } else if (e.key.toLowerCase() === "o" || e.key === "0") {
+        toggleOverview();
+      } else if (e.key.toLowerCase() === "p") {
+        togglePen();
+      } else if (e.key.toLowerCase() === "c") {
+        clearChalk();
+      }
+    });
+
+    window.addEventListener("resize", () => {
+      if (manualOverview) {
+        focusWorldBox({ x: 40, y: 50, w: 3420, h: 1850 }, false);
+      } else if (slip6Focused) {
+        focusWorldBox({ x: 2340, y: 820, w: 1070, h: 1050 }, false);
+      } else {
+        focusWorldBox(SLIPS[currentStep].box, false);
+      }
+    });
+
+    /* Initialize spatial camera on Slip 1 */
+    goToStep(0, false);
+  </script>
+</body>
+</html>

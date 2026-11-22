@@ -15,6 +15,32 @@ toc_sticky: true
 
 <!-- # What Are Categories? -->
 
+
+## A Teaser: A covariant version of the Yoneda lemma in Lean4 
+
+<div style="margin: 1.75rem 0; border: 1.5px solid #dcd8ce; border-radius: 12px; overflow: hidden; box-shadow: 0 10px 28px rgba(27, 34, 44, 0.08); background: #faf9f5;">
+  <div style="display: flex; justify-content: space-between; align-items: center; padding: 8px 14px; background: #1b222c; color: #f8fafc; font-size: 13px; font-family: -apple-system, BlinkMacSystemFont, sans-serif;">
+    <span><strong>Interactive Spatial Deck:</strong> Naturality &amp; Yoneda in Lean 4 (click inside to use ← → keys or P to draw)</span>
+    <div style="display: flex; gap: 10px; align-items: center;">
+      <button type="button" onclick="document.getElementById('yoneda-slipshow-frame').requestFullscreen()" style="background: #2563eb; color: #fff; border: none; border-radius: 6px; padding: 4px 10px; font-size: 12px; font-weight: 600; cursor: pointer;">
+        ⛶ Fullscreen
+      </button>
+      <a href="/files/lean_tutorials/yoneda_slides/covariant" target="_blank" rel="noopener" style="color: #93c5fd; text-decoration: none; font-size: 12px; font-weight: 600;">
+        New Tab ↗
+      </a>
+    </div>
+  </div>
+  <iframe
+    id="yoneda-slipshow-frame"
+    src="/files/lean_tutorials/yoneda_slides/covariant/"
+    title="Natural Transformations and the Yoneda Lemma in Lean 4"
+    style="width: 100%; height: 680px; border: 0; display: block;"
+    allowfullscreen
+    loading="lazy">
+  </iframe>
+</div>
+
+
 At the most basic level, a category is a collection of objects and morphisms (arrows) between them, satisfying certain axioms. Categories may appear as categories of mathematical structures and the transformations between instances of certain structures, e.g. the category of groups, where the objects are groups and the morphisms are group homomorphisms. Category theory studies these structures and their relationships using the language of categories. In developing mathematics using category theory, we isolate phenomena that hold for purely formal reasons from those whose proofs require techniques particular to a given structure or a specific way of constructing objects. The advantage of category-theoretic approach is that it allows us to construct objects and prove theorems in a way that scale better, since a formal category-theoretic argument is agnostic to the specific foundation (e.g. ZF(C) set theories, type theories, etc.), can be reproduced in a wide variety of contexts, and can be applied to many different situations. For instance, the idea of adjoining formal inverses for some elements in an algebraic structure (e.g. monoids, commutative rings, etc.) are instances of a formal construction called localization (aka category of fractions). 
 
 Further, category theory provides us with linguistic tools to describe mathematical phenomena which were previously inexpressible: universal properties, adjunctions, duality, natural transformations, canonical maps, uniqueness up to a contractible space of choice, coherence, and more. Many of the basic objects of study in modern algebraic topology, algebraic geometry, and homological algebra would be impossible to define without category theoretic language. Category theory is the best organizational tool for mathematical structures we know. It also acts as a central hub connecting many disparate scientific disciplines. 

@@ -1,6 +1,8 @@
 ---
+layout: tufte
 title: "Notes on monoidal monad"
 author: Sina Hazratpour
+show_author: true
 permalink: /scribbling/2018-02-14-monoidal-monads
 collection: notes
 type: "scribbling"
@@ -13,8 +15,15 @@ location: "Birmingham, UK"
 
 {% include macro %}
 
+<style>
+/* display math (incl. xypic diagrams) sits directly in <section>; keep it in the 55% text column; wide ones spill into the margin, Tufte-style */
+section.page__content > mjx-container[display="true"] { width: 55%; font-size: 1.3rem; overflow: visible; }
+@media (max-width: 760px) { section.page__content > mjx-container[display="true"] { width: 100%; } }
+</style>
+
+
 `Abstract:`
-This talk is a review of the concept of monoidal monads, first introduced by Andres Kock in this paper: 
+This talk is a review of the concept of monoidal monads, first introduced by Anders Kock in this paper: 
 
 > Kock, A. (1968) Monads on symmetric monoidal closed categories, Arch. Math (1970)
 
@@ -32,7 +41,22 @@ Notes from the talk <a href="/files/CT/monoidal-monad.pdf" target="_blank"> <i c
 
 ### 1. Warm-up: commutative algebras and their tensor
 
-Let $$k$$ be a field (algebraically closed, characteristic zero), and write $$k\text{-alg}$$ for the category of commutative unital $$k$$-algebras. Let
+Let's fix a field $$k$$ which is algebraically closed and with characteristic zero. Recall that an algebra $$A$$ over $$k$$ (aka a $$k$$-algebra) is a vector space equipped with a bilinear product, so that you can multiply your vectors in a way that the identities
+
+$$
+(a_1 u_1+b_1 v_1)*(a_2 u_2+b_2 v_2)
+= a_1 a_2 (u_1*u_2)+a_1b_2(u_1*v_2)+b_1a_2(v_1*u_2)+b_1b_2(v_1*v_2)
+$$
+
+hold for all scalars $$a_i,b_i\in k$$ and vectors $$u_i,v_i\in A$$. 
+
+For instance, the complex numbers, with the standard complex number multiplication, form an associative, commutative, unital $$\mathbb{R}$$-algebra, that is the multiplication operation is associative, commutative, and has a unit element, meaning $$A$$ has a unit element $1_A$ with $1_A *a=a$ for all $a\in A$. However, there are many other examples of algebras which are non-commutative, non-associative, or non-unital.<label for="sn-cross-product" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-cross-product" class="margin-toggle"/><span class="sidenote">The vector space $$\mathbb{R}^3$$ with the cross product is a non-associative, anti-commutative, non-unital $$\mathbb{R}$$-algebra. Anti-commutativity: $$u \times v = -\, v \times u$$. Non-associativity: $$(\mathbf{i} \times \mathbf{i}) \times \mathbf{j} = 0$$ but $$\mathbf{i} \times (\mathbf{i} \times \mathbf{j}) = \mathbf{i} \times \mathbf{k} = -\mathbf{j}$$. In general $$u \times (v \times w) = \langle u, w \rangle \, v - \langle u, v \rangle \, w$$.  </span>
+
+
+<!-- Instead of associativity we have $$u \times (v \times w) = \langle u, w \rangle \, v - \langle u, v \rangle \, w$$, and summing cyclically gives the Jacobi identity $$\sum_{\mathrm{cyc}} u \times (v \times w) = 0$$, so it is a Lie algebra, isomorphic to $$\mathfrak{so}(3)$$. There is no unit, since $$v \times v = 0$$ for every $$v$$. -->
+
+
+Let's write $$k\text{-alg}$$ for the category of commutative unital $$k$$-algebras. Let
 
 $$
 T_n = k[x_1, \dots, x_n].
@@ -47,26 +71,73 @@ $$
 **Definition.** For an ideal $$I \subseteq T_n$$ and $$A \in k\text{-alg}$$, the *$$A$$-points of the variety of $$I$$* are the common zeros
 
 $$
-V_I(A) = \{ \vec{x} \in A^n \mid f(\vec{x}) = 0 \;\; \forall f \in I \}.
+V_I(A) = \{ \vec{a} \in A^n \mid f(\vec{a}) = 0 \;\; \forall f \in I \}.
 $$
+
+With this definition, $$V_I$$ becomes a functor $$V_I \maps k\text{-alg} \to \Set$$ whose action on morphisms is given by
+$$ (\varphi \maps A \to B) \;\longmapsto\; (\vec{a} \in V_I(A) \;\longmapsto\; \varphi^{\times n}(\vec{a}) \in V_I(B))$$
+
+Evaluating polynomials at points is a map $$\mathrm{ev}_A \maps T_n \times A^n \to A$$, $$(f, \vec{a}) \mapsto f(\vec{a})$$. It is natural in $$A$$: since $$\varphi$$ preserves sums, products and scalars, $$\varphi(f(\vec{a})) = f(\varphi^{\times n}(\vec{a}))$$, so the squares below commute. Restricting along $$I \hookrightarrow T_n$$ gives the left square.
+
+$$
+\xymatrix@C=4em@R=3em{
+I \,{\times}\, A^n \ar@{^{(}->}[r] \ar[d]_-{1 \,{\times}\, \varphi^{\times n}} & T_n \,{\times}\, A^n \ar[r]^-{\mathrm{ev}_A} \ar[d]^-{1 \,{\times}\, \varphi^{\times n}} & A \ar[d]^-{\varphi} \\
+I \,{\times}\, B^n \ar@{^{(}->}[r] & T_n \,{\times}\, B^n \ar[r]_-{\mathrm{ev}_B} & B }
+$$
+
+Each $$f \in I$$ acts on $$A^n$$ by $$f(-) \maps A^n \to A$$. Collecting these, i.e. currying $$\mathrm{ev}_A$$ restricted to $$I$$, gives $$(\lambda \vec{a}.\, \lambda f.\, f(\vec{a})) \maps A^n \to A^I$$, and the zero locus is a pullback:<label for="sn-cross-product" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-cross-product" class="margin-toggle"/><span class="sidenote">This is a pullback in the category of sets; it is not a pullback in $$k\text{-alg}$$, since neither polynomial evaluation nor the zero map are morphisms of $$k$$-algebras. </span>
+
+$$
+\xymatrix@C=5em@R=3em{
+V_I(A) \ar[r] \ar@{^{(}->}[d] \ar@{}[dr]|(.25){\lrcorner} & 1 \ar[d]^-{0} \\
+A^n \ar[r]_-{\lambda \vec{a}.\, \lambda f.\, f(\vec{a})} & A^I }
+$$
+
+Functoriality now follows from the universal property of the pullback. Naturality of evaluation gives $$\varphi^I \circ (\lambda \vec{a}.\, \lambda f.\, f(\vec{a})) = (\lambda \vec{b}.\, \lambda f.\, f(\vec{b})) \circ \varphi^{\times n}$$, and $$\varphi(0) = 0$$. So the composite $$V_I(A) \hookrightarrow A^n \xrightarrow{\varphi^{\times n}} B^n \to B^I$$ factors through $$0 \maps 1 \to B^I$$, and $$V_I(\varphi)$$ is the unique induced map into the pullback for $$B$$:
+
+$$
+\xymatrix@C=5em@R=3em{
+V_I(A) \ar@{-->}[r]^-{V_I(\varphi)} \ar@{^{(}->}[d] & V_I(B) \ar[r] \ar@{^{(}->}[d] \ar@{}[dr]|(.25){\lrcorner} & 1 \ar[d]^-{0} \\
+A^n \ar[r]_-{\varphi^{\times n}} & B^n \ar[r]_-{\lambda \vec{b}.\, \lambda f.\, f(\vec{b})} & B^I }
+$$
+
+Uniqueness condition of the pullback universal property gives $$V_I(1_A) = 1$$ and $$V_I(\psi\varphi) = V_I(\psi)\,V_I(\varphi)$$ for free.
 
 **Proposition.** $$V_I \maps k\text{-alg} \to \Set$$ is a representable functor, represented by $$T_n / I$$:
 
 $$
-V_I(A) \;\cong\; k\text{-alg}\big( k[x_1, \dots, x_n]/I, \, A \big), \qquad \varphi \;\longmapsto\; \big(\varphi(x_1), \dots, \varphi(x_n)\big).
+V_I(A) \;\cong\; k\text{-alg}\big( k[x_1, \dots, x_n]/I, \, A \big).
 $$
 
-*Proof.* The tuple lands in $$V_I(A)$$: for $$f = \sum c_{\alpha} x_1^{\alpha_1} \cdots x_n^{\alpha_n} \in I$$, since $$\varphi$$ is a morphism of $$k$$-algebras,
+*Proof.* We use only two universal properties.
+
+**Freeness of $$T_n$$.** Restricting to the generators is a bijection $$k\text{-alg}(T_n, A) \cong A^n$$, $$\psi \mapsto \psi(\vec{x}) := (\psi(x_1), \dots, \psi(x_n))$$. In particular, $$\psi$$ and evaluation at $$\psi(\vec{x})$$ are algebra maps $$T_n \to A$$ that agree on generators, so they are equal:
 
 $$
-\begin{aligned}
-f\big(\varphi(x_1), \dots, \varphi(x_n)\big)
-&= \textstyle\sum c_{\alpha} \, \varphi(x_1)^{\alpha_1} \cdots \varphi(x_n)^{\alpha_n} \\
-&= \varphi\big( \textstyle\sum c_{\alpha} \, x_1^{\alpha_1} \cdots x_n^{\alpha_n} \big) = \varphi(f) = 0_A.
-\end{aligned}
+\psi(f) = f\big(\psi(\vec{x})\big) \qquad \text{for all } f \in T_n.
 $$
 
-Conversely, a common zero $$\vec{a} \in V_I(A)$$ gives $$T_n \to A$$, $$x_i \mapsto a_i$$, which kills $$I$$ and hence factors through $$T_n / I$$. Naturality in $$A$$ is clear. $$\blacksquare$$
+Hence $$\psi$$ kills $$I$$ if and only if $$\psi(\vec{x}) \in V_I(A)$$, and the bijection restricts to
+
+$$
+\{ \psi \maps T_n \to A \mid \psi(I) = 0 \} \;\cong\; V_I(A).
+$$
+
+`Universal property of the quotient.` The quotient $$q \maps T_n \to T_n/I$$ kills $$I$$, and it is universal with this property. Every $$\psi \maps T_n \to A$$ with $$\psi(I) = 0$$ factors uniquely through $$q$$:
+
+$$
+\xymatrix@C=4em@R=3.5em{
+I \ar@{^{(}->}[r] \ar[dr]_-{0} & T_n \ar[r]^-{q} \ar[d]^-{\psi} & T_n/I \ar@{-->}[dl]^-{\exists!\, \bar{\psi}} \\
+& A & }
+$$
+
+In other words, precomposition $$q^* \maps k\text{-alg}(T_n/I, A) \to k\text{-alg}(T_n, A)$$ is injective, with image exactly the maps that kill $$I$$. Composing the two bijections gives
+
+$$
+k\text{-alg}(T_n/I, A) \;\overset{q^*}{\cong}\; \{ \psi \maps T_n \to A \mid \psi(I) = 0 \} \;\cong\; V_I(A), \qquad \bar{\psi} \longmapsto \bar{\psi}(q\vec{x}).
+$$
+
+`Naturality.` Both bijections are natural in $$A$$, since precomposing with $$q$$ commutes with postcomposing with $$\varphi \maps A \to B$$, and $$(\varphi\psi)(\vec{x}) = \varphi^{\times n}(\psi(\vec{x}))$$. Said differently, $$k\text{-alg}(T_n/I, -)$$ and $$V_I$$ are the same subfunctor of $$k\text{-alg}(T_n, -) \cong (-)^n$$. $$\blacksquare$$
 
 This suggests treating a $$k$$-algebra as a "space" through the functor it represents. The Yoneda embedding
 
@@ -76,9 +147,20 @@ $$
 
 sends $$A$$ to its functor of points. For example $$\mathrm{Spec}_{T_n}(B) = k\text{-alg}(T_n, B) \cong B^n$$ (affine $$n$$-space), and $$\mathrm{Spec}_{T_n/I} \cong V_I$$.
 
+**Remark.** Nothing above needs $$k$$ to be a field: $$k$$ can be any commutative unital ring. For $$k = \bb{Z}$$, the category $$\bb{Z}\text{-alg}$$ is just the category of commutative rings.
+
 **Definition.** A *scheme* is a presheaf $$X \in [\, k\text{-alg}, \Set \,]$$ which is locally like $$\mathrm{Spec}$$. That is, $$X$$ is a Zariski sheaf covered by open subfunctors of the form $$\mathrm{Spec}_A$$.
 
-**Remark.** Nothing above needs $$k$$ to be a field: $$k$$ can be any commutative unital ring. For $$k = \bb{Z}$$, the category $$\bb{Z}\text{-alg}$$ is just the category of commutative rings.
+`Example.` For $$I = (x - y) \subseteq k[x, y]$$, every $$f \in I$$ has the form $$(x - y)\,g$$, so $$V_I(A) = \{ (a, a) \mid a \in A \}$$. This is the diagonal $$A \hookrightarrow A^2$$, i.e. the equaliser of the two projections $$A^2 \rightrightarrows A$$.
+
+`Example (a fat point).` For $$I = (x^2) \subseteq k[x]$$, $$V_I(A) = \{ a \in A \mid a^2 = 0 \}$$ is the set of square-zero elements. On a field it sees only a point, $$V_I(k) = \{0\}$$. But on the dual numbers $$k[\varepsilon]/(\varepsilon^2)$$, $$(a + b\varepsilon)^2 = a^2 + 2ab\,\varepsilon$$ vanishes exactly when $$a = 0$$, so $$V_I(k[\varepsilon]/(\varepsilon^2)) = \{ b\varepsilon \mid b \in k \} \cong k$$. So the set of vanishining points is a whole tangent line, invisible to $$k$$-points. This is why we take the functor $$V_I$$, rather than merely the set $$V_I(k)$$, as the variety.
+
+`Example (units).` For $$I = (xy - 1) \subseteq k[x, y]$$, $$V_I(A) = \{ (a, b) \mid ab = 1 \} \cong A^{\times}$$ via $$(a, b) \mapsto a$$. Algebra maps preserve units and their multiplication, so $$V_I$$ is a functor into groups. This is the multiplicative group $$\mathbb{G}_m$$, and it is represented by $$k[x,y]/(xy - 1) \cong k[x, x^{-1}]$$ (by the Proposition above; see also the localisation square below).
+
+`Example (idempotents).` For $$I = (x^2 - x) \subseteq k[x]$$, $$V_I(A) = \{ e \in A \mid e^2 = e \}$$ is the set of idempotents of $$A$$. So $$V_I(k) = \{0, 1\}$$ and $$V_I(k \times k) = \{ (0,0), (0,1), (1,0), (1,1) \}$$. The representing algebra is $$k[x]/(x^2 - x) \cong k \times k$$, by the Chinese remainder theorem with $$x \mapsto (1, 0)$$. Geometrically this is two points, matching the fact that an idempotent $$e$$ splits $$A \cong eA \times (1-e)A$$.
+
+
+
 
 `Pushouts are tensors.`
 Let $$A, B, C$$ be commutative unital $$k$$-algebras, with $$f \maps A \to B$$ and $$g \maps A \to C$$. Then the square
